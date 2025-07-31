@@ -14,6 +14,7 @@
     "lint:scripts": "biome check .",
     "lint:styles": "stylelint \"**/*.css\"",
     "start": "npm-run-all -l clean dev",
+    "test": "echo \"No test specified\" && exit 0",
     "prepare": "husky"
   },
   "repository": {
