@@ -7,12 +7,17 @@ categories:
     labels:
       - chore
       - documentation
+      - test
   - title: Dependencies
     label: dependencies
 autolabeler:
   - label: chore
     title:
       - '/^chore(?!\((deps|release)\))/i'
+      - /^test/i
+  - label: test
+    title:
+      - /^test/i
   - label: bug
     title:
       - '/^fix(?!\(deps\))/i'
