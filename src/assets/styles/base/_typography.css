@@ -1,4 +1,11 @@
 h1,
+h2,
+h3,
+h4 {
+    margin-block: 0;
+}
+
+h1,
 h2 {
     font-family: var(--family-display);
     font-weight: var(--font-weight-extrabold);
