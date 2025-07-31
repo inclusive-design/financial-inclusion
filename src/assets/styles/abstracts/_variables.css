@@ -6,9 +6,11 @@
     --font-weight-extrabold: 800;
 
     /* Type Scale */
-    /* stylelint-disable-next-line max-line-length */
+    /* stylelint-disable max-line-length */
 
     /* @link https://utopia.fyi/type/calculator?c=360,18,1.125,1240,20,1.2,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    /* stylelint-enable max-line-length */
+
     --step--1: clamp(1rem, 0.983rem + 0.0758vw, 1.0417rem);
     --step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
     --step-1: clamp(1.2656rem, 1.1697rem + 0.4261vw, 1.5rem);
