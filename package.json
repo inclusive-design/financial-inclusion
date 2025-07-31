@@ -51,7 +51,7 @@
     "markdownlint-config-fluid": "^0.1.0",
     "npm-run-all2": "^8.0.0",
     "rimraf": "^6.0.0",
-    "stylelint": "^14.0.0",
+    "stylelint": "^16.0.0",
     "stylelint-config-fluid": "^1.0.0",
     "stylelint-use-logical-spec": "^5.0.0"
   },
