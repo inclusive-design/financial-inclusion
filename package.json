@@ -1,0 +1,65 @@
+{
+  "name": "@inclusive-design/financial-inclusion",
+  "description": "Website for the the Guidebook for Financial Inclusion.",
+  "main": "eleventy.config.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm-run-all -l clean build:eleventy",
+    "build:eleventy": "cross-env NODE_ENV=production eleventy",
+    "clean": "rimraf _site",
+    "debug": "cross-env DEBUG=Eleventy* eleventy",
+    "dev": "cross-env NODE_ENV=development eleventy --serve",
+    "lint": "run-s -l lint:*",
+    "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
+    "lint:scripts": "biome check .",
+    "lint:styles": "stylelint \"**/*.css\"",
+    "start": "npm-run-all -l clean dev",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/inclusive-design/financial-inclusion.git"
+  },
+  "keywords": [
+    "inclusive-design"
+  ],
+  "author": "OCAD University <idrc@ocadu.ca>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/inclusive-design/financial-inclusion/issues"
+  },
+  "homepage": "https://github.com/inclusive-design/financial-inclusion#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.0",
+    "@11ty/eleventy-img": "^6.0.0",
+    "@11ty/eleventy-navigation": "^1.0.0",
+    "@11ty/font-awesome": "^1.0.0-beta.1",
+    "eleventy-plugin-fluid": "^3.0.0",
+    "eleventy-plugin-footnotes": "^0.11.0",
+    "infusion": "^4.8.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.0",
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "cross-env": "^7.0.0",
+    "eleventy-plugin-broken-links": "^2.0.0",
+    "husky": "^9.0.0",
+    "linkedom": "^0.18.0",
+    "lint-staged": "^16.0.0",
+    "markdownlint-cli2": "^0.18.0",
+    "markdownlint-config-fluid": "^0.1.0",
+    "npm-run-all2": "^8.0.0",
+    "rimraf": "^6.0.0",
+    "stylelint": "^14.0.0",
+    "stylelint-config-fluid": "^1.0.0",
+    "stylelint-use-logical-spec": "^5.0.0"
+  },
+  "lint-staged": {
+    "*.css": "stylelint --fix",
+    "*.{js,cjs,json,jsonc}": "biome check --write --no-errors-on-unmatched",
+    "*.md": [
+      "markdownlint-cli2 --fix"
+    ]
+  }
+}

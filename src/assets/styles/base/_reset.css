@@ -1,0 +1,67 @@
+/* Reset @see https://piccalil.li/blog/a-more-modern-css-reset/ */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    /* stylelint-disable-next-line property-no-vendor-prefix */
+    -moz-text-size-adjust: none;
+    /* stylelint-disable-next-line property-no-vendor-prefix */
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+figure {
+    margin-block: 0;
+    margin-inline: 0;
+}
+
+ul,
+ol {
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+button,
+input,
+label {
+    line-height: calc(1.4 * var(--fl-lineSpace-factor, 1));
+}
+
+h1,
+h2,
+h3 {
+    text-wrap: balance;
+}
+
+a:not([class]) {
+    color: currentcolor;
+    text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+    display: block;
+    max-inline-size: 100%;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+}

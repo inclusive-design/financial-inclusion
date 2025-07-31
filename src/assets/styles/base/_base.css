@@ -1,0 +1,106 @@
+body {
+    background-color: var(--fl-bgColor, var(--color-white));
+    color: var(--fl-fgColor, var(--color-black));
+    font-family: var(--family-serif);
+    font-size: var(--step-0);
+    line-height: var(--fl-lineSpace);
+}
+
+.wrapper {
+    inline-size: 100%;
+    margin-inline: auto;
+    max-inline-size: 75rem;
+}
+
+/* Selection */
+::selection {
+    background-color: var(--fl-selectedBgColor, highlight);
+    color: var(--fl-selectedFgColor, highlighttext);
+}
+
+/* Image Theming */
+.fl-theme-bw,
+.fl-theme-wb,
+.fl-theme-lgdg,
+.fl-theme-gw,
+.fl-theme-gd {
+    img {
+        filter: grayscale(1);
+    }
+}
+
+.fl-theme-bw,
+.fl-theme-gw {
+    a img,
+    a:active img {
+        filter: grayscale(1);
+    }
+
+    a:hover img,
+    a:hover:focus img,
+    a:hover:active img {
+        filter: grayscale(1) invert();
+    }
+}
+
+.fl-theme-wb,
+.fl-theme-gd,
+.fl-theme-lgdg {
+    a img,
+    a:active img {
+        filter: grayscale(1) invert();
+    }
+
+    a:hover img,
+    a:hover:focus img,
+    a:hover:active img {
+        filter: grayscale(1);
+    }
+}
+
+.fl-theme-by,
+.fl-theme-yb {
+    img {
+        filter: url("#yellow");
+    }
+}
+
+.fl-theme-by {
+    a img,
+    a:active img {
+        filter: url("#yellow");
+    }
+
+    a:hover img,
+    a:hover:focus img,
+    a:hover:active img {
+        filter: grayscale(1) invert();
+    }
+}
+
+.fl-theme-yb {
+    a img,
+    a:active img {
+        filter: grayscale(1) invert();
+    }
+
+    a:hover img,
+    a:hover:focus img,
+    a:hover:active img {
+        filter: url("#yellow");
+    }
+}
+
+.fl-theme-bbr {
+    img,
+    a img,
+    a:active img {
+        filter: url("#brown");
+    }
+
+    a:hover img,
+    a:hover:focus img,
+    a:hover:active img {
+        filter: url("#brown") invert();
+    }
+}

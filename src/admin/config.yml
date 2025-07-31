@@ -1,0 +1,120 @@
+backend:
+  name: github
+  branch: main
+  repo: inclusive-design/financial-inclusion.inclusivedesign.ca
+  base_url: https://auth.incd.ca
+  commit_messages:
+    create: 'chore(cms): create "{{path}}"'
+    update: 'chore(cms): update "{{path}}"'
+    delete: 'chore(cms): delete "{{path}}"'
+    uploadMedia: 'chore(cms): upload "{{path}}"'
+    deleteMedia: 'chore(cms): delete "{{path}}"'
+media_folder: src/assets/uploads
+public_folder: /assets/uploads
+
+i18n:
+  locales: [en, fr]
+  default_locale: en
+  save_all_locales: false
+
+collections:
+  - label: Pages
+    label_singular: Page
+    name: pages
+    icon: article
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/pages/
+    extension: md
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Draft
+        name: draft
+        widget: boolean
+        i18n: duplicate
+        required: false
+      - label: Navigation Order
+        name: order
+        widget: number
+        i18n: duplicate
+        required: false
+      - label: Layout
+        name: layout
+        widget: hidden
+        i18n: duplicate
+        default: layouts/base
+        required: true
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        i18n: true
+        required: false
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        i18n: duplicate
+        required: false
+        hint: This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.
+      - label: Preview Image Alt Text
+        name: previewImageAlt
+        widget: string
+        i18n: true
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+        buttons:
+          [
+            bold,
+            italic,
+            link,
+            heading-two,
+            heading-three,
+            heading-four,
+            heading-five,
+            heading-six,
+            quote,
+            bulleted-list,
+            numbered-list,
+          ]
+singletons:
+  - label: Contact Information
+    name: contact
+    file: src/_data/contact.json
+    icon: map
+    fields:
+      - label: Email
+        name: email
+        widget: string
+        type: email
+      - label: Phone
+        name: phone
+        widget: string
+      - label: Address
+        name: address
+        widget: text
+  - label: Languages
+    name: languages
+    file: src/_data/languages.json
+    i18n: true
+    icon: translate
+    fields:
+      - label: Languages
+        label_singular: Language
+        name: languages
+        widget: list
+        i18n: duplicate
+        fields:
+          - label: Name
+            name: name
+            widget: string
+            i18n: true
+          - label: Code
+            name: code
+            widget: string
+            i18n: duplicate

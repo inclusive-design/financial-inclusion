@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ lang if lang else defaultLanguage }}-CA" dir="ltr">
+<head>
+  {% include 'partials/global/meta.njk' %}
+  <title>{{ title }}</title>
+  {% include "partials/global/stylesheets.njk" %}
+  {% include "partials/global/scripts.njk" %}
+  {% include "svg/filters.svg" %}
+  {% getBundle "fontawesome" %}
+</head>
+<body>
+  {% include "partials/global/header.njk" %}
+  {% include "partials/components/navigation.njk" %}
+  <main id="main" class="{{ pageType if pageType else 'page' }}">
+    {% block banner %}
+    <div class="banner">
+      <div class="wrapper">
+        <div class="banner__content flow">
+          <h1>{{ title }}</h1>
+        </div>
+      </div>
+    </div>
+    {% endblock %}
+    <div class="content">
+    {% block content %}
+    <section>
+      <div class="wrapper flow">
+      {{ content | safe }}
+      </div>
+    </section>
+    {% endblock %}
+    </div>
+  </main>
+  {% include "partials/global/footer.njk" %}
+  {% uioCustomInit lang, supportedLanguages[lang].dir %}
+</body>
+</html>

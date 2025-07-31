@@ -1,0 +1,31 @@
+h1,
+h2 {
+    font-family: var(--family-display);
+    font-weight: var(--font-weight-extrabold);
+}
+
+h1 {
+    font-size: var(--step-5);
+}
+
+h2 {
+    font-size: var(--step-4);
+}
+
+blockquote {
+    font-size: var(--step-3);
+}
+
+h3 {
+    font-size: var(--step-2);
+    font-weight: var(--font-weight-bold);
+}
+
+h4 {
+    font-size: var(--step-1);
+    font-weight: var(--font-weight-bold);
+}
+
+strong {
+    font-weight: var(--font-weight-bold);
+}
