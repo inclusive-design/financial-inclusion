@@ -2,8 +2,6 @@
 
 ## 2025.07.31.1441.348d4f9
 
-* test: add empty test script (#5) [@greatislander](https://github.com/greatislander)
-
 ### Bug Fixes
 
 * fix: adjust typestack for web (#6) [@greatislander](https://github.com/greatislander)
@@ -12,6 +10,7 @@
 
 * chore: group test commits under chores (#9) [@greatislander](https://github.com/greatislander)
 * chore(docs): create CHANGELOG.md (#7) [@greatislander](https://github.com/greatislander)
+* test: add empty test script (#5) [@greatislander](https://github.com/greatislander)
 
 ### Dependencies
 
