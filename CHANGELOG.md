@@ -1,5 +1,11 @@
 # Changelog
 
+## 2025.08.01.1639.5c62bcc
+
+### Chores
+
+* chore(cms): add credits (#13) [@greatislander](https://github.com/greatislander)
+
 ## 2025.08.01.1627.e37c5b3
 
 ### Chores
