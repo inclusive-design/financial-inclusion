@@ -15,6 +15,7 @@
 @import "./global/_header.css";
 
 /* Components */
+@import "./components/_list.css";
 @import "./components/_navigation.css";
 
 /* Collections */

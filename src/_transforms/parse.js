@@ -6,7 +6,7 @@ export default (value, outputPath) => {
 
         const pageNavHeadings = document.querySelectorAll("main:has(nav) article h2");
         if (pageNavHeadings.length > 0) {
-            const navContainer = document.querySelector("main nav #toc ul");
+            const navContainer = document.querySelector("main nav #toc ol");
             for (const heading of pageNavHeadings) {
                 if (heading.parentNode.tagName !== "NAV") {
                     const link = document.createElement("a");
@@ -16,16 +16,6 @@ export default (value, outputPath) => {
                     li.appendChild(link);
                     navContainer.appendChild(li);
                 }
-            }
-        }
-
-        const selects = document.querySelectorAll("select:not(.flc-prefsEditor-text-font)");
-        if (selects.length > 0) {
-            for (const select of selects) {
-                const selectContainer = document.createElement("div");
-                selectContainer.className = "select";
-                select.parentNode.insertBefore(selectContainer, select);
-                selectContainer.appendChild(select);
             }
         }
 

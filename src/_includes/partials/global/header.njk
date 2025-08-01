@@ -1,10 +1,10 @@
 <header>
     <div class="skip-container">
-    <div class="wrapper">
+    {#-- <div class="wrapper">
         <a class="skip" href="#main">{% __ 'skip-to-content' %}</a>
+    </div> --#}
     </div>
-    </div>
-    <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+    {#-- <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
         <div class="fl-panelBar fl-panelBar-smallScreen" id="Editorspace">
             <span class="fl-prefsEditor-buttons">
                 <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
@@ -20,7 +20,7 @@
                 </span>
             </div>
         </div>
-    </div>
+    </div> --#}
     <div class="header">
         <div class="wrapper">
             {% if page | findTranslation(collections.all, lang, 'en') and page | findTranslation(collections.all, lang, 'fr') -%}

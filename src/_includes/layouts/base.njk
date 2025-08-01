@@ -10,7 +10,7 @@
 </head>
 <body>
   {% include "partials/global/header.njk" %}
-  {% include "partials/components/navigation.njk" %}
+  {#-- {% include "partials/components/navigation.njk" %} --#}
   <main id="main" class="{{ pageType if pageType else 'page' }}">
     {% block banner %}
     <div class="banner">
@@ -21,17 +21,49 @@
       </div>
     </div>
     {% endblock %}
+    <nav class="wrapper">
+        <div id="toc">
+        <ol></ol>
+        </div>
+    </nav>
     <div class="content">
     {% block content %}
-    <section>
+    <article>
       <div class="wrapper flow">
       {{ content | safe }}
       </div>
-    </section>
+    </article>
     {% endblock %}
     </div>
   </main>
   {% include "partials/global/footer.njk" %}
-  {% uioCustomInit lang, supportedLanguages[lang].dir %}
+  {#-- {% uioCustomInit lang, supportedLanguages[lang].dir %} --#}
+  <script type="module">
+    class ReversedList extends HTMLElement {
+      static tagName = "reversed-list";
+
+      constructor() {
+          super();
+
+          this._init = this._init.bind(this);
+      }
+
+      connectedCallback() {
+          if (this.children.length) {
+            this._init();
+          }
+        }
+
+      _init() {
+          this.ol = this.querySelector('ol');
+
+          if (this.ol) {
+            this.ol.setAttribute("reversed", true);
+          }
+      }
+    }
+
+    window.customElements.define(ReversedList.tagName, ReversedList);
+  </script>
 </body>
 </html>

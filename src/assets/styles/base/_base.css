@@ -9,7 +9,28 @@ body {
 .wrapper {
     inline-size: 100%;
     margin-inline: auto;
-    max-inline-size: 75rem;
+    max-inline-size: 65ch;
+    padding-block: 1.5rem;
+    padding-inline: 1.5rem;
+}
+
+hr {
+    border-block-end: none;
+    border-block-start: 1px solid var(--color-green);
+    border-inline: none;
+}
+
+.flow > * + hr {
+    margin-block-start: 2rem;
+}
+
+.flow > hr + * {
+    margin-block-start: 2rem;
+}
+
+ol ul,
+ul ul {
+    margin-inline-start: 1.5rem;
 }
 
 /* Selection */
