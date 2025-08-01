@@ -2,7 +2,15 @@
 
 ## 2025.08.01.1623.bcca0e6
 
-* No changes
+### Features
+
+* feat: page layout and styles, table of contents (bcca0e6) [@greatislander](https://github.com/greatislander)
+
+chore: content updates
+
+### Bug Fixes
+
+* fix: only add ID attributes to H2 elements (28097dd) [@greatislander](https://github.com/greatislander)
 
 ## 2025.07.31.1441.348d4f9
 
