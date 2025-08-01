@@ -883,3 +883,33 @@ Now that barriers and ideas have been identified, it's time to drill down on wha
 14. Statistics Canada. (2023). Despite progress, one-parent families headed by mothers continue to face labour market challenges. Statistics Canada: The Daily, <https://www.statcan.gc.ca/o1/en/plus/7523-despite-progress-one-parent-families-headed-mothers-continue-face-labour-market>
 15. Vergara, D., & Hardy, V. (2024, June 13). Labour market characteristics of persons with and without disabilities, 2023 (Catalogue No. 71-222-X2024002). Statistics Canada. <https://www150.statcan.gc.ca/n1/pub/71-222-x/71-222-x2024002-eng.htm>
 16. Prosper Canada Centre for Financial Literacy. (2015, November). Financial literacy and newcomers to Canada. Prosper Canada. <https://prospercanada.org/getattachment/3ff26769-c2d4-4d9e-82e9-f56467e4eb31/Financial-Literacy-and-Newcomers-to-Canada.aspx>
+
+
+## Credits
+
+### Special thanks to our community partners
+
+[Whole Woman Network](https://wholewomannetwork.com/)<br />
+[University of Alberta Inner City Health and Wellness Program](https://www.ichwp.ca/)<br />
+[Nunavummi Disabilities Maqinnasuak'tiit Society](https://nuability.ca)<br />
+[Deen Vision Network](https://www.deensupportservices.ca/deen-vision-network)<br />
+[Realize Canada](https://www.realizecanada.org/)
+
+### Financial Inclusion team
+
+Cheryl Li, author<br />
+Sepideh Shahi, author<br />
+Lisa Liskovoi, contributor<br />
+Jonathan Hung, contributor<br />
+Dana Ayotte, contributor<br />
+Michelle D'Souza, contributor<br />
+Daniel Cho, contributor<br />
+Ned Zimmerman, contributor
+
+### Funded by
+
+[Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html)
+
+**Special thanks to the financial institutions who generously shared their time to give us feedback and co-design this resource with us.**
+
+_Last edited August 2025_
