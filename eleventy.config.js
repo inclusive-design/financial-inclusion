@@ -94,7 +94,9 @@ export default function eleventy(eleventyConfig) {
     excludeInputs: ["**/*/*.css"]
   });
 
-  eleventyConfig.addPlugin(IdAttributePlugin);
+  eleventyConfig.addPlugin(IdAttributePlugin, {
+    selector: 'h2'
+  });
 
   eleventyConfig.addPreprocessor("drafts", "*", (data, _content) => {
     if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
