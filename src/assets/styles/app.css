@@ -134,7 +134,7 @@ li > * + * {
     font-family: Mulish;
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/mulish-v17-latin-regular.woff2") format("woff2");
+    src: url("/assets/fonts/mulish-v17-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -142,7 +142,7 @@ li > * + * {
     font-family: Mulish;
     font-style: normal;
     font-weight: 500;
-    src: url("../fonts/mulish-v17-latin-500.woff2") format("woff2");
+    src: url("/assets/fonts/mulish-v17-latin-500.woff2") format("woff2");
 }
 
 @font-face {
@@ -150,7 +150,7 @@ li > * + * {
     font-family: Mulish;
     font-style: normal;
     font-weight: 700;
-    src: url("../fonts/mulish-v17-latin-700.woff2") format("woff2");
+    src: url("/assets/fonts/mulish-v17-latin-700.woff2") format("woff2");
 }
 
 @font-face {
@@ -158,7 +158,7 @@ li > * + * {
     font-family: Mulish;
     font-style: normal;
     font-weight: 800;
-    src: url("../fonts/mulish-v17-latin-800.woff2") format("woff2");
+    src: url("/assets/fonts/mulish-v17-latin-800.woff2") format("woff2");
 }
 
 @font-face {
@@ -166,7 +166,7 @@ li > * + * {
     font-family: Martel;
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/martel-v11-latin-regular.woff2") format("woff2");
+    src: url("/assets/fonts/martel-v11-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -174,7 +174,7 @@ li > * + * {
     font-family: Martel;
     font-style: normal;
     font-weight: 700;
-    src: url("../fonts/martel-v11-latin-700.woff2") format("woff2");
+    src: url("/assets/fonts/martel-v11-latin-700.woff2") format("woff2");
 }
 
 @font-face {
@@ -182,7 +182,7 @@ li > * + * {
     font-family: Diphylleia;
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/diphylleia-v2-latin-regular.woff2") format("woff2");
+    src: url("/assets/fonts/diphylleia-v2-latin-regular.woff2") format("woff2");
 }
 
 /* Base */
