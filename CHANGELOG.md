@@ -1,5 +1,11 @@
 # Changelog
 
+## 2025.08.01.1627.e37c5b3
+
+### Chores
+
+* chore(docs): update changelog manually (#11) [@greatislander](https://github.com/greatislander)
+
 ## 2025.08.01.1623.bcca0e6
 
 ### Features
