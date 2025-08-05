@@ -34,14 +34,6 @@
     --color-black: #000;
 }
 
-/* Font-family set on the body so that it will work with UIO */
-:where(body) {
-    /** Typography **/
-    --family-serif: var(--fl-font-family, "Martel", serif);
-    --family-serif-alt: var(--fl-font-family, "Diphylleia", serif);
-    --family-display: var(--fl-font-family, "Mulish", sans-serif);
-}
-
 /* 2. Base */
 
 /* Reset @see https://piccalil.li/blog/a-more-modern-css-reset/ */
@@ -127,66 +119,15 @@ li > * + * {
     white-space: nowrap;
 }
 
-/* Fonts */
-
-@font-face {
-    font-display: swap;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 400;
-    src: url("/assets/fonts/mulish-v17-latin-regular.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 500;
-    src: url("/assets/fonts/mulish-v17-latin-500.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 700;
-    src: url("/assets/fonts/mulish-v17-latin-700.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 800;
-    src: url("/assets/fonts/mulish-v17-latin-800.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: Martel;
-    font-style: normal;
-    font-weight: 400;
-    src: url("/assets/fonts/martel-v11-latin-regular.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: Martel;
-    font-style: normal;
-    font-weight: 700;
-    src: url("/assets/fonts/martel-v11-latin-700.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: Diphylleia;
-    font-style: normal;
-    font-weight: 400;
-    src: url("/assets/fonts/diphylleia-v2-latin-regular.woff2") format("woff2");
-}
-
 /* Base */
 body {
+    /* Font-family set on the body so that it will work with UIO */
+
+    /** Typography **/
+    --family-serif: var(--fl-font-family, "Martel", serif);
+    --family-serif-alt: var(--fl-font-family, "Diphylleia", serif);
+    --family-display: var(--fl-font-family, "Mulish", sans-serif);
+
     background-color: var(--fl-bgColor, var(--color-white));
     color: var(--fl-fgColor, var(--color-black));
     font-family: var(--family-serif);

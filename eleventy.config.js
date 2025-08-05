@@ -86,7 +86,6 @@ export default function eleventy(eleventyConfig) {
     "src/admin/config.yml": "admin/config.yml"
   });
 
-  eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
   eleventyConfig.addPassthroughCopy({ "src/assets/icons": "/" });
 
   eleventyConfig.addPlugin(IdAttributePlugin, {
