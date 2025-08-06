@@ -266,6 +266,8 @@ Each narrative connects a personal story to the financial frameworks introduced 
 
 These narratives reflect just a small part of the diverse needs current and future clients may have. Use them as a starting point to ask questions, seek understanding, and ultimately engage with other perspectives not represented here.
 
+<div class="narrative-info">
+
 ### Narrative 1: Accessing funds for unhoused people with disabilities
 
 #### The research
@@ -279,6 +281,8 @@ Having two or more disabilities is strongly correlated with hidden homelessness.
 Canadians who use antidepressants and other similar medication were two times more likely to experience hidden homelessness. _(Ali, 2018)_
 
 People who are unhoused have money—they just can’t access it due to barriers with their financial institution. _(Hung et al., 2024)_
+
+</div>
 
 #### James, 21
 

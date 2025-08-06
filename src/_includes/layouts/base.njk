@@ -6,21 +6,29 @@
   {% include "partials/global/stylesheets.njk" %}
   {% include "svg/filters.svg" %}
   {% getBundle "fontawesome" %}
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+  <style>
+  .pagedjs_page {
+      border: 1px solid #000;
+      margin-inline: auto;
+      margin-block: 0.5in;
+  }
+  </style>
 </head>
 <body>
   {% include "partials/global/header.njk" %}
   {#-- {% include "partials/components/navigation.njk" %} --#}
   <main id="main" class="{{ pageType if pageType else 'page' }}">
     {% block banner %}
-    <div class="banner">
+    <div class="title">
       <div class="wrapper">
-        <div class="banner__content flow">
+        <div class="flow">
           <h1>{{ title }}</h1>
         </div>
       </div>
     </div>
     {% endblock %}
-    <nav class="wrapper">
+    <nav class="wrapper toc">
         <div id="toc">
         <ol></ol>
         </div>

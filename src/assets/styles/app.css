@@ -1,3 +1,5 @@
+/* stylelint-disable function-no-unknown */
+
 @charset "UTF-8";
 
 /* 1. Abstracts */
@@ -32,6 +34,71 @@
     --color-red: #cb3335;
     --color-white: #fff;
     --color-black: #000;
+}
+
+@media print {
+    :root {
+        --step--1: 10px;
+        --step-0: 12px;
+        --step-1: 14px;
+        --step-2: 16px;
+        --step-3: 18px;
+        --step-4: 24px;
+        --step-5: 48px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        page-break-after: avoid;
+    }
+
+    h2 {
+        page-break-before: always;
+        string-set: chapter-title content();
+    }
+
+    .title {
+        page: title;
+    }
+
+    .toc {
+        page: front-matter;
+    }
+
+    .content {
+        page: chapter;
+    }
+
+    .narrative-info {
+        page: narrative-info;
+    }
+
+    @page {
+        margin: 92px;
+        size: us-letter;
+    }
+
+    @page chapter {
+        @top-left {
+            content: string(chapter-title);
+            font-style: italic;
+        }
+    }
+
+    @page chapter {
+        @top-right {
+            content: counter(page);
+        }
+    }
+
+    @page narrative-info {
+        background: black;
+        color: white;
+    }
 }
 
 /* 2. Base */
