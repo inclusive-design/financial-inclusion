@@ -1,5 +1,15 @@
 # Changelog
 
+## 2025.09.05.1427.c689015
+
+### Features
+
+* feat: render PDF (initial implementation) (#15) [@greatislander](https://github.com/greatislander)
+
+### Dependencies
+
+* chore(deps): lock file maintenance (#17) @[renovate[bot]](https://github.com/apps/renovate)
+
 ## 2025.08.01.1639.5c62bcc
 
 ### Chores
