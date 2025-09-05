@@ -44,7 +44,7 @@
         }
     },
     "files": {
-        "includes": ["!_site/**/*.*", "src/**/*.js", "src/**/*.css", "**/*.json"]
+        "includes": ["!_site/**/*.*", "!src/**/*.css", "src/**/*.js", "**/*.json"]
     },
     "css": {
         "formatter": {
