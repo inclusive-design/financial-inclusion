@@ -162,7 +162,7 @@ export default function eleventy(eleventyConfig) {
 
         fs.writeFile("_site/assets/guidebook-for-financial-inclusion.pdf", buffer, "binary", function () {
           console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/export/en/index.html');
-          open('_site/assets/guidebook-for-financial-inclusion.pdf');
+          // open('_site/assets/guidebook-for-financial-inclusion.pdf');
         });
       }
 
