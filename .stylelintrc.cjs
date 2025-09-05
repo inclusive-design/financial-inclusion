@@ -9,6 +9,7 @@ module.exports = {
     "custom-property-pattern": null,
     "import-notation": "string",
     "selector-class-pattern": null,
+    "max-line-length": null,
     "selector-pseudo-class-no-unknown": [
       true,
       { "ignorePseudoClasses": ["first-of-group"] }

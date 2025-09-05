@@ -46,6 +46,14 @@
     "files": {
         "includes": ["!_site/**/*.*", "src/**/*.js", "src/**/*.css", "**/*.json"]
     },
+    "css": {
+        "formatter": {
+            "enabled": false
+        },
+        "linter": {
+            "enabled": false
+        }
+    },
     "javascript": {
         "formatter": {
             "jsxQuoteStyle": "double",

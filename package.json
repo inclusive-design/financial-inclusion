@@ -59,8 +59,12 @@
     "stylelint-use-logical-spec": "^5.0.0"
   },
   "lint-staged": {
-    "*.css": "stylelint --fix",
-    "*.{js,cjs,json,jsonc}": "biome check --write --no-errors-on-unmatched",
+    "*.css": [
+      "stylelint --fix"
+    ],
+    "*.{js,cjs,json,jsonc}": [
+      "biome check --write --no-errors-on-unmatched"
+    ],
     "*.md": [
       "markdownlint-cli2 --fix"
     ]
