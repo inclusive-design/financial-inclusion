@@ -1,12 +1,14 @@
 {
     "en": {
-        "title": "Inclusive Standards",
+        "title": "Guidebook for Financial Inclusion",
         "description": "TODO.",
-        "author": "Inclusive Design Research Centre"
+        "author": "Inclusive Design Research Centre",
+        "institution": "OCAD University"
     },
     "fr": {
         "title": "Guide pour l'inclusion financière",
         "description": "TODO.",
-        "author": "Inclusive Design Research Centre"
+        "author": "Inclusive Design Research Centre",
+        "institution": "OCAD University"
     }
 }

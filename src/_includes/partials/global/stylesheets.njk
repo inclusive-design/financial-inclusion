@@ -1,2 +1,5 @@
 {#-- {% uioStyleProps %} --#}
-<link href="/assets/styles/app.css" rel="stylesheet" />
+{% set css %} {% include '../../../assets/styles/print.css' %} {% endset %}
+<style type="text/css">
+    {{ css | safe }}
+</style>

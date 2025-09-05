@@ -1,0 +1,332 @@
+/* stylelint-disable function-no-unknown */
+
+@charset "UTF-8";
+
+:root {
+    /* Type Scale */
+    --step--1: 10pt;
+    --step-0: 12pt;
+    --step-1: 14pt;
+    --step-2: 16pt;
+    --step-3: 18pt;
+    --step-4: 24pt;
+    --step-5: 44pt;
+}
+
+/* 2. Base */
+
+/* Utils */
+.flow > * + *,
+li > * + * {
+    margin-block-start: var(--flow-space, 1em);
+}
+
+.visually-hidden {
+    block-size: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    inline-size: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
+
+/* Base */
+body {
+    /** Typography **/
+    --family-serif: martel, serif;
+    --family-serif-alt: diphylleia, serif;
+    --family-display: mulish, sans-serif;
+
+    font-family: var(--family-serif);
+    font-size: var(--step-0);
+}
+
+hr {
+    border-block-end: none;
+    border-block-start: 1px solid var(--color-green);
+    border-inline-end: none;
+    border-inline-start: none;
+}
+
+.flow > * + hr {
+    margin-block-start: 2rem;
+}
+
+.flow > hr + * {
+    margin-block-start: 2rem;
+}
+
+ol ul,
+ul ul {
+    margin-inline-start: 1.5rem;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--family-display);
+    margin-block: 0;
+    page-break-after: avoid;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: var(--font-weight-extrabold);
+}
+
+h4,
+h5,
+h6 strong {
+    font-weight: var(--font-weight-bold);
+}
+
+h1,
+.chapter h2,
+.back-matter h2 {
+    font-size: var(--step-5);
+}
+
+h3 {
+    font-size: var(--step-4);
+}
+
+blockquote {
+    font-size: var(--step-3);
+}
+
+h4 {
+    font-size: var(--step-2);
+}
+
+h5 {
+    font-size: var(--step-1);
+}
+
+h6 {
+    font-size: var(--step-0);
+}
+
+/* 3. Structure */
+
+.title {
+    page: title;
+    page-break-before: auto;
+    page-group: start;
+}
+
+.toc {
+    counter-reset: page 1;
+    page: toc;
+    page-break-before: auto;
+    page-group: start;
+}
+
+.chapter {
+    page: chapter;
+    page-break-before: auto;
+    page-group: start;
+}
+
+.back-matter {
+    color: var(--color-white);
+    page: back-matter;
+    page-break-before: auto;
+    page-group: start;
+}
+
+@page {
+    background-color: var(--color-white);
+    margin-block: 1.125in;
+    margin-inline: 1.125in;
+    size: letter;
+}
+
+@page title {
+    background-color: var(--color-lime);
+    color: black;
+}
+
+@page toc {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+@page chapter {
+    @top-left {
+        content: string(chapter-title);
+        font-family: Diphylleia, serif;
+    }
+
+    @top-right {
+        content: counter(page);
+    }
+}
+
+@page chapter:first-of-group {
+    background-color: var(--color-black);
+
+    @top-left {
+        content: normal;
+    }
+
+    @top-right {
+        content: normal;
+    }
+}
+
+@page back-matter {
+    background-color: var(--color-black);
+    color: var(--color-white);
+
+    @top-left {
+        content: string(back-matter-title);
+        font-family: Diphylleia, serif;
+    }
+
+    @top-right {
+        content: counter(page);
+    }
+}
+
+@page back-matter:first-of-group {
+    @top-left {
+        content: normal;
+    }
+}
+
+/* Front Matter */
+
+.front-matter .container {
+    align-items: flex-start;
+    block-size: 8.75in;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.title .container {
+    background-color: var(--color-lime);
+    justify-content: flex-end;
+}
+
+.title h1 {
+    line-height: 1.26;
+    margin-block-start: 32pt;
+}
+
+.title h1 em {
+    font-family: var(--family-serif-alt);
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+}
+
+.title .byline {
+    font-size: var(--step-1);
+    margin-block-start: 20pt;
+}
+
+.title .logos {
+    align-items: center;
+    display: flex;
+    margin-block-start: 210pt;
+}
+
+.title .logos svg + svg {
+    margin-inline-start: 20pt;
+}
+
+.toc .container {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    justify-content: center;
+}
+
+.toc nav {
+    inline-size: 100%;
+    margin-block-start: 24pt;
+}
+
+.toc li {
+    border-block-start: solid 1pt currentcolor;
+    font-size: var(--step-1);
+    list-style: none;
+}
+
+.toc li a {
+    display: block;
+    padding-block: 10pt;
+    text-decoration: none;
+}
+
+.toc li a::after {
+    content: target-counter(attr(href), page);
+    float: right;
+}
+
+.chapter h2 {
+    color: var(--color-lime);
+    line-height: 1.26;
+    margin-block-start: 4.5in;
+    string-set: chapter-title content();
+}
+
+.chapter h2 em {
+    color: var(--color-white);
+    font-family: var(--family-serif-alt);
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+}
+
+.chapter h3:first-of-type {
+    break-before: page;
+}
+
+.chapter hr + h3,
+.chapter.narrative h3 {
+    break-before: auto;
+}
+
+.chapter.narrative h3:nth-of-type(2) {
+    break-before: page;
+}
+
+.back-matter h2 {
+    font-size: var(--step-4);
+    line-height: 1.26;
+    margin-block-start: 32pt;
+    string-set: back-matter-title content();
+}
+
+.back-matter li {
+    font-size: var(--step--1);
+}
+
+/* 4. Components */
+reversed-list {
+    display: block;
+}
+
+reversed-list ol {
+    counter-reset: list-item var(--data-count);
+}
+
+reversed-list ol li {
+    counter-increment: list-item -1;
+}
+
+reversed-list ol li::marker {
+    content: counters(list-item, ".", decimal);
+}
+
+.two-column {
+    inline-size: 8.5in;
+    margin-inline-start: -1.125in;
+    padding-inline-end: 1.125rem;
+}
