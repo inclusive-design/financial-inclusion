@@ -1,5 +1,7 @@
 {
-    "site-title": "Guidebook for Financial Inclusion",
+    "site-title": "Guidebook <em>for</em> Financial Inclusion",
     "menu": "Menu",
-    "skip-to-content": "Skip to content"
+    "skip-to-content": "Skip to content",
+    "toc": "Table of contents",
+    "byline": "By the <strong>Inclusive Design Research Centre</strong> at OCAD University"
 }

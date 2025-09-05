@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ lang if lang else defaultLanguage }}-CA" dir="ltr">
+<head>
+  {% include 'partials/global/meta.njk' %}
+  <title>{{ title }}</title>
+  {% set allCss %} {% include '../../assets/styles/all.css' %} {% endset %}
+  {% set printCss %} {% include '../../assets/styles/print.css' %} {% endset %}
+  <style type="text/css">
+      {{ allCss | safe }}
+      {{ printCss | safe }}
+      body:has(.pagedjs_page) {
+          background: #eee;
+      }
+
+      .pagedjs_page {
+          box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 0.5in;
+      }
+
+      .pagedjs_page:hover {
+          box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+      }
+  </style>
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+</head>
+<body>
+  <main>
+    <div class="front-matter flow title">
+        <div class="container">
+            {% include "svg/shapes.svg" %}
+            <h1>{% __ "site-title" %}</h1>
+            <p class="byline">{% __ "byline" %}</p>
+            <div class="logos">
+                {% include "svg/idrc.svg.njk" %}
+                {% include "svg/ocadu.svg.njk" %}
+            </div>
+        </div>
+    </div>
+    <div class="front-matter flow toc">
+        <div class="container">
+            <h2 data-toc>{% __ "toc" %}</h2>
+            <nav>
+                <div id="toc">
+                    <ol></ol>
+                </div>
+            </nav>
+        </div>
+    </div>
+    {% for chapter in collections['chapters-' + lang] %}
+    <div class="chapter {{ chapter.data.type }} flow">
+        <h2{% if chapter.data.type === 'narrative' %} data-narrative{% endif %}>{{ chapter.data.title | renderContent('md') | safe }}</h2>
+        {{ chapter.templateContent | renderContent('md') | safe }}
+    </div>
+    {% endfor %}
+    {% for backMatter in collections['back-matter-' + lang] %}
+    <div class="back-matter flow">
+        <h2>{{ backMatter.data.title }}</h2>
+        {{ backMatter.templateContent | renderContent('md') | safe }}
+    </div>
+    {% endfor %}
+  </main>
+  <script>
+  var reversedLists = Array.from(document.querySelectorAll('reversed-list'));
+
+  reversedLists.forEach(function (reversedList) {
+    var orderedList = reversedList.querySelector('ol');
+    var listItems = orderedList.querySelectorAll('li');
+    orderedList.setAttribute('style', `--data-count: ${listItems.length + 1}`);
+  });
+  </script>
+</body>
+</html>
