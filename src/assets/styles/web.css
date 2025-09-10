@@ -409,6 +409,11 @@ h1 em::after {
 
 .home .title {
     background-color: var(--color-lime);
+    color: var(--color-black);
+
+    em {
+        color: var(--color-black);
+    }
 }
 
 /* Utilities */
