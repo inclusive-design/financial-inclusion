@@ -1,11 +1,10 @@
 ---
+uuid: 67e6c42e-8d45-48a9-a484-4945523861b7
 title: About _this_ Guidebook
 type: standard
 order: 1
 permalink: false
 ---
-### About this guidebook
-
 While finances may not be something we think about every day, how we live, work, and survive is deeply shaped by our financial situation. This guidebook offers a window into the experiences of people who face barriers when interacting with the financial system and trying to access the resources they need for stability.
 
 It presents tools to help your team expand their understanding of potential clients—especially those often overlooked when financial products and services are designed. Our narratives help build empathy and broaden perspective, while the frameworks support assessment and planning. Each tool can be used on its own or in combination, depending on your team’s needs and goals.

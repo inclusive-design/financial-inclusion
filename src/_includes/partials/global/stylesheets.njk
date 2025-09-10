@@ -1,5 +1,15 @@
 {#-- {% uioStyleProps %} --#}
-{% set css %} {% include '../../../assets/styles/print.css' %} {% endset %}
+{% set allCss %} {% include '../../../assets/styles/all.css' %} {% endset %}
 <style type="text/css">
-    {{ css | safe }}
+    {{ allCss | safe }}
+</style>
+
+{% set printCss %} {% include '../../../assets/styles/print.css' %} {% endset %}
+<style type="text/css" media="print">
+    {{ printCss | safe }}
+</style>
+
+{% set webCss %} {% include '../../../assets/styles/web.css' %} {% endset %}
+<style type="text/css" media="screen">
+    {{ webCss | safe }}
 </style>

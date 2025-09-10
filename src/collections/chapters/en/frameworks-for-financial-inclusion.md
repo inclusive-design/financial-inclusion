@@ -1,8 +1,12 @@
 ---
+uuid: 81814a1e-47e9-468c-9316-51190de4550e
 title: Frameworks _for_ Financial Inclusion
+shortTitle: Frameworks
+nav: true
 type: standard
 order: 3
 permalink: false
+key: Frameworks
 ---
 ### Introducing financial inclusion frameworks
 
@@ -10,7 +14,7 @@ People’s financial states are not only products of their individual action, bu
 
 <custom-list>
 
-* {% include "../../../_includes/svg/mini-pyramid.svg" %}
+- {% include "../../../_includes/svg/mini-pyramid.svg" %}
 
   <div>
 
@@ -20,7 +24,7 @@ People’s financial states are not only products of their individual action, bu
 
   </div>
 
-* {% include "../../../_includes/svg/mini-wheel.svg" %}
+- {% include "../../../_includes/svg/mini-wheel.svg" %}
 
   <div>
 

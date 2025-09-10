@@ -33,9 +33,23 @@ collections:
         field: order
         direction: ascending
     fields:
+      - label: UUID
+        name: uuid
+        widget: hidden
+        default: "{{uuid}}"
+        i18n: duplicate
       - label: Title
         name: title
         widget: string
+        i18n: true
+      - label: Short Title
+        name: shortTitle
+        widget: string
+        i18n: true
+        required: false
+      - label: Show in navigation
+        name: nav
+        widget: boolean
         i18n: true
       - label: Type
         name: type
