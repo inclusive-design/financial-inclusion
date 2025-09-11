@@ -13,6 +13,7 @@ export default {
                 key: data.uuid,
                 title: data.shortTitle ?? data.title,
                 order: data.order,
+                parent: data.parent ?? false,
                 lang: data.lang
             };
         }

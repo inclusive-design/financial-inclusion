@@ -13,6 +13,14 @@
                 {% for item in navItems %}
                 <li>
                     <a class="link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | renderContent('md') | striptags | safe }}</a>
+                        {% if item.children.length > 0 %}
+                            <button aria-expanded="false">{% include "svg/disclosure.svg" %}</button>
+                            <ul role="list">
+                            {% for child in item.children %}
+                                <a class="link" href="{{ child.url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title | renderContent('md') | striptags | safe }}</a>
+                            {% endfor %}
+                            </ul>
+                        {% endif %}
                 </li>
                 {% endfor %}
             </ul>

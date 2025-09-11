@@ -11,6 +11,7 @@ import _ from "lodash";
 import parse from "./src/_transforms/parse.js";
 import fs from "node:fs";
 import { exec } from "node:child_process";
+import logToConsole from 'eleventy-plugin-console-plus';
 
 function princeVersion() {
   return new Promise((resolve) => {
@@ -26,6 +27,7 @@ export default function eleventy(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(RenderPlugin);
   eleventyConfig.addPlugin(footnotesPlugin);
+  eleventyConfig.addPlugin(logToConsole);
   eleventyConfig.addPlugin(fluidPlugin, {
     defaultLanguage: "en",
     supportedLanguages: {

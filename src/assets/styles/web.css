@@ -316,11 +316,21 @@ h1 em::after {
     align-items: center;
     appearance: none;
     background-color: transparent;
-    block-size: var(--space-2xl-m);
     border: 0;
     display: flex;
-    inline-size: var(--space-2xl-m);
     justify-content: center;
+    margin-block-start: 0;
+
+    &:hover,
+    &:focus {
+        background-color: var(--color-black);
+        color: var(--color-lime);
+    }
+}
+
+.navigation .brand-and-toggle [aria-expanded] {
+    block-size: var(--space-2xl-m);
+    inline-size: var(--space-2xl-m);
     padding: 0;
 
     .menu__close {
@@ -328,7 +338,7 @@ h1 em::after {
     }
 }
 
-.navigation [aria-expanded="true"] {
+.navigation .brand-and-toggle [aria-expanded="true"] {
     .menu {
         display: none;
     }
@@ -338,7 +348,7 @@ h1 em::after {
     }
 }
 
-.navigation:has([aria-expanded="false"]) ul {
+.navigation:has(.brand-and-toggle [aria-expanded="false"]) .menu > ul {
     display: none;
 }
 
@@ -375,12 +385,20 @@ h1 em::after {
     color: var(--color-lime);
 }
 
+.navigation li [aria-expanded] + ul {
+    display: none;
+}
+
+.navigation li [aria-expanded="true"] + ul {
+    display: flex;
+}
+
 @media (width >= 60rem) {
-    .navigation [aria-expanded] {
+    .navigation .brand-and-toggle [aria-expanded] {
         display: none;
     }
 
-    .navigation:has([aria-expanded="false"]) ul {
+    .navigation:has([aria-expanded="false"]) .menu > ul {
         display: flex;
     }
 
@@ -401,12 +419,20 @@ h1 em::after {
         justify-content: space-between;
     }
 
-    .navigation li a {
-        align-items: center;
-        block-size: var(--space-3xl);
+    .navigation li {
         display: flex;
+
+        button,
+        a {
+            align-items: center;
+            block-size: var(--space-3xl);
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .navigation li a {
         inline-size: auto;
-        justify-content: center;
         padding-inline: var(--space-s);
         text-align: center;
     }
