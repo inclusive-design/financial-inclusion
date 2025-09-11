@@ -281,7 +281,7 @@ h1 em::after {
         font-family: var(--family-display);
         font-size: var(--step-1);
         font-weight: var(--font-weight-extrabold);
-        max-inline-size: var(--space-7xl-8xl);
+        inline-size: max-content;
         padding-inline-end: var(--space-s);
         text-decoration: none;
 
@@ -300,7 +300,9 @@ h1 em::after {
     .brand-and-toggle a svg {
         inline-size: 10.75rem;
     }
+}
 
+@media (width >= 90rem) {
     .brand-and-toggle a em::after,
     h1 em::after {
         display: none;
