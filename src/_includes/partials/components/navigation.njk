@@ -1,20 +1,21 @@
 <nav class="navigation">
     <div class="wrapper">
-        <div class="brand">
+        <div class="brand-and-toggle">
             <a rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
-                {% __ "site-title" %}
+                <span>{% __ "site-title" %}</span>
+                {% include "svg/shapes-brand.svg" %}
             </a>
-            {#-- <button class="borderless" id="navigation-toggle" aria-expanded="false">{% __ 'menu' %} {% include 'svg/menu.svg' %} {% include 'svg/menu-close.svg' %} </button> --#}
+            <button id="navigation-toggle" aria-expanded="false" aria-label="{% __ 'menu' %}"> {% include 'svg/menu.svg' %} {% include 'svg/menu-close.svg' %} </button>
         </div>
-        {#-- <div class="menu" id="navigation-menu">
-            {% set navItems = collections['pages_' + lang] | eleventyNavigation %}
-            <ul>
+        <div class="menu">
+            {% set navItems = collections['all-' + lang] | eleventyNavigation %}
+            <ul role="list">
                 {% for item in navItems %}
                 <li>
-                    <a class="link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.key }}</a>
+                    <a class="link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | renderContent('md') | striptags | safe }}</a>
                 </li>
                 {% endfor %}
             </ul>
-        </div> --#}
+        </div>
     </div>
 </nav>

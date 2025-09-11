@@ -1,0 +1,11 @@
+{% extends 'layouts/base.njk' %}
+
+{% set bodyClass = 'chapter' %}
+
+{% block content %}
+    <article>
+        <div class="wrapper flow">
+            {{ content | safe }}
+        </div>
+    </article>
+{% endblock %}

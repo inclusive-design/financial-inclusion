@@ -1,5 +1,8 @@
 ---
+uuid: 3dbf7cfd-46a1-44a6-b534-709356a007dc
 title: Activities & Worksheets
+shortTitle: Activities
+nav: true
 type: standard
 order: 9
 permalink: false

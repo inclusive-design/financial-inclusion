@@ -1,4 +1,5 @@
 ---
+uuid: dd591d97-c496-458a-bc47-73c08aedad31
 title: 'Narrative 2: Going to the bank for remote Indigenous seniors with disabilities'
 type: narrative
 order: 6

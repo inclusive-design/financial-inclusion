@@ -56,6 +56,17 @@
     font-family: Mulish;
     font-stretch: 100%;
     font-style: normal;
+    font-weight: 600;
+    src:
+        url("https://fonts.bunny.net/mulish/files/mulish-latin-600-normal.woff2") format("woff2"),
+        url("https://fonts.bunny.net/mulish/files/mulish-latin-600-normal.woff") format("woff");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: Mulish;
+    font-stretch: 100%;
+    font-style: normal;
     font-weight: 700;
     src:
         url("https://fonts.bunny.net/mulish/files/mulish-latin-700-normal.woff2") format("woff2"),
@@ -78,8 +89,12 @@
     /** Font Weights **/
     --font-weight-normal: 400;
     --font-weight-medium: 500;
+    --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
+    --family-serif: martel, serif;
+    --family-serif-alt: diphylleia, serif;
+    --family-display: mulish, sans-serif;
 
     /** Colors **/
     --color-dark-green: #2a842d;
@@ -133,12 +148,6 @@ label {
     line-height: calc(1.4 * var(--fl-lineSpace-factor, 1));
 }
 
-h1,
-h2,
-h3 {
-    text-wrap: balance;
-}
-
 a:not([class]) {
     color: currentcolor;
     text-decoration-skip-ink: auto;
@@ -155,7 +164,44 @@ input {
     font-size: inherit;
 }
 
-custom-list {
+body {
+    font-family: var(--family-serif);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: var(--font-weight-extrabold);
+    text-wrap: balance;
+}
+
+h4,
+h5,
+h6 strong {
+    font-weight: var(--font-weight-bold);
+}
+
+a:visited {
+    color: currentcolor;
+}
+
+/* Utils */
+.flow > * + *,
+li > * + * {
+    margin-block-start: var(--flow-space, 1em);
+}
+
+.visually-hidden {
+    block-size: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    inline-size: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
+
+/* custom-list {
     display: block;
 }
 
@@ -169,23 +215,23 @@ custom-list li {
     gap: 1rem;
 }
 
-custom-list li + li {
+custom-list li+li {
     margin-block-start: var(--step-2);
 }
 
-custom-list li > :first-child {
+custom-list li> :first-child {
     flex-grow: 1;
     inline-size: 60px;
 }
 
-custom-list li > :last-child {
+custom-list li> :last-child {
     flex-basis: 0;
     flex-grow: 999;
     margin-block-start: 0;
     min-inline-size: 50%;
 }
 
-custom-list li > div > * + * {
+custom-list li>div>*+* {
     margin-block-start: 1em;
 }
 
@@ -193,11 +239,11 @@ custom-list li > div > * + * {
     display: flex;
 }
 
-.two-column > * {
+.two-column>* {
     inline-size: 50%;
 }
 
 .two-column svg {
     block-size: auto;
     inline-size: 100%;
-}
+} */

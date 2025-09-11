@@ -1,39 +1,26 @@
 <header>
     <div class="skip-container">
-    {#-- <div class="wrapper">
-        <a class="skip" href="#main">{% __ 'skip-to-content' %}</a>
-    </div> --#}
-    </div>
-    {#-- <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
-        <div class="fl-panelBar fl-panelBar-smallScreen" id="Editorspace">
-            <span class="fl-prefsEditor-buttons">
-                <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
-            </span>
-        </div>
-        <div class="flc-slidingPanel-panel"></div>
-        <div class="fl-panelBar fl-panelBar-wideScreen">
-            <div class="wrapper">
-                <span class="fl-prefsEditor-buttons">
-                    <button class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-                    <button class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
-                </span>
-            </div>
-        </div>
-    </div> --#}
-    <div class="header">
         <div class="wrapper">
-            {% if page | findTranslation(collections.all, lang, 'en') and page | findTranslation(collections.all, lang, 'fr') -%}
-            <div class="header__settings">
-                <ul class="header__language" role="list">
-                    <li>
-                        <a href="{{ page | findTranslation(collections.all, lang, 'en') }}" lang="en-CA" hreflang="en-CA"{% if lang == 'en' %} aria-current="page"{% endif %}>English</a>
-                    </li>
-                    <li>
-                        <a href="{{ page | findTranslation(collections.all, lang, 'fr') }}" lang="fr-CA" hreflang="fr-CA"{% if lang == 'fr' %} aria-current="page"{% endif %}>Français</a>
-                    </li>
-                </ul>
+            <a class="skip" href="#main">{% __ 'skip-to-content' %}</a>
+        </div>
+    </div>
+    <div class="header">
+        <div class="wrapper flex">
+            <div>
+                <a rel="external" href="https://idrc.ocadu.ca/">
+                    <span class="block md:hide">{% __ 'an-idrc-project' %}</span>
+                    <span class="hide md:block">{% __ 'an-inclusive-design-research-centre-project' %}</span>
+                </a>
             </div>
+            {% if page | findTranslation(collections.all, lang, 'en') and page | findTranslation(collections.all, lang, 'fr') -%}
+            <ul class="language" role="list">
+                <li>
+                    <a href="{{ page | findTranslation(collections.all, lang, 'en') }}" lang="en-CA" hreflang="en-CA"{% if lang == 'en' %} aria-current="page"{% endif %}><span class="md:hide">EN</span><span class="hide md:inline">English</span></a>
+                </li>
+                <li>
+                    <a href="{{ page | findTranslation(collections.all, lang, 'fr') }}" lang="fr-CA" hreflang="fr-CA"{% if lang == 'fr' %} aria-current="page"{% endif %}><span class="md:hide">FR</span><span class="hide md:inline">Français</span></a>
+                </li>
+            </ul>
             {%- endif %}
         </div>
     </div>
