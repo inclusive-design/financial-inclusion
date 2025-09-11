@@ -1,5 +1,27 @@
-<footer role="contentinfo">
-    <div class="wrapper flow">
-
+<footer>
+    <div class="wrapper grid">
+        <div class="contact flow">
+            <h4>{% __ 'contact-us' %}</h4>
+            <p class="h5">{% __ 'email' %}</p>
+            <p class="small"><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
+            <p class="h5">{% __ 'phone' %}</p>
+            <p class="small"><a href="tel:{{ contact.phone }}">{{ contact.phone }}</a></p>
+            <p class="h5">{% __ 'address' %}</p>
+            <address>
+                {{ contact.address | renderContent("md") | safe }}
+            </address>
+        </div>
+        <div class="idrc-ocadu">
+            {% include "svg/idrc.svg.njk" %}
+            {% include "svg/ocadu.svg.njk" %}
+        </div>
+        <div class="funders">
+            <h4>{% __ 'funded-by' %}</h4>
+            <p class="small">{% __ 'esdc' %}</p>
+        </div>
+        <div class="license-sources-credits">
+            <p class="small">{% __ 'license' %}</p>
+            <p class="small"><a href="">{% __ 'sources-and-credits' %}</a></p>
+        </div>
     </div>
 </footer>

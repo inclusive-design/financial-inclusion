@@ -106,6 +106,7 @@
     --color-red: #cb3335;
     --color-white: #fff;
     --color-black: #000;
+    --color-soft-black: #222;
 }
 
 /* Reset @see https://piccalil.li/blog/a-more-modern-css-reset/ */
