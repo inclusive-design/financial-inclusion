@@ -1,5 +1,8 @@
 ---
+uuid: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
 title: Narratives _for_ Financial Inclusion
+shortTitle: Narratives
+nav: true
 type: standard
 order: 4
 permalink: false

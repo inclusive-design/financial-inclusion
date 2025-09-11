@@ -1,3 +1,1 @@
-<svg class="menu__expanded" width="13" height="12" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M17 1L1 16M1 1L17 16" stroke-width="2" stroke-linecap="round"/>
-</svg>
+<svg class="menu__close" xmlns="http://www.w3.org/2000/svg" width="24" height="22" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m21.375 2-19 18M2.375 2l19 18"/></svg>

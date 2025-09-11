@@ -2,37 +2,25 @@
 <html lang="{{ lang if lang else defaultLanguage }}-CA" dir="ltr">
 <head>
   {% include 'partials/global/meta.njk' %}
-  <title>{{ title }}</title>
+  <title>{{ title | renderContent("md") | striptags | safe }}</title>
   {% include "partials/global/stylesheets.njk" %}
+{% include "partials/global/scripts.njk" %}
   {% include "svg/filters.svg" %}
   {% getBundle "fontawesome" %}
-  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
-  <style>
-  .pagedjs_page {
-      border: 1px solid #000;
-      margin: 0.5in auto;
-  }
-  </style>
 </head>
-<body>
+<body class="page {{ bodyClass if bodyClass else '' }}">
   {% include "partials/global/header.njk" %}
-  {#-- {% include "partials/components/navigation.njk" %} --#}
+  {% include "partials/components/navigation.njk" %}
   <main id="main" class="{{ pageType if pageType else 'page' }}">
     {% block banner %}
     <div class="title">
       <div class="wrapper">
         <div class="flow">
-          <h1>{{ title }}</h1>
+          <h1>{{ title | renderContent("md") | safe }}</h1>
         </div>
       </div>
     </div>
     {% endblock %}
-    <nav class="wrapper toc">
-        <div id="toc">
-        <ol></ol>
-        </div>
-    </nav>
-    <div class="content">
     {% block content %}
     <article>
       <div class="wrapper flow">
@@ -44,6 +32,7 @@
   </main>
   {% include "partials/global/footer.njk" %}
   {#-- {% uioCustomInit lang, supportedLanguages[lang].dir %} --#}
+
   <script type="module">
     class ReversedList extends HTMLElement {
       static tagName = "reversed-list";

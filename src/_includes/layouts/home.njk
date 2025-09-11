@@ -1,0 +1,17 @@
+{% extends 'layouts/base.njk' %}
+
+{% set bodyClass = 'home' %}
+
+{% block content %}
+    <article>
+        <div class="wrapper flow">
+            {% set chapters = collections['chapters-'+lang] %}
+            {% for chapter in chapters %}
+                {% if chapter.fileSlug == 'about-this-guidebook' %}
+                <h2>{{ chapter.data.title | renderContent('md') | striptags | safe }}</h2>
+                {{ chapter.page.rawInput | renderContent('md') | safe }}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </article>
+{% endblock %}

@@ -1,4 +1,5 @@
 ---
+uuid: ca63a0bc-27d1-42cd-9179-8db396857f53
 title: 'Narrative 3: Managing finances for racialized single parents with disabilities'
 type: narrative
 order: 7

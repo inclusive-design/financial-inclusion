@@ -41,7 +41,6 @@ export default function eleventy(eleventyConfig) {
       }
     },
     css: { enabled: false },
-    js: { enabled: false },
     minify: { enabled: false }
   });
 
@@ -56,6 +55,10 @@ export default function eleventy(eleventyConfig) {
 
     eleventyConfig.addCollection(`back-matter-${lang}`, (collection) => {
       return collection.getFilteredByGlob(`src/collections/back-matter/${lang}/*.md`).sort((a, b) => a.data.order - b.data.order);
+    });
+
+    eleventyConfig.addCollection(`all-${lang}`, (collection) => {
+      return collection.getFilteredByGlob(`src/collections/*/${lang}/*.md`).sort((a, b) => a.data.order - b.data.order);
     });
   });
 
