@@ -17,10 +17,21 @@
         </div>
         <div class="funders">
             <h4>{% __ 'funded-by' %}</h4>
-            <p class="small">{% __ 'esdc' %}</p>
+            <p class="small">
+                {% if lang == 'en' %}
+                {% include "svg/esdc.svg" %}
+                {% elseif lang =='fr' %}
+                {% include "svg/edsc.svg" %}
+                {% endif %}
+            </p>
         </div>
-        <div class="license-sources-credits">
-            <p class="small">{% __ 'license' %}</p>
+        <div class="license-sources-credits flow">
+            <p class="small">
+                <a rel="external" href="https://creativecommons.org/licenses/by/4.0/">
+                    {% include "svg/cc-by.svg.njk" %}
+                </a><br />
+                {% __ 'license' %}
+            </p>
             <p class="small"><a href="">{% __ 'sources-and-credits' %}</a></p>
         </div>
     </div>

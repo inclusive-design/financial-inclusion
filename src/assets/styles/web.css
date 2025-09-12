@@ -137,7 +137,8 @@ body {
 footer {
     background-color: var(--color-soft-black);
     color: var(--color-white);
-    padding-block-start: 2.25rem;
+    padding-block-end: var(--space-xl-2xl);
+    padding-block-start: var(--space-l-s);
 }
 
 /* Header and navigation */
