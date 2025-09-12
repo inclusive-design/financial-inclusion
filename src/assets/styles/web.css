@@ -354,7 +354,7 @@ h1 em::after {
 
 .navigation ul {
     inline-size: 100vw;
-    margin-inline-start: calc(-1 * var(--gutter));
+    margin-inline-start: calc(-1 * var(--space-l-s));
     position: relative;
     z-index: 1;
 }
@@ -367,8 +367,13 @@ h1 em::after {
     display: flex;
     inline-size: 100%;
     justify-content: flex-start;
-    padding-inline: var(--gutter);
+    margin-inline-start: 0;
+    padding-inline: var(--space-l-s);
     text-decoration: none;
+}
+
+.navigation ul > li {
+    display: flex;
 }
 
 .navigation li a[aria-current="page"] {
@@ -385,6 +390,12 @@ h1 em::after {
     color: var(--color-lime);
 }
 
+.navigation li [aria-expanded] {
+    block-size: var(--space-2xl-m);
+    inline-size: 100%;
+    padding-inline: var(--space-l-s);
+}
+
 .navigation li [aria-expanded] + ul {
     display: none;
 }
@@ -398,7 +409,7 @@ h1 em::after {
         display: none;
     }
 
-    .navigation:has([aria-expanded="false"]) .menu > ul {
+    .navigation:has(.brand-and-toggle [aria-expanded="false"]) .menu > ul {
         display: flex;
     }
 
