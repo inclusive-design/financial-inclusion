@@ -1,5 +1,20 @@
 # Changelog
 
+## 2025.09.12.1907.07831da
+
+### Features
+
+* feat: add footer (#32) [@greatislander](https://github.com/greatislander)
+* feat: initial header and nav implementation (#29) [@greatislander](https://github.com/greatislander)
+* feat: render PDF (initial implementation) (#15) [@greatislander](https://github.com/greatislander)
+
+### Dependencies
+
+* chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2.2.4 (#18) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#23) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update actions/checkout action to v5 (#20) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#17) @[renovate[bot]](https://github.com/apps/renovate)
+
 ## 2025.08.01.1639.5c62bcc
 
 ### Chores
