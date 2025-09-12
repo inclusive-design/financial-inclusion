@@ -1,5 +1,40 @@
-<footer role="contentinfo">
-    <div class="wrapper flow">
-
+<footer>
+    <div class="wrapper grid">
+        <div class="contact flow">
+            <h4>{% __ 'contact-us' %}</h4>
+            <p class="h5">{% __ 'email' %}</p>
+            <p class="small"><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
+            <p class="h5">{% __ 'phone' %}</p>
+            <p class="small"><a href="tel:{{ contact.phone }}">{{ contact.phone }}</a></p>
+            <p class="h5">{% __ 'address' %}</p>
+            <address>
+                {{ contact.address | renderContent("md") | safe }}
+            </address>
+        </div>
+        <div class="idrc-ocadu">
+            <div class="inner">
+            <a rel="external" href="https://idrc.ocadu.ca">{% include "svg/idrc.svg.njk" %}</a>
+            <a rel="external" href="https://ocadu.ca">{% include "svg/ocadu.svg.njk" %}</a>
+            </div>
+        </div>
+        <div class="funders">
+            <h4>{% __ 'funded-by' %}</h4>
+            <p class="small">
+                {% if lang == 'en' %}
+                <a rel="external" href="https://www.canada.ca/en/employment-social-development.html" hreflang="en">{% include "svg/esdc.svg.njk" %}</a>
+                {% elseif lang =='fr' %}
+                <a rel="external" href="https://www.canada.ca/fr/emploi-developpement-social.html" hreflang="fr">{% include "svg/edsc.svg.njk" %}</a>
+                {% endif %}
+            </p>
+        </div>
+        <div class="license-sources-credits flow">
+            <p class="small">
+                <a rel="external" href="https://creativecommons.org/licenses/by/4.0/">
+                    {% include "svg/cc-by.svg.njk" %}
+                </a><br />
+                {% __ 'license' %}
+            </p>
+            <p class="small"><a href="">{% __ 'sources-and-credits' %}</a></p>
+        </div>
     </div>
 </footer>
