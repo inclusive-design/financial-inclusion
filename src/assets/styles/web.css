@@ -141,6 +141,12 @@ footer {
     padding-block-start: var(--space-l-s);
 }
 
+.idrc-ocadu .inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
 /* Header and navigation */
 
 .header,
