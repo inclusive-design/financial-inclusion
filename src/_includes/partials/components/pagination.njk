@@ -1,0 +1,6 @@
+{% set previousChapter = collections['chapters-' + lang] | getPreviousCollectionItem %}
+{% set nextChapter = collections['chapters-' + lang] | getNextCollectionItem %}
+<nav class="pagination" aria-label="{% __ 'pagination' %}">
+    {% if previousChapter %}<a href="{{ previousChapter.url }}">{% include "svg/previous.svg" %} {% __ 'previous' %}</a>{% endif %}
+    {% if nextChapter %}<a href="{{ nextChapter.url }}">{% __ 'next' %} {% include "svg/next.svg" %}</a>{% endif %}
+</nav>

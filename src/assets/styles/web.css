@@ -461,6 +461,28 @@ h1 em::after {
     position: relative;
 }
 
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: var(--space-fluid-2xl-m);
+}
+
+.pagination a {
+    align-items: center;
+    background: var(--color-lime);
+    border-radius: 2px;
+    display: inline-flex;
+    gap: var(--space-xs);
+    padding-block-start: 2px;
+    padding-inline: var(--space-xs);
+    text-decoration: none;
+}
+
+.pagination a svg {
+    block-size: 15px;
+    inline-size: 14px;
+}
+
 @media (width >= 60rem) {
     .navigation .brand-and-toggle [aria-expanded] {
         display: none;
