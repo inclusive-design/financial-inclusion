@@ -1,9 +1,12 @@
 ---
 uuid: ca63a0bc-27d1-42cd-9179-8db396857f53
 title: 'Narrative 3: Managing finances for racialized single parents with disabilities'
+shortTitle: Narrative 3
 type: narrative
 order: 7
 permalink: false
+parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+nav: true
 ---
 ### The Research
 

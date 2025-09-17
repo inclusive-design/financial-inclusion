@@ -24,6 +24,7 @@
     /* Step 5: 39.8131px → 67.1387px */
     --step-5: clamp(2.4883rem, 1.919rem + 2.5301vw, 4.1962rem);
     --space-xs: 0.75rem;
+    --space-m: 1.5rem;
 
     /* @link https://utopia.fyi/space/calculator?c=360,16,1.2,1440,32,1.25,5,2,&s=0.75|0.625,1.5|2|2.5|3|3.75|4.375|6|7|14,xs-2xs|l-6xl|4xl-l|5xl-3xl|2xl-m|l-s|m-xs&g=s,l,xl,12 */
 
@@ -422,7 +423,9 @@ h1 em::after {
 
 .navigation li li a {
     background: var(--color-dark-lime);
+    block-size: auto;
     inline-size: 100vw;
+    min-block-size: var(--space-fluid-2xl-m);
     padding-inline-start: var(--space-fluid-4xl-l);
 }
 
@@ -436,6 +439,10 @@ h1 em::after {
 .navigation li [aria-expanded="true"] {
     background-color: var(--color-black);
     color: var(--color-lime);
+}
+
+.navigation li:has([aria-expanded="true"]) > a {
+    box-shadow: 0 0 0 3px var(--color-black) inset;
 }
 
 .navigation li [aria-expanded] + ul {
@@ -500,20 +507,27 @@ h1 em::after {
         text-align: center;
     }
 
-    .navigation li:has([aria-expanded="true"]) > a {
-        box-shadow: 0 0 0 3px var(--color-black) inset;
+    .navigation li [aria-expanded] {
+        padding-inline: var(--space-m);
     }
 
     .navigation li li {
+        block-size: auto;
         inline-size: 100%;
     }
 
     .navigation li li a {
+        block-size: auto;
         inline-size: 100%;
+        justify-content: flex-start;
+        min-block-size: var(--space-fluid-xl);
+        padding-block: var(--space-m);
         padding-inline: var(--space-fluid-s);
+        text-align: start;
     }
 
     .navigation li ul {
+        flex-direction: column;
         min-inline-size: 100%;
         position: absolute;
         right: 0;

@@ -113,7 +113,7 @@ export default function eleventy(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets/icons": "/" });
 
   eleventyConfig.addPlugin(IdAttributePlugin, {
-    selector: 'h2'
+    selector: 'h2,h3'
   });
 
   eleventyConfig.addPreprocessor("drafts", "*", (data, _content) => {
