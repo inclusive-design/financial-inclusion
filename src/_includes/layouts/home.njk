@@ -10,6 +10,10 @@
                 {% if chapter.fileSlug == 'about-this-guidebook' %}
                 <h2>{{ chapter.data.title | renderContent('md') | striptags | safe }}</h2>
                 {{ chapter.page.rawInput | renderContent('md') | safe }}
+                {% set nextChapter = collections['chapters-' + lang] | getNextCollectionItem(chapter) %}
+                <nav class="pagination" aria-label="{% __ 'pagination' %}">
+                    <a href="{{ nextChapter.url }}">{% __ 'next' %}</a>
+                </nav>
                 {% endif %}
             {% endfor %}
         </div>

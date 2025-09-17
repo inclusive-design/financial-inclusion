@@ -6,6 +6,8 @@
     <article>
         <div class="wrapper flow">
             {{ content | safe }}
+
+            {% include "partials/components/pagination.njk" %}
         </div>
     </article>
 {% endblock %}

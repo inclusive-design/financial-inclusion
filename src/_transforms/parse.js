@@ -4,7 +4,7 @@ export default (value, outputPath) => {
     if (outputPath && outputPath.includes(".html")) {
         const { document } = parseHTML(value);
 
-        const pageNavHeadings = document.querySelectorAll("main:has(nav) h2:not([data-narrative]):not([data-toc])");
+        const pageNavHeadings = document.querySelectorAll("main.export h2:not([data-narrative]):not([data-toc])");
         if (pageNavHeadings.length > 0) {
             const navContainer = document.querySelector("main nav #toc ol");
             for (const heading of pageNavHeadings) {

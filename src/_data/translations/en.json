@@ -14,5 +14,7 @@
     "funded-by": "Funded by",
     "license": "Published under a <a rel=\"external\" href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY 4.0 License</a>",
     "sources-and-credits": "Sources and Credits",
-    "cc-by": "Creative Commons Attribution"
+    "cc-by": "Creative Commons Attribution",
+    "previous": "Previous",
+    "next": "Next"
 }
