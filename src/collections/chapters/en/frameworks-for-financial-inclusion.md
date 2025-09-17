@@ -14,7 +14,7 @@ People’s financial states are not only products of their individual action, bu
 
 <custom-list>
 
-- {% include "../../../_includes/svg/mini-pyramid.svg" %}
+- {% include "../../../_includes/svg/mini-pyramid.svg" %} <!--A pyramid with four tiers.--> 
 
   <div>
 
@@ -24,7 +24,7 @@ People’s financial states are not only products of their individual action, bu
 
   </div>
 
-- {% include "../../../_includes/svg/mini-wheel.svg" %}
+- {% include "../../../_includes/svg/mini-wheel.svg" %} <!--alt: A circle with three layers radiating out from the centre. The inner layer is lightest and the outer layer is darkest. The circle is divided into eight slices.-->
 
   <div>
 
@@ -42,7 +42,7 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
 
 <div class="two-column">
 
-{% include "../../../_includes/svg/pyramid.svg" %}
+{% include "../../../_includes/svg/pyramid.svg" %} <!-- A pyramid with four numbered tiers. 1 at the bottom represents basic needs, 4 at the top represents higher level needs-->
 
 <reversed-list>
 
@@ -63,7 +63,7 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
 
 This hierarchy highlights not only offers a framework to outline the barriers people face with financial services, it also helps financial institutions build stronger relationships with their clients. Before earning someone’s trust to plan their financial future, you must first ensure they can open an account or even enter a branch.
 
-<!-- Pyramid diagram goes here. -->
+<!-- Pyramid diagram goes here. Alt: A pyramid with four tiers. An arrow points from the bottom up, moving from building trust at the base of the pyramid, to deepening relationship in the middle, to establishing loyalty at the top of the pyramid.-->
 
 <reversed-list>
 
@@ -91,12 +91,6 @@ This wheel demonstrates the systemic and environmental factors that impacts your
 
 Each factor makes up a “slice” of the wheel. Together, all the slices form the full picture.
 
-#### Level of Impact
-
-Each person can be more or less impacted by each factor. The more impacted one is, the more systemic barriers they have against achieving financial stability.
-
-<!-- Wheel diagram goes here. -->
-
 - Where you live
 - Stigma and judgement
 - Social aid policies
@@ -106,11 +100,21 @@ Each person can be more or less impacted by each factor. The more impacted one i
 - Language
 - Immigration status
 
+<!-- Wheel diagram goes here. alt: alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. -->
+
+#### Level of Impact
+
+Each person can be more or less impacted by each factor. The more impacted one is, the more systemic barriers they have against achieving financial stability.
+
 #### Breakdown of the different factors
 
 ##### Where you live
 
 Where one lives affects their access to essential services, like healthcare and financial services. This also affects their access to affordable essentials, like groceries or household items.
+
+<!-- Slice image with arrow goes here. Alt: A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact.
+
+alt is the same for slice images that follow-->
 
 **Least impact:** Urban, suburban
 
