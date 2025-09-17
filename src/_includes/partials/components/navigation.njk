@@ -1,7 +1,7 @@
 <nav class="navigation">
     <div class="wrapper">
         <div class="brand-and-toggle">
-            <a rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
+            <a class="standalone" rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
                 <span>{% __ "site-title" %}</span>
                 {% include "svg/shapes-brand.svg" %}
             </a>
@@ -14,7 +14,7 @@
                 <li>
                     <a class="link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | renderContent('md') | striptags | safe }}</a>
                         {% if item.children.length > 0 %}
-                            <button aria-expanded="false">{% include "svg/disclosure.svg" %}</button>
+                            <button aria-expanded="false" aria-label="{{ item.title | renderContent('md') | striptags | safe }}">{% include "svg/disclosure.svg.njk" %}</button>
                             <ul role="list">
                                 {% for child in item.children %}
                                 <li>

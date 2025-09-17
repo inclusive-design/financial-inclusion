@@ -12,7 +12,7 @@
                 {{ chapter.page.rawInput | renderContent('md') | safe }}
                 {% set nextChapter = collections['chapters-' + lang] | getNextCollectionItem(chapter) %}
                 <nav class="pagination" aria-label="{% __ 'pagination' %}">
-                    <a href="{{ nextChapter.url }}">{% __ 'next' %}</a>
+                    <a class="standalone" href="{{ nextChapter.url }}">{% __ 'next' %} {% include "svg/next.svg" %}</a>
                 </nav>
                 {% endif %}
             {% endfor %}
