@@ -1,9 +1,12 @@
 ---
 uuid: 580d820d-8998-4de6-91ec-a81e60dacc89
 title: 'Narrative 1: Accessing funds for unhoused people with disabilities'
+shortTitle: Narrative 1
 type: narrative
 order: 5
 permalink: false
+parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+nav: true
 ---
 ### The research
 

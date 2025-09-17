@@ -1,9 +1,12 @@
 ---
 uuid: dd591d97-c496-458a-bc47-73c08aedad31
 title: 'Narrative 2: Going to the bank for remote Indigenous seniors with disabilities'
+shortTitle: Narrative 2
 type: narrative
 order: 6
 permalink: false
+parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+nav: true
 ---
 ### The research
 

@@ -1,9 +1,12 @@
 ---
 uuid: 3f2832ee-30fd-4779-943f-a7bf6cd98431
 title: 'Narrative 4: Future planning for immigrants with disabilities'
+shortTitle: Narrative 4
 type: narrative
 order: 8
 permalink: false
+parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+nav: true
 ---
 ### The Research
 
