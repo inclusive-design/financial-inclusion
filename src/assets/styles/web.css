@@ -564,6 +564,10 @@ h1 em::after {
 }
 
 @media (width >= 60rem) {
+    .navigation .brand-and-toggle {
+        min-block-size: auto;
+    }
+
     .navigation .brand-and-toggle [aria-expanded] {
         display: none;
     }
