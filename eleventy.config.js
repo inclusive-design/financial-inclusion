@@ -136,13 +136,13 @@ export default function eleventy(eleventyConfig) {
       const prince = await princeVersion();
 
       if (prince.includes('Prince 16')) {
-        exec('prince --javascript _site/export/en/index.html -o _site/assets/guidebook-for-financial-inclusion.pdf', (_error, stdout, _stderr) => {
-          console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/export/en/index.html');
+        exec('prince --javascript _site/en/export/index.html -o _site/assets/guidebook-for-financial-inclusion.pdf', (_error, stdout, _stderr) => {
+          console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/en/export/index.html');
           open('_site/assets/guidebook-for-financial-inclusion.pdf');
         });
       } else {
         const url = 'https://api.docraptor.com/docs';
-        const html = results.find(item => item.outputPath === './_site/export/en/index.html');
+        const html = results.find(item => item.outputPath === './_site/en/export/index.html');
 
         const body = JSON.stringify({
           user_credentials: "YOUR_API_KEY_HERE",
@@ -170,7 +170,7 @@ export default function eleventy(eleventyConfig) {
         });
 
         fs.writeFile("_site/assets/guidebook-for-financial-inclusion.pdf", buffer, "binary", function () {
-          console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/export/en/index.html');
+          console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/en/export/index.html');
           // open('_site/assets/guidebook-for-financial-inclusion.pdf');
         });
       }

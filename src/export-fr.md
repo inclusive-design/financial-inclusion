@@ -1,6 +1,6 @@
 ---
 title: Guide pour l'inclusion financière
 layout: layouts/export
-permalink: /export/fr/index.html
+permalink: /fr/export/index.html
 lang: fr
 ---
