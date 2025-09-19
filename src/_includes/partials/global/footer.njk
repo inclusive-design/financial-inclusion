@@ -34,7 +34,8 @@
                 </a><br />
                 {% __ 'license' %}
             </p>
-            <p class="small"><a href="">{% __ 'sources-and-credits' %}</a></p>
+                {% set sourcesAndCredits = collections['back-matter-' + lang] %}
+            <p class="small">{% for item in sourcesAndCredits %}<a href="{{ item.url }}">{{ item.data.title }}</a>{% if not loop.last %} {% __ 'and' %} {% endif %}{% endfor %}</p>
         </div>
     </div>
 </footer>

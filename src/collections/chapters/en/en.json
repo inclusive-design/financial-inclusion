@@ -1,3 +1,4 @@
 {
-    "lang": "en"
+    "lang": "en",
+    "permalink": "/en/chapters/{{ shortTitle | slugify if shortTitle else title | slugify }}/"
 }
