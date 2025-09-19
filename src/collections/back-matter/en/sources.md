@@ -1,6 +1,6 @@
 ---
 title: Sources
-order: 1
+order: 10
 ---
 1. Financial Consumer Agency of Canada. (2024, June 25). Annual report 2023-2024. Government of Canada. <https://www.canada.ca/en/financial-consumer-agency/corporate/planning/annual-reports/annual-report-2023-2024.html>
 2. ACORN Canada. (2023, June). Fair credit for all: ACORN members speak out on access to fair banking and credit in Canada. <https://acorncanada.org/wp-content/uploads/2023/06/EN-ACORN-Report-Fair-Credit-2023.pdf>

@@ -1,21 +1,15 @@
 {% extends 'layouts/base.njk' %}
 
 {% set bodyClass = 'home' %}
+{% set chapterTitle = title | string %}
+{% set title = translations[lang]['site-title'] %}
 
 {% block content %}
     <article>
         <div class="wrapper flow">
-            {% set chapters = collections['chapters-'+lang] %}
-            {% for chapter in chapters %}
-                {% if chapter.fileSlug == 'about-this-guidebook' %}
-                <h2>{{ chapter.data.title | renderContent('md') | striptags | safe }}</h2>
-                {{ chapter.page.rawInput | renderContent('md') | safe }}
-                {% set nextChapter = collections['chapters-' + lang] | getNextCollectionItem(chapter) %}
-                <nav class="pagination" aria-label="{% __ 'pagination' %}">
-                    <a class="standalone" href="{{ nextChapter.url }}">{% __ 'next' %} {% include "svg/next.svg" %}</a>
-                </nav>
-                {% endif %}
-            {% endfor %}
+            <h2>{{ chapterTitle | renderContent('md') | striptags | safe }}</h2>
+            {{ content | safe }}
+            {% include "partials/components/pagination.njk" %}
         </div>
     </article>
 {% endblock %}
