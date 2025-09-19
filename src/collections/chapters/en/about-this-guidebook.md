@@ -1,9 +1,9 @@
 ---
 uuid: 67e6c42e-8d45-48a9-a484-4945523861b7
 title: About _this_ Guidebook
+shortTitle: ''
 type: standard
 order: 1
-permalink: false
 ---
 While finances may not be something we think about every day, how we live, work, and survive is deeply shaped by our financial situation. This guidebook offers a window into the experiences of people who face barriers when interacting with the financial system and trying to access the resources they need for stability.
 

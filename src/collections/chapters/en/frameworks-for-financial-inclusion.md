@@ -5,8 +5,6 @@ shortTitle: Frameworks
 nav: true
 type: standard
 order: 3
-permalink: false
-key: Frameworks
 ---
 ### Introducing financial inclusion frameworks
 
@@ -14,7 +12,7 @@ People’s financial states are not only products of their individual action, bu
 
 <custom-list>
 
-- {% include "../../../_includes/svg/mini-pyramid.svg" %} <!--A pyramid with four tiers.--> 
+- {% include "../../../_includes/svg/mini-pyramid.svg" %} <!--A pyramid with four tiers.-->
 
   <div>
 

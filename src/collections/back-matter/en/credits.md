@@ -1,7 +1,6 @@
 ---
 title: Credits
 order: 2
-permalink: false
 ---
 ### Special thanks to our community partners
 

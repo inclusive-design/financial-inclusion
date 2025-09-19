@@ -5,7 +5,6 @@ shortTitle: Narratives
 nav: true
 type: standard
 order: 4
-permalink: false
 ---
 ### Introducing the narratives
 
