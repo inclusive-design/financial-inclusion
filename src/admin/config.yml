@@ -54,7 +54,9 @@ collections:
       - label: Type
         name: type
         widget: select
-        options: [standard, narrative]
+        options:
+          - { label: Standard, value: standard }
+          - { label: Narrative, value: narrative }
         i18n: duplicate
         required: true
       - label: Order
@@ -62,12 +64,14 @@ collections:
         widget: number
         i18n: duplicate
         required: false
-      - label: Permalink
-        name: permalink
-        widget: hidden
-        i18n: duplicate
-        default: false
-        required: true
+      - label: Parent
+        name: parent
+        widget: relation
+        collection: chapter
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: false
       - label: Body
         name: body
         widget: markdown
@@ -109,12 +113,6 @@ collections:
         widget: number
         i18n: duplicate
         required: false
-      - label: Permalink
-        name: permalink
-        widget: hidden
-        i18n: duplicate
-        default: false
-        required: true
       - label: Body
         name: body
         widget: markdown

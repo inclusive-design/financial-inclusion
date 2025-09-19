@@ -1,10 +1,10 @@
 ---
 uuid: b9f77708-2e6e-4c15-afed-0363253c7af7
 title: The Case _for_ Financial Inclusion
+shortTitle: ''
 nav: true
 type: standard
 order: 2
-permalink: false
 ---
 ### Why are so many people still left out of banking?
 

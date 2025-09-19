@@ -5,7 +5,6 @@ shortTitle: Activities
 nav: true
 type: standard
 order: 9
-permalink: false
 ---
 ### Activity 1: Gap mapping
 

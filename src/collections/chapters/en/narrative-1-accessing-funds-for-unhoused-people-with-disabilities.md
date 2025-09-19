@@ -2,11 +2,10 @@
 uuid: 580d820d-8998-4de6-91ec-a81e60dacc89
 title: 'Narrative 1: Accessing funds for unhoused people with disabilities'
 shortTitle: Narrative 1
+nav: true
 type: narrative
 order: 5
-permalink: false
 parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
-nav: true
 ---
 ### The research
 
@@ -49,13 +48,15 @@ Social services got James on disability benefits. However, when James is able to
 While living in shelters, James had his belongings stolen, including his phone and his wallet, which contained all his ID, debit card, and credit cards. Without these, he’s unable to access the small amount of money he had saved in his bank account whether through an ATM, at a bank branch, or online.
 
 #### Access to financial touchpoints
-  * James can’t access ATMs without a debit card
-  * He faces challenges entering bank branches due to stigma related to his appearance, and he lacks ID and a permanent address, both often required for in-person banking
-  * He can’t access online banking because he doesn’t have his card number or access to his phone for multi-factor authentication.
+
+- James can’t access ATMs without a debit card
+- He faces challenges entering bank branches due to stigma related to his appearance, and he lacks ID and a permanent address, both often required for in-person banking
+- He can’t access online banking because he doesn’t have his card number or access to his phone for multi-factor authentication.
 
 #### Access to basic financial transactions
-  * Because of limited forms of ID, he can’t open bank accounts or open credit products
-  * Any interaction that requires multi-factor authentication may be difficult as he may not have access to a second device
+
+- Because of limited forms of ID, he can’t open bank accounts or open credit products
+- Any interaction that requires multi-factor authentication may be difficult as he may not have access to a second device
 
 <!-- Pyramid diagram goes here. -->
 
@@ -121,12 +122,9 @@ Can James…
 
 1. **Access your financial touchpoints?**<br />
    How might James feel safe and welcome at your branch?
-
 2. **Access your financial transactions?**<br />
    How might James access his funds without a bank card or ID?
-
 3. **Access your financial management?**<br />
    How might James be supported in managing his finances given his transitional situation and fluctuating expenses?
-
 4. **Access your financial advising?**<br />
    How might James be supported in planning for long term stability and growth?
