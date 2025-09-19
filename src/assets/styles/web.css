@@ -547,6 +547,7 @@ h1 em::after {
 
 .navigation li [aria-expanded="true"] + ul {
     display: flex;
+    flex-direction: column;
 }
 
 .navigation li ul {
