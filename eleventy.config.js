@@ -11,7 +11,7 @@ import _ from "lodash";
 import parse from "./src/_transforms/parse.js";
 import fs from "node:fs";
 import { exec } from "node:child_process";
-import logToConsole from 'eleventy-plugin-console-plus';
+import { consolePlus } from 'eleventy-plugin-console-plus';
 
 function princeVersion() {
   return new Promise((resolve) => {
@@ -27,7 +27,7 @@ export default function eleventy(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(RenderPlugin);
   eleventyConfig.addPlugin(footnotesPlugin);
-  eleventyConfig.addPlugin(logToConsole);
+  eleventyConfig.addPlugin(consolePlus);
   eleventyConfig.addPlugin(fluidPlugin, {
     defaultLanguage: "en",
     supportedLanguages: {
@@ -57,6 +57,14 @@ export default function eleventy(eleventyConfig) {
 
     eleventyConfig.addCollection(`back-matter-${lang}`, (collection) => {
       return collection.getFilteredByGlob(`src/collections/back-matter/${lang}/*.md`).sort((a, b) => a.data.order - b.data.order);
+    });
+
+    eleventyConfig.addCollection(`paginated-${lang}`, (collection) => {
+      return collection.getFilteredByGlob([
+        `src/collections/chapters/${lang}/*.md`,
+        `src/collections/back-matter/${lang}/*.md`
+      ])
+        .sort((a, b) => a.data.order - b.data.order);
     });
 
     eleventyConfig.addCollection(`all-${lang}`, (collection) => {

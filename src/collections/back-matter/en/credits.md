@@ -1,6 +1,6 @@
 ---
 title: Credits
-order: 2
+order: 11
 ---
 ### Special thanks to our community partners
 
