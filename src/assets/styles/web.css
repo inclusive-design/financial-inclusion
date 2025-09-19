@@ -263,6 +263,19 @@ a:not([class]) {
     }
 }
 
+.back-matter main a:not([class]) {
+    background-color: transparent;
+
+    &:hover {
+        background-color: var(--color-lime);
+    }
+
+    &:focus,
+    &:active {
+        background-color: var(--color-soft-black);
+    }
+}
+
 header a:not([class]),
 footer a:not([class]) {
     background-color: transparent;
@@ -433,7 +446,6 @@ h1 em::after {
 
     &:focus {
         background-color: var(--color-black);
-        box-shadow: 0 0 0 1.5px var(--color-lime) inset;
         color: var(--color-lime);
         outline: solid 1px transparent;
     }
