@@ -12,15 +12,3 @@
 <link rel="icon" href="/favicon-{{ lang }}.ico" sizes="32x32">
 <link rel="icon" href="/icon-{{ lang }}.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon-{{ lang }}.png">
-<link rel="manifest" id="manifest-placeholder">
-<script>
-  const language = "{{ lang }}";
-  let manifestUrl = "";
-
-  if (language == "fr") {
-    manifestUrl = "/manifest-fr.json"
-  };
-
-  if (!manifestUrl) manifestUrl = "/manifest-en.json";
-  document.querySelector('#manifest-placeholder').setAttribute('href', manifestUrl);
-</script>
