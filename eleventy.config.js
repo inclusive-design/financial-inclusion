@@ -12,6 +12,8 @@ import parse from "./src/_transforms/parse.js";
 import fs from "node:fs";
 import { exec } from "node:child_process";
 import { consolePlus } from 'eleventy-plugin-console-plus';
+import Image from "@11ty/eleventy-img";
+import { parseHTML } from "linkedom";
 
 function princeVersion() {
   return new Promise((resolve) => {
@@ -107,6 +109,18 @@ export default function eleventy(eleventyConfig) {
 
     return `<script>fluid.uiOptions.multilingual(".flc-prefsEditor-separatedPanel", ${JSON.stringify(options)});</script>`;
   });
+
+  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '') => {
+    const metadata = await Image(`./src/_includes/svg/${filename}`, {
+      formats: ["svg"],
+      dryRun: true,
+    })
+    const { document } = parseHTML(metadata.svg[0].buffer.toString());
+    const svg = document.querySelector('svg');
+    svg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
+    svg.setAttribute('aria-label', altText);
+    return svg.toString();
+  })
 
   eleventyConfig.addTransform("parse", parse);
 
