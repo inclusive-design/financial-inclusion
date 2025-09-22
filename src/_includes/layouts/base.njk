@@ -2,6 +2,18 @@
 <html lang="{{ lang if lang else defaultLanguage }}-CA" dir="ltr">
 <head>
   {% include 'partials/global/meta.njk' %}
+  <link rel="manifest" id="manifest-placeholder">
+  <script>
+    const language = "{{ lang }}";
+    let manifestUrl = "";
+
+    if (language == "fr") {
+      manifestUrl = "/manifest-fr.json"
+    };
+
+    if (!manifestUrl) manifestUrl = "/manifest-en.json";
+    document.querySelector('#manifest-placeholder').setAttribute('href', manifestUrl);
+  </script>
   <title>{{ title | renderContent("md") | striptags | safe }}</title>
   {% include "partials/global/stylesheets.njk" %}
 {% include "partials/global/scripts.njk" %}
