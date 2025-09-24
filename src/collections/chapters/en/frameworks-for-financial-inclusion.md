@@ -12,8 +12,6 @@ People’s financial states are not only products of their individual action, bu
 
 <custom-list>
 
-
-
 - {% includeSvg "mini-pyramid.svg", "A pyramid with four tiers." %}
 
   <div>
@@ -40,24 +38,16 @@ People’s financial states are not only products of their individual action, bu
 
 Inspired by Maslow’s Hierarchy of Needs, this framework outlines different layers of financial services people need, starting with basic access and moving toward long-term financial planning. Like a foundation, the bottom layers need to be achieved before people can move upward.
 
-<div class="two-column">
+1. **Financial touchpoints**<br />
+   Barriers to: Bank branches, ATM’s, online banking, banking equipment and artifacts
+2. **Financial transactions**<br />
+   Barriers to: Opening an account, depositing and withdrawing funds, making purchases, POS systems
+3. **Financial management**<br />
+   Barriers to: Money management, budgeting, using and managing credit
+4. **Financial advice and planning**<br />
+   Barriers to: Disability-specific financial advising, future planning
 
 {% includeSvg "pyramid.svg", "A pyramid with four numbered tiers. 1 at the bottom represents basic needs, 4 at the top represents higher level needs." %}
-
-<reversed-list>
-
-1. **Financial advice and planning**<br />
-   Barriers to: Disability-specific financial advising, future planning</li>
-2. **Financial management**<br />
-   Barriers to: Money management, budgeting, using and managing credit
-3. **Financial transactions**<br />
-   Barriers to: Opening an account, depositing and withdrawing funds, making purchases, POS systems
-4. **Financial touchpoints**<br />
-   Barriers to: Bank branches, ATM’s, online banking, banking equipment and artifacts
-
-</reversed-list>
-
-</div>
 
 #### Why this matters
 
@@ -65,13 +55,9 @@ This hierarchy highlights not only offers a framework to outline the barriers pe
 
 {% includeSvg "directional-pyramid.svg", "A pyramid with four tiers. An arrow points from the bottom up, moving from building trust at the base of the pyramid, to deepening relationship in the middle, to establishing loyalty at the top of the pyramid." %}
 
-<reversed-list>
-
-1. **Establishing loyalty**
+1. **Building trust**
 2. **Deepening relationship**
-3. **Building trust**
-
-</reversed-list>
+3. **Establishing loyalty**
 
 #### How to use this framework
 
