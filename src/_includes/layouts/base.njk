@@ -21,6 +21,7 @@
   {% getBundle "fontawesome" %}
 </head>
 <body class="page {{ bodyClass if bodyClass else '' }}">
+  {% uioTemplate %}
   {% include "partials/global/header.njk" %}
   {% include "partials/components/navigation.njk" %}
   <main id="main" class="{{ pageType if pageType else 'page' }}">
@@ -43,7 +44,7 @@
     </div>
   </main>
   {% include "partials/global/footer.njk" %}
-  {#-- {% uioCustomInit lang, supportedLanguages[lang].dir %} --#}
+  {% uioCustomInit lang, supportedLanguages[lang].dir %}
 
   <script type="module">
     class ReversedList extends HTMLElement {

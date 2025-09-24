@@ -20,9 +20,6 @@
 /* Base */
 body {
     /** Typography **/
-    --family-serif: martel, serif;
-    --family-serif-alt: diphylleia, serif;
-    --family-display: mulish, sans-serif;
 
     font-family: var(--family-serif);
     font-size: var(--step-0);
