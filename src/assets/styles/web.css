@@ -31,8 +31,8 @@
     /* Space xs: 12px */
     --space-xs: 0.75rem;
 
-    /* Space s: 16px */
-    --space-s: 1rem;
+    /* Space s: 18px */
+    --space-s: 1.125rem;
 
     /* Space m: 24px */
     --space-m: 1.5rem;
@@ -377,7 +377,9 @@ h1 em::after {
         font-size: var(--step-1);
         font-weight: var(--font-weight-extrabold);
         margin-inline-start: calc(-1 * var(--space-xs));
+        min-inline-size: 15rem;
         padding-block: var(--space-xs);
+        padding-inline-end: 0;
         text-decoration: none;
 
         em {
@@ -397,6 +399,8 @@ h1 em::after {
 }
 
 .home .brand-and-toggle a {
+    min-inline-size: max-content;
+
     svg {
         display: block;
         fill: currentcolor;
@@ -414,6 +418,10 @@ h1 em::after {
 }
 
 @media (width >= 90rem) {
+    .brand-and-toggle a {
+        inline-size: 17.5rem;
+    }
+
     .brand-and-toggle a em::after,
     h1 em::after {
         display: none;
@@ -619,16 +627,12 @@ h1 em::after {
     .navigation li [aria-expanded] {
         block-size: var(--space-fluid-3xl);
         justify-content: center;
+        padding-inline: var(--space-s);
     }
 
     .navigation li a {
         inline-size: auto;
-        padding-inline: var(--space-fluid-s);
         text-align: center;
-    }
-
-    .navigation li [aria-expanded] {
-        padding-inline: var(--space-m);
     }
 
     .navigation li li {
