@@ -251,25 +251,25 @@ footer {
 /* Links */
 
 a:not([class]) {
-    background-color: var(--color-lime);
+    background-color: var(--fl-linkBgColor, var(--color-lime));
 
     &:visited {
         color: currentcolor;
     }
 
     &:hover {
-        box-shadow: 0 0 0 1px var(--color-black) inset;
+        box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--color-black)) inset;
     }
 
     &:focus,
     &:active {
-        background-color: var(--color-soft-black);
-        box-shadow: 0 0 0 1.5px var(--color-lime) inset;
-        color: var(--color-lime);
+        background-color: var(--fl-linkFgColor, var(--color-soft-black));
+        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--color-lime)) inset;
+        color: var(--fl-linkBgColor, var(--color-lime));
         outline: solid 1px transparent;
 
         &:visited {
-            color: var(--color-lime);
+            color: var(--fl-linkBgColor, var(--color-lime));
         }
     }
 }
@@ -278,12 +278,13 @@ a:not([class]) {
     background-color: transparent;
 
     &:hover {
-        background-color: var(--color-lime);
+        background-color: var(--fl-linkBgColor, var(--color-lime));
     }
 
     &:focus,
     &:active {
-        background-color: var(--color-soft-black);
+        background-color: var(--fl-linkFgColor, var(--color-soft-black));
+        color: var(--fl-linkBgColor, var(--color-lime));
     }
 }
 
@@ -292,27 +293,28 @@ footer a:not([class]) {
     background-color: transparent;
 
     &:visited {
-        color: var(--color-white);
+        color: var(--fl-linkFgColor, var(--color-white));
     }
 
     &:hover {
-        box-shadow: 0 0 0 1px var(--color-white) inset;
+        box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--color-white)) inset;
     }
 
     &:focus,
     &:active {
-        background-color: var(--color-lime);
-        box-shadow: 0 0 0 1.5px var(--color-lime) inset;
-        color: var(--color-soft-black);
+        background-color: var(--fl-linkFgColor, var(--color-lime));
+        box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-lime)) inset;
+        color: var(--fl-linkBgColor, var(--color-soft-black));
         outline: solid 1px transparent;
     }
 }
 
 a.standalone {
     align-items: center;
-    background-color: var(--color-lime);
+    background-color: var(--fl-linkBgColor, var(--color-lime));
     border-radius: 2px;
-    color: var(--color-soft-black);
+    box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--color-black)) inset;
+    color: var(--fl-linkFgColor, var(--color-soft-black));
     display: inline-flex;
     gap: var(--space-xs);
     padding-block-start: 2px;
@@ -320,14 +322,14 @@ a.standalone {
     text-decoration: none;
 
     &:hover {
-        box-shadow: 0 0 0 1.5px var(--color-black) inset;
+        box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-black)) inset;
     }
 
     &:focus,
     &:active {
-        background-color: var(--color-soft-black);
-        box-shadow: 0 0 0 1.5px var(--color-lime) inset;
-        color: var(--color-lime);
+        background-color: var(--fl-linkFgColor, var(--color-soft-black));
+        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--color-lime)) inset;
+        color: var(--fl-linkBgColor, var(--color-lime));
         outline: solid 1px transparent;
     }
 }
@@ -384,13 +386,13 @@ h1 em::after {
 
     a {
         block-size: auto;
+        box-shadow: none;
         font-family: var(--family-display);
         font-size: var(--step-1);
         font-weight: var(--font-weight-extrabold);
         margin-inline-start: calc(-1 * var(--space-xs));
         min-inline-size: 15rem;
         padding-block: var(--space-xs);
-        padding-inline-end: 0;
         text-decoration: none;
 
         em {
