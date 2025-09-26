@@ -203,7 +203,7 @@ li > * + * {
     white-space: nowrap;
 }
 
-/* custom-list {
+custom-list {
     display: block;
 }
 
@@ -217,23 +217,23 @@ custom-list li {
     gap: 1rem;
 }
 
-custom-list li+li {
+custom-list li + li {
     margin-block-start: var(--step-2);
 }
 
-custom-list li> :first-child {
+custom-list li > :first-child {
     flex-grow: 1;
     inline-size: 60px;
 }
 
-custom-list li> :last-child {
+custom-list li > :last-child {
     flex-basis: 0;
     flex-grow: 999;
     margin-block-start: 0;
     min-inline-size: 50%;
 }
 
-custom-list li>div>*+* {
+custom-list li > div > * + * {
     margin-block-start: 1em;
 }
 
@@ -241,11 +241,11 @@ custom-list li>div>*+* {
     display: flex;
 }
 
-.two-column>* {
+.two-column > * {
     inline-size: 50%;
 }
 
 .two-column svg {
     block-size: auto;
     inline-size: 100%;
-} */
+}
