@@ -17,8 +17,8 @@
   <title>{{ title | renderContent("md") | striptags | safe }}</title>
   {% include "partials/global/stylesheets.njk" %}
 {% include "partials/global/scripts.njk" %}
-  {% include "svg/filters.svg" %}
   {% getBundle "fontawesome" %}
+  {% include "svg/filters.svg" %}
 </head>
 <body class="page {{ bodyClass if bodyClass else '' }}">
   {% uioTemplate %}

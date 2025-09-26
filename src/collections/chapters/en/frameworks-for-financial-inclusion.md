@@ -12,7 +12,7 @@ People’s financial states are not only products of their individual action, bu
 
 <custom-list>
 
-- {% include "../../../_includes/svg/mini-pyramid.svg" %} <!--A pyramid with four tiers.-->
+- {% includeSvg "mini-pyramid.svg", "A pyramid with four tiers." %}
 
   <div>
 
@@ -22,7 +22,7 @@ People’s financial states are not only products of their individual action, bu
 
   </div>
 
-- {% include "../../../_includes/svg/mini-wheel.svg" %} <!--alt: A circle with three layers radiating out from the centre. The inner layer is lightest and the outer layer is darkest. The circle is divided into eight slices.-->
+- {% includeSvg "mini-wheel.svg", "A circle with three layers radiating out from the centre. The circle is divided into eight slices." %}
 
   <div>
 
@@ -38,38 +38,26 @@ People’s financial states are not only products of their individual action, bu
 
 Inspired by Maslow’s Hierarchy of Needs, this framework outlines different layers of financial services people need, starting with basic access and moving toward long-term financial planning. Like a foundation, the bottom layers need to be achieved before people can move upward.
 
-<div class="two-column">
-
-{% include "../../../_includes/svg/pyramid.svg" %} <!-- A pyramid with four numbered tiers. 1 at the bottom represents basic needs, 4 at the top represents higher level needs-->
-
-<reversed-list>
-
-1. **Financial advice and planning**<br />
-   Barriers to: Disability-specific financial advising, future planning</li>
-2. **Financial management**<br />
-   Barriers to: Money management, budgeting, using and managing credit
-3. **Financial transactions**<br />
-   Barriers to: Opening an account, depositing and withdrawing funds, making purchases, POS systems
-4. **Financial touchpoints**<br />
+1. **Financial touchpoints**<br />
    Barriers to: Bank branches, ATM’s, online banking, banking equipment and artifacts
+2. **Financial transactions**<br />
+   Barriers to: Opening an account, depositing and withdrawing funds, making purchases, POS systems
+3. **Financial management**<br />
+   Barriers to: Money management, budgeting, using and managing credit
+4. **Financial advice and planning**<br />
+   Barriers to: Disability-specific financial advising, future planning
 
-</reversed-list>
-
-</div>
+{% includeSvg "pyramid.svg", "A pyramid with four numbered tiers. 1 at the bottom represents basic needs, 4 at the top represents higher level needs." %}
 
 #### Why this matters
 
 This hierarchy highlights not only offers a framework to outline the barriers people face with financial services, it also helps financial institutions build stronger relationships with their clients. Before earning someone’s trust to plan their financial future, you must first ensure they can open an account or even enter a branch.
 
-<!-- Pyramid diagram goes here. Alt: A pyramid with four tiers. An arrow points from the bottom up, moving from building trust at the base of the pyramid, to deepening relationship in the middle, to establishing loyalty at the top of the pyramid.-->
+{% includeSvg "directional-pyramid.svg", "A pyramid with four tiers. An arrow points from the bottom up, moving from building trust at the base of the pyramid, to deepening relationship in the middle, to establishing loyalty at the top of the pyramid." %}
 
-<reversed-list>
-
-1. **Establishing loyalty**
+1. **Building trust**
 2. **Deepening relationship**
-3. **Building trust**
-
-</reversed-list>
+3. **Establishing loyalty**
 
 #### How to use this framework
 
@@ -98,7 +86,7 @@ Each factor makes up a “slice” of the wheel. Together, all the slices form t
 - Language
 - Immigration status
 
-<!-- Wheel diagram goes here. alt: alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. -->
+{% includeSvg "wheel.svg", "A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the centre to the edge of the circle. The inner layer is labelled least impacted. The outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability." %}
 
 #### Level of Impact
 
@@ -110,9 +98,7 @@ Each person can be more or less impacted by each factor. The more impacted one i
 
 Where one lives affects their access to essential services, like healthcare and financial services. This also affects their access to affordable essentials, like groceries or household items.
 
-<!-- Slice image with arrow goes here. Alt: A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact.
-
-alt is the same for slice images that follow-->
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Urban, suburban
 
@@ -124,6 +110,8 @@ alt is the same for slice images that follow-->
 
 One’s appearance can affect the stigma and judgment others have about them, and can result in being more vulnerable to scammed or refused services.
 
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+
 **Least impact:** Appearing like the majority
 
 **Some impact:** Appearing visibly different than the majority
@@ -133,6 +121,8 @@ One’s appearance can affect the stigma and judgment others have about them, an
 ##### Social aid policies
 
 Social aid can have policies that are exclusionary. For example, disability programs limit how much money one can make before they are disqualified. However, this amount often not enough to meet the cost of living.
+
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Don’t need social aid
 
@@ -144,6 +134,8 @@ Social aid can have policies that are exclusionary. For example, disability prog
 
 Wages are not keeping up with the cost of living. Depending on how much income one makes, they may be more impacted.
 
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+
 **Least impact:** Enough income, plus extra
 
 **Some impact:** Living paycheque to paycheque, no extra savings
@@ -153,6 +145,8 @@ Wages are not keeping up with the cost of living. Depending on how much income o
 ##### Employment accommodations
 
 One’s ability to gain and retain employment is subject to whether their employer accommodates their needs.
+
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Fully accommodated
 
@@ -164,6 +158,8 @@ One’s ability to gain and retain employment is subject to whether their employ
 
 Collective events like the pandemic or a natural disaster, or personal events like a medical emergency can easily throw one off financial stability.
 
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+
 **Least impact:** Have support, funds or income
 
 **Some impact:** Some community and family support, emergency fund or income
@@ -174,6 +170,8 @@ Collective events like the pandemic or a natural disaster, or personal events li
 
 One’s ability to read and understand the dominant language fluently can affect whether they’re able to understand financial information and navigate the financial system.
 
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+
 **Least impact:** Uses English or French fluently
 
 **Some impact:** Uses English or French partially
@@ -183,6 +181,8 @@ One’s ability to read and understand the dominant language fluently can affect
 ##### Immigration status
 
 One’s immigration status can deeply impact their ability to earn money, gain employment, and access capital.
+
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Citizen, PR
 
