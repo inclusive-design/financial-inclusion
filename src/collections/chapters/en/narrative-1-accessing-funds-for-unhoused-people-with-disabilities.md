@@ -118,7 +118,7 @@ After learning about James, consider his life experiences and answer the followi
 
 Can James…
 
-<!-- Inverted pyramid diagram goes here. -->
+{% includeSvg "inverted-pyramid.svg", "" %}
 
 1. **Access your financial touchpoints?**<br />
    How might James feel safe and welcome at your branch?

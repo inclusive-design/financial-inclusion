@@ -22,7 +22,7 @@ People’s financial states are not only products of their individual action, bu
 
   </div>
 
-- {% includeSvg "mini-wheel.svg", "A circle with three layers radiating out from the centre. The inner layer is lightest and the outer layer is darkest. The circle is divided into eight slices." %}
+- {% includeSvg "mini-wheel.svg", "A circle with three layers radiating out from the centre. The circle is divided into eight slices." %}
 
   <div>
 
@@ -86,7 +86,7 @@ Each factor makes up a “slice” of the wheel. Together, all the slices form t
 - Language
 - Immigration status
 
-{% includeSvg "wheel.svg", "A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability." %}
+{% includeSvg "wheel.svg", "A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the centre to the edge of the circle. The inner layer is labelled least impacted. The outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability." %}
 
 #### Level of Impact
 
@@ -98,7 +98,7 @@ Each person can be more or less impacted by each factor. The more impacted one i
 
 Where one lives affects their access to essential services, like healthcare and financial services. This also affects their access to affordable essentials, like groceries or household items.
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact." %}
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Urban, suburban
 
@@ -110,7 +110,7 @@ Where one lives affects their access to essential services, like healthcare and 
 
 One’s appearance can affect the stigma and judgment others have about them, and can result in being more vulnerable to scammed or refused services.
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact." %}
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Appearing like the majority
 
@@ -122,7 +122,7 @@ One’s appearance can affect the stigma and judgment others have about them, an
 
 Social aid can have policies that are exclusionary. For example, disability programs limit how much money one can make before they are disqualified. However, this amount often not enough to meet the cost of living.
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact." %}
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Don’t need social aid
 
@@ -134,7 +134,7 @@ Social aid can have policies that are exclusionary. For example, disability prog
 
 Wages are not keeping up with the cost of living. Depending on how much income one makes, they may be more impacted.
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact." %}
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Enough income, plus extra
 
@@ -146,7 +146,7 @@ Wages are not keeping up with the cost of living. Depending on how much income o
 
 One’s ability to gain and retain employment is subject to whether their employer accommodates their needs.
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact." %}
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Fully accommodated
 
@@ -158,7 +158,7 @@ One’s ability to gain and retain employment is subject to whether their employ
 
 Collective events like the pandemic or a natural disaster, or personal events like a medical emergency can easily throw one off financial stability.
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact." %}
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Have support, funds or income
 
@@ -170,7 +170,7 @@ Collective events like the pandemic or a natural disaster, or personal events li
 
 One’s ability to read and understand the dominant language fluently can affect whether they’re able to understand financial information and navigate the financial system.
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact." %}
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Uses English or French fluently
 
@@ -182,7 +182,7 @@ One’s ability to read and understand the dominant language fluently can affect
 
 One’s immigration status can deeply impact their ability to earn money, gain employment, and access capital.
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: lightest inner layer representing least impact, middle layer representing some impact, and dark outer layer representing most impact." %}
+{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
 
 **Least impact:** Citizen, PR
 

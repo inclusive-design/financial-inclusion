@@ -815,3 +815,98 @@ h5,
         inline-size: 50%;
     }
 }
+
+.w1,
+.w2,
+.w3,
+.w4 {
+    stroke: var(--fl-fgColor, transparent);
+    stroke-width: 1px;
+}
+
+.w1,
+.w2,
+.w3,
+.w4,
+.w7 {
+    fill: var(--fl-bgColor, var(--fill));
+}
+
+.w1 {
+    --fill: #e8b91c;
+}
+
+.w2 {
+    --fill: #f6d872;
+}
+
+.w3 {
+    --fill: #f9eec6;
+}
+
+.w4 {
+    --fill: #fff;
+}
+
+.w5 {
+    stroke: var(--fl-fgColor, #ad8911);
+}
+
+.w6 {
+    fill: var(--fl-fgColor, #e8451c);
+}
+
+.w7 {
+    fill: var(--fl-fgColor, var(--color-black));
+}
+
+.w8 {
+    fill: var(--fl-fgColor, #cb3335);
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p6 {
+    fill: var(--fl-bgColor, var(--fill));
+    stroke: var(--fl-fgColor, transparent);
+    stroke-width: 1px;
+}
+
+.p7 {
+    stroke: var(--fl-fgColor, var(--color-black));
+}
+
+.p5,
+.p8 {
+    fill: var(--fl-fgColor, var(--fill));
+}
+
+.p1 {
+    --fill: #7bd383;
+}
+
+.p2 {
+    --fill: #d6e9cc;
+}
+
+.p3 {
+    --fill: #b7e1b4;
+}
+
+.p4 {
+    --fill: #99da9b;
+}
+
+.p5 {
+    --fill: #2a842d;
+}
+
+.p6 {
+    --fill: #e8a41c;
+}
+
+.p8 {
+    --fill: var(--color-black);
+}
