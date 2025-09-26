@@ -1,5 +1,45 @@
 # Changelog
 
+## 2025.09.26.1212.2180347
+
+* Update frameworks-for-financial-inclusion.md (#40) [@lliskovoi](https://github.com/lliskovoi)
+
+### Features
+
+* feat: add images to Frameworks (#54) [@greatislander](https://github.com/greatislander)
+* feat: add icons (resolves #24) (#52) [@greatislander](https://github.com/greatislander)
+* fix: adjust export configuration (#50) [@greatislander](https://github.com/greatislander)
+* feat: unified pagination (start to finish) (#49) [@greatislander](https://github.com/greatislander)
+* feat: configure sources and credits (#45) [@greatislander](https://github.com/greatislander)
+* feat: link and button states (resolves #39)  (#41) [@greatislander](https://github.com/greatislander)
+* feat: add wrangler.jsonc (#38) [@greatislander](https://github.com/greatislander)
+* feat: add pagination between chapters (resolves #31) (#37) [@greatislander](https://github.com/greatislander)
+* feat: implement nav dropdowns (resolves #30)  (#35) [@greatislander](https://github.com/greatislander)
+* feat: add footer (#32) [@greatislander](https://github.com/greatislander)
+* feat: initial header and nav implementation (#29) [@greatislander](https://github.com/greatislander)
+* feat: render PDF (initial implementation) (#15) [@greatislander](https://github.com/greatislander)
+
+### Bug Fixes
+
+* fix: adjust export configuration (#50) [@greatislander](https://github.com/greatislander)
+* fix: chapter templates (#48) [@greatislander](https://github.com/greatislander)
+* fix: adjust some link styles (#47) [@greatislander](https://github.com/greatislander)
+* fix: show all mobile nav submenu items (#46) [@greatislander](https://github.com/greatislander)
+* fix: issue with menu height (#42) [@greatislander](https://github.com/greatislander)
+* fix: remove find filter (#36) [@greatislander](https://github.com/greatislander)
+
+### Dependencies
+
+* chore(deps): update dependency lint-staged to v16.2.0 (#51) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#44) @[renovate[bot]](https://github.com/apps/renovate)
+* fix(deps): update dependency [@11ty](https://github.com/11ty)/font-awesome to v1.0.0 (#43) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#33) @[renovate[bot]](https://github.com/apps/renovate)
+* fix(deps): update dependency eleventy-plugin-fluid to v3.1.3 (#34) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2.2.4 (#18) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#23) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update actions/checkout action to v5 (#20) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#17) @[renovate[bot]](https://github.com/apps/renovate)
+
 ## 2025.08.01.1639.5c62bcc
 
 ### Chores
