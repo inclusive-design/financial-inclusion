@@ -223,15 +223,16 @@ footer {
 
 .skip:focus {
     align-items: center;
-    background: var(--color-lime);
+    background: var(--fl-linkFgColor, var(--color-lime));
     block-size: var(--space-fluid-s);
     block-size: var(--space-fluid-4xl-l);
     clip: auto;
     clip-path: none;
-    color: var(--color-black);
+    color: var(--fl-linkBgColor, var(--color-black));
     display: flex;
     inline-size: 100%;
     justify-content: center;
+    outline: 1px solid transparent;
     overflow: auto;
     z-index: 1;
 }
@@ -254,6 +255,7 @@ footer {
 
 a:not([class]) {
     background-color: var(--fl-linkBgColor, var(--color-lime));
+    color: var(--fl-linkFgColor, currentColor);
 
     &:visited {
         color: currentcolor;
@@ -339,8 +341,8 @@ a.standalone {
 /* Header */
 
 .header {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fl-bgColor, var(--color-black));
+    color: var(--fl-fgColor, var(--color-white));
 
     .wrapper {
         align-items: flex-start;
@@ -459,17 +461,18 @@ h1 em::after {
     appearance: none;
     background-color: transparent;
     border: 0;
+    color: var(--fl-linkFgColor);
     display: flex;
     justify-content: center;
     margin-block-start: 0;
 
     &:hover {
-        box-shadow: 0 0 0 1.5px var(--color-black) inset;
+        box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-black)) inset;
     }
 
     &:focus {
-        background-color: var(--color-black);
-        color: var(--color-lime);
+        background-color: var(--fl-linkFgColor, var(--color-black));
+        color: var(--fl-linkBgColor, var(--color-lime));
         outline: solid 1px transparent;
     }
 }
@@ -518,9 +521,9 @@ h1 em::after {
 
 .navigation li a {
     align-items: center;
-    background-color: var(--fl-bgColor, var(--color-lime));
+    background-color: var(--fl-linkBgColor, var(--color-lime));
     block-size: var(--space-2xl);
-    color: var(--color-black);
+    color: var(--fl-linkFgColor, var(--color-black));
     display: flex;
     inline-size: 100%;
     justify-content: flex-start;
@@ -538,22 +541,22 @@ h1 em::after {
 }
 
 .navigation li a:visited {
-    color: var(--color-black);
+    color: var(--fl-linkFgColor, var(--color-black));
 }
 
 .navigation li a:hover {
-    box-shadow: 0 0 0 1.5px var(--color-black) inset;
+    box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-black)) inset;
 }
 
 .navigation li a:focus {
-    background: var(--color-black);
-    box-shadow: 0 0 0 1.5px var(--color-lime) inset;
-    color: var(--color-lime);
+    background: var(--fl-linkFgColor, var(--color-black));
+    box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--color-lime)) inset;
+    color: var(--fl-linkBgColor, var(--color-lime));
     outline: 1px solid transparent;
 }
 
 .navigation li li a {
-    background: var(--color-dark-lime);
+    background: var(--fl-linkBgColor, var(--color-dark-lime));
     block-size: auto;
     inline-size: 100vw;
     min-block-size: var(--space-2xl);
@@ -568,12 +571,12 @@ h1 em::after {
 }
 
 .navigation li [aria-expanded="true"] {
-    background-color: var(--color-black);
-    color: var(--color-lime);
+    background-color: var(--fl-linkBgColor, var(--color-black));
+    color: var(--fl-linkFgColor, var(--color-lime));
 }
 
 .navigation li:has([aria-expanded="true"]) > a {
-    box-shadow: 0 0 0 3px var(--color-black) inset;
+    box-shadow: 0 0 0 3px var(--fl-linkFgColor, var(--color-black)) inset;
 }
 
 .navigation li [aria-expanded] + ul {
@@ -677,20 +680,20 @@ h1 em::after {
 /* Title */
 
 .title {
-    background-color: var(--color-black);
-    color: var(--color-lime);
+    background-color: var(--fl-bgColor, var(--color-black));
+    color: var(--fl-fgColor, var(--color-lime));
 
     em {
-        color: var(--color-white);
+        color: var(--fl-fgColor, var(--color-white));
     }
 }
 
 .home .title {
-    background-color: var(--color-lime);
-    color: var(--color-black);
+    background-color: var(--fl-bgColor, var(--color-lime));
+    color: var(--fl-fgColor, var(--color-black));
 
     em {
-        color: var(--color-black);
+        color: var(--fl-fgColor, var(--color-black));
     }
 }
 
