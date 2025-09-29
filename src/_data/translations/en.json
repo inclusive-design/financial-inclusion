@@ -17,5 +17,6 @@
     "cc-by": "Creative Commons Attribution",
     "previous": "Previous",
     "next": "Next",
-    "chapter": "chapter"
+    "chapter": "chapter",
+    "version": "Version"
 }

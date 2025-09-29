@@ -1,4 +1,4 @@
-/* stylelint-disable function-no-unknown */
+/* stylelint-disable function-no-unknown, liberty/use-logical-spec, property-no-unknown */
 
 @charset "UTF-8";
 
@@ -29,23 +29,23 @@ body {
 }
 
 hr {
-    border-block-end: none;
-    border-block-start: 1px solid var(--color-green);
-    border-inline-end: none;
-    border-inline-start: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid var(--color-green);
 }
 
 .flow > * + hr {
-    margin-block-start: 2rem;
+    margin-top: 2rem;
 }
 
 .flow > hr + * {
-    margin-block-start: 2rem;
+    margin-top: 2rem;
 }
 
 ol ul,
 ul ul {
-    margin-inline-start: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 /* Typography */
@@ -55,7 +55,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin-block: 0;
+    margin-bottom: 0;
+    margin-top: 0;
     page-break-after: avoid;
 }
 
@@ -115,8 +116,7 @@ h6 {
 
 @page {
     background-color: var(--color-white);
-    margin-block: 1.125in;
-    margin-inline: 1.125in;
+    margin: 1.125in;
     size: letter;
 }
 
@@ -177,9 +177,9 @@ h6 {
 
 .front-matter .container {
     align-items: flex-start;
-    block-size: 8.75in;
     display: flex;
     flex-direction: column;
+    height: 8.75in;
     margin: 0;
     padding: 0;
 }
@@ -191,7 +191,7 @@ h6 {
 
 .title h1 {
     line-height: 1.26;
-    margin-block-start: 32pt;
+    margin-top: 32pt;
 }
 
 .title h1 em {
@@ -202,17 +202,25 @@ h6 {
 
 .title .byline {
     font-size: var(--step-1);
-    margin-block-start: 20pt;
+    margin-top: 20pt;
 }
 
-.title .logos {
+.title .logos-and-version {
     align-items: center;
     display: flex;
-    margin-block-start: 210pt;
+    justify-content: space-between;
+    margin-top: 210pt;
+    width: 100%;
 }
 
-.title .logos svg + svg {
-    margin-inline-start: 20pt;
+.title .logos-and-version svg + svg {
+    margin-left: 20pt;
+}
+
+.title .logos-and-version .version {
+    font-family: var(--family-display);
+    font-size: var(--step--1);
+    margin-left: auto;
 }
 
 .toc .container {
@@ -222,19 +230,24 @@ h6 {
 }
 
 .toc nav {
-    inline-size: 100%;
-    margin-block-start: 24pt;
+    margin-top: 24pt;
+    width: 100%;
+}
+
+.toc ol {
+    padding-left: 0;
 }
 
 .toc li {
-    border-block-start: solid 1pt currentcolor;
+    border-top: solid 1pt currentcolor;
     font-size: var(--step-1);
     list-style: none;
 }
 
 .toc li a {
     display: block;
-    padding-block: 10pt;
+    padding-bottom: 10pt;
+    padding-top: 10pt;
     text-decoration: none;
 }
 
@@ -246,7 +259,7 @@ h6 {
 .chapter h2 {
     color: var(--color-lime);
     line-height: 1.26;
-    margin-block-start: 4.5in;
+    margin-top: 4.5in;
     string-set: chapter-title content();
 }
 
@@ -273,7 +286,7 @@ h6 {
 .back-matter h2 {
     font-size: var(--step-4);
     line-height: 1.26;
-    margin-block-start: 32pt;
+    margin-top: 32pt;
     string-set: back-matter-title content();
 }
 
@@ -299,7 +312,102 @@ reversed-list ol li::marker {
 }
 
 .two-column {
-    inline-size: 8.5in;
-    margin-inline-start: -1.125in;
-    padding-inline-end: 1.125rem;
+    margin-left: -1.125in;
+    padding-right: 1.125rem;
+    width: 8.5in;
+}
+
+.w1,
+.w2,
+.w3,
+.w4 {
+    stroke: var(--fl-fgColor, transparent);
+    stroke-width: 1px;
+}
+
+.w1,
+.w2,
+.w3,
+.w4,
+.w7 {
+    fill: var(--fl-bgColor, var(--fill));
+}
+
+.w1 {
+    --fill: #e8b91c;
+}
+
+.w2 {
+    --fill: #f6d872;
+}
+
+.w3 {
+    --fill: #f9eec6;
+}
+
+.w4 {
+    --fill: #fff;
+}
+
+.w5 {
+    stroke: var(--fl-fgColor, #ad8911);
+}
+
+.w6 {
+    fill: var(--fl-fgColor, #e8451c);
+}
+
+.w7 {
+    fill: var(--fl-fgColor, var(--color-black));
+}
+
+.w8 {
+    fill: var(--fl-fgColor, #cb3335);
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p6 {
+    fill: var(--fl-bgColor, var(--fill));
+    stroke: var(--fl-fgColor, transparent);
+    stroke-width: 1px;
+}
+
+.p7 {
+    stroke: var(--fl-fgColor, var(--color-black));
+}
+
+.p5,
+.p8 {
+    fill: var(--fl-fgColor, var(--fill));
+}
+
+.p1 {
+    --fill: #7bd383;
+}
+
+.p2 {
+    --fill: #d6e9cc;
+}
+
+.p3 {
+    --fill: #b7e1b4;
+}
+
+.p4 {
+    --fill: #99da9b;
+}
+
+.p5 {
+    --fill: #2a842d;
+}
+
+.p6 {
+    --fill: #e8a41c;
+}
+
+.p8 {
+    --fill: var(--color-black);
 }

@@ -32,9 +32,10 @@
             {% include "svg/shapes.svg" %}
             <h1>{% __ "site-title" %}</h1>
             <p class="byline">{% __ "byline" %}</p>
-            <div class="logos">
+            <div class="logos-and-version">
                 {% include "svg/idrc.svg.njk" %}
                 {% include "svg/ocadu.svg.njk" %}
+                <span class="version">{% __ 'version' %} {{ pkg.version }}</span>
             </div>
         </div>
     </div>
