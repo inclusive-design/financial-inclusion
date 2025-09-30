@@ -270,8 +270,9 @@ h6 {
     font-weight: var(--font-weight-normal);
 }
 
-.chapter h3:first-of-type {
+.chapter h2 + * {
     break-before: page;
+    margin-top: 180pt;
 }
 
 .chapter hr + h3,
