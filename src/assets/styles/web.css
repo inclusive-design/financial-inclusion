@@ -278,6 +278,16 @@ a:not([class]) {
     }
 }
 
+a {
+    block-size: auto;
+    font-size: calc(var(--fl-enhance-font-size-factor, 1) * 100%);
+    inline-size: max-content;
+
+    svg {
+        display: block;
+    }
+}
+
 .back-matter main a:not([class]) {
     background-color: transparent;
 
@@ -296,6 +306,11 @@ header a:not([class]),
 footer a:not([class]) {
     background-color: transparent;
 
+    &:has(svg) {
+        display: inline-block;
+        inline-size: max-content;
+    }
+
     &:visited {
         color: var(--fl-linkFgColor, var(--color-white));
     }
@@ -305,7 +320,9 @@ footer a:not([class]) {
     }
 
     &:focus,
-    &:active {
+    &:active,
+    &:visited:focus,
+    &:visited:active {
         background-color: var(--fl-linkFgColor, var(--color-lime));
         box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-lime)) inset;
         color: var(--fl-linkBgColor, var(--color-soft-black));
