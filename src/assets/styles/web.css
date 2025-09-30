@@ -646,7 +646,7 @@ h1 em::after {
 
     .navigation .menu > ul {
         inline-size: auto;
-        margin-inline-end: calc(-1 * var(--space-fluid-s));
+        margin-inline-end: calc(-1 * var(--space-m));
         margin-inline-start: auto;
     }
 
