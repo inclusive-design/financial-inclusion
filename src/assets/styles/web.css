@@ -31,8 +31,8 @@
     /* Space xs: 12px */
     --space-xs: 0.75rem;
 
-    /* Space s: 16px */
-    --space-s: 1rem;
+    /* Space s: 18px */
+    --space-s: 1.125rem;
 
     /* Space m: 24px */
     --space-m: 1.5rem;
@@ -143,7 +143,18 @@ body {
     background-color: var(--fl-bgColor, var(--color-white));
     color: var(--fl-fgColor, var(--color-soft-black));
     font-size: var(--step-0);
-    line-height: 1.6;
+    line-height: var(--fl-lineSpace-factor, 1.6);
+}
+
+[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
+    background-color: var(--fl-bgColor);
+    color: var(--fl-fgColor);
+}
+
+[class*="fl-font"] {
+    --family-display: var(--fl-font-family);
+    --family-serif: var(--fl-font-family);
+    --family-serif-alt: var(--fl-font-family);
 }
 
 .wrapper {
@@ -154,8 +165,8 @@ body {
 }
 
 footer {
-    background-color: var(--color-soft-black);
-    color: var(--color-white);
+    background-color: var(--fl-bgColor, var(--color-soft-black));
+    color: var(--fl-fgColor, var(--color-white));
     padding-block-end: var(--space-fluid-xl-2xl);
     padding-block-start: var(--space-l);
 }
@@ -212,15 +223,16 @@ footer {
 
 .skip:focus {
     align-items: center;
-    background: var(--color-lime);
+    background: var(--fl-linkFgColor, var(--color-lime));
     block-size: var(--space-fluid-s);
     block-size: var(--space-fluid-4xl-l);
     clip: auto;
     clip-path: none;
-    color: var(--color-black);
+    color: var(--fl-linkBgColor, var(--color-black));
     display: flex;
     inline-size: 100%;
     justify-content: center;
+    outline: 1px solid transparent;
     overflow: auto;
     z-index: 1;
 }
@@ -242,26 +254,37 @@ footer {
 /* Links */
 
 a:not([class]) {
-    background-color: var(--color-lime);
+    background-color: var(--fl-linkBgColor, var(--color-lime));
+    color: var(--fl-linkFgColor, currentColor);
 
     &:visited {
         color: currentcolor;
     }
 
     &:hover {
-        box-shadow: 0 0 0 1px var(--color-black) inset;
+        box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--color-black)) inset;
     }
 
     &:focus,
     &:active {
-        background-color: var(--color-soft-black);
-        box-shadow: 0 0 0 1.5px var(--color-lime) inset;
-        color: var(--color-lime);
+        background-color: var(--fl-linkFgColor, var(--color-soft-black));
+        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--color-lime)) inset;
+        color: var(--fl-linkBgColor, var(--color-lime));
         outline: solid 1px transparent;
 
         &:visited {
-            color: var(--color-lime);
+            color: var(--fl-linkBgColor, var(--color-lime));
         }
+    }
+}
+
+a {
+    block-size: auto;
+    font-size: calc(var(--fl-enhance-font-size-factor, 1) * 100%);
+    inline-size: max-content;
+
+    svg {
+        display: block;
     }
 }
 
@@ -269,12 +292,13 @@ a:not([class]) {
     background-color: transparent;
 
     &:hover {
-        background-color: var(--color-lime);
+        background-color: var(--fl-linkBgColor, var(--color-lime));
     }
 
     &:focus,
     &:active {
-        background-color: var(--color-soft-black);
+        background-color: var(--fl-linkFgColor, var(--color-soft-black));
+        color: var(--fl-linkBgColor, var(--color-lime));
     }
 }
 
@@ -282,28 +306,36 @@ header a:not([class]),
 footer a:not([class]) {
     background-color: transparent;
 
+    &:has(svg) {
+        display: inline-block;
+        inline-size: max-content;
+    }
+
     &:visited {
-        color: var(--color-white);
+        color: var(--fl-linkFgColor, var(--color-white));
     }
 
     &:hover {
-        box-shadow: 0 0 0 1px var(--color-white) inset;
+        box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--color-white)) inset;
     }
 
     &:focus,
-    &:active {
-        background-color: var(--color-lime);
-        box-shadow: 0 0 0 1.5px var(--color-lime) inset;
-        color: var(--color-soft-black);
+    &:active,
+    &:visited:focus,
+    &:visited:active {
+        background-color: var(--fl-linkFgColor, var(--color-lime));
+        box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-lime)) inset;
+        color: var(--fl-linkBgColor, var(--color-soft-black));
         outline: solid 1px transparent;
     }
 }
 
 a.standalone {
     align-items: center;
-    background-color: var(--color-lime);
+    background-color: var(--fl-linkBgColor, var(--color-lime));
     border-radius: 2px;
-    color: var(--color-soft-black);
+    box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--color-black)) inset;
+    color: var(--fl-linkFgColor, var(--color-soft-black));
     display: inline-flex;
     gap: var(--space-xs);
     padding-block-start: 2px;
@@ -311,14 +343,14 @@ a.standalone {
     text-decoration: none;
 
     &:hover {
-        box-shadow: 0 0 0 1.5px var(--color-black) inset;
+        box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-black)) inset;
     }
 
     &:focus,
     &:active {
-        background-color: var(--color-soft-black);
-        box-shadow: 0 0 0 1.5px var(--color-lime) inset;
-        color: var(--color-lime);
+        background-color: var(--fl-linkFgColor, var(--color-soft-black));
+        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--color-lime)) inset;
+        color: var(--fl-linkBgColor, var(--color-lime));
         outline: solid 1px transparent;
     }
 }
@@ -326,8 +358,8 @@ a.standalone {
 /* Header */
 
 .header {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fl-bgColor, var(--color-black));
+    color: var(--fl-fgColor, var(--color-white));
 
     .wrapper {
         align-items: flex-start;
@@ -375,10 +407,12 @@ h1 em::after {
 
     a {
         block-size: auto;
+        box-shadow: none;
         font-family: var(--family-display);
         font-size: var(--step-1);
         font-weight: var(--font-weight-extrabold);
         margin-inline-start: calc(-1 * var(--space-xs));
+        min-inline-size: 15rem;
         padding-block: var(--space-xs);
         text-decoration: none;
 
@@ -399,6 +433,8 @@ h1 em::after {
 }
 
 .home .brand-and-toggle a {
+    min-inline-size: max-content;
+
     svg {
         display: block;
         fill: currentcolor;
@@ -416,6 +452,10 @@ h1 em::after {
 }
 
 @media (width >= 90rem) {
+    .brand-and-toggle a {
+        inline-size: 17.5rem;
+    }
+
     .brand-and-toggle a em::after,
     h1 em::after {
         display: none;
@@ -425,7 +465,7 @@ h1 em::after {
 /* Navigation */
 
 .navigation {
-    background-color: var(--color-lime);
+    background-color: var(--fl-bgColor, var(--color-lime));
 
     .wrapper {
         min-block-size: var(--space-fluid-5xl-3xl);
@@ -438,17 +478,18 @@ h1 em::after {
     appearance: none;
     background-color: transparent;
     border: 0;
+    color: var(--fl-linkFgColor);
     display: flex;
     justify-content: center;
     margin-block-start: 0;
 
     &:hover {
-        box-shadow: 0 0 0 1.5px var(--color-black) inset;
+        box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-black)) inset;
     }
 
     &:focus {
-        background-color: var(--color-black);
-        color: var(--color-lime);
+        background-color: var(--fl-linkFgColor, var(--color-black));
+        color: var(--fl-linkBgColor, var(--color-lime));
         outline: solid 1px transparent;
     }
 }
@@ -497,9 +538,9 @@ h1 em::after {
 
 .navigation li a {
     align-items: center;
-    background-color: var(--color-lime);
+    background-color: var(--fl-linkBgColor, var(--color-lime));
     block-size: var(--space-2xl);
-    color: var(--color-black);
+    color: var(--fl-linkFgColor, var(--color-black));
     display: flex;
     inline-size: 100%;
     justify-content: flex-start;
@@ -517,22 +558,22 @@ h1 em::after {
 }
 
 .navigation li a:visited {
-    color: var(--color-black);
+    color: var(--fl-linkFgColor, var(--color-black));
 }
 
 .navigation li a:hover {
-    box-shadow: 0 0 0 1.5px var(--color-black) inset;
+    box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--color-black)) inset;
 }
 
 .navigation li a:focus {
-    background: var(--color-black);
-    box-shadow: 0 0 0 1.5px var(--color-lime) inset;
-    color: var(--color-lime);
+    background: var(--fl-linkFgColor, var(--color-black));
+    box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--color-lime)) inset;
+    color: var(--fl-linkBgColor, var(--color-lime));
     outline: 1px solid transparent;
 }
 
 .navigation li li a {
-    background: var(--color-dark-lime);
+    background: var(--fl-linkBgColor, var(--color-dark-lime));
     block-size: auto;
     inline-size: 100vw;
     min-block-size: var(--space-2xl);
@@ -547,12 +588,12 @@ h1 em::after {
 }
 
 .navigation li [aria-expanded="true"] {
-    background-color: var(--color-black);
-    color: var(--color-lime);
+    background-color: var(--fl-linkBgColor, var(--color-black));
+    color: var(--fl-linkFgColor, var(--color-lime));
 }
 
 .navigation li:has([aria-expanded="true"]) > a {
-    box-shadow: 0 0 0 3px var(--color-black) inset;
+    box-shadow: 0 0 0 3px var(--fl-linkFgColor, var(--color-black)) inset;
 }
 
 .navigation li [aria-expanded] + ul {
@@ -605,7 +646,7 @@ h1 em::after {
 
     .navigation .menu > ul {
         inline-size: auto;
-        margin-inline-end: calc(-1 * var(--space-fluid-s));
+        margin-inline-end: calc(-1 * var(--space-m));
         margin-inline-start: auto;
     }
 
@@ -621,16 +662,12 @@ h1 em::after {
     .navigation li [aria-expanded] {
         block-size: var(--space-fluid-3xl);
         justify-content: center;
+        padding-inline: var(--space-s);
     }
 
     .navigation li a {
         inline-size: auto;
-        padding-inline: var(--space-fluid-s);
         text-align: center;
-    }
-
-    .navigation li [aria-expanded] {
-        padding-inline: var(--space-m);
     }
 
     .navigation li li {
@@ -660,20 +697,20 @@ h1 em::after {
 /* Title */
 
 .title {
-    background-color: var(--color-black);
-    color: var(--color-lime);
+    background-color: var(--fl-bgColor, var(--color-black));
+    color: var(--fl-fgColor, var(--color-lime));
 
     em {
-        color: var(--color-white);
+        color: var(--fl-fgColor, var(--color-white));
     }
 }
 
 .home .title {
-    background-color: var(--color-lime);
-    color: var(--color-black);
+    background-color: var(--fl-bgColor, var(--color-lime));
+    color: var(--fl-fgColor, var(--color-black));
 
     em {
-        color: var(--color-black);
+        color: var(--fl-fgColor, var(--color-black));
     }
 }
 
