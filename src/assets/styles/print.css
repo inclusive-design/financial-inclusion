@@ -270,9 +270,10 @@ h6 {
     font-weight: var(--font-weight-normal);
 }
 
-.chapter h2 + * {
+.chapter h2 + *,
+.chapter:has([id="about-this-guidebook"]) h3 {
     break-before: page;
-    margin-top: 180pt;
+    margin-top: 2.325in;
 }
 
 .chapter hr + h3,
@@ -280,7 +281,12 @@ h6 {
     break-before: auto;
 }
 
-.chapter.narrative h3:nth-of-type(2) {
+.flow > h3 + * {
+    --flow-space: 24pt;
+}
+
+.chapter.narrative h3:nth-of-type(2),
+.chapter:has([id="about-this-guidebook"]) h3 {
     break-before: page;
 }
 

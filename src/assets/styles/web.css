@@ -725,7 +725,9 @@ article .wrapper {
     padding-block-start: var(--space-fluid-xl);
 }
 
-.flow > h2 + * {
+.flow > h2 + *,
+.flow > h2[id="about-this-guidebook"] + h3 + *,
+.flow > h2[id="a-propos-de-ce-guide"] + h3 + * {
     --flow-space: var(--space-fluid-m);
 }
 
@@ -753,6 +755,11 @@ h1 {
 
 h2 {
     font-size: var(--step-4);
+}
+
+h2[id="about-this-guidebook"] + h3,
+h2[id="a-propos-de-ce-guide"] + h3 {
+    display: none;
 }
 
 h3 {
