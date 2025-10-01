@@ -222,49 +222,72 @@ li > * + * {
     white-space: nowrap;
 }
 
-custom-list {
-    display: block;
-}
-
-custom-list ul {
+ul:has(svg) {
     list-style: none;
 }
 
-custom-list li {
+ul:has(svg) li {
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-custom-list li + li {
-    margin-block-start: var(--step-2);
+ul:has(svg) h4 {
+    margin-top: 0;
 }
 
-custom-list li > :first-child {
+ul:has(svg) li + li {
+    margin-top: var(--step-2);
+}
+
+ul:has(svg) li > :first-child {
     flex-grow: 1;
     inline-size: 60px;
 }
 
-custom-list li > :last-child {
+ul:has(svg) li > :last-child {
     flex-basis: 0;
     flex-grow: 999;
-    margin-block-start: 0;
+    margin-top: 0;
     min-inline-size: 50%;
 }
 
-custom-list li > div > * + * {
-    margin-block-start: 1em;
+ul:has(svg) li > div > * + * {
+    margin-top: 1em;
+}
+
+svg.full {
+    width: 100%;
 }
 
 .two-column {
+    align-items: center;
+    break-inside: avoid;
     display: flex;
+    gap: 1.5rem;
+}
+
+.two-column ol {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .two-column > * {
-    inline-size: 50%;
+    width: 50%;
+}
+
+.w-80 {
+    width: 80;
 }
 
 .two-column svg {
-    block-size: auto;
-    inline-size: 100%;
+    height: auto;
+    width: auto;
+}
+
+.two-column.flexible > * {
+    width: auto;
 }

@@ -231,7 +231,8 @@ h6 {
     width: 100%;
 }
 
-.toc ol {
+.toc ol,
+ul:has(svg) {
     padding-left: 0;
 }
 
@@ -316,9 +317,9 @@ reversed-list ol li::marker {
 }
 
 .two-column {
-    margin-left: -1.125in;
+    margin-left: 0;
     padding-right: 1.125rem;
-    width: 8.5in;
+    width: 6.25in;
 }
 
 .w1,
