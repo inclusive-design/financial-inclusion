@@ -32,9 +32,9 @@ Althea
 
 #### Where she lives & cost of living
 
-Living in a remote town in the North means that everything costs more—groceries cost more, items ordered online has a higher shipping cost, and the cost of going to medical appointments (which are more frequent as she ages) is equivalent to the cost of a plane ticket down to a southern province. As she ages, she’s not sure how much she can keep up anymore—especially since disability benefit amounts don’t increase.
+Living in a remote town in the North means that everything costs more—groceries cost more, items ordered online have a higher shipping cost, and the cost of going to medical appointments (which are more frequent as she ages) is equivalent to the cost of a plane ticket down to a southern province. As she ages, she’s not sure how much she can keep up anymore—especially since disability benefit amounts don’t increase.
 
-<!-- Wheel diagram goes here. -->
+<!-- Wheel diagram goes here. Update alt text to: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  Althea's narrative is marked on each slice. Althea is highly impacted by where she lives, social aid policies, cost of living and language.  Slices are connected with a dashed line.-->
 
 ### Barriers to accessing financial institutions
 
@@ -78,12 +78,12 @@ Althea needs cash for her diabetes medication and groceries. It’s icy outside,
 ##### What could happen
 
 1. Althea goes to the ATM, which has recently been moved to a secure, heated booth with 24/7 access.
-2. Machine upgraded with large-print screen, tactile buttons, voice guided prompts in Inuktitut and English, and a screen reader mode.
+2. Machine upgraded with a large-print screen, tactile buttons, voice guided prompts in Inuktitut and English, and a screen reader mode.
 3. She takes out the amount she needs, confidently follows the voice instructions, and is done in minutes. Althea feels proud and independent.
 
 ### Exploring possibilities: Quick wins to big moves
 
-Here are examples to spark ideas for serving clients like Althea. We use a 2x2 grid to shows the scale of effort and impact.
+Here are examples to spark ideas for serving clients like Althea. We use a 2x2 grid to show the scale of effort and impact.
 
 <!-- Grid diagram goes here. -->
 
@@ -101,11 +101,11 @@ Design forms and documents with clear labels, organized information, and screen 
 
 #### Accessible signage
 
-Use large-print, highcontrast, and braille signages and wayfinding within branches.
+Use large-print, high-contrast, and braille signage and wayfinding within branches.
 
 #### Continuous testing and improvement
 
-Engage with a cross disability and intersectional community for research and continual testing to improve the accessibility digital touchpoints. Meet WCAG 2.1 AA at a minimum.
+Engage with a cross disability and intersectional community for research and continual testing to improve the accessibility digital touchpoints. Meet the latest version of WCAG AA at a minimum.
 
 ### Edge User Deep Dive: Althea
 
