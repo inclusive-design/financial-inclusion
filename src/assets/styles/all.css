@@ -288,6 +288,18 @@ svg.full {
     width: auto;
 }
 
+.two-column.flexible .flow {
+    --flow-space: 0.25rem;
+}
+
+.two-column + * {
+    margin-top: 2rem;
+}
+
 .two-column.flexible > * {
     width: auto;
+}
+
+.two-column.flexible strong {
+    color: var(--fl-fgColor, var(--color-red));
 }
