@@ -35,17 +35,17 @@ Life in shelters means inconsistent access to showers and laundry, and his belon
 
 #### Accommodations at work
 
-Due to his depression flare ups, James has been unable to hold down full time jobs. He’s tried taking on seasonal or short-term construction work, but they often have rigid schedules that he can’t follow. Flexible jobs are hard to find, especially ones that understand his mental health needs.
+Due to his depression flare ups, James has been unable to hold down full time jobs. He’s tried taking on seasonal or short-term construction work, but it often has rigid schedules that he can’t follow. Flexible jobs are hard to find, especially ones that understand his mental health needs.
 
 #### Social aid benefits
 
-Social services got James on disability benefits. However, when James is able to work, he has to carefully monitor his income to avoid surpassing the earnings threshold that would put his benefits at risk. This low limit discourages him from working more hours, even when he’s capable, and makes it nearly impossible to build up any meaningful savings.
+Social services got James on disability benefits. However, when James is able to work, he has to carefully monitor his income to avoid surpassing the earnings threshold that would put his benefits at risk. This low limit discourages him from working more hours, even when he’s able to, and makes it nearly impossible to build up any meaningful savings.
 
-<!-- Wheel diagram goes here. -->
+<!-- Wheel diagram goes here. Change alt text to: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  James's narrative is marked on each slice. James is highly impacted by stigma and judgement, social aid and policies, accommodations at work and unexpected events. Slices are connected with a dashed line.-->
 
 ### Barriers to accessing financial institutions
 
-While living in shelters, James had his belongings stolen, including his phone and his wallet, which contained all his ID, debit card, and credit cards. Without these, he’s unable to access the small amount of money he had saved in his bank account whether through an ATM, at a bank branch, or online.
+While living in shelters, James had his belongings stolen, including his phone and his wallet, which contained all of his ID, debit card, and credit cards. Without these, he’s unable to access the small amount of money he had saved in his bank account whether through an ATM, at a bank branch, or online.
 
 #### Access to financial touchpoints
 
@@ -86,7 +86,7 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 
 ### Exploring possibilities: Quick wins to big moves
 
-Here are examples to spark ideas for serving clients like James. We use a 2x2 grid to shows the scale of effort and impact.
+Here are examples to spark ideas for serving clients like James. We use a 2x2 grid to show the scale of effort and impact.
 
 <!-- Grid diagram goes here. -->
 
