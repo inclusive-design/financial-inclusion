@@ -55,7 +55,7 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
 
 #### Why this matters
 
-This hierarchy highlights not only offers a framework to outline the barriers people face with financial services, it also helps financial institutions build stronger relationships with their clients. Before earning someone’s trust to plan their financial future, you must first ensure they can open an account or even enter a branch.
+This hierarchy not only offers a framework to outline the barriers people face with financial services, it also helps financial institutions build stronger relationships with their clients. Before earning someone’s trust to plan their financial future, you must first ensure they can open an account or even enter a branch.
 
 <div class="two-column"
 
@@ -83,7 +83,7 @@ If you're targeting a specific group, use the framework to map their current rel
 
 ### Wheel of financial stability
 
-This wheel demonstrates the systemic and environmental factors that impacts your customers’ ability to achieve financial stability.
+This wheel demonstrates the systemic and environmental factors that impact your customers’ ability to achieve financial stability.
 
 #### Factors
 
@@ -102,7 +102,7 @@ Each factor makes up a “slice” of the wheel. Together, all the slices form t
 
 #### Level of Impact
 
-Each person can be more or less impacted by each factor. The more impacted one is, the more systemic barriers they have against achieving financial stability.
+Each person can be more or less impacted by each factor. The more impacted one is, the more systemic barriers they face to achieving financial stability.
 
 #### Breakdown of the different factors
 
@@ -129,7 +129,7 @@ Where one lives affects their access to essential services, like healthcare and 
 
 ##### Stigma and judgment
 
-One’s appearance can affect the stigma and judgment others have about them, and can result in being more vulnerable to scammed or refused services.
+One’s appearance can affect the stigma and judgment others hold toward them, and can result in being more vulnerable to scammed or refused services.
 
 <div class="two-column flexible">
 <div class="w-80">
@@ -150,7 +150,7 @@ One’s appearance can affect the stigma and judgment others have about them, an
 
 ##### Social aid policies
 
-Social aid can have policies that are exclusionary. For example, disability programs limit how much money one can make before they are disqualified. However, this amount often not enough to meet the cost of living.
+Social aid can have policies that are exclusionary. For example, disability programs limit how much money one can make before they are disqualified. However, this amount is often not enough to meet the cost of living.
 
 <div class="two-column flexible">
 <div class="w-80">
@@ -164,7 +164,7 @@ Social aid can have policies that are exclusionary. For example, disability prog
 
 **Some impact:** Qualified, but with income capped
 
-**Most impact:** Don’t qualify due to fluctuating income, barrier in applying, or being in a common law relationship
+**Most impact:** Don’t qualify due to fluctuating income, barriers to applying, or being in a common law relationship
 
 </div>
 </div>
@@ -268,7 +268,7 @@ One’s immigration status can deeply impact their ability to earn money, gain e
 
 **Least impact:** Citizen, PR
 
-**Some impact:** Temporary visa’s (study, work)
+**Some impact:** Temporary visa (study, work)
 
 **Most impact:** Refugees, undocumented immigrants
 

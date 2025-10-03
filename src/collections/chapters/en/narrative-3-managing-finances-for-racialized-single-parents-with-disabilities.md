@@ -27,7 +27,7 @@ Lakshmi didn't expect to become a single mother so abruptly. With no Canadian wo
 
 #### Immigration status and language
 
-Although she's lived in Canada for three years, her husband kept her isolated from the broader community. She had little opportunity to learn English or build connections outside their cultural group.
+Although she's lived in Canada for three years, her husband kept her isolated from the broader community. She had little opportunity to learn English or build connections outside of their cultural group.
 
 #### Cost of living
 
@@ -37,7 +37,8 @@ Even with subsidized rent, managing food, clothing, school supplies for Naya, an
 
 As a racialized single mother, Lakshmi faces pressure from some family and community members to return to her ex-husband, even though the relationship was harmful.
 
-<!-- Wheel diagram goes here. -->
+<!-- Wheel diagram goes here. Update alt text to: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  Lakshmi's narrative is marked on each slice. Lakshmi is highly impacted by stigma and judgement, cost of living, unexpected events and language.  Slices are connected with a dashed line.
+ -->
 
 ### Barriers to accessing financial institutions
 
@@ -50,7 +51,7 @@ Meanwhile, some people in her community are warning her against using banks or c
 #### Access to financial management
 
 - **The "basics" of financial literacy aren't basic enough:** Lakshmi needs to understand things like different types of bank accounts, how to pay bills, what is a want versus a need, and the very basics of money management.
-- **Inaccessible financial education:** Many resources are written generically in a way that aren't trauma-informed, or culturally relevant.
+- **Inaccessible financial education:** Many resources are written generically in ways that aren't trauma-informed, or culturally relevant.
 - **Complex and technical language:** Financial agreements are often filled with jargon, making them difficult to understand without a pre-existing grasp on financial language.
 
 <!-- Pyramid diagram goes here. -->
@@ -83,7 +84,7 @@ Her social worker suggests opening a savings account and slowly building her cre
 
 ### Exploring possibilities: Quick wins to big moves
 
-Here are examples to spark ideas for serving clients like Lakshmi. We use a 2x2 grid to shows the scale of effort and impact.
+Here are examples to spark ideas for serving clients like Lakshmi. We use a 2x2 grid to show the scale of effort and impact.
 
 <!-- Grid diagram goes here. -->
 
