@@ -1,5 +1,19 @@
 import { parseHTML } from "linkedom";
 
+const getContent = (elem) => {
+    let elems = [];
+    while (elem.nextElementSibling && elem.nextElementSibling.tagName !== "H3" && elem.nextElementSibling.tagName !== "H4" && elem.nextElementSibling.tagName !== "H5") {
+        elems.push(elem.nextElementSibling);
+        elem = elem.nextElementSibling;
+    }
+
+    elems.forEach((node) => {
+        node.parentNode.removeChild(node);
+    });
+
+    return elems;
+};
+
 export default (value, outputPath) => {
     if (outputPath && outputPath.includes(".html")) {
         const { document } = parseHTML(value);
@@ -16,6 +30,21 @@ export default (value, outputPath) => {
                     li.appendChild(link);
                     navContainer.appendChild(li);
                 }
+            }
+        }
+
+        const sliceSectionHeadings = document.querySelectorAll("main.export #breakdown-of-the-different-factors ~ h5, .main.export #decomposition-des-differents-facteurs");
+        if (sliceSectionHeadings.length > 0) {
+            for (const heading of sliceSectionHeadings) {
+                let contents = getContent(heading);
+                let section = document.createElement("section");
+                section.className = "flow";
+                section.setAttribute("aria-labelledby", heading.id);
+                heading.parentNode.insertBefore(section, heading.nextElementSibling);
+                section.appendChild(heading);
+                contents.forEach((node) => {
+                    section.appendChild(node);
+                });
             }
         }
 
