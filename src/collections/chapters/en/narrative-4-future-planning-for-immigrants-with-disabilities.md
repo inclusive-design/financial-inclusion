@@ -31,7 +31,7 @@ Ki used to send money home to his parents, who rely on him for essentials like m
 
 For a while, CERB and unemployment benefits helped them get by. But those programs have ended, and Tan's nursing income just barely covers their expenses. Because her earnings slightly exceed the eligibility cut-off for their provincial disability program, Ki doesn't qualify—yet they still can't afford basics like medication or physical therapy.
 
-<!-- Wheel diagram goes here. -->
+<!-- Wheel diagram goes here. Update alt text to: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  Ki's narrative is marked on each slice. Ki is highly impacted by social aid policies, cost of living, accommodations at work, and unexpected events.-->
 
 ### Barriers to accessing financial institutions
 
@@ -75,7 +75,7 @@ Wanting to explore financial options to protect his family's future, Ki books an
 
 ### Exploring possibilities: Quick wins to big moves
 
-Here are examples to spark ideas for serving clients like Ki. We use a 2x2 grid to shows the scale of effort and impact.
+Here are examples to spark ideas for serving clients like Ki. We use a 2x2 grid to show the scale of effort and impact.
 
 <!-- Grid diagram goes here. -->
 
