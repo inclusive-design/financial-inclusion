@@ -54,7 +54,7 @@ As technology and demographics shift, so do expectations. Institutions that adap
 
 ***
 
-### Above all
+### Building financial systems for everyone
 
 Inclusive design isn’t about “fixing” people—it’s about fixing systems that weren’t built for everyone. Financial services shape daily life, so making them accessible is not optional—it’s essential.
 
