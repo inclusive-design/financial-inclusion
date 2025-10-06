@@ -762,7 +762,9 @@ article .wrapper {
     padding-block-start: var(--space-fluid-xl);
 }
 
-.flow > h2 + * {
+.flow > h2 + *,
+.flow > h2[id="about-this-guidebook"] + h3 + *,
+.flow > h2[id="a-propos-de-ce-guide"] + h3 + * {
     --flow-space: var(--space-fluid-m);
 }
 
@@ -784,29 +786,17 @@ address,
     font-style: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-.h5 {
-    font-family: var(--family-display);
-    line-height: var(--fl-lineSpace-factor, 1);
-}
-
-h1 em,
-h2 em {
-    font-family: var(--family-serif-alt);
-    font-style: normal;
-    font-weight: var(--font-weight-normal);
-}
-
 h1 {
     font-size: var(--step-5);
 }
 
 h2 {
     font-size: var(--step-4);
+}
+
+h2[id="about-this-guidebook"] + h3,
+h2[id="a-propos-de-ce-guide"] + h3 {
+    display: none;
 }
 
 h3 {
