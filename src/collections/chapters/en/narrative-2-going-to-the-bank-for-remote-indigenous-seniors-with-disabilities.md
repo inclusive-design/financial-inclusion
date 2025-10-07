@@ -1,20 +1,21 @@
 ---
 uuid: dd591d97-c496-458a-bc47-73c08aedad31
-title: 'Narrative 2: Going to the bank for remote Indigenous seniors with disabilities'
+title: 'Narrative 2: **Going to the bank for remote Indigenous seniors** with disabilities'
 shortTitle: Narrative 2
 nav: true
 type: narrative
 order: 6
 parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+backgroundImage: /assets/uploads/narrative-2.jpg
+introduction: |-
+  ### The research
+
+  The lack of access to banking services has disproportionate effect on Indigenous peoples. _(Share, 2023)_
+
+  On average, people living on First Nation reserves must travel about 25 km to reach a bank (compared to 9km for rural Canadians). _(Chen et al., 2023)_
+
+  Only 24% of Indigenous households have access to high-speed internet (compared to 37% of rural households). _(Innovation, Science and Economic Development Canada, 2022)_
 ---
-### The research
-
-The lack of access to banking services has disproportionate effect on Indigenous peoples. _(Share, 2023)_
-
-On average, people living on First Nation reserves must travel about 25 km to reach a bank (compared to 9km for rural Canadians). _(Chen et al., 2023)_
-
-Only 24% of Indigenous households have access to high-speed internet (compared to 37% of rural households). _(Innovation, Science and Economic Development Canada, 2022)_
-
 ### Althea, 67
 
 _Pond Inlet, Nunavut_

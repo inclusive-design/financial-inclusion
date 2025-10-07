@@ -8,26 +8,11 @@
   <style type="text/css">
       {{ allCss | safe }}
       {{ printCss | safe }}
-      body:has(.pagedjs_page) {
-          background: #eee;
-      }
-
-      .pagedjs_page {
-          box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 0.5in;
-      }
-
-      .pagedjs_page:hover {
-          box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-      }
   </style>
-  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
 </head>
 <body>
   <main class="export">
-    <div class="front-matter flow title">
+  <div class="front-matter flow title">
         <div class="container">
             {% include "svg/shapes.svg" %}
             <h1>{% __ "site-title" %}</h1>
@@ -50,8 +35,22 @@
         </div>
     </div>
     {% for chapter in collections['chapters-' + lang] %}
-    <div class="chapter {{ chapter.data.type }} flow">
-        <h2{% if chapter.data.type === 'narrative' %} data-narrative{% endif %}>{{ chapter.data.title | renderContent('md') | safe }}</h2>
+    <div class="chapter {{ chapter.data.type }} flow" data-chapter="{{ loop.index }}">
+        {%- if chapter.data.backgroundImage and chapter.data.backgroundImage !== '' %}
+            {% set backgroundImagePath = 'src' + chapter.data.backgroundImage %}
+            <style>:root { --background-image-{{ loop.index }}:url('data:image/jpg;base64,{{ backgroundImagePath | base64Image }}'); }</style>
+        {% endif %}
+        {% if chapter.data.type === 'narrative' %}
+        {% set pieces = chapter.data.title | split(': ') %}
+        <h2 data-narrative><span class="surtitle">{{ pieces[0] }}</span> {{ pieces[1] | renderContent('md') | safe }}</h2>
+        {% else %}
+        <h2>{{ chapter.data.title | renderContent('md') | safe }}</h2>
+        {% endif %}
+        {% if chapter.data.introduction and chapter.data.introduction !== '' %}
+        <div class="introduction flow">
+            {{ chapter.data.introduction | renderContent("md") | safe }}
+        </div>
+        {% endif %}
         {{ chapter.templateContent | renderContent('md') | safe }}
     </div>
     {% endfor %}
@@ -71,5 +70,6 @@
     orderedList.setAttribute('style', `--data-count: ${listItems.length + 1}`);
   });
   </script>
+  <!-- {{ deploy.url }} -->
 </body>
 </html>

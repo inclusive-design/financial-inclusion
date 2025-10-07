@@ -1,24 +1,25 @@
 ---
 uuid: 580d820d-8998-4de6-91ec-a81e60dacc89
-title: 'Narrative 1: Accessing funds for unhoused people with disabilities'
+title: 'Narrative 1: **Accessing funds for unhoused people** with disabilities'
 shortTitle: Narrative 1
 nav: true
 type: narrative
 order: 5
 parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+backgroundImage: /assets/uploads/narrative-1.jpg
+introduction: |-
+  ### The research
+
+  235,000 people in Canada experience homelessness each year. _(Dionne et. al., 2023)_
+
+  1 in 10 Canadians have experienced hidden homelessness, which means staying in temporary accommodations—like couch surfing, staying with friends or family, or sleeping in cars. _(Ali, 2018)_
+
+  Having two or more disabilities is strongly correlated with hidden homelessness. _(Ali, 2018)_
+
+  Canadians who use antidepressants and other similar medication were two times more likely to experience hidden homelessness. _(Ali, 2018)_
+
+  People who are unhoused have money—they just can’t access it due to barriers with their financial institution. _(Hung et al., 2024)_
 ---
-### The research
-
-235,000 people in Canada experience homelessness each year. _(Dionne et. al., 2023)_
-
-1 in 10 Canadians have experienced hidden homelessness, which means staying in temporary accommodations—like couch surfing, staying with friends or family, or sleeping in cars. _(Ali, 2018)_
-
-Having two or more disabilities is strongly correlated with hidden homelessness. _(Ali, 2018)_
-
-Canadians who use antidepressants and other similar medication were two times more likely to experience hidden homelessness. _(Ali, 2018)_
-
-People who are unhoused have money—they just can’t access it due to barriers with their financial institution. _(Hung et al., 2024)_
-
 ### James, 21
 
 _Edmonton, Alberta_

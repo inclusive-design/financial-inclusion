@@ -5,6 +5,11 @@
 {% block content %}
     <article>
         <div class="wrapper flow">
+            {% if introduction %}
+            <div class="introduction flow">
+                {{ introduction | renderContent("md") | safe }}
+            </div>
+            {% endif %}
             {{ content | safe }}
 
             {% include "partials/components/pagination.njk" %}

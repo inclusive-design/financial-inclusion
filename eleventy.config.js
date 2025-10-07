@@ -14,6 +14,8 @@ import { exec } from "node:child_process";
 import { consolePlus } from 'eleventy-plugin-console-plus';
 import Image from "@11ty/eleventy-img";
 import { parseHTML } from "linkedom";
+import { encode } from 'node-base64-image';
+
 
 function princeVersion() {
   return new Promise((resolve) => {
@@ -85,6 +87,11 @@ export default function eleventy(eleventyConfig) {
       }
     });
     return translationUrl;
+  });
+
+  eleventyConfig.addFilter("base64Image", async function (url) {
+    const encodedImage = await encode(url, { string: true, local: true });
+    return encodedImage;
   });
 
   /*
