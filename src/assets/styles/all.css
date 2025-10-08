@@ -226,7 +226,7 @@ ul:has(svg) {
     list-style: none;
 }
 
-ul:has(svg) li {
+main ul:has(svg) li {
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
@@ -237,23 +237,23 @@ ul:has(svg) h4 {
     margin-top: 0;
 }
 
-ul:has(svg) li + li {
+main ul:has(svg) li + li {
     margin-top: var(--step-2);
 }
 
-ul:has(svg) li > :first-child {
+main ul:has(svg) li > :first-child {
     flex-grow: 1;
     inline-size: 60px;
 }
 
-ul:has(svg) li > :last-child {
+main ul:has(svg) li > :last-child {
     flex-basis: 0;
     flex-grow: 999;
     margin-top: 0;
     min-inline-size: 50%;
 }
 
-ul:has(svg) li > div > * + * {
+main ul:has(svg) li > div > * + * {
     margin-top: 1em;
 }
 
