@@ -118,18 +118,22 @@ h6 {
 
 [data-chapter="5"] {
     page: chapter-5;
+    page-group: start;
 }
 
 [data-chapter="6"] {
     page: chapter-6;
+    page-group: start;
 }
 
 [data-chapter="7"] {
     page: chapter-7;
+    page-group: start;
 }
 
 [data-chapter="8"] {
     page: chapter-8;
+    page-group: start;
 }
 
 .back-matter {
