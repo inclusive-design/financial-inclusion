@@ -10,7 +10,7 @@ order: 9
 
 #### Goal of the activity
 
-This activity will help you think through how accessible a certain offering is to different edge user groups - this could be products like chequing accounts and RRSP's, or services like financial advising. It will help you discover who your offering already works for, and who your edge users are.
+This activity will help you think through how accessible a certain offering is to different edge user groups–this could be products like chequing accounts and RRSP's, or services like financial advising. It will help you discover who your offering already works for, and who your edge users are.
 
 #### Who to do this with
 
@@ -39,11 +39,11 @@ You can do this with your team that works on a specific product or service - lik
 - Social aid status
 
 3. Print out the "slices" for each of your factors (see [file](#)).
-4. For each factor, mark down which groups of customers can your offering still manage to serve without barriers:
+4. For each factor, mark down which groups of customers your offering can serve without barriers:
 
-- Can access your offering without any issues
+- Can access your offering
 - May not be able to access your offering
-- Definitely not able to access your offering
+- Not able to access your offering
 
    Remember that when this activity is done internally, it is an assumption (unless backed up by user research). This activity is most effective when done with users who have these life experiences.
 
@@ -63,9 +63,9 @@ You can do this with your team that works on a specific product or service - lik
 
 <!-- Wheel diagrams with overlays go here. -->
 
-By connecting the green dots on each "slice" or factor, you can begin to see how inclusive the offering is: the larger the area, the more inclusive your offering, and the better it is at meeting the needs of edge users.
+By connecting the green checkmarks on each “slice” or factor, you can begin to see how inclusive the offering is: the larger the area, the more inclusive your offering, and the better it is at meeting the needs of edge users. 
 
-By connecting the yellow dots, you can begin to see where customers may not be able to access your offering.
+By connecting the yellow question marks, you can begin to see where customers may not be able to access your offering.
 
 The area outside of your shape represents the needs your offering is not able to meet.
 
@@ -111,7 +111,7 @@ Can (edge user group)…
 
 #### Bonus: Circles of control
 
-Now that barriers have been identified, it's time to drill down on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't - and therefore what you can focus your efforts and energy on.
+Now that barriers have been identified, it's time to focus on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't - and therefore what you can focus your efforts and energy on.
 
 ##### Instructions
 
@@ -126,7 +126,7 @@ Now that barriers have been identified, it's time to drill down on what you can 
 
 #### Circles of control: Worksheet
 
-Now that barriers and ideas have been identified, it's time to drill down on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't—and therefore what you can focus your efforts and energy on.
+Now that barriers and ideas have been identified, it's time to focus on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't—and therefore what you can focus your efforts and energy on.
 
 <!-- Circles of control diagram goes here. -->
 

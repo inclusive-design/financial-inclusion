@@ -369,7 +369,7 @@ h6 {
 }
 
 .toc ol,
-ul:has(svg) {
+.flow ul:has(svg) {
     padding-left: 0;
 }
 
