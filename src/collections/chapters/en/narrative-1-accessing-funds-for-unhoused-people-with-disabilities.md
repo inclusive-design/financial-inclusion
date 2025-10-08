@@ -42,7 +42,7 @@ Due to his depression flare ups, James has been unable to hold down full time jo
 
 Social services got James on disability benefits. However, when James is able to work, he has to carefully monitor his income to avoid surpassing the earnings threshold that would put his benefits at risk. This low limit discourages him from working more hours, even when he’s able to, and makes it nearly impossible to build up any meaningful savings.
 
-{% includeSvg 'wheel-narrative-1.svg', translations[lang]['wheel-narrative-1'] %}
+{% includeSvg 'wheel-narrative-1.svg', translations[lang]['wheel-narrative-1'], 'full' %}
 
 ### Barriers to accessing financial institutions
 

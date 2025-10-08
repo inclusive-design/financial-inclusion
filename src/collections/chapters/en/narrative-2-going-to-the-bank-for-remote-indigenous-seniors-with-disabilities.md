@@ -35,7 +35,7 @@ Althea
 
 Living in a remote town in the North means that everything costs more—groceries cost more, items ordered online have a higher shipping cost, and the cost of going to medical appointments (which are more frequent as she ages) is equivalent to the cost of a plane ticket down to a southern province. As she ages, she’s not sure how much she can keep up anymore—especially since disability benefit amounts don’t increase.
 
-{% includeSvg 'wheel-narrative-2.svg', translations[lang]['wheel-narrative-2'] %}
+{% includeSvg 'wheel-narrative-2.svg', translations[lang]['wheel-narrative-2'], 'full' %}
 
 ### Barriers to accessing financial institutions
 

@@ -258,6 +258,7 @@ li > * + * {
 }
 
 svg.full {
+    height: auto;
     width: 100%;
 }
 

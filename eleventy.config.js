@@ -117,7 +117,7 @@ export default function eleventy(eleventyConfig) {
     return `<script>fluid.uiOptions.multilingual(".flc-prefsEditor-separatedPanel", ${JSON.stringify(options)});</script>`;
   });
 
-  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '') => {
+  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '', className = null) => {
     const metadata = await Image(`./src/_includes/svg/${filename}`, {
       formats: ["svg"],
       dryRun: true,
@@ -126,6 +126,9 @@ export default function eleventy(eleventyConfig) {
     const svg = document.querySelector('svg');
     svg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
     svg.setAttribute('aria-label', altText);
+    if (className) {
+      svg.setAttribute('class', className);
+    }
     return svg.toString();
   })
 
@@ -163,14 +166,16 @@ export default function eleventy(eleventyConfig) {
         });
       } else {
         const url = 'https://api.docraptor.com/docs';
-        const html = results.find(item => item.outputPath === './_site/en/export/index.html');
+        // const html = results.find(item => item.outputPath === './_site/en/export/index.html');
+        const pageUrl = `${process.env.process.env.CF_PAGES_URL}/en/export/index.html`;
 
         const body = JSON.stringify({
           user_credentials: "YOUR_API_KEY_HERE",
           doc: {
             test: true,
             document_type: "pdf",
-            document_content: html.content,
+            document_url: pageUrl,
+            // document_content: html.content,
             javascript: true
           }
         });
@@ -196,7 +201,7 @@ export default function eleventy(eleventyConfig) {
         });
       }
 
-    }
+    // }
   );
 
   return {

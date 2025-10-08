@@ -38,7 +38,7 @@ Even with subsidized rent, managing food, clothing, school supplies for Naya, an
 
 As a racialized single mother, Lakshmi faces pressure from some family and community members to return to her ex-husband, even though the relationship was harmful.
 
-{% includeSvg 'wheel-narrative-3.svg', translations[lang]['wheel-narrative-3'] %}
+{% includeSvg 'wheel-narrative-3.svg', translations[lang]['wheel-narrative-3'], 'full' %}
 
 ### Barriers to accessing financial institutions
 

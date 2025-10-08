@@ -34,7 +34,7 @@ People’s financial states are not only products of their individual action, bu
 
 Inspired by Maslow’s Hierarchy of Needs, this framework outlines different layers of financial services people need, starting with basic access and moving toward long-term financial planning. Like a foundation, the bottom layers need to be achieved before people can move upward.
 
-<div class="two-column"
+<div class="two-column">
 
 <ol>
 
@@ -57,7 +57,7 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
 
 This hierarchy not only offers a framework to outline the barriers people face with financial services, it also helps financial institutions build stronger relationships with their clients. Before earning someone’s trust to plan their financial future, you must first ensure they can open an account or even enter a branch.
 
-<div class="two-column"
+<div class="two-column">
 
 <ol>
 

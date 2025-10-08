@@ -32,7 +32,7 @@ Ki used to send money home to his parents, who rely on him for essentials like m
 
 For a while, CERB and unemployment benefits helped them get by. But those programs have ended, and Tan's nursing income just barely covers their expenses. Because her earnings slightly exceed the eligibility cut-off for their provincial disability program, Ki doesn't qualify—yet they still can't afford basics like medication or physical therapy.
 
-{% includeSvg 'wheel-narrative-4.svg', translations[lang]['wheel-narrative-4'] %}
+{% includeSvg 'wheel-narrative-4.svg', translations[lang]['wheel-narrative-4'], 'full' %}
 
 ### Barriers to accessing financial institutions
 

@@ -42,9 +42,9 @@
         {% endif %}
         {% if chapter.data.type === 'narrative' %}
         {% set pieces = chapter.data.title | split(': ') %}
-        <h2 data-narrative><span class="surtitle">{{ pieces[0] }}</span> {{ pieces[1] | renderContent('md') | safe }}</h2>
+        <h2 data-narrative><span class="surtitle">{{ pieces[0] }}</span> {{ pieces[1] | renderContent('md') | replace('<p>', '') | replace('</p>', '') | safe }}</h2>
         {% else %}
-        <h2>{{ chapter.data.title | renderContent('md') | safe }}</h2>
+        <h2>{{ chapter.data.title | renderContent('md') | replace('<p>', '') | replace('</p>', '') | safe }}</h2>
         {% endif %}
         {% if chapter.data.introduction and chapter.data.introduction !== '' %}
         <div class="introduction flow">
