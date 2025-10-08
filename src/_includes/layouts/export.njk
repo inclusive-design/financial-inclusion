@@ -38,7 +38,8 @@
     <div class="chapter {{ chapter.data.type }} flow" data-chapter="{{ loop.index }}">
         {%- if chapter.data.backgroundImage and chapter.data.backgroundImage !== '' %}
             {% set backgroundImagePath = 'src' + chapter.data.backgroundImage %}
-            <style>:root { --background-image-{{ loop.index }}:url('data:image/jpg;base64,{{ backgroundImagePath | base64Image }}'); }</style>
+            <style>:root { --background-image-{{ loop.index }}:url('{{ deploy.url }}{{ chapter.data.backgroundImage }}'); }</style>
+            {# <style>:root { --background-image-{{ loop.index }}:url('data:image/jpg;base64,{{ backgroundImagePath | base64Image }}'); }</style> #}
         {% endif %}
         {% if chapter.data.type === 'narrative' %}
         {% set pieces = chapter.data.title | split(': ') %}
@@ -70,6 +71,5 @@
     orderedList.setAttribute('style', `--data-count: ${listItems.length + 1}`);
   });
   </script>
-  <!-- {{ deploy.url }} -->
 </body>
 </html>

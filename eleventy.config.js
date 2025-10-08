@@ -200,8 +200,7 @@ export default function eleventy(eleventyConfig) {
           // open('_site/assets/guidebook-for-financial-inclusion.pdf');
         });
       }
-
-    // }
+    }
   );
 
   return {
