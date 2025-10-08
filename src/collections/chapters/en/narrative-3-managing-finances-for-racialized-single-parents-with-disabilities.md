@@ -38,8 +38,7 @@ Even with subsidized rent, managing food, clothing, school supplies for Naya, an
 
 As a racialized single mother, Lakshmi faces pressure from some family and community members to return to her ex-husband, even though the relationship was harmful.
 
-<!-- Wheel diagram goes here. Update alt text to: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  Lakshmi's narrative is marked on each slice. Lakshmi is highly impacted by stigma and judgement, cost of living, unexpected events and language.  Slices are connected with a dashed line.
- -->
+{% includeSvg 'wheel-narrative-3.svg', translations[lang]['wheel-narrative-3'] %}
 
 ### Barriers to accessing financial institutions
 
