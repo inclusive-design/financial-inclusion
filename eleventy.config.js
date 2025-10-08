@@ -167,7 +167,7 @@ export default function eleventy(eleventyConfig) {
       } else {
         const url = 'https://api.docraptor.com/docs';
         // const html = results.find(item => item.outputPath === './_site/en/export/index.html');
-        const pageUrl = `${process.env.process.env.CF_PAGES_URL}/en/export/index.html`;
+        const pageUrl = `${process.env.CF_PAGES_URL}/en/export/index.html`;
 
         const body = JSON.stringify({
           user_credentials: "YOUR_API_KEY_HERE",
