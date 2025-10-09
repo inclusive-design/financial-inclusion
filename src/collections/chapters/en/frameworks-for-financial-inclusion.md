@@ -36,8 +36,6 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
 
 <div class="two-column">
 
-<ol>
-
 1. **Financial touchpoints**<br />
    Barriers to: Bank branches, ATM’s, online banking, banking equipment and artifacts
 2. **Financial transactions**<br />
@@ -46,8 +44,6 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
    Barriers to: Money management, budgeting, using and managing credit
 4. **Financial advice and planning**<br />
    Barriers to: Disability-specific financial advising, future planning
-
-</ol>
 
 {% includeSvg "pyramid.svg", translations[lang].pyramid %}
 
@@ -59,13 +55,9 @@ This hierarchy not only offers a framework to outline the barriers people face w
 
 <div class="two-column">
 
-<ol>
-
 1. **Building trust**
 2. **Deepening relationship**
 3. **Establishing loyalty**
-
-</ol>
 
 {% includeSvg "directional-pyramid.svg", translations[lang]["directional-pyramid"] %}
 
