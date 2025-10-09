@@ -174,7 +174,8 @@ export default function eleventy(eleventyConfig) {
             test: true,
             document_type: "pdf",
             document_url: pageUrl,
-            javascript: true
+            javascript: true,
+            pipeline: 11
           }
         });
 
