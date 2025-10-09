@@ -153,7 +153,7 @@ export default function eleventy(eleventyConfig) {
   eleventyConfig.on(
     "eleventy.after",
     async ({ dir, results, runMode, outputMode }) => {
-      if (runMode !== 'build' || process.env.CI) {
+      if (runMode !== 'build') {
         return;
       }
 
