@@ -154,7 +154,8 @@ export default function eleventy(eleventyConfig) {
     "eleventy.after",
     async ({ dir, results, runMode, outputMode }) => {
       console.log(process.env);
-      if (runMode !== 'build' || process.env.SKIP_PDF === 'true') {
+      console.log(context.env);
+      if (runMode !== 'build' || context.env.SKIP_PDF === 1) {
         return;
       }
 
