@@ -153,9 +153,7 @@ export default function eleventy(eleventyConfig) {
   eleventyConfig.on(
     "eleventy.after",
     async ({ dir, results, runMode, outputMode }) => {
-      console.log(process.env);
-      console.log(context.env);
-      if (runMode !== 'build' || context.env.SKIP_PDF === 1) {
+      if (runMode !== 'build' || process.env.CI === 1) {
         return;
       }
 
@@ -168,7 +166,6 @@ export default function eleventy(eleventyConfig) {
         });
       } else {
         const url = 'https://api.docraptor.com/docs';
-        // const html = results.find(item => item.outputPath === './_site/en/export/index.html');
         const pageUrl = `${process.env.CF_PAGES_URL}/en/export/index.html`;
 
         const body = JSON.stringify({
@@ -177,7 +174,6 @@ export default function eleventy(eleventyConfig) {
             test: true,
             document_type: "pdf",
             document_url: pageUrl,
-            // document_content: html.content,
             javascript: true
           }
         });
