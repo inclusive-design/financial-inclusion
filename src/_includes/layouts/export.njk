@@ -5,9 +5,19 @@
   <title>{{ title }}</title>
   {% set allCss %} {% include '../../assets/styles/all.css' %} {% endset %}
   {% set printCss %} {% include '../../assets/styles/print.css' %} {% endset %}
-  <style type="text/css">
+  <style>
       {{ allCss | safe }}
       {{ printCss | safe }}
+      :root {
+      {% for chapter in collections['chapters-' + lang] %}{% if chapter.data.backgroundImage and chapter.data.backgroundImage !== '' %}
+        {% if deploy.local %}
+        {% set backgroundImagePath = 'src' + chapter.data.backgroundImage %}
+        --background-image-{{ loop.index }}:url('data:image/jpg;base64,{{ backgroundImagePath | base64Image }}');
+        {% else %}
+        --background-image-{{ loop.index }}:url('{{ deploy.url }}{{ chapter.data.backgroundImage }}');
+        {% endif %}
+      {% endif %}{% endfor %}
+      }
   </style>
 </head>
 <body>
@@ -36,11 +46,6 @@
     </div>
     {% for chapter in collections['chapters-' + lang] %}
     <div class="chapter {{ chapter.data.type }} flow" data-chapter="{{ loop.index }}">
-        {%- if chapter.data.backgroundImage and chapter.data.backgroundImage !== '' %}
-            {% set backgroundImagePath = 'src' + chapter.data.backgroundImage %}
-            <style>:root { --background-image-{{ loop.index }}:url('{{ deploy.url }}{{ chapter.data.backgroundImage }}'); }</style>
-            {# <style>:root { --background-image-{{ loop.index }}:url('data:image/jpg;base64,{{ backgroundImagePath | base64Image }}'); }</style> #}
-        {% endif %}
         {% if chapter.data.type === 'narrative' %}
         {% set pieces = chapter.data.title | split(': ') %}
         <h2 data-narrative><span class="surtitle">{{ pieces[0] }}</span> {{ pieces[1] | renderContent('md') | replace('<p>', '') | replace('</p>', '') | safe }}</h2>
