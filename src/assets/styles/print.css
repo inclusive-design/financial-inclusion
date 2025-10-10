@@ -21,7 +21,7 @@
 body {
     /** Typography **/
 
-    font-family: var(--family-serif);
+    font-family: var(--fi-font-family-body);
     font-size: var(--step-0);
 }
 
@@ -29,7 +29,7 @@ hr {
     border-bottom: none;
     border-left: none;
     border-right: none;
-    border-top: 1px solid var(--color-green);
+    border-top: 1px solid var(--fi-color-green-300);
 }
 
 .flow > * + hr {
@@ -105,26 +105,26 @@ h6 {
 }
 
 .back-matter {
-    color: var(--color-white);
+    color: var(--fi-color-white);
     page: back-matter;
     page-break-before: auto;
     page-group: start;
 }
 
 @page {
-    background-color: var(--color-white);
+    background-color: var(--fi-color-white);
     margin: 1.125in;
     size: letter;
 }
 
 @page title {
-    background-color: var(--color-lime);
+    background-color: var(--fi-color-lime-500);
     color: black;
 }
 
 @page toc {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fi-color-black);
+    color: var(--fi-color-white);
 }
 
 @page chapter {
@@ -139,7 +139,7 @@ h6 {
 }
 
 @page chapter:first-of-group {
-    background-color: var(--color-black);
+    background-color: var(--fi-color-black);
 
     @top-left {
         content: normal;
@@ -151,8 +151,8 @@ h6 {
 }
 
 @page back-matter {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fi-color-black);
+    color: var(--fi-color-white);
 
     @top-left {
         content: string(back-matter-title);
@@ -182,7 +182,7 @@ h6 {
 }
 
 .title .container {
-    background-color: var(--color-lime);
+    background-color: var(--fi-color-lime-500);
     justify-content: flex-end;
 }
 
@@ -192,9 +192,9 @@ h6 {
 }
 
 .title h1 em {
-    font-family: var(--family-serif-alt);
+    font-family: var(--fi-font-family-display-alt);
     font-style: normal;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--fi-font-weight-regular);
 }
 
 .title .byline {
@@ -215,14 +215,14 @@ h6 {
 }
 
 .title .logos-and-version .version {
-    font-family: var(--family-display);
+    font-family: var(--fi-font-family-display);
     font-size: var(--step--1);
     margin-left: auto;
 }
 
 .toc .container {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fi-color-black);
+    color: var(--fi-color-white);
     justify-content: center;
 }
 
@@ -255,17 +255,17 @@ ul:has(svg) {
 }
 
 .chapter h2 {
-    color: var(--color-lime);
+    color: var(--fi-color-lime-500);
     line-height: 1.26;
     margin-top: 4.5in;
     string-set: chapter-title content();
 }
 
 .chapter h2 em {
-    color: var(--color-white);
-    font-family: var(--family-serif-alt);
+    color: var(--fi-color-white);
+    font-family: var(--fi-font-family-display-alt);
     font-style: normal;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--fi-font-weight-regular);
 }
 
 .chapter h2 + *,
@@ -320,99 +320,4 @@ reversed-list ol li::marker {
     margin-left: 0;
     padding-right: 1.125rem;
     width: 6.25in;
-}
-
-.w1,
-.w2,
-.w3,
-.w4 {
-    stroke: var(--fl-fgColor, transparent);
-    stroke-width: 1px;
-}
-
-.w1,
-.w2,
-.w3,
-.w4,
-.w7 {
-    fill: var(--fl-bgColor, var(--fill));
-}
-
-.w1 {
-    --fill: #e8b91c;
-}
-
-.w2 {
-    --fill: #f6d872;
-}
-
-.w3 {
-    --fill: #f9eec6;
-}
-
-.w4 {
-    --fill: #fff;
-}
-
-.w5 {
-    stroke: var(--fl-fgColor, #ad8911);
-}
-
-.w6 {
-    fill: var(--fl-fgColor, #e8451c);
-}
-
-.w7 {
-    fill: var(--fl-fgColor, var(--color-black));
-}
-
-.w8 {
-    fill: var(--fl-fgColor, #cb3335);
-}
-
-.p1,
-.p2,
-.p3,
-.p4,
-.p6 {
-    fill: var(--fl-bgColor, var(--fill));
-    stroke: var(--fl-fgColor, transparent);
-    stroke-width: 1px;
-}
-
-.p7 {
-    stroke: var(--fl-fgColor, var(--color-black));
-}
-
-.p5,
-.p8 {
-    fill: var(--fl-fgColor, var(--fill));
-}
-
-.p1 {
-    --fill: #7bd383;
-}
-
-.p2 {
-    --fill: #d6e9cc;
-}
-
-.p3 {
-    --fill: #b7e1b4;
-}
-
-.p4 {
-    --fill: #99da9b;
-}
-
-.p5 {
-    --fill: #2a842d;
-}
-
-.p6 {
-    --fill: #e8a41c;
-}
-
-.p8 {
-    --fill: var(--color-black);
 }

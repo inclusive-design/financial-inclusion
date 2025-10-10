@@ -89,27 +89,86 @@
 
 :root {
     /** Font Weights **/
-    --font-weight-normal: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
-    --font-weight-extrabold: 800;
-    --family-serif: martel, serif;
-    --family-serif-alt: diphylleia, serif;
-    --family-display: mulish, sans-serif;
+    --fi-font-weight-regular: 400;
+    --fi-font-weight-medium: 500;
+    --fi-font-weight-semibold: 600;
+    --fi-font-weight-bold: 700;
+    --fi-font-weight-extrabold: 800;
+    --fi-font-family-body: martel, serif;
+    --fi-font-family-display-alt: diphylleia, serif;
+    --fi-font-family-display: mulish, sans-serif;
 
     /** Colors **/
-    --color-dark-green: #2a842d;
-    --color-green: #7bd383;
-    --color-dark-lime: #b2ba19;
-    --color-lime: #dee81c;
-    --color-lightest-yellow: #f9eec6;
-    --color-light-yellow: #f6d872;
-    --color-yellow: #e8b91c;
-    --color-red: #cb3335;
-    --color-white: #fff;
-    --color-black: #000;
-    --color-soft-black: #222;
+    --fi-color-green-100: #d4e6d5;
+    --fi-color-green-200: #aaceab;
+    --fi-color-green-300: #7fb581;
+    --fi-color-green-350: #62a969;
+    --fi-color-green-400: #559d57;
+    --fi-color-green-500: #2a842d;
+    --fi-color-green-600: #28702b;
+    --fi-color-green-700: #275d29;
+    --fi-color-green-800: #254926;
+    --fi-color-green-900: #243624;
+    --fi-color-white: #fff;
+    --fi-color-grey-100: #e6e6e6;
+    --fi-color-grey-200: #ccc;
+    --fi-color-grey-300: #b3b3b3;
+    --fi-color-grey-400: #949494;
+    --fi-color-grey-500: #808080;
+    --fi-color-grey-600: #666;
+    --fi-color-grey-700: #474747;
+    --fi-color-grey-75: #f4f4f4;
+    --fi-color-grey-800: #222;
+    --fi-color-grey-850: #161616;
+    --fi-color-black: #000;
+    --fi-color-lime-100: #f8fad2;
+    --fi-color-lime-200: #f2f6a4;
+    --fi-color-lime-300: #ebf177;
+    --fi-color-lime-400: #e4ed49;
+    --fi-color-lime-500: #dee81c;
+    --fi-color-lime-600: #b2ba19;
+    --fi-color-lime-700: #93991e;
+    --fi-color-lime-800: #6d7120;
+    --fi-color-lime-900: #484a21;
+    --fi-color-red-100: #f5d6d7;
+    --fi-color-red-200: #eaadae;
+    --fi-color-red-300: #e08586;
+    --fi-color-red-400: #d55c5d;
+    --fi-color-red-500: #cb3335;
+    --fi-color-red-600: #a93031;
+    --fi-color-red-700: #872c2d;
+    --fi-color-red-800: #66292a;
+    --fi-color-red-900: #442526;
+    --fi-color-yellow-100: #f9eec6;
+    --fi-color-yellow-200: #f6e3a4;
+    --fi-color-yellow-300: #f6d872;
+    --fi-color-yellow-400: #edc749;
+    --fi-color-yellow-500: #e8b91c;
+    --fi-color-yellow-600: #c09b1d;
+    --fi-color-yellow-700: #997d1e;
+    --fi-color-yellow-800: #715e20;
+    --fi-color-yellow-900: #4a4021;
+    --fi-spacing-025: calc(1 / 16 * 1rem);
+    --fi-spacing-050: calc(2 / 16 * 1rem);
+    --fi-spacing-100: calc(4 / 16 * 1rem);
+    --fi-spacing-150: calc(6 / 16 * 1rem);
+    --fi-spacing-200: calc(8 / 16 * 1rem);
+    --fi-spacing-300: calc(12 / 16 * 1rem);
+    --fi-spacing-400: calc(16 / 16 * 1rem);
+    --fi-spacing-500: calc(20 / 16 * 1rem);
+    --fi-spacing-600: calc(24 / 16 * 1rem);
+    --fi-spacing-800: calc(32 / 16 * 1rem);
+    --fi-spacing-1000: calc(40 / 16 * 1rem);
+    --fi-spacing-1200: calc(48 / 16 * 1rem);
+    --fi-spacing-1400: calc(56 / 16 * 1rem);
+    --fi-spacing-1600: calc(64 / 16 * 1rem);
+    --fi-spacing-1800: calc(72 / 16 * 1rem);
+    --fi-spacing-2000: calc(80 / 16 * 1rem);
+    --fi-spacing-3000: calc(120 / 16 * 1rem);
+    --fi-spacing-5600: calc(224 / 16 * 1rem);
+    --fi-border-width-1: calc(1 / 16 * 1rem);
+    --fi-border-width-2: calc(2 / 16 * 1rem);
+    --fi-border-width-4: calc(4 / 16 * 1rem);
 }
 
 /* Reset @see https://piccalil.li/blog/a-more-modern-css-reset/ */
@@ -169,7 +228,7 @@ input {
 }
 
 body {
-    font-family: var(--family-serif);
+    font-family: var(--fi-font-family-body);
 }
 
 h1,
@@ -178,28 +237,28 @@ h3,
 h4,
 h5,
 .h5 {
-    font-family: var(--family-display);
+    font-family: var(--fi-font-family-display);
     line-height: 1;
 }
 
 h1 em,
 h2 em {
-    font-family: var(--family-serif-alt);
+    font-family: var(--fi-font-family-display-alt);
     font-style: normal;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--fi-font-weight-regular);
 }
 
 h1,
 h2,
 h3 {
-    font-weight: var(--font-weight-extrabold);
+    font-weight: var(--fi-font-weight-extrabold);
     text-wrap: balance;
 }
 
 h4,
 h5,
 h6 strong {
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--fi-font-weight-bold);
 }
 
 a:visited {
@@ -301,5 +360,104 @@ svg.full {
 }
 
 .two-column.flexible strong {
-    color: var(--fl-fgColor, var(--color-red));
+    color: var(--fl-fgColor, var(--fi-color-red-500));
+}
+
+.w1,
+.w2,
+.w3,
+.w4 {
+    stroke: var(--fl-fgColor, transparent);
+    stroke-width: var(--fi-border-width-1);
+}
+
+.w1,
+.w2,
+.w3,
+.w4,
+.w7 {
+    fill: var(--fl-bgColor, var(--fill));
+}
+
+.w1 {
+    --fill: var(--fi-color-yellow-500);
+}
+
+.w2 {
+    --fill: var(--fi-color-yellow-300);
+}
+
+.w3 {
+    --fill: var(--fi-color-yellow-100);
+}
+
+.w4 {
+    --fill: var(--fi-color-white);
+}
+
+.w5 {
+    stroke: var(--fl-fgColor, var(--fi-color-yellow-600));
+}
+
+.w6 {
+    fill: var(--fl-fgColor, var(--fi-color-red-400));
+}
+
+.w7 {
+    fill: var(--fl-fgColor, var(--fi-color-black));
+}
+
+.w8 {
+    fill: var(--fl-fgColor, var(--fi-color-red-500));
+}
+
+.w9 {
+    stroke: var(--fl-fgColor, var(--fi-color-black));
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p6 {
+    fill: var(--fl-bgColor, var(--fill));
+    stroke: var(--fl-fgColor, transparent);
+    stroke-width: 1px;
+}
+
+.p7 {
+    stroke: var(--fl-fgColor, var(--fi-color-black));
+}
+
+.p5,
+.p8 {
+    fill: var(--fl-fgColor, var(--fill));
+}
+
+.p1 {
+    --fill: var(--fi-color-green-300);
+}
+
+.p2 {
+    --fill: var(--fi-color-green-100);
+}
+
+.p3 {
+    --fill: var(--fi-color-green-200);
+}
+
+.p4 {
+    --fill: var(--fi-color-green-350);
+}
+
+.p5 {
+    --fill: var(--fi-color-green-500);
+}
+
+.p6 {
+    --fill: var(--fi-color-yellow-500);
+}
+
+.p8 {
+    --fill: var(--fi-color-black);
 }
