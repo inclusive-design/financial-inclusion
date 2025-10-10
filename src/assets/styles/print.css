@@ -1,7 +1,3 @@
-/* stylelint-disable function-no-unknown, liberty/use-logical-spec, property-no-unknown */
-
-@charset "UTF-8";
-
 :root {
     /* Type Scale */
     --step--1: 10pt;
