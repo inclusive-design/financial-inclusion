@@ -145,6 +145,56 @@
     --fi-color-yellow-800: #715e20;
     --fi-color-yellow-900: #4a4021;
 
+    /** Color Aliases **/
+    --fi-color-attention-100: var(--fi-color-red-100);
+    --fi-color-attention-200: var(--fi-color-red-200);
+    --fi-color-attention-300: var(--fi-color-red-300);
+    --fi-color-attention-400: var(--fi-color-red-400);
+    --fi-color-attention-500: var(--fi-color-red-500);
+    --fi-color-attention-600: var(--fi-color-red-600);
+    --fi-color-attention-700: var(--fi-color-red-700);
+    --fi-color-attention-800: var(--fi-color-red-800);
+    --fi-color-attention-900: var(--fi-color-red-900);
+    --fi-color-neutral-100: var(--fi-color-grey-100);
+    --fi-color-neutral-200: var(--fi-color-grey-200);
+    --fi-color-neutral-300: var(--fi-color-grey-300);
+    --fi-color-neutral-400: var(--fi-color-grey-400);
+    --fi-color-neutral-500: var(--fi-color-grey-500);
+    --fi-color-neutral-50: var(--fi-color-grey-50);
+    --fi-color-neutral-600: var(--fi-color-grey-600);
+    --fi-color-neutral-700: var(--fi-color-grey-700);
+    --fi-color-neutral-75: var(--fi-color-grey-75);
+    --fi-color-neutral-800: var(--fi-color-grey-800);
+    --fi-color-neutral-850: var(--fi-color-grey-850);
+    --fi-color-neutral-900: var(--fi-color-grey-900);
+    --fi-color-primary-100: var(--fi-color-lime-100);
+    --fi-color-primary-200: var(--fi-color-lime-200);
+    --fi-color-primary-300: var(--fi-color-lime-300);
+    --fi-color-primary-400: var(--fi-color-lime-400);
+    --fi-color-primary-500: var(--fi-color-lime-500);
+    --fi-color-primary-600: var(--fi-color-lime-600);
+    --fi-color-primary-700: var(--fi-color-lime-700);
+    --fi-color-primary-800: var(--fi-color-lime-800);
+    --fi-color-primary-900: var(--fi-color-lime-900);
+    --fi-color-pyramid-100: var(--fi-color-green-100);
+    --fi-color-pyramid-200: var(--fi-color-green-200);
+    --fi-color-pyramid-350: var(--fi-color-green-350);
+    --fi-color-pyramid-400: var(--fi-color-green-400);
+    --fi-color-pyramid-500: var(--fi-color-green-500);
+    --fi-color-pyramid-600: var(--fi-color-green-600);
+    --fi-color-pyramid-700: var(--fi-color-green-700);
+    --fi-color-pyramid-800: var(--fi-color-green-800);
+    --fi-color-pyramid-900: var(--fi-color-green-900);
+    --fi-color-wheel-100: var(--fi-color-yellow-100);
+    --fi-color-wheel-200: var(--fi-color-yellow-200);
+    --fi-color-wheel-300: var(--fi-color-yellow-300);
+    --fi-color-wheel-400: var(--fi-color-yellow-400);
+    --fi-color-wheel-500: var(--fi-color-yellow-500);
+    --fi-color-wheel-600: var(--fi-color-yellow-600);
+    --fi-color-wheel-700: var(--fi-color-yellow-700);
+    --fi-color-wheel-800: var(--fi-color-yellow-800);
+    --fi-color-wheel-900: var(--fi-color-yellow-900);
+
     /** Spacing **/
     --fi-spacing-025: calc(1 / 16 * 1rem);
     --fi-spacing-050: calc(2 / 16 * 1rem);
@@ -153,6 +203,7 @@
     --fi-spacing-200: calc(8 / 16 * 1rem);
     --fi-spacing-300: calc(12 / 16 * 1rem);
     --fi-spacing-400: calc(16 / 16 * 1rem);
+    --fi-spacing-450: calc(18 / 16 * 1rem);
     --fi-spacing-500: calc(20 / 16 * 1rem);
     --fi-spacing-600: calc(24 / 16 * 1rem);
     --fi-spacing-800: calc(32 / 16 * 1rem);
@@ -172,37 +223,11 @@
 
     /* Spacing Aliases */
     --fi-space-xs: var(--fi-spacing-300);
-    --fi-space-s: var(--fi-spacing-400);
-    --fi-space-m: var(--fi-spacing-500);
-    --fi-space-l: var(--fi-spacing-600);
-    --fi-space-xl: var(--fi-spacing-800);
-    --fi-space-2xl: var(--fi-spacing-1000);
-
-    /* Space xs: 12px */
-
-    /* --fi-space-xs: 0.75rem; */
-
-    /* Space s: 18px */
-
-    /* --fi-space-s: 1.125rem; */
-
-    /* Space m: 24px */
-
-    /* --fi-space-m: 1.5rem; */
-
-    /* Space l: 32px */
-
-    /* --fi-space-l: 2rem; */
-
-    /* Space xl: 40px */
-
-    /* --fi-space-xl: 2.5rem; */
-
-    /* Space 2xl: 48px */
-
-    /* --fi-space-2xl: 3rem; */
-
-    --fi-margin-padding: var(--fi-space-fluid-l-6xl); /* Margin Padding: 32px → 224px */
+    --fi-space-s: var(--fi-spacing-450);
+    --fi-space-m: var(--fi-spacing-600);
+    --fi-space-l: var(--fi-spacing-800);
+    --fi-space-xl: var(--fi-spacing-1000);
+    --fi-space-2xl: var(--fi-spacing-1200);
 
     /* Fluid Spacing
        @link https://utopia.fyi/space/calculator?c=360,16,1.2,1440,32,1.25,5,2,&s=0.75|0.625,1.5|2|2.5|3|3.75|4.375|6|7|14,xs-2xs|l-6xl|4xl-l|5xl-3xl&g=s,l,xl,12 */
@@ -238,6 +263,9 @@
     --fi-space-fluid-l-6xl: clamp(2rem, -2rem + 17.7778vw, 14rem); /* Space l-6xl: 32px → 224px */
     --fi-space-fluid-4xl-l: clamp(4rem, 4.5rem + -0.5556vw, 4.375rem); /* Space 4xl-l: 70px → 64px */
     --fi-space-fluid-5xl-3xl: clamp(6rem, 5.5rem + 2.2222vw, 7.5rem); /* Space 5xl-3xl: 96px → 120px */
+
+    /* Margin Padding */
+    --fi-margin-padding: var(--fi-space-fluid-l-6xl);
 }
 
 /* Reset @see https://piccalil.li/blog/a-more-modern-css-reset/ */
@@ -429,7 +457,7 @@ svg.full {
 }
 
 .two-column.flexible strong {
-    color: var(--fl-fgColor, var(--fi-color-red-500));
+    color: var(--fl-fgColor, var(--fi-color-attention-500));
 }
 
 .w1,
@@ -449,15 +477,15 @@ svg.full {
 }
 
 .w1 {
-    --fill: var(--fi-color-yellow-500);
+    --fill: var(--fi-color-wheel-500);
 }
 
 .w2 {
-    --fill: var(--fi-color-yellow-300);
+    --fill: var(--fi-color-wheel-300);
 }
 
 .w3 {
-    --fill: var(--fi-color-yellow-100);
+    --fill: var(--fi-color-wheel-100);
 }
 
 .w4 {
@@ -465,11 +493,11 @@ svg.full {
 }
 
 .w5 {
-    stroke: var(--fl-fgColor, var(--fi-color-yellow-600));
+    stroke: var(--fl-fgColor, var(--fi-color-wheel-600));
 }
 
 .w6 {
-    fill: var(--fl-fgColor, var(--fi-color-red-400));
+    fill: var(--fl-fgColor, var(--fi-color-attention-400));
 }
 
 .w7 {
@@ -477,7 +505,7 @@ svg.full {
 }
 
 .w8 {
-    fill: var(--fl-fgColor, var(--fi-color-red-500));
+    fill: var(--fl-fgColor, var(--fi-color-attention-500));
 }
 
 .w9 {
@@ -504,23 +532,23 @@ svg.full {
 }
 
 .p1 {
-    --fill: var(--fi-color-green-300);
+    --fill: var(--fi-color-pyramid-300);
 }
 
 .p2 {
-    --fill: var(--fi-color-green-100);
+    --fill: var(--fi-color-pyramid-100);
 }
 
 .p3 {
-    --fill: var(--fi-color-green-200);
+    --fill: var(--fi-color-pyramid-200);
 }
 
 .p4 {
-    --fill: var(--fi-color-green-350);
+    --fill: var(--fi-color-pyramid-350);
 }
 
 .p5 {
-    --fill: var(--fi-color-green-500);
+    --fill: var(--fi-color-pyramid-500);
 }
 
 .p6 {
