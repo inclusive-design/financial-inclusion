@@ -558,6 +558,10 @@ h1 em::after {
 
 .navigation li [aria-expanded="true"] {
     box-shadow: calc(-1 * var(--fi-space-2xs)) var(--fi-space-2xs) 0 var(--fi-nav-border) inset;
+
+    svg {
+        transform: rotate(180deg);
+    }
 }
 
 .navigation li:has([aria-expanded="true"]:focus) > a,
