@@ -1,6 +1,15 @@
 {
     "lsp": {
-        "stylelint-lsp": {}
+        "stylelint-lsp": {},
+        "vscode-css-language-server": {
+            "settings": {
+                "css": {
+                    "lint": {
+                        "validProperties": ["page-group", "string-set"]
+                    }
+                }
+            }
+        }
     },
     "languages": {
         "CSS": {
