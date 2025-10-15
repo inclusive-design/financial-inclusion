@@ -1,7 +1,3 @@
-/* stylelint-disable function-no-unknown, liberty/use-logical-spec, property-no-unknown */
-
-@charset "UTF-8";
-
 :root {
     /* Type Scale */
     --step--1: 10pt;
@@ -22,7 +18,7 @@
 body {
     /** Typography **/
 
-    font-family: var(--family-serif);
+    font-family: var(--fi-font-family-body);
     font-size: var(--step-0);
 }
 
@@ -30,7 +26,7 @@ hr {
     border-bottom: none;
     border-left: none;
     border-right: none;
-    border-top: 1px solid var(--color-green);
+    border-top: 1px solid var(--fi-color-green-300);
 }
 
 .flow > * + hr {
@@ -137,26 +133,26 @@ h6 {
 }
 
 .back-matter {
-    color: var(--color-white);
+    color: var(--fi-color-white);
     page: back-matter;
     page-break-before: auto;
     page-group: start;
 }
 
 @page {
-    background-color: var(--color-white);
+    background-color: var(--fi-color-white);
     margin: 1.125in;
     size: letter;
 }
 
 @page title {
-    background-color: var(--color-lime);
+    background-color: var(--fi-color-lime-500);
     color: black;
 }
 
 @page toc {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fi-color-black);
+    color: var(--fi-color-white);
 }
 
 @page chapter {
@@ -171,8 +167,8 @@ h6 {
 }
 
 @page chapter:first-of-group {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fi-color-black);
+    color: var(--fi-color-white);
 
     @top-left {
         content: normal;
@@ -288,8 +284,8 @@ h6 {
 }
 
 @page back-matter {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fi-color-black);
+    color: var(--fi-color-white);
 
     @top-left {
         content: string(back-matter-title);
@@ -319,7 +315,7 @@ h6 {
 }
 
 .title .container {
-    background-color: var(--color-lime);
+    background-color: var(--fi-color-lime-500);
     justify-content: flex-end;
 }
 
@@ -329,9 +325,9 @@ h6 {
 }
 
 .title h1 em {
-    font-family: var(--family-serif-alt);
+    font-family: var(--fi-font-family-display-alt);
     font-style: normal;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--fi-font-weight-regular);
 }
 
 .title .byline {
@@ -352,14 +348,14 @@ h6 {
 }
 
 .title .logos-and-version .version {
-    font-family: var(--family-display);
+    font-family: var(--fi-font-family-display);
     font-size: var(--step--1);
     margin-left: auto;
 }
 
 .toc .container {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--fi-color-black);
+    color: var(--fi-color-white);
     justify-content: center;
 }
 
@@ -392,7 +388,7 @@ h6 {
 }
 
 .chapter h2 {
-    color: var(--color-lime);
+    color: var(--fi-color-lime-500);
     line-height: 1.26;
     margin-top: 4.5in;
     string-set: chapter-title content();
@@ -406,10 +402,10 @@ h6 {
 }
 
 .chapter h2 em {
-    color: var(--color-white);
-    font-family: var(--family-serif-alt);
+    color: var(--fi-color-white);
+    font-family: var(--fi-font-family-display-alt);
     font-style: normal;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--fi-font-weight-regular);
 }
 
 .chapter h2 + *,
