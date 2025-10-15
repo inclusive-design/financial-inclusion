@@ -1,4 +1,4 @@
-:root {
+body {
     /* Type Scale */
 
     /* @link https://utopia.fyi/type/calculator?c=360,16,1.2,1440,22,1.25,5,1,&s=0.75,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -23,16 +23,68 @@
 
     /* Step 5: 39.8131px → 67.1387px */
     --step-5: clamp(2.4883rem, 1.919rem + 2.5301vw, 4.1962rem);
-}
 
-/* General */
+    /* Component colors */
+    --fi-action-border-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
+    --fi-action-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-action-border: var(--fl-linkBgColor, var(--fi-color-primary-500));
+    --fi-action-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
+    --fi-action-content-hover: var(--fl-linkBgColor, var(--fi-color-neutral-800));
+    --fi-action-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-action-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-action-surface-hover: var(--fl-linkFgColor, var(--fi-color-primary-500));
+    --fi-action-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
 
-body {
-    background-color: var(--fl-bgColor, var(--fi-color-white));
-    color: var(--fl-fgColor, var(--fi-color-grey-800));
+    /* Footer */
+    --fi-footer-surface: var(--fl-bgColor, var(--fi-color-neutral-800));
+    --fi-footer-content: var(--fl-fgColor, var(--fi-color-neutral-75));
+
+    /* Global navigation */
+    --fi-global-nav-content: var(--fl-fgColor, var(--fi-color-white));
+    --fi-global-nav-pref-border: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-global-nav-pref-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-global-nav-pref-surface: var(--fl-linkBgColor, var(--fi-color-white));
+    --fi-global-nav-skipto-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-global-nav-skipto-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
+    --fi-global-nav-surface: var(--fl-bgColor, var(--fi-color-neutral-850));
+
+    /* Hero */
+    --fi-hero-content: var(--fl-fgColor, var(--fi-color-primary-400));
+    --fi-hero-content-accent: var(--fl-fgColor, var(--fi-color-white));
+    --fi-hero-surface: var(--fl-bgColor, var(--fi-color-neutral-800));
+    --fi-hero-home-content: var(--fl-fgColor, var(--fi-color-neutral-800));
+    --fi-hero-home-surface: var(--fl-bgColor, var(--fi-color-primary-500));
+
+    /* Main content */
+    --fi-main-body: var(--fl-fgColor, var(--fi-color-neutral-800));
+    --fi-main-display: var(--fl-fgColor, var(--fi-color-neutral-800));
+    --fi-main-surface: var(--fl-bgColor, var(--fi-color-white));
+
+    /* Navigation */
+    --fi-nav-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-nav-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
+    --fi-nav-border: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-nav-surface-hover: var(--fl-linkFgColor, var(--fi-color-primary-500));
+    --fi-nav-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-850));
+    --fi-nav-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
+    --fi-nav-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-nav-border-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-nav-secondary-container-border: var(--fl-linkFgColor, var(--fi-color-primary-600));
+    --fi-nav-secondary-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-nav-secondary-surface: var(--fl-linkBgColor, var(--fi-color-primary-600));
+    --fi-nav-secondary-border: var(--fl-linkFgColor, transparent);
+    --fi-nav-secondary-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-nav-secondary-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-600));
+    --fi-nav-secondary-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-nav-secondary-border-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+
+    background-color: var(--fi-main-surface);
+    color: var(--fi-main-body);
     font-size: var(--step-0);
     line-height: var(--fl-lineSpace-factor, 1.6);
 }
+
+/* General */
 
 [class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
     background-color: var(--fl-bgColor);
@@ -53,8 +105,8 @@ body {
 }
 
 footer {
-    background-color: var(--fl-bgColor, var(--fi-color-grey-800));
-    color: var(--fl-fgColor, var(--fi-color-white));
+    background-color: var(--fi-footer-surface);
+    color: var(--fi-footer-content);
     padding-block-end: var(--fi-space-fluid-xl-2xl);
     padding-block-start: var(--fi-space-l);
 }
@@ -111,12 +163,12 @@ footer {
 
 .skip:focus {
     align-items: center;
-    background: var(--fl-linkFgColor, var(--fi-color-lime-500));
+    background: var(--fi-global-nav-skipto-surface);
     block-size: var(--fi-space-fluid-s);
     block-size: var(--fi-space-fluid-4xl-l);
     clip: auto;
     clip-path: none;
-    color: var(--fl-linkBgColor, var(--fi-color-black));
+    color: var(--fi-global-nav-skipto-content);
     display: flex;
     inline-size: 100%;
     justify-content: center;
@@ -220,10 +272,10 @@ footer a:not([class]) {
 
 a.standalone {
     align-items: center;
-    background-color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+    background-color: var(--fi-action-surface);
     border-radius: 2px;
-    box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--fi-color-black)) inset;
-    color: var(--fl-linkFgColor, var(--fi-color-grey-800));
+    box-shadow: 0 0 0 1px var(--fi-action-border) inset;
+    color: var(--fi-action-content);
     display: inline-flex;
     gap: var(--fi-space-xs);
     padding-block-start: 2px;
@@ -231,14 +283,14 @@ a.standalone {
     text-decoration: none;
 
     &:hover {
-        box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--fi-color-black)) inset;
+        box-shadow: 0 0 0 1.5px var(--fi-action-border-hover) inset;
     }
 
     &:focus,
     &:active {
-        background-color: var(--fl-linkFgColor, var(--fi-color-grey-800));
-        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--fi-color-lime-500)) inset;
-        color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+        background-color: var(--fi-action-surface-focus);
+        box-shadow: 0 0 0 1.5px var(--fi-action-border-focus) inset;
+        color: var(--fi-action-content-focus);
         outline: solid 1px transparent;
     }
 }
@@ -246,8 +298,8 @@ a.standalone {
 /* Header */
 
 .header {
-    background-color: var(--fl-bgColor, var(--fi-color-black));
-    color: var(--fl-fgColor, var(--fi-color-white));
+    background-color: var(--fi-global-nav-surface);
+    color: var(--fi-global-nav-content);
 
     .wrapper {
         align-items: flex-start;
@@ -257,6 +309,8 @@ a.standalone {
         padding-inline: var(--fi-space-l);
     }
 }
+
+/* TODO: UIO buttons */
 
 .header a {
     display: inline-block;
@@ -353,7 +407,7 @@ h1 em::after {
 /* Navigation */
 
 .navigation {
-    background-color: var(--fl-bgColor, var(--fi-color-lime-500));
+    background-color: var(--fi-nav-surface);
 
     .wrapper {
         min-block-size: var(--fi-space-fluid-5xl-3xl);
@@ -364,20 +418,21 @@ h1 em::after {
 .navigation [aria-expanded] {
     align-items: center;
     appearance: none;
-    background-color: transparent;
+    background-color: var(--fi-nav-surface);
     border: 0;
-    color: var(--fl-linkFgColor);
+    color: var(--fi-nav-content);
     display: flex;
     justify-content: center;
     margin-block-start: 0;
 
     &:hover {
-        box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--fi-color-black)) inset;
+        box-shadow: 0 0 0 var(--fi-spacing-050) var(--fi-nav-border-hover) inset;
     }
 
     &:focus {
-        background-color: var(--fl-linkFgColor, var(--fi-color-black));
-        color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+        background-color: var(--fi-nav-surface-focus);
+        box-shadow: 0 0 0 var(--fi-spacing-050) var(--fi-nav-border-focus) inset;
+        color: var(--fi-nav-content-focus);
         outline: solid 1px transparent;
     }
 }
@@ -426,9 +481,9 @@ h1 em::after {
 
 .navigation li a {
     align-items: center;
-    background-color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+    background-color: var(--fi-nav-surface);
     block-size: var(--fi-space-2xl);
-    color: var(--fl-linkFgColor, var(--fi-color-black));
+    color: var(--fi-nav-content);
     display: flex;
     inline-size: 100%;
     justify-content: flex-start;
@@ -442,30 +497,51 @@ h1 em::after {
 }
 
 .navigation li a[aria-current="page"] {
-    text-decoration: underline;
-}
-
-.navigation li a:visited {
-    color: var(--fl-linkFgColor, var(--fi-color-black));
+    box-shadow:
+        0 -1px var(--fi-nav-surface) inset,
+        0 calc(-1 * var(--fi-space-2xs)) var(--fi-nav-border) inset;
 }
 
 .navigation li a:hover {
-    box-shadow: 0 0 0 1.5px var(--fl-linkFgColor, var(--fi-color-black)) inset;
+    box-shadow: 0 0 0 var(--fi-spacing-050) var(--fi-nav-border-hover) inset;
+}
+
+.navigation li a[aria-current="page"]:hover {
+    box-shadow:
+        0 0 0 var(--fi-spacing-050) var(--fi-nav-border-hover) inset,
+        0 calc(-1 * var(--fi-space-2xs)) var(--fi-nav-border-hover) inset;
+}
+
+.navigation li a:visited {
+    color: var(--fi-nav-content);
 }
 
 .navigation li a:focus {
-    background: var(--fl-linkFgColor, var(--fi-color-black));
-    box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--fi-color-lime-500)) inset;
-    color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+    background: var(--fi-nav-surface-focus);
+    box-shadow: 0 0 0 var(--fi-spacing-050) var(--fi-nav-border-focus) inset;
+    color: var(--fi-nav-content-focus);
     outline: 1px solid transparent;
 }
 
 .navigation li li a {
-    background: var(--fl-linkBgColor, var(--fi-color-lime-600));
+    background: transparent;
     block-size: auto;
+    color: var(--fi-nav-secondary-content);
     inline-size: 100vw;
     min-block-size: var(--fi-space-2xl);
-    padding-inline-start: var(--fi-space-fluid-4xl-l);
+    padding-inline-start: var(--fi-space-2xl);
+}
+
+.navigation li li a:hover {
+    box-shadow:
+        var(--fi-space-s) 0 0 var(--fi-nav-secondary-border-hover) inset,
+        0 0 0 var(--fi-spacing-050) var(--fi-nav-secondary-border-hover) inset;
+}
+
+.navigation li li a:focus {
+    box-shadow:
+        0 0 0 var(--fi-spacing-050) var(--fi-nav-secondary-border-focus) inset,
+        var(--fi-space-s) 0 0 var(--fi-nav-secondary-content-focus) inset;
 }
 
 .navigation li [aria-expanded] {
@@ -475,13 +551,17 @@ h1 em::after {
     padding-inline: var(--fi-space-xs);
 }
 
-.navigation li [aria-expanded="true"] {
-    background-color: var(--fl-linkBgColor, var(--fi-color-black));
-    color: var(--fl-linkFgColor, var(--fi-color-lime-500));
+.navigation li:has([aria-expanded]:focus) > a {
+    box-shadow: 0 0 0 var(--fi-spacing-050) var(--fi-nav-border-hover) inset;
 }
 
+.navigation li [aria-expanded="true"] {
+    box-shadow: calc(-1 * var(--fi-space-2xs)) var(--fi-space-2xs) 0 var(--fi-nav-border) inset;
+}
+
+.navigation li:has([aria-expanded="true"]:focus) > a,
 .navigation li:has([aria-expanded="true"]) > a {
-    box-shadow: 0 0 0 3px var(--fl-linkFgColor, var(--fi-color-black)) inset;
+    box-shadow: var(--fi-space-2xs) var(--fi-space-2xs) 0 var(--fi-nav-border) inset;
 }
 
 .navigation li [aria-expanded] + ul {
@@ -494,6 +574,8 @@ h1 em::after {
 }
 
 .navigation li ul {
+    background: var(--fi-nav-secondary-surface);
+    box-shadow: 0 0 0 var(--fi-spacing-050) var(--fi-nav-secondary-border) inset;
     display: block;
     grid-column: 1 / 3;
     margin-block-start: 0;
@@ -509,7 +591,7 @@ h1 em::after {
 
 @media (width >= 60rem) {
     .navigation .brand-and-toggle {
-        min-block-size: auto;
+        block-size: inherit;
     }
 
     .navigation .brand-and-toggle [aria-expanded] {
@@ -527,9 +609,8 @@ h1 em::after {
     }
 
     .navigation .wrapper {
-        block-size: auto;
+        block-size: var(--fi-space-3xl);
         justify-content: space-between;
-        min-block-size: var(--fi-space-fluid-xl);
     }
 
     .navigation .menu > ul {
@@ -546,11 +627,15 @@ h1 em::after {
         display: flex;
     }
 
+    .navigation li a[aria-current="page"] {
+        box-shadow: 0 calc(-1 * var(--fi-space-2xs)) var(--fi-nav-border) inset;
+    }
+
     .navigation li a,
     .navigation li [aria-expanded] {
-        block-size: var(--fi-space-fluid-3xl);
+        block-size: var(--fi-space-3xl);
         justify-content: center;
-        padding-inline: var(--fi-space-s);
+        padding-inline: var(--fi-space-xs);
     }
 
     .navigation li a {
@@ -575,30 +660,31 @@ h1 em::after {
 
     .navigation li ul {
         flex-direction: column;
+        inline-size: max-content;
+        left: 0;
         min-inline-size: 100%;
         position: absolute;
-        right: 0;
-        top: var(--fi-space-fluid-3xl);
+        top: var(--fi-space-3xl);
     }
 }
 
 /* Title */
 
 .title {
-    background-color: var(--fl-bgColor, var(--fi-color-black));
-    color: var(--fl-fgColor, var(--fi-color-lime-500));
+    background-color: var(--fi-hero-surface);
+    color: var(--fi-hero-content);
 
     em {
-        color: var(--fl-fgColor, var(--fi-color-white));
+        color: var(--fi-hero-content-accent);
     }
 }
 
 .home .title {
-    background-color: var(--fl-bgColor, var(--fi-color-lime-500));
-    color: var(--fl-fgColor, var(--fi-color-black));
+    background-color: var(--fi-hero-home-surface);
+    color: var(--fi-hero-home-content);
 
     em {
-        color: var(--fl-fgColor, var(--fi-color-black));
+        color: var(--fi-hero-home-content);
     }
 }
 
@@ -729,99 +815,4 @@ h5,
     .grid > *:first-of-type::before {
         inline-size: 50%;
     }
-}
-
-.w1,
-.w2,
-.w3,
-.w4 {
-    stroke: var(--fl-fgColor, transparent);
-    stroke-width: 1px;
-}
-
-.w1,
-.w2,
-.w3,
-.w4,
-.w7 {
-    fill: var(--fl-bgColor, var(--fill));
-}
-
-.w1 {
-    --fill: #e8b91c;
-}
-
-.w2 {
-    --fill: #f6d872;
-}
-
-.w3 {
-    --fill: #f9eec6;
-}
-
-.w4 {
-    --fill: #fff;
-}
-
-.w5 {
-    stroke: var(--fl-fgColor, #ad8911);
-}
-
-.w6 {
-    fill: var(--fl-fgColor, #e8451c);
-}
-
-.w7 {
-    fill: var(--fl-fgColor, var(--fi-color-black));
-}
-
-.w8 {
-    fill: var(--fl-fgColor, #cb3335);
-}
-
-.p1,
-.p2,
-.p3,
-.p4,
-.p6 {
-    fill: var(--fl-bgColor, var(--fill));
-    stroke: var(--fl-fgColor, transparent);
-    stroke-width: 1px;
-}
-
-.p7 {
-    stroke: var(--fl-fgColor, var(--fi-color-black));
-}
-
-.p5,
-.p8 {
-    fill: var(--fl-fgColor, var(--fill));
-}
-
-.p1 {
-    --fill: #7bd383;
-}
-
-.p2 {
-    --fill: #d6e9cc;
-}
-
-.p3 {
-    --fill: #b7e1b4;
-}
-
-.p4 {
-    --fill: #99da9b;
-}
-
-.p5 {
-    --fill: #2a842d;
-}
-
-.p6 {
-    --fill: #e8a41c;
-}
-
-.p8 {
-    --fill: var(--fi-color-black);
 }

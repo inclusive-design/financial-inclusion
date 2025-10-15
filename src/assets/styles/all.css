@@ -203,7 +203,6 @@
     --fi-spacing-200: calc(8 / 16 * 1rem);
     --fi-spacing-300: calc(12 / 16 * 1rem);
     --fi-spacing-400: calc(16 / 16 * 1rem);
-    --fi-spacing-450: calc(18 / 16 * 1rem);
     --fi-spacing-500: calc(20 / 16 * 1rem);
     --fi-spacing-600: calc(24 / 16 * 1rem);
     --fi-spacing-800: calc(32 / 16 * 1rem);
@@ -222,12 +221,14 @@
     --fi-border-width-4: calc(4 / 16 * 1rem);
 
     /* Spacing Aliases */
+    --fi-space-2xs: var(--fi-spacing-200);
     --fi-space-xs: var(--fi-spacing-300);
-    --fi-space-s: var(--fi-spacing-450);
+    --fi-space-s: var(--fi-spacing-400);
     --fi-space-m: var(--fi-spacing-600);
     --fi-space-l: var(--fi-spacing-800);
     --fi-space-xl: var(--fi-spacing-1000);
     --fi-space-2xl: var(--fi-spacing-1200);
+    --fi-space-3xl: var(--fi-spacing-3000);
 
     /* Fluid Spacing
        @link https://utopia.fyi/space/calculator?c=360,16,1.2,1440,32,1.25,5,2,&s=0.75|0.625,1.5|2|2.5|3|3.75|4.375|6|7|14,xs-2xs|l-6xl|4xl-l|5xl-3xl&g=s,l,xl,12 */
