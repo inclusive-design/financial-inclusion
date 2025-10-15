@@ -542,6 +542,7 @@ h1 em::after {
     box-shadow:
         0 0 0 var(--fi-spacing-050) var(--fi-nav-secondary-border-focus) inset,
         var(--fi-space-s) 0 0 var(--fi-nav-secondary-content-focus) inset;
+    color: var(--fi-nav-secondary-content-focus);
 }
 
 .navigation li [aria-expanded] {
