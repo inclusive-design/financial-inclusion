@@ -76,7 +76,7 @@ body {
     --fi-nav-secondary-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-800));
     --fi-nav-secondary-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-600));
     --fi-nav-secondary-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-border-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
+    --fi-nav-secondary-border-focus: var(--fl-linkFgColor, var(--fi-color-primary-600));
 
     background-color: var(--fi-main-surface);
     color: var(--fi-main-body);
