@@ -67,14 +67,5 @@
     </div>
     {% endfor %}
   </main>
-  <script>
-  var reversedLists = Array.from(document.querySelectorAll('reversed-list'));
-
-  reversedLists.forEach(function (reversedList) {
-    var orderedList = reversedList.querySelector('ol');
-    var listItems = orderedList.querySelectorAll('li');
-    orderedList.setAttribute('style', `--data-count: ${listItems.length + 1}`);
-  });
-  </script>
 </body>
 </html>

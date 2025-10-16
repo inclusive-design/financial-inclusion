@@ -15,6 +15,7 @@ import { consolePlus } from 'eleventy-plugin-console-plus';
 import Image from "@11ty/eleventy-img";
 import { parseHTML } from "linkedom";
 import { encode } from 'node-base64-image';
+import deploy from "./src/_data/deploy.js";
 
 
 function princeVersion() {
@@ -166,7 +167,7 @@ export default function eleventy(eleventyConfig) {
         });
       } else {
         const url = 'https://api.docraptor.com/docs';
-        const pageUrl = `${process.env.CF_PAGES_URL}/en/export/index.html`;
+        const pageUrl = `${deploy.url}/en/export/index.html`;
 
         const body = JSON.stringify({
           user_credentials: "YOUR_API_KEY_HERE",
@@ -174,8 +175,10 @@ export default function eleventy(eleventyConfig) {
             test: true,
             document_type: "pdf",
             document_url: pageUrl,
-            javascript: true,
-            pipeline: 11
+            pipeline: 11,
+            prince_options: {
+              baseurl: deploy.url
+            }
           }
         });
 
