@@ -159,7 +159,7 @@ export default function eleventy(eleventyConfig) {
         return;
       }
 
-      console.log(deploy.url);
+      console.log(process.env);
 
       // const prince = await princeVersion();
 
