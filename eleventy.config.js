@@ -151,7 +151,7 @@ export default function eleventy(eleventyConfig) {
     }
   });
 
-  eleventyConfig.on(
+  /* eleventyConfig.on(
     "eleventy.after",
     async ({ dir, results, runMode, outputMode }) => {
       if (runMode !== 'build') {
@@ -203,7 +203,7 @@ export default function eleventy(eleventyConfig) {
         });
       }
     }
-  );
+  ); */
 
   return {
     dir: {

@@ -5,8 +5,9 @@
   "type": "module",
   "version": "1.0.0-beta",
   "scripts": {
-    "build": "npm-run-all -l clean build:eleventy",
+    "build": "npm-run-all -l clean build:*",
     "build:eleventy": "cross-env NODE_ENV=production eleventy",
+    "build:pdf": "node bin/generate-pdf.js",
     "clean": "rimraf _site",
     "debug": "cross-env DEBUG=Eleventy* eleventy",
     "dev": "cross-env NODE_ENV=development eleventy --serve",
@@ -37,6 +38,7 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.0",
     "@11ty/font-awesome": "^1.0.0-beta.1",
+    "axios": "^1.12.2",
     "eleventy-plugin-fluid": "^3.0.0",
     "eleventy-plugin-footnotes": "^0.11.0",
     "infusion": "^4.8.0",
