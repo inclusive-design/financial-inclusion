@@ -13,11 +13,11 @@ const config = {
     doc: {
       test: true,
       document_type: "pdf",
-      document_url: "https://print-narratives.financial-inclusion.pages.dev/en/export/index.html",
+      document_url: "https://financial-inclusion.pages.dev/en/export/index.html",
       pipeline: 11,
       prince_options: {
         media: "print",
-        baseurl: "https://print-narratives.financial-inclusion.pages.dev",
+        baseurl: "https://financial-inclusion.pages.dev",
       }
     }
   }
@@ -25,7 +25,7 @@ const config = {
 
 axios(config)
   .then(function (response) {
-    fs.writeFile("_site/assets/guidebook-for-financial-inclusion.pdf", response.data, "binary", function (
+    fs.writeFile("src/assets/downloads/guidebook-for-financial-inclusion.pdf", response.data, "binary", function (
       writeErr
     ) {
       if (writeErr) throw writeErr;
