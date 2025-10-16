@@ -159,52 +159,50 @@ export default function eleventy(eleventyConfig) {
         return;
       }
 
-      console.log(process.env);
+      const prince = await princeVersion();
 
-      // const prince = await princeVersion();
+      if (prince.includes('Prince 16')) {
+        exec('prince --javascript _site/en/export/index.html -o _site/assets/guidebook-for-financial-inclusion.pdf', (_error, stdout, _stderr) => {
+          console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/en/export/index.html');
+          open('_site/assets/guidebook-for-financial-inclusion.pdf');
+        });
+      } else {
+        const url = 'https://api.docraptor.com/docs';
+        const pageUrl = `https://${process.env.CF_PAGES_BRANCH}.financial-inclusion.pages.dev/en/export/index.html`;
 
-      // if (prince.includes('Prince 16')) {
-      //   exec('prince --javascript _site/en/export/index.html -o _site/assets/guidebook-for-financial-inclusion.pdf', (_error, stdout, _stderr) => {
-      //     console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/en/export/index.html');
-      //     open('_site/assets/guidebook-for-financial-inclusion.pdf');
-      //   });
-      // } else {
-      //   const url = 'https://api.docraptor.com/docs';
-      //   const pageUrl = `${deploy.url}/en/export/index.html`;
+        const body = JSON.stringify({
+          user_credentials: "YOUR_API_KEY_HERE",
+          doc: {
+            test: true,
+            document_type: "pdf",
+            document_url: pageUrl,
+            pipeline: 11,
+            prince_options: {
+              baseurl: deploy.url
+            }
+          }
+        });
 
-      //   const body = JSON.stringify({
-      //     user_credentials: "YOUR_API_KEY_HERE",
-      //     doc: {
-      //       test: true,
-      //       document_type: "pdf",
-      //       document_url: pageUrl,
-      //       pipeline: 11,
-      //       prince_options: {
-      //         baseurl: deploy.url
-      //       }
-      //     }
-      //   });
+        let buffer = await Fetch(url, {
+          duration: '0s',
+          type: 'buffer',
+          filenameFormat: function (_cacheKey, _hash) {
+            return `guidebook-for-financial-inclusion`;
+          },
+          fetchOptions: {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body
+          }
+        });
 
-      //   let buffer = await Fetch(url, {
-      //     duration: '0s',
-      //     type: 'buffer',
-      //     filenameFormat: function (_cacheKey, _hash) {
-      //       return `guidebook-for-financial-inclusion`;
-      //     },
-      //     fetchOptions: {
-      //       method: 'POST',
-      //       headers: {
-      //         'Content-Type': 'application/json'
-      //       },
-      //       body
-      //     }
-      //   });
-
-      //   fs.writeFile("_site/assets/guidebook-for-financial-inclusion.pdf", buffer, "binary", function () {
-      //     console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/en/export/index.html');
-      //     // open('_site/assets/guidebook-for-financial-inclusion.pdf');
-      //   });
-      // }
+        fs.writeFile("_site/assets/guidebook-for-financial-inclusion.pdf", buffer, "binary", function () {
+          console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/en/export/index.html');
+          // open('_site/assets/guidebook-for-financial-inclusion.pdf');
+        });
+      }
     }
   );
 
