@@ -154,9 +154,9 @@ export default function eleventy(eleventyConfig) {
   eleventyConfig.on(
     "eleventy.after",
     async ({ dir, results, runMode, outputMode }) => {
-      if (runMode !== 'build') {
-        return;
-      }
+      // if (runMode !== 'build') {
+      return;
+      // }
 
       const prince = await princeVersion();
 
