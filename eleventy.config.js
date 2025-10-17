@@ -10,6 +10,7 @@ import { consolePlus } from 'eleventy-plugin-console-plus';
 import Image from "@11ty/eleventy-img";
 import { parseHTML } from "linkedom";
 import { encode } from 'node-base64-image';
+import markdownItAttrs from 'markdown-it-attrs';
 
 export default function eleventy(eleventyConfig) {
   eleventyConfig.addGlobalData("now", () => new Date());
@@ -33,7 +34,12 @@ export default function eleventy(eleventyConfig) {
       }
     },
     css: { enabled: false },
-    minify: { enabled: false }
+    minify: { enabled: false },
+    markdown: {
+      plugins: [
+        [markdownItAttrs, {}]
+      ]
+    }
   });
 
   ["en", "fr"].forEach((lang) => {

@@ -5,6 +5,7 @@
   <title>{{ title }}</title>
   {% set allCss %} {% include '../../assets/styles/all.css' %} {% endset %}
   {% set printCss %} {% include '../../assets/styles/print.css' %} {% endset %}
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
   <style>
       {{ allCss | safe }}
       {{ printCss | safe }}
