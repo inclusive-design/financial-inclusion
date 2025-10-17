@@ -10,7 +10,7 @@ order: 3
 
 People’s financial states are not only products of their individual action, but often influenced by systemic and environmental factors. Because of this, our narratives demonstrate both barriers at an individual level and a systemic level. We use two frameworks to explain this:
 
-- {% includeSvg "mini-pyramid.svg", "A pyramid with four tiers." %}
+- {% includeSvg "mini-pyramid.svg", translations[lang]['mini-pyramid'] %}
 
   <div>
 
@@ -20,7 +20,7 @@ People’s financial states are not only products of their individual action, bu
 
   </div>
 
-- {% includeSvg "mini-wheel.svg", "A circle with three layers radiating out from the centre. The circle is divided into eight slices." %}
+- {% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
 
   <div>
 
@@ -34,9 +34,7 @@ People’s financial states are not only products of their individual action, bu
 
 Inspired by Maslow’s Hierarchy of Needs, this framework outlines different layers of financial services people need, starting with basic access and moving toward long-term financial planning. Like a foundation, the bottom layers need to be achieved before people can move upward.
 
-<div class="two-column"
-
-<ol>
+<div class="two-column">
 
 1. **Financial touchpoints**<br />
    Barriers to: Bank branches, ATM’s, online banking, banking equipment and artifacts
@@ -47,9 +45,7 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
 4. **Financial advice and planning**<br />
    Barriers to: Disability-specific financial advising, future planning
 
-</ol>
-
-{% includeSvg "pyramid.svg", "A pyramid with four numbered tiers. 1 at the bottom represents basic needs, 4 at the top represents higher level needs." %}
+{% includeSvg "pyramid.svg", translations[lang].pyramid %}
 
 </div>
 
@@ -57,17 +53,13 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
 
 This hierarchy not only offers a framework to outline the barriers people face with financial services, it also helps financial institutions build stronger relationships with their clients. Before earning someone’s trust to plan their financial future, you must first ensure they can open an account or even enter a branch.
 
-<div class="two-column"
-
-<ol>
+<div class="two-column">
 
 1. **Building trust**
 2. **Deepening relationship**
 3. **Establishing loyalty**
 
-</ol>
-
-{% includeSvg "directional-pyramid.svg", "A pyramid with four tiers. An arrow points from the bottom up, moving from building trust at the base of the pyramid, to deepening relationship in the middle, to establishing loyalty at the top of the pyramid." %}
+{% includeSvg "directional-pyramid.svg", translations[lang]["directional-pyramid"] %}
 
 </div>
 
@@ -89,7 +81,7 @@ This wheel demonstrates the systemic and environmental factors that impact your 
 
 Each factor makes up a “slice” of the wheel. Together, all the slices form the full picture.
 
-{% includeSvg "wheel.svg", "A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the centre to the edge of the circle. The inner layer is labelled least impacted. The outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability." %}
+{% includeSvg "wheel.svg", translations[lang].wheel %}
 
 - Where you live
 - Stigma and judgement
@@ -113,7 +105,7 @@ Where one lives affects their access to essential services, like healthcare and 
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+{% includeSvg "slice.svg", translations[lang].slice %}
 
 </div>
 <div class="flow">
@@ -134,7 +126,7 @@ One’s appearance can affect the stigma and judgment others hold toward them, a
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+{% includeSvg "slice.svg", translations[lang].slice %}
 
 </div>
 <div class="flow">
@@ -155,7 +147,7 @@ Social aid can have policies that are exclusionary. For example, disability prog
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+{% includeSvg "slice.svg", translations[lang].slice %}
 
 </div>
 <div class="flow">
@@ -176,7 +168,7 @@ Wages are not keeping up with the cost of living. Depending on how much income o
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+{% includeSvg "slice.svg", translations[lang].slice %}
 
 </div>
 <div class="flow">
@@ -197,7 +189,7 @@ One’s ability to gain and retain employment is subject to whether their employ
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+{% includeSvg "slice.svg", translations[lang].slice %}
 
 </div>
 <div class="flow">
@@ -218,7 +210,7 @@ Collective events like the pandemic or a natural disaster, or personal events li
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+{% includeSvg "slice.svg", translations[lang].slice %}
 
 </div>
 
@@ -240,7 +232,7 @@ One’s ability to read and understand the dominant language fluently can affect
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+{% includeSvg "slice.svg", translations[lang].slice %}
 
 </div>
 <div class="flow">
@@ -261,7 +253,7 @@ One’s immigration status can deeply impact their ability to earn money, gain e
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", "A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact." %}
+{% includeSvg "slice.svg", translations[lang].slice %}
 
 </div>
 <div class="flow">

@@ -1,20 +1,21 @@
 ---
 uuid: 3f2832ee-30fd-4779-943f-a7bf6cd98431
-title: 'Narrative 4: Future planning for immigrants with disabilities'
+title: 'Narrative 4: **Future planning for immigrants** with disabilities'
 shortTitle: Narrative 4
 nav: true
 type: narrative
 order: 8
 parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+backgroundImage: /assets/uploads/narrative-4.jpg
+introduction: |-
+  ### The Research
+
+  21.5% of immigrants in Canada reported having a disability. _(Vergara & Hardy, 2024)_
+
+  34-46% of newcomers encounter financial hardship during some point of settlement, despite newcomers who are more highly educated and skilled than ever before. _(Prosper Canada Centre for Financial Literacy, 2015)_
+
+  Only 31.5% of eligible Canadians (under 60) had a Registered Disability Savings Plan (RDSP) in 2020. Among those eligible but not enrolled in an RDSP, nearly 50% had never heard of it, 46% said they lacked the money to contribute, and 29% reported not having enough information. _(Statistics Canada, 2022)_
 ---
-### The Research
-
-21.5% of immigrants in Canada reported having a disability. _(Vergara & Hardy, 2024)_
-
-34-46% of newcomers encounter financial hardship during some point of settlement, despite newcomers who are more highly educated and skilled than ever before. _(Prosper Canada Centre for Financial Literacy, 2015)_
-
-Only 31.5% of eligible Canadians (under 60) had a Registered Disability Savings Plan (RDSP) in 2020. Among those eligible but not enrolled in an RDSP, nearly 50% had never heard of it, 46% said they lacked the money to contribute, and 29% reported not having enough information. _(Statistics Canada, 2022)_
-
 ### Ki, 49
 
 _Halifax, Nova Scotia_
@@ -31,7 +32,7 @@ Ki used to send money home to his parents, who rely on him for essentials like m
 
 For a while, CERB and unemployment benefits helped them get by. But those programs have ended, and Tan's nursing income just barely covers their expenses. Because her earnings slightly exceed the eligibility cut-off for their provincial disability program, Ki doesn't qualify—yet they still can't afford basics like medication or physical therapy.
 
-<!-- Wheel diagram goes here. Update alt text to: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  Ki's narrative is marked on each slice. Ki is highly impacted by social aid policies, cost of living, accommodations at work, and unexpected events.-->
+{% includeSvg 'wheel-narrative-4.svg', translations[lang]['wheel-narrative-4'], 'full' %}
 
 ### Barriers to accessing financial institutions
 

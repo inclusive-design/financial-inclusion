@@ -6,7 +6,8 @@
     --step-2: 16pt;
     --step-3: 18pt;
     --step-4: 24pt;
-    --step-5: 44pt;
+    --step-5: 36pt;
+    --step-6: 44pt;
 }
 
 /* 2. Base */
@@ -56,7 +57,7 @@ h6 {
 h1,
 .chapter h2,
 .back-matter h2 {
-    font-size: var(--step-5);
+    font-size: var(--step-6);
 }
 
 h3 {
@@ -79,6 +80,17 @@ h6 {
     font-size: var(--step-0);
 }
 
+.surtitle {
+    string-set: chapter-title content();
+}
+
+.surtitle,
+.chapter.narrative .introduction h3 {
+    font-family: var(--family-serif-alt);
+    font-size: var(--step-1);
+    font-weight: var(--font-weight-normal);
+}
+
 /* 3. Structure */
 
 .title {
@@ -97,6 +109,26 @@ h6 {
 .chapter {
     page: chapter;
     page-break-before: auto;
+    page-group: start;
+}
+
+[data-chapter="5"] {
+    page: chapter-5;
+    page-group: start;
+}
+
+[data-chapter="6"] {
+    page: chapter-6;
+    page-group: start;
+}
+
+[data-chapter="7"] {
+    page: chapter-7;
+    page-group: start;
+}
+
+[data-chapter="8"] {
+    page: chapter-8;
     page-group: start;
 }
 
@@ -136,6 +168,111 @@ h6 {
 
 @page chapter:first-of-group {
     background-color: var(--fi-color-black);
+    color: var(--fi-color-white);
+
+    @top-left {
+        content: normal;
+    }
+
+    @top-right {
+        content: normal;
+    }
+}
+
+@page chapter-5 {
+    @top-left {
+        content: string(chapter-title);
+        font-family: Diphylleia, serif;
+    }
+
+    @top-right {
+        content: counter(page);
+    }
+}
+
+@page chapter-5:first-of-group {
+    background-image: var(--background-image-5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @top-left {
+        content: normal;
+    }
+
+    @top-right {
+        content: normal;
+    }
+}
+
+@page chapter-6 {
+    @top-left {
+        content: string(chapter-title);
+        font-family: Diphylleia, serif;
+    }
+
+    @top-right {
+        content: counter(page);
+    }
+}
+
+@page chapter-6:first-of-group {
+    background-image: var(--background-image-6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @top-left {
+        content: normal;
+    }
+
+    @top-right {
+        content: normal;
+    }
+}
+
+@page chapter-7 {
+    @top-left {
+        content: string(chapter-title);
+        font-family: Diphylleia, serif;
+    }
+
+    @top-right {
+        content: counter(page);
+    }
+}
+
+@page chapter-7:first-of-group {
+    background-image: var(--background-image-7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @top-left {
+        content: normal;
+    }
+
+    @top-right {
+        content: normal;
+    }
+}
+
+@page chapter-8 {
+    @top-left {
+        content: string(chapter-title);
+        font-family: Diphylleia, serif;
+    }
+
+    @top-right {
+        content: counter(page);
+    }
+}
+
+@page chapter-8:first-of-group {
+    background-image: var(--background-image-8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @top-left {
         content: normal;
@@ -228,7 +365,7 @@ h6 {
 }
 
 .toc ol,
-ul:has(svg) {
+.flow ul:has(svg) {
     padding-left: 0;
 }
 
@@ -257,6 +394,13 @@ ul:has(svg) {
     string-set: chapter-title content();
 }
 
+.chapter.narrative h2 {
+    color: var(--color-white);
+    font-size: var(--step-5);
+    font-weight: var(--font-weight-normal);
+    margin-top: 0;
+}
+
 .chapter h2 em {
     color: var(--fi-color-white);
     font-family: var(--fi-font-family-display-alt);
@@ -265,14 +409,38 @@ ul:has(svg) {
 }
 
 .chapter h2 + *,
-.chapter:has([id="about-this-guidebook"]) h3 {
+.chapter[data-chapter-number="1"] h3 {
     break-before: page;
     margin-top: 2.325in;
 }
 
 .chapter hr + h3,
-.chapter.narrative h3 {
+.chapter.narrative h2 + * {
     break-before: auto;
+}
+
+.chapter.narrative .introduction + h3 {
+    break-before: page;
+}
+
+.chapter.narrative .introduction {
+    border-left: 1px solid var(--color-lime);
+    color: var(--color-white);
+    margin-left: -24pt;
+    margin-top: 96pt;
+    max-width: calc(2 / 3 * 100%);
+    padding-left: 32pt;
+}
+
+.chapter.narrative .introduction p {
+    font-family: var(--family-display);
+    font-size: var(--step-0);
+    font-weight: var(--font-weight-medium);
+}
+
+.chapter.narrative .introduction em {
+    font-family: var(--family-serif-alt);
+    font-style: normal;
 }
 
 .flow > h3 + * {

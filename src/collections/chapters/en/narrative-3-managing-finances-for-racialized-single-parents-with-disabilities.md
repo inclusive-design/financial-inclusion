@@ -1,20 +1,21 @@
 ---
 uuid: ca63a0bc-27d1-42cd-9179-8db396857f53
-title: 'Narrative 3: Managing finances for racialized single parents with disabilities'
+title: 'Narrative 3: **Managing finances for racialized single parents** with disabilities'
 shortTitle: Narrative 3
 nav: true
 type: narrative
 order: 7
 parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+backgroundImage: /assets/uploads/narrative-3.jpg
+introduction: |-
+  ### The Research
+
+  Racialized Canadians—about 26% of the population—frequently report poor treatment and bias when dealing with financial institutions. They are more likely to be pitched inappropriate financial products compared to non-racialized customers. _(Share, 2023)_
+
+  In Canada, about 1 in 3 women experience economic abuse—meaning their partner controls access to money, coerces debt, or sabotages employment. _(Canadian Centre for Financial Well-Being & Economic Abuse Awareness, 2023)_
+
+  In 2020, nearly 26% of individuals in single-parent families lived on a low income—almost four times the rate for couple families with children. _(Statistics Canada, 2023)_
 ---
-### The Research
-
-Racialized Canadians—about 26% of the population—frequently report poor treatment and bias when dealing with financial institutions. They are more likely to be pitched inappropriate financial products compared to non-racialized customers. _(Share, 2023)_
-
-In Canada, about 1 in 3 women experience economic abuse—meaning their partner controls access to money, coerces debt, or sabotages employment. _(Canadian Centre for Financial Well-Being & Economic Abuse Awareness, 2023)_
-
-In 2020, nearly 26% of individuals in single-parent families lived on a low income—almost four times the rate for couple families with children. _(Statistics Canada, 2023)_
-
 ### Lakshmi, 23 (and Naya, 5)
 
 _Surrey, British Columbia_
@@ -37,8 +38,7 @@ Even with subsidized rent, managing food, clothing, school supplies for Naya, an
 
 As a racialized single mother, Lakshmi faces pressure from some family and community members to return to her ex-husband, even though the relationship was harmful.
 
-<!-- Wheel diagram goes here. Update alt text to: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  Lakshmi's narrative is marked on each slice. Lakshmi is highly impacted by stigma and judgement, cost of living, unexpected events and language.  Slices are connected with a dashed line.
- -->
+{% includeSvg 'wheel-narrative-3.svg', translations[lang]['wheel-narrative-3'], 'full' %}
 
 ### Barriers to accessing financial institutions
 

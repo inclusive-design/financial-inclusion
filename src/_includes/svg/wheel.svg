@@ -1,7 +1,7 @@
 <svg class="full" width="452" height="323" viewBox="0 0 452 323" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="236.88" cy="152.731" r="133.026" class="w1" />
-<circle cx="237.048" cy="152.904" r="100.791" class="w2" stroke="black" stroke-width="0.878699" stroke-dasharray="2.2 2.2"/>
-<circle cx="237.057" cy="152.903" r="62.9817" class="w3" stroke="black" stroke-width="0.875947" stroke-dasharray="1.75 1.75"/>
+<circle cx="237.048" cy="152.904" r="100.791" class="w2 w9" stroke-width="0.878699" stroke-dasharray="2.2 2.2"/>
+<circle cx="237.057" cy="152.903" r="62.9817" class="w3 w9" stroke-width="0.875947" stroke-dasharray="1.75 1.75"/>
 <line x1="369.899" y1="153.222" x2="103.863" y2="153.222" class="w5" stroke-width="0.875947" stroke-dasharray="1.75 1.75"/>
 <line x1="236.439" y1="284.832" x2="236.439" y2="18.7956" class="w5" stroke-width="0.875947" stroke-dasharray="1.75 1.75"/>
 <line x1="142.726" y1="246.303" x2="330.407" y2="58.6227" class="w5" stroke-width="0.875947" stroke-dasharray="1.75 1.75"/>

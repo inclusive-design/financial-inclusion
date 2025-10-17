@@ -1,9 +1,0 @@
-{
-  "$schema": "https://unpkg.com/wrangler/config-schema.json",
-  "name": "financial-inclusion",
-  "compatibility_date": "2025-09-17",
-  "assets": {
-    "directory": "./_site/"
-  },
-  "preview_urls": true
-}

@@ -98,17 +98,19 @@ body {
 }
 
 .wrapper {
-    inline-size: 100%;
-    margin-inline: auto;
-    max-inline-size: 90rem;
-    padding-inline: var(--fi-margin-padding);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90rem;
+    padding-left: var(--fi-margin-padding);
+    padding-right: var(--fi-margin-padding);
+    width: 100%;
 }
 
 footer {
     background-color: var(--fi-footer-surface);
     color: var(--fi-footer-content);
-    padding-block-end: var(--fi-space-fluid-xl-2xl);
-    padding-block-start: var(--fi-space-l);
+    padding-bottom: var(--fi-space-fluid-xl-2xl);
+    padding-top: var(--fi-space-l);
 }
 
 .idrc-ocadu .inner {
@@ -127,22 +129,24 @@ footer {
     font-weight: var(--fi-font-weight-semibold);
 
     .wrapper {
-        max-inline-size: 103rem;
+        max-width: 103rem;
     }
 }
 
 /* Skip to content */
 
 .skip-container {
-    inline-size: 100%;
     left: 0;
     position: absolute;
     top: 0;
+    width: 100%;
     z-index: -1;
 
     .wrapper {
-        margin-inline: auto;
-        padding-inline: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
         position: relative;
     }
 }
@@ -152,42 +156,41 @@ footer {
 }
 
 .skip {
-    block-size: 1px;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    inline-size: 1px;
+    height: 1px;
     overflow: hidden;
     text-decoration: none;
     white-space: nowrap;
+    width: 1px;
 }
 
 .skip:focus {
     align-items: center;
     background: var(--fi-global-nav-skipto-surface);
-    block-size: var(--fi-space-fluid-s);
-    block-size: var(--fi-space-fluid-4xl-l);
     clip: auto;
     clip-path: none;
     color: var(--fi-global-nav-skipto-content);
     display: flex;
-    inline-size: 100%;
+    height: var(--fi-space-fluid-4xl-l);
     justify-content: center;
     outline: 1px solid transparent;
     overflow: auto;
+    width: 100%;
     z-index: 1;
 }
 
 @media (width >= 60rem) {
     .skip-container:focus-within {
         align-items: center;
-        block-size: var(--fi-space-fluid-l);
         display: flex;
-        padding-inline-start: var(--fi-space-fluid-s);
+        height: var(--fi-space-fluid-l);
+        padding-left: var(--fi-space-fluid-s);
     }
 
     .skip:focus {
-        block-size: var(--fi-space-fluid-s);
-        max-inline-size: 24.5rem;
+        height: var(--fi-space-fluid-s);
+        max-width: 24.5rem;
     }
 }
 
@@ -219,9 +222,9 @@ a:not([class]) {
 }
 
 a {
-    block-size: auto;
     font-size: calc(var(--fl-enhance-font-size-factor, 1) * 100%);
-    inline-size: max-content;
+    height: auto;
+    width: max-content;
 
     svg {
         display: block;
@@ -248,7 +251,7 @@ footer a:not([class]) {
 
     &:has(svg) {
         display: inline-block;
-        inline-size: max-content;
+        width: max-content;
     }
 
     &:visited {
@@ -278,8 +281,9 @@ a.standalone {
     color: var(--fi-action-content);
     display: inline-flex;
     gap: var(--fi-space-xs);
-    padding-block-start: 2px;
-    padding-inline: var(--fi-space-xs);
+    padding-left: var(--fi-space-xs);
+    padding-right: var(--fi-space-xs);
+    padding-top: 2px;
     text-decoration: none;
 
     &:hover {
@@ -303,10 +307,11 @@ a.standalone {
 
     .wrapper {
         align-items: flex-start;
-        block-size: var(--fi-space-fluid-4xl-l);
         flex-direction: column;
+        height: var(--fi-space-fluid-4xl-l);
         justify-content: center;
-        padding-inline: var(--fi-space-l);
+        padding-left: var(--fi-space-l);
+        padding-right: var(--fi-space-l);
     }
 }
 
@@ -342,20 +347,21 @@ h1 em::after {
 
 .brand-and-toggle {
     align-items: center;
-    block-size: auto;
     display: flex;
+    height: auto;
     justify-content: space-between;
-    min-block-size: var(--fi-space-fluid-5xl-3xl);
+    min-height: var(--fi-space-fluid-5xl-3xl);
 
     a {
-        block-size: auto;
         box-shadow: none;
         font-family: var(--fi-font-family-display);
         font-size: var(--step-1);
         font-weight: var(--fi-font-weight-extrabold);
-        margin-inline-start: calc(-1 * var(--fi-space-xs));
-        min-inline-size: 15rem;
-        padding-block: var(--fi-space-xs);
+        height: auto;
+        margin-left: calc(-1 * var(--fi-space-xs));
+        min-width: 15rem;
+        padding-bottom: var(--fi-space-xs);
+        padding-top: var(--fi-space-xs);
         text-decoration: none;
 
         em {
@@ -369,13 +375,13 @@ h1 em::after {
 
         svg {
             display: none;
-            inline-size: 8rem;
+            width: 8rem;
         }
     }
 }
 
 .home .brand-and-toggle a {
-    min-inline-size: max-content;
+    min-width: max-content;
 
     svg {
         display: block;
@@ -389,13 +395,13 @@ h1 em::after {
 
 @media (width >= 60rem) {
     .brand-and-toggle a svg {
-        inline-size: 10.75rem;
+        width: 10.75rem;
     }
 }
 
 @media (width >= 90rem) {
     .brand-and-toggle a {
-        inline-size: 17.5rem;
+        width: 17.5rem;
     }
 
     .brand-and-toggle a em::after,
@@ -410,8 +416,9 @@ h1 em::after {
     background-color: var(--fi-nav-surface);
 
     .wrapper {
-        min-block-size: var(--fi-space-fluid-5xl-3xl);
-        padding-inline: var(--fi-space-m);
+        min-height: var(--fi-space-fluid-5xl-3xl);
+        padding-left: var(--fi-space-m);
+        padding-right: var(--fi-space-m);
     }
 }
 
@@ -423,7 +430,7 @@ h1 em::after {
     color: var(--fi-nav-content);
     display: flex;
     justify-content: center;
-    margin-block-start: 0;
+    margin-top: 0;
 
     &:hover {
         box-shadow: 0 0 0 var(--fi-spacing-050) var(--fi-nav-border-hover) inset;
@@ -438,9 +445,9 @@ h1 em::after {
 }
 
 .navigation .brand-and-toggle [aria-expanded] {
-    block-size: var(--fi-space-2xl);
-    inline-size: var(--fi-space-2xl);
+    height: var(--fi-space-2xl);
     padding: 0;
+    width: var(--fi-space-2xl);
 
     .menu__close {
         display: none;
@@ -458,9 +465,9 @@ h1 em::after {
 }
 
 .navigation .menu > ul {
-    inline-size: 100vw;
-    margin-inline-start: calc(-1 * var(--fi-space-m));
+    margin-left: calc(-1 * var(--fi-space-m));
     position: relative;
+    width: 100vw;
     z-index: 1;
 }
 
@@ -482,18 +489,19 @@ h1 em::after {
 .navigation li a {
     align-items: center;
     background-color: var(--fi-nav-surface);
-    block-size: var(--fi-space-2xl);
     color: var(--fi-nav-content);
     display: flex;
-    inline-size: 100%;
+    height: var(--fi-space-2xl);
     justify-content: flex-start;
-    margin-inline-start: 0;
-    padding-inline: var(--fi-space-m);
+    margin-left: 0;
+    padding-left: var(--fi-space-m);
+    padding-right: var(--fi-space-m);
     text-decoration: none;
+    width: 100%;
 }
 
 .navigation li:has([aria-expanded]) > a {
-    inline-size: max-content;
+    width: max-content;
 }
 
 .navigation li a[aria-current="page"] {
@@ -525,11 +533,11 @@ h1 em::after {
 
 .navigation li li a {
     background: transparent;
-    block-size: auto;
     color: var(--fi-nav-secondary-content);
-    inline-size: 100vw;
-    min-block-size: var(--fi-space-2xl);
-    padding-inline-start: var(--fi-space-2xl);
+    height: auto;
+    min-height: var(--fi-space-2xl);
+    padding-left: var(--fi-space-2xl);
+    width: 100vw;
 }
 
 .navigation li li a:hover {
@@ -546,10 +554,11 @@ h1 em::after {
 }
 
 .navigation li [aria-expanded] {
-    block-size: var(--fi-space-2xl);
-    inline-size: 100%;
+    height: var(--fi-space-2xl);
     justify-content: flex-start;
-    padding-inline: var(--fi-space-xs);
+    padding-left: var(--fi-space-xs);
+    padding-right: var(--fi-space-xs);
+    width: 100%;
 }
 
 .navigation li:has([aria-expanded]:focus) > a {
@@ -583,20 +592,20 @@ h1 em::after {
     box-shadow: 0 0 0 var(--fi-spacing-050) var(--fi-nav-secondary-border) inset;
     display: block;
     grid-column: 1 / 3;
-    margin-block-start: 0;
-    margin-inline-start: 0;
+    margin-left: 0;
+    margin-top: 0;
     position: relative;
 }
 
 .pagination {
     display: flex;
     justify-content: space-between;
-    margin-block-start: var(--fi-space-2xl);
+    margin-top: var(--fi-space-2xl);
 }
 
 @media (width >= 60rem) {
     .navigation .brand-and-toggle {
-        block-size: inherit;
+        height: inherit;
     }
 
     .navigation .brand-and-toggle [aria-expanded] {
@@ -614,14 +623,14 @@ h1 em::after {
     }
 
     .navigation .wrapper {
-        block-size: var(--fi-space-3xl);
+        height: var(--fi-space-3xl);
         justify-content: space-between;
     }
 
     .navigation .menu > ul {
-        inline-size: auto;
-        margin-inline-end: calc(-1 * var(--fi-space-m));
-        margin-inline-start: auto;
+        margin-left: auto;
+        margin-right: calc(-1 * var(--fi-space-m));
+        width: auto;
     }
 
     .navigation li {
@@ -638,38 +647,38 @@ h1 em::after {
 
     .navigation li a,
     .navigation li [aria-expanded] {
-        block-size: var(--fi-space-3xl);
+        height: var(--fi-space-3xl);
         justify-content: center;
-        padding-inline: var(--fi-space-xs);
+        padding-left: var(--fi-space-xs);
+        padding-right: var(--fi-space-xs);
     }
 
     .navigation li a {
-        inline-size: auto;
         text-align: center;
+        width: auto;
     }
 
     .navigation li li {
-        block-size: auto;
-        inline-size: 100%;
+        height: auto;
+        width: 100%;
     }
 
     .navigation li li a {
-        block-size: auto;
-        inline-size: 100%;
+        height: auto;
         justify-content: flex-start;
-        min-block-size: var(--fi-space-fluid-xl);
-        padding-block: var(--fi-space-m);
-        padding-inline: var(--fi-space-fluid-s);
-        text-align: start;
+        min-height: var(--fi-space-fluid-xl);
+        padding: var(--fi-space-m) var(--fi-space-fluid-s);
+        text-align: left;
+        width: 100%;
     }
 
     .navigation li ul {
         flex-direction: column;
-        inline-size: max-content;
         left: 0;
-        min-inline-size: 100%;
+        min-width: 100%;
         position: absolute;
         top: var(--fi-space-3xl);
+        width: max-content;
     }
 }
 
@@ -732,13 +741,13 @@ h1 em::after {
 }
 
 .title .wrapper {
-    padding-block-end: var(--fi-space-fluid-l-xl);
-    padding-block-start: var(--fi-space-fluid-m);
+    padding-bottom: var(--fi-space-fluid-l-xl);
+    padding-top: var(--fi-space-fluid-m);
 }
 
 article .wrapper {
-    padding-block-end: var(--fi-space-fluid-l-xl);
-    padding-block-start: var(--fi-space-fluid-xl);
+    padding-bottom: var(--fi-space-fluid-l-xl);
+    padding-top: var(--fi-space-fluid-xl);
 }
 
 .flow > h2 + *,
@@ -784,7 +793,7 @@ h3 {
 
 h4 {
     font-size: var(--step-2);
-    margin-block-start: 0;
+    margin-top: 0;
 }
 
 h5,
@@ -803,8 +812,8 @@ h5,
     border-block-start: 2px solid currentcolor;
     content: "";
     display: block;
-    inline-size: 50%;
-    margin-block-end: var(--fi-space-l);
+    margin-bottom: var(--fi-space-l);
+    width: 50%;
 }
 
 @media (width >= 60rem) {
@@ -814,10 +823,10 @@ h5,
     }
 
     .grid > *::before {
-        inline-size: 100%;
+        width: 100%;
     }
 
     .grid > *:first-of-type::before {
-        inline-size: 50%;
+        width: 50%;
     }
 }

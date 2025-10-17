@@ -72,6 +72,29 @@ collections:
         search_fields: [title]
         display_fields: [title]
         required: false
+      - label: Background Image
+        name: backgroundImage
+        widget: image
+        i18n: duplicate
+        required: false
+      - label: Introduction
+        name: introduction
+        widget: markdown
+        i18n: true
+        buttons:
+          [
+            bold,
+            italic,
+            link,
+            heading-three,
+            heading-four,
+            heading-five,
+            heading-six,
+            quote,
+            bulleted-list,
+            numbered-list,
+          ]
+        required: false
       - label: Body
         name: body
         widget: markdown

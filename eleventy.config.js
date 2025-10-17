@@ -1,27 +1,15 @@
-import { randomUUID } from "node:crypto";
 import { IdAttributePlugin, RenderPlugin } from "@11ty/eleventy";
-import Fetch from "@11ty/eleventy-fetch";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import fontAwesomePlugin from "@11ty/font-awesome";
 import fluidPlugin from "eleventy-plugin-fluid";
-import open from "open";
 import { __ } from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
 import _ from "lodash";
 import parse from "./src/_transforms/parse.js";
-import fs from "node:fs";
-import { exec } from "node:child_process";
 import { consolePlus } from 'eleventy-plugin-console-plus';
 import Image from "@11ty/eleventy-img";
 import { parseHTML } from "linkedom";
-
-function princeVersion() {
-  return new Promise((resolve) => {
-    exec('prince --version', (_error, stdout, _stderr) => {
-      resolve(stdout);
-    });
-  });
-}
+import { encode } from 'node-base64-image';
 
 export default function eleventy(eleventyConfig) {
   eleventyConfig.addGlobalData("now", () => new Date());
@@ -87,6 +75,11 @@ export default function eleventy(eleventyConfig) {
     return translationUrl;
   });
 
+  eleventyConfig.addFilter("base64Image", async function (url) {
+    const encodedImage = await encode(url, { string: true, local: true });
+    return encodedImage;
+  });
+
   /*
       Provide a custom duplicate of eleventy-plugin-fluid's uioInit shortcode in
       order to run it without the text-size preference.
@@ -110,7 +103,7 @@ export default function eleventy(eleventyConfig) {
     return `<script>fluid.uiOptions.multilingual(".flc-prefsEditor-separatedPanel", ${JSON.stringify(options)});</script>`;
   });
 
-  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '') => {
+  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '', className = null) => {
     const metadata = await Image(`./src/_includes/svg/${filename}`, {
       formats: ["svg"],
       dryRun: true,
@@ -119,6 +112,9 @@ export default function eleventy(eleventyConfig) {
     const svg = document.querySelector('svg');
     svg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
     svg.setAttribute('aria-label', altText);
+    if (className) {
+      svg.setAttribute('class', className);
+    }
     return svg.toString();
   })
 
@@ -129,6 +125,7 @@ export default function eleventy(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({ "src/assets/icons": "/" });
+  eleventyConfig.addPassthroughCopy("src/assets/downloads");
 
   eleventyConfig.addPlugin(IdAttributePlugin, {
     selector: 'h2,h3,h4,h5'
@@ -139,58 +136,6 @@ export default function eleventy(eleventyConfig) {
       return false;
     }
   });
-
-  eleventyConfig.on(
-    "eleventy.after",
-    async ({ dir, results, runMode, outputMode }) => {
-      if (runMode !== 'build') {
-        return;
-      }
-
-      const prince = await princeVersion();
-
-      if (prince.includes('Prince 16')) {
-        exec('prince --javascript _site/en/export/index.html -o _site/assets/guidebook-for-financial-inclusion.pdf', (_error, stdout, _stderr) => {
-          console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/en/export/index.html');
-          open('_site/assets/guidebook-for-financial-inclusion.pdf');
-        });
-      } else {
-        const url = 'https://api.docraptor.com/docs';
-        const html = results.find(item => item.outputPath === './_site/en/export/index.html');
-
-        const body = JSON.stringify({
-          user_credentials: "YOUR_API_KEY_HERE",
-          doc: {
-            test: true,
-            document_type: "pdf",
-            document_content: html.content,
-            javascript: true
-          }
-        });
-
-        let buffer = await Fetch(url, {
-          duration: '0s',
-          type: 'buffer',
-          filenameFormat: function (_cacheKey, _hash) {
-            return `guidebook-for-financial-inclusion`;
-          },
-          fetchOptions: {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body
-          }
-        });
-
-        fs.writeFile("_site/assets/guidebook-for-financial-inclusion.pdf", buffer, "binary", function () {
-          console.log('[11ty] Writing ./_site/assets/guidebook-for-financial-inclusion.pdf from ./_site/en/export/index.html');
-          // open('_site/assets/guidebook-for-financial-inclusion.pdf');
-        });
-      }
-
-    }
-  );
 
   return {
     dir: {

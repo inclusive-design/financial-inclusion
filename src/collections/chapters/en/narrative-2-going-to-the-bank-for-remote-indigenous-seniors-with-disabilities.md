@@ -1,20 +1,21 @@
 ---
 uuid: dd591d97-c496-458a-bc47-73c08aedad31
-title: 'Narrative 2: Going to the bank for remote Indigenous seniors with disabilities'
+title: 'Narrative 2: **Going to the bank for remote Indigenous seniors** with disabilities'
 shortTitle: Narrative 2
 nav: true
 type: narrative
 order: 6
 parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
+backgroundImage: /assets/uploads/narrative-2.jpg
+introduction: |-
+  ### The research
+
+  The lack of access to banking services has disproportionate effect on Indigenous peoples. _(Share, 2023)_
+
+  On average, people living on First Nation reserves must travel about 25 km to reach a bank (compared to 9km for rural Canadians). _(Chen et al., 2023)_
+
+  Only 24% of Indigenous households have access to high-speed internet (compared to 37% of rural households). _(Innovation, Science and Economic Development Canada, 2022)_
 ---
-### The research
-
-The lack of access to banking services has disproportionate effect on Indigenous peoples. _(Share, 2023)_
-
-On average, people living on First Nation reserves must travel about 25 km to reach a bank (compared to 9km for rural Canadians). _(Chen et al., 2023)_
-
-Only 24% of Indigenous households have access to high-speed internet (compared to 37% of rural households). _(Innovation, Science and Economic Development Canada, 2022)_
-
 ### Althea, 67
 
 _Pond Inlet, Nunavut_
@@ -34,7 +35,7 @@ Althea
 
 Living in a remote town in the North means that everything costs more—groceries cost more, items ordered online have a higher shipping cost, and the cost of going to medical appointments (which are more frequent as she ages) is equivalent to the cost of a plane ticket down to a southern province. As she ages, she’s not sure how much she can keep up anymore—especially since disability benefit amounts don’t increase.
 
-<!-- Wheel diagram goes here. Update alt text to: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  Althea's narrative is marked on each slice. Althea is highly impacted by where she lives, social aid policies, cost of living and language.  Slices are connected with a dashed line.-->
+{% includeSvg 'wheel-narrative-2.svg', translations[lang]['wheel-narrative-2'], 'full' %}
 
 ### Barriers to accessing financial institutions
 
