@@ -1,0 +1,60 @@
+name: Render PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      use-test-api:
+        description: "Use test API key"
+        required: true
+        type: boolean
+        default: true
+      tag:
+        description: "Tag to merge"
+        required: true
+        type: string
+
+jobs:
+  render-pdf:
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: true
+      matrix:
+        os: ["ubuntu-latest"]
+    runs-on: ${{ matrix.os }}
+
+    name: Render PDF
+
+    steps:
+      - uses: actions/create-github-app-token@v2
+        id: app-token
+        with:
+          app-id: ${{ vars.GHA_APP_ID }}
+          private-key: ${{ secrets.GHA_PRIVATE_KEY }}
+      - name: Configure DocRaptor
+        run: |
+          cat <<-'DOCUMENT_OPTIONS' > docraptor.json
+          {
+            "test": ${{ github.events.inputs.use-test-api }},
+            "document_type": "pdf",
+            "document_url": "https://financial-inclusion.pages.dev/en/export/index.html",
+            "pipeline": 11,
+            "prince_options": {
+              "media": "print",
+              "baseurl": "https://financial-inclusion.pages.dev",
+            }
+          }
+          DOCUMENT_OPTIONS
+      - name: Render PDF
+        run: |
+          curl https://YOUR_API_KEY_HERE@api.docraptor.com/docs \
+            --fail --silent --show-error \
+            --header "Content-Type:application/json" \
+            --data @docraptor.json \
+            > src/assets/downloads/guidebook-for-financial-inclusion.pdf
+      - name: Archive code coverage results
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: guidebook-for-financial-inclusion
+          path: src/assets/downloads/guidebook-for-financial-inclusion.pdf

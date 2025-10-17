@@ -291,8 +291,10 @@ figure {
 
 ul,
 ol {
-    margin-block: 0;
-    padding-inline: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 ul[role="list"],
@@ -317,7 +319,7 @@ a:not([class]) {
 img,
 picture {
     display: block;
-    max-inline-size: 100%;
+    max-width: 100%;
 }
 
 input {
@@ -370,13 +372,13 @@ li > * + * {
 }
 
 .visually-hidden {
-    block-size: 1px;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    inline-size: 1px;
+    height: 1px;
     overflow: hidden;
     position: absolute;
     white-space: nowrap;
+    width: 1px;
 }
 
 .flow ul:has(svg) {
@@ -400,14 +402,14 @@ li > * + * {
 
 .flow ul:has(svg) li > :first-child {
     flex-grow: 1;
-    inline-size: 60px;
+    width: 60px;
 }
 
 .flow ul:has(svg) li > :last-child {
     flex-basis: 0;
     flex-grow: 999;
     margin-top: 0;
-    min-inline-size: 50%;
+    min-width: 50%;
 }
 
 .flow ul:has(svg) li > div > * + * {
