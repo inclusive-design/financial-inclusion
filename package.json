@@ -40,7 +40,8 @@
     "axios": "^1.12.2",
     "eleventy-plugin-fluid": "^3.0.0",
     "eleventy-plugin-footnotes": "^0.11.0",
-    "infusion": "^4.8.0"
+    "infusion": "^4.8.0",
+    "node-base64-image": "^2.2.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.0",
