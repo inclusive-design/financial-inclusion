@@ -5,7 +5,66 @@
   <title>{{ title }}</title>
   {% set allCss %} {% include '../../assets/styles/all.css' %} {% endset %}
   {% set printCss %} {% include '../../assets/styles/print.css' %} {% endset %}
+  {% if eleventy.env.runMode === 'serve' %}
   <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+  <style>
+    .pagedjs_pages {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25in;
+        margin-block: 0.25in;
+        margin-inline: auto;
+        width: max-content;
+    }
+
+    .pagedjs_page[data-page-number="3"],
+    .pagedjs_page[data-page-number="6"],
+    .pagedjs_page[data-page-number="10"],
+    .pagedjs_page[data-page-number="19"],
+    .pagedjs_page[data-page-number="49"] {
+        background: black;
+
+        .pagedjs_margin-content {
+            display: none;
+        }
+    }
+
+    .pagedjs_chapter-5_first_page {
+        background-image: var(--background-image-5);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pagedjs_chapter-6_first_page {
+        background-image: var(--background-image-6);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pagedjs_chapter-7_first_page {
+        background-image: var(--background-image-7);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pagedjs_chapter-8_first_page {
+        background-image: var(--background-image-8);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pagedjs_chapter-5_first_page .pagedjs_margin-content,
+    .pagedjs_chapter-6_first_page .pagedjs_margin-content,
+    .pagedjs_chapter-7_first_page .pagedjs_margin-content,
+    .pagedjs_chapter-8_first_page .pagedjs_margin-content {
+        display: none;
+    }
+  </style>
+  {% endif %}
   <style>
       {{ allCss | safe }}
       {{ printCss | safe }}
