@@ -39,6 +39,7 @@ Even with subsidized rent, managing food, clothing, school supplies for Naya, an
 As a racialized single mother, Lakshmi faces pressure from some family and community members to return to her ex-husband, even though the relationship was harmful.
 
 {% includeSvg 'wheel-narrative-3.svg', translations[lang]['wheel-narrative-3'], 'full' %}
+<!--alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  Lakshmi's narrative is marked on each slice. Lakshmi is highly impacted by stigma and judgement, cost of living, unexpected events and language.  Slices are connected with a dashed line.-->
 
 ### Barriers to accessing financial institutions
 
@@ -54,7 +55,7 @@ Meanwhile, some people in her community are warning her against using banks or c
 - **Inaccessible financial education:** Many resources are written generically in ways that aren't trauma-informed, or culturally relevant.
 - **Complex and technical language:** Financial agreements are often filled with jargon, making them difficult to understand without a pre-existing grasp on financial language.
 
-<!-- Pyramid diagram goes here. -->
+<!-- Pyramid diagram goes here. alt: Four pyramid tiers. The second tier from the top is identified as relevant to [Name]’s story.  -->
 
 ### Current & ideal state journey map
 
@@ -64,7 +65,7 @@ Lakshmi wants to start saving for her daughter's daily expenses. She has some go
 
 Her social worker suggests opening a savings account and slowly building her credit.
 
-<!-- Flow chart goes here. -->
+<!-- Flow chart goes here. alt: a journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
 
 1. In her area, there is no Bank with a teller that speaks her language.
 2. At the bank, Lakshmi waits until a female teller is free—she feels more comfortable that way.
@@ -86,7 +87,7 @@ Her social worker suggests opening a savings account and slowly building her cre
 
 Here are examples to spark ideas for serving clients like Lakshmi. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<!-- Grid diagram goes here. alt empty-->
 
 #### Train staff on social aid programs and benefits
 
@@ -114,7 +115,7 @@ After learning about Lakshmi, consider her life experiences and answer the follo
 
 Can Lakshmi...
 
-<!-- Inverted pyramid diagram goes here. -->
+<!-- Inverted pyramid diagram goes here. alt empty-->
 
 1. **Access your financial touchpoints?**<br />
    How might Lakshmi find confidence in navigating financial touchpoints that are both in another language, and in financial jargon?
