@@ -33,6 +33,7 @@ Ki used to send money home to his parents, who rely on him for essentials like m
 For a while, CERB and unemployment benefits helped them get by. But those programs have ended, and Tan's nursing income just barely covers their expenses. Because her earnings slightly exceed the eligibility cut-off for their provincial disability program, Ki doesn't qualify—yet they still can't afford basics like medication or physical therapy.
 
 {% includeSvg 'wheel-narrative-4.svg', translations[lang]['wheel-narrative-4'], 'full' %}
+<!-- alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for Ki's narrative is marked on each slice. Ki is highly impacted by social aid policies, cost of living, accommodations at work, and unexpected events. -->
 
 ### Barriers to accessing financial institutions
 
@@ -44,7 +45,7 @@ With more than half their income gone, Ki knows he needs to plan for the future�
 This creates a huge gap as people with disabilities and Deaf people tend to live with greater financial uncertainty and with a lot of their income dependent on their caregivers' ability to earn.
 - **Lack of awareness of disability-specific financial products:** Although there are several disability-specific investment products for the disability community, such as RDSP, the disability tax credit, and more, many financial advisors at banks are not aware of these products and cannot advise appropriately. This means that many disabled people fall through the cracks, especially when there are cut-off ages for specific products.
 
-<!-- Pyramid diagram goes here. -->
+<!-- Pyramid diagram goes here. alt: Four pyramid tiers. The top tier is identified as relevant to Ki’s story. -->
 
 ### Current & ideal state journey map
 
@@ -54,7 +55,7 @@ Ki is struggling to adjust after the closure of his restaurant.
 
 Wanting to explore financial options to protect his family's future, Ki books an appointment with a financial advisor at his bank.
 
-<!-- Flow chart goes here. -->
+<!-- Flow chart goes here. alt: a journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
 
 1. When booking his appointment, Ki asks if someone understands disability-related financial products. His question is dismissed.
 2. In the meeting, he explains his situation to the business account manager.
@@ -78,7 +79,7 @@ Wanting to explore financial options to protect his family's future, Ki books an
 
 Here are examples to spark ideas for serving clients like Ki. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<!-- Grid diagram goes here. alt empty-->
 
 #### Make offerings more inclusive
 
@@ -102,7 +103,7 @@ After learning about Ki, consider his life experiences and answer the following 
 
 Can Ki…
 
-<!-- Inverted pyramid diagram goes here. -->
+<!-- Inverted pyramid diagram goes here. alt empty-->
 
 1. **Access your financial touchpoints?**<br />
    How might online banking be accessible to Ki, who may not have energy to sustain a task for long periods of time?
