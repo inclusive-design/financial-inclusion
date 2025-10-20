@@ -43,6 +43,7 @@ Due to his depression flare ups, James has been unable to hold down full time jo
 Social services got James on disability benefits. However, when James is able to work, he has to carefully monitor his income to avoid surpassing the earnings threshold that would put his benefits at risk. This low limit discourages him from working more hours, even when he’s able to, and makes it nearly impossible to build up any meaningful savings.
 
 {% includeSvg 'wheel-narrative-1.svg', translations[lang]['wheel-narrative-1'], 'full' %}
+<!-- alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  James's narrative is marked on each slice. James is highly impacted by stigma and judgement, social aid and policies, accommodations at work and unexpected events. Slices are connected with a dashed line.-->
 
 ### Barriers to accessing financial institutions
 
@@ -50,16 +51,18 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 #### Access to financial touchpoints
 
+<!-- Pyramid diagram goes here. alt: Four pyramid tiers. The bottom tier is identified as relevant to James’s story.  -->
+
 - James can’t access ATMs without a debit card
 - He faces challenges entering bank branches due to stigma related to his appearance, and he lacks ID and a permanent address, both often required for in-person banking
 - He can’t access online banking because he doesn’t have his card number or access to his phone for multi-factor authentication.
 
 #### Access to basic financial transactions
 
+<!-- Pyramid diagram goes here. alt: Four pyramid tiers. The second tier from the bottom is  identified asrelevant to James’s story.  -->
+
 - Because of limited forms of ID, he can’t open bank accounts or open credit products
 - Any interaction that requires multi-factor authentication may be difficult as he may not have access to a second device
-
-<!-- Pyramid diagram goes here. -->
 
 ### Current & ideal state journey map
 
@@ -67,7 +70,7 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 James is trying to withdraw some of his savings to pay for a used phone—his old one was stolen, and he needs a phone number to be contacted for any benefits, programs, or jobs he applies for
 
-<!-- Flow chart goes here. -->
+<!-- Flow chart goes here. atl: a journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
 
 1. James' wallet and phone were stolen.
 2. He thinks he has enough saved to buy a used phone.
@@ -89,7 +92,7 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 
 Here are examples to spark ideas for serving clients like James. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<!-- Grid diagram goes here. alt empty-->
 
 #### Train staff on trauma and mental health
 
@@ -120,6 +123,7 @@ After learning about James, consider his life experiences and answer the followi
 Can James…
 
 {% includeSvg "inverted-pyramid.svg", "" %}
+<!-- alt empty-->
 
 1. **Access your financial touchpoints?**<br />
    How might James feel safe and welcome at your branch?
