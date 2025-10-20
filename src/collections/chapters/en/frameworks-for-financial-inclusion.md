@@ -11,6 +11,7 @@ order: 3
 People’s financial states are not only products of their individual action, but often influenced by systemic and environmental factors. Because of this, our narratives demonstrate both barriers at an individual level and a systemic level. We use two frameworks to explain this:
 
 - {% includeSvg "mini-pyramid.svg", translations[lang]['mini-pyramid'] %}
+<!--alt: A pyramid with four tiers.  -->
 
   <div>
 
@@ -21,6 +22,7 @@ People’s financial states are not only products of their individual action, bu
   </div>
 
 - {% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
+<!--atl: A circle with three layers radiating out from the centre. The circle is divided into eight slices. -->
 
   <div>
 
@@ -46,6 +48,7 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
    Barriers to: Disability-specific financial advising, future planning
 
 {% includeSvg "pyramid.svg", translations[lang].pyramid %}
+<!-- alt: A pyramid with four numbered tiers. 1 at the bottom represents basic needs, 4 at the top represents higher level needs-->
 
 </div>
 
@@ -60,6 +63,7 @@ This hierarchy not only offers a framework to outline the barriers people face w
 3. **Establishing loyalty**
 
 {% includeSvg "directional-pyramid.svg", translations[lang]["directional-pyramid"] %}
+<!-- alt: A pyramid with four tiers. An arrow points from the bottom up, moving from building trust at the base of the pyramid, to deepening relationship in the middle, to establishing loyalty at the top of the pyramid.-->
 
 </div>
 
@@ -82,6 +86,7 @@ This wheel demonstrates the systemic and environmental factors that impact your 
 Each factor makes up a “slice” of the wheel. Together, all the slices form the full picture.
 
 {% includeSvg "wheel.svg", translations[lang].wheel %}
+<!--alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the centre to the edge of the circle. The inner layer is labelled least impacted. The outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability.-->
 
 - Where you live
 - Stigma and judgement
@@ -106,6 +111,7 @@ Where one lives affects their access to essential services, like healthcare and 
 <div class="w-80">
 
 {% includeSvg "slice.svg", translations[lang].slice %}
+<!--A slice of the wheel of financial stability with three layers: inner layer representing least impact, middle layer representing some impact, and outer layer representing most impact.-->
 
 </div>
 <div class="flow">
@@ -127,6 +133,7 @@ One’s appearance can affect the stigma and judgment others hold toward them, a
 <div class="w-80">
 
 {% includeSvg "slice.svg", translations[lang].slice %}
+<!-- alt empty-->
 
 </div>
 <div class="flow">
@@ -148,6 +155,7 @@ Social aid can have policies that are exclusionary. For example, disability prog
 <div class="w-80">
 
 {% includeSvg "slice.svg", translations[lang].slice %}
+<!-- alt empty-->
 
 </div>
 <div class="flow">
@@ -169,6 +177,7 @@ Wages are not keeping up with the cost of living. Depending on how much income o
 <div class="w-80">
 
 {% includeSvg "slice.svg", translations[lang].slice %}
+<!-- alt empty-->
 
 </div>
 <div class="flow">
@@ -190,6 +199,7 @@ One’s ability to gain and retain employment is subject to whether their employ
 <div class="w-80">
 
 {% includeSvg "slice.svg", translations[lang].slice %}
+<!-- alt empty-->
 
 </div>
 <div class="flow">
@@ -211,6 +221,7 @@ Collective events like the pandemic or a natural disaster, or personal events li
 <div class="w-80">
 
 {% includeSvg "slice.svg", translations[lang].slice %}
+<!-- alt empty-->
 
 </div>
 
@@ -233,6 +244,7 @@ One’s ability to read and understand the dominant language fluently can affect
 <div class="w-80">
 
 {% includeSvg "slice.svg", translations[lang].slice %}
+<!-- alt empty-->
 
 </div>
 <div class="flow">
@@ -254,6 +266,7 @@ One’s immigration status can deeply impact their ability to earn money, gain e
 <div class="w-80">
 
 {% includeSvg "slice.svg", translations[lang].slice %}
+<!-- alt empty-->
 
 </div>
 <div class="flow">
