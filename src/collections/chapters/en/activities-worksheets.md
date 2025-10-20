@@ -51,17 +51,21 @@ You can do this with your team that works on a specific product or service - lik
 
 ##### Offering: RRSP
 
-<!-- Filled in wheel diagram goes here. -->
+<!-- Filled in wheel diagram goes here. alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the centre to the edge of the circle. The inner layer is labelled least impacted. The outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. Each slice breaks down factors into three layers, from least to most impacted, describing the conditions of each. If an offering can be accessed under the conditions outlined in a layer for a given factor, it is marked with a checkmark. If it may be accessed, it is marked with a question mark. If it cannot be accessed, it is marked with an x. -->
 
 #### Gap Mapping: Worksheet
 
 ##### Offering:
 
-<!-- Blank wheel diagram goes here. -->
+<!-- Blank wheel diagram goes here. Preview alt: Fillable wheel of financial stability -->
 
 #### Gap Mapping: Evaluate
 
-<!-- Wheel diagrams with overlays go here. -->
+<!-- Wheel diagrams with overlays go here. 
+Wheel 1 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices. Solid dots on one of the layers of each slice identify the level of impact for each factor where an offering can be accessed. Six of the dots are on the inner layer, showing that an offering can be accessed when individuals are least impacted by these six factors. Two of the dots are on the middle layer, showing that an offering can be accessed when individuals are somewhat impacted by the two factors. The dots are connected with a  line, creating an area at the centre. 
+Wheel 2 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices. An area in the middle of the wheel connects solid dots on different levels for each factor, six of the solid dots are on the inner layer of least impact. Two of the dots are on the middle layer of some impact. Outlined dots on one of the layers of each slice identify the level of impact for each factor where an offering may be accessed. Two of the dots are on the inner layer, showing that an offering can be accessed when individuals are least impacted by these factors. Five of the dots are on the middle layers, showing that an offering can be accessed when individuals are somewhat impacted by these factors. One of the dots is on the out layer, showing that an offering can be accessed when individuals are most impacted by this factor. The outlined dots are connected with a line, creating an area around the central outliend area. 
+Wheel 3 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices.Two areas at the centre of the circle are outlined in black, one that identifies the layers of impact factors that can be met by an offering. The other identifies the layers of impact that may be met an offering. The area outside of the shape that outlines the levels of impact where needs are met by an offering is highlighted. 
+-->
 
 By connecting the green checkmarks on each “slice” or factor, you can begin to see how inclusive the offering is: the larger the area, the more inclusive your offering, and the better it is at meeting the needs of edge users. 
 
@@ -77,7 +81,7 @@ The area outside of your shape represents the needs your offering is not able to
 
 To see how an offering meets, or fails to meet, the needs of specific edge users, overlay the area that your offering covers with the mapping of one of the narratives. Choose one of the narratives earlier in this guidebook, or create your own through user research.
 
-<!-- Wheel diagram with narrative overlay goes here. -->
+<!-- Wheel diagram with narrative overlay goes here. alt: The wheel of financial stability. Solid green dots on one of the layers of each slice identify the level of impact for each factor where an offering can be accessed. Six of the dots are on the inner layer, showing that an offering can be accessed when individuals are least impacted by these six factors. Two of the dots are on the middle layer, showing that an offering can be accessed when individuals are somewhat impacted by the two factors. The dots are connected with a green line, creating a green area at the centre. Outlined yellow dots on one of the layers of each slice identify the level of impact for each factor where an offering may be accessed. Two of the dots are on the inner layer, showing that an offering can be accessed when individuals are least impacted by these factors. Five of the dots are on the middle layers, showing that an offering can be accessed when individuals are somewhat impacted by these factors. One of the dots is on the out layer, showing that an offering can be accessed when individuals are most impacted by this factor. The outlined dots are connected with a yellow line, creating a yellow area around the green area. A dashed line connects layers of each slice, showing where James falls on each of the factors. Parts of the dashed area fall outside of the shapes that represent the level of impact that are met by an offering, showing that an offering does not meet James’s needs in five of the eight factors.-->
 
 ### Activity 2: Edge User Deep Dive
 
@@ -98,7 +102,7 @@ A cross-functional team across the organization, like at a design charette or co
 
 Can (edge user group)…
 
-<!-- Pyramid diagram goes here. -->
+<!-- Pyramid diagram goes here. alt empty -->
 
 1. **Access financial touchpoints?**<br />
    Bank branches, ATM's, online banking
@@ -128,7 +132,7 @@ Now that barriers have been identified, it's time to focus on what you can tangi
 
 Now that barriers and ideas have been identified, it's time to focus on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't—and therefore what you can focus your efforts and energy on.
 
-<!-- Circles of control diagram goes here. -->
+<!-- Circles of control diagram goes here. preview alt: Fillable circles of control diagram. -->
 
 - What can't I/we change?
 - What can I/we influence?
