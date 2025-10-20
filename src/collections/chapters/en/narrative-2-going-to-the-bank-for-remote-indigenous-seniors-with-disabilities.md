@@ -36,6 +36,8 @@ Althea
 Living in a remote town in the North means that everything costs more—groceries cost more, items ordered online have a higher shipping cost, and the cost of going to medical appointments (which are more frequent as she ages) is equivalent to the cost of a plane ticket down to a southern province. As she ages, she’s not sure how much she can keep up anymore—especially since disability benefit amounts don’t increase.
 
 {% includeSvg 'wheel-narrative-2.svg', translations[lang]['wheel-narrative-2'], 'full' %}
+<!-- alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for Althea's narrative is marked on each slice. Althea is highly impacted by where she lives, social aid policies, cost of living and language.  Slices are connected with a dashed line.-->
+
 
 ### Barriers to accessing financial institutions
 
@@ -44,6 +46,7 @@ She receives her pension and disability benefits via direct deposit but has no a
 While she is forced to trust her community, she’s always scared of being taken advantage of. What if someone doesn’t give her all of the cash she withdraws from the ATM? What if someone at the till who’s helping her count her money takes a bit more than they should? What if the cab driver charges her more than what the trip costs? What if someone who knows her PIN number uses it?
 
 #### Access to financial touchpoints
+<!--half pyramid goes here. alt: Four pyramid tiers. The bottom tier is identified as relevant to Althea’s story. -->
 
 - No access to bank branches
 - Difficulty accessing ATMs due to grocery store hours
@@ -56,7 +59,7 @@ While she is forced to trust her community, she’s always scared of being taken
 - Paying at a POS system needs to be assisted
 - All of this increases her risk of fraud and scams
 
-<!-- Pyramid diagram goes here. -->
+<!-- Pyramid diagram goes here. alt: Four pyramid tiers. The second tier from the bottom is identified as relevant to Althea’s story. -->
 
 ### Current & ideal state journey map
 
@@ -64,7 +67,7 @@ While she is forced to trust her community, she’s always scared of being taken
 
 Althea needs cash for her diabetes medication and groceries. It’s icy outside, so she waits all morning for her granddaughter to walk her to the store.
 
-<!-- Flow chart goes here. -->
+<!-- Flow chart goes here. alt: a journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen.-->
 
 1. Althea waits for her granddaughter all morning to walk her to the store.
 2. Her granddaughter is late and Althea has to rush to the store alone.
@@ -86,7 +89,7 @@ Althea needs cash for her diabetes medication and groceries. It’s icy outside,
 
 Here are examples to spark ideas for serving clients like Althea. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<!-- Grid diagram goes here. alt empty-->
 
 #### Train staff in disability confidence
 
@@ -114,7 +117,7 @@ After learning about Althea, consider her life experiences and answer the follow
 
 Can Althea…
 
-<!-- Inverted pyramid diagram goes here. -->
+<!-- Inverted pyramid diagram goes here. alt empty-->
 
 1. **Access your financial touchpoints?**<br />
    How might Althea be supported to have wider access to ATM’s, in-person banking, and online banking?
