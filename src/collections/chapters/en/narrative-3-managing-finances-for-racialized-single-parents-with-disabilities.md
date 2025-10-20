@@ -55,7 +55,7 @@ Meanwhile, some people in her community are warning her against using banks or c
 - **Inaccessible financial education:** Many resources are written generically in ways that aren't trauma-informed, or culturally relevant.
 - **Complex and technical language:** Financial agreements are often filled with jargon, making them difficult to understand without a pre-existing grasp on financial language.
 
-<!-- Pyramid diagram goes here. alt: Four pyramid tiers. The second tier from the top is identified as relevant to [Name]’s story.  -->
+<!-- Pyramid diagram goes here. alt: Four pyramid tiers. The second tier from the top is identified as relevant to Lakshmi’s story.  -->
 
 ### Current & ideal state journey map
 
