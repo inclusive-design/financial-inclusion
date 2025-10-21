@@ -43,18 +43,38 @@ She receives her pension and disability benefits via direct deposit but has no a
 
 While she is forced to trust her community, she’s always scared of being taken advantage of. What if someone doesn’t give her all of the cash she withdraws from the ATM? What if someone at the till who’s helping her count her money takes a bit more than they should? What if the cab driver charges her more than what the trip costs? What if someone who knows her PIN number uses it?
 
-#### Access to financial touchpoints
+<div class="two-column">
+
+{% includeSvg "mini-pyramid-touchpoints.svg", "" %}
+
+<div>
+
+#### Access to **financial touchpoints** {.barrier-title}
 
 - No access to bank branches
 - Difficulty accessing ATMs due to grocery store hours
 - Difficulty accessing online banking due to internet instability in remote regions and not having regular access to a computer or device.
 
-#### Access to basic financial transactions
+</div>
+
+</div>
+
+<div class="two-column">
+
+{% includeSvg "mini-pyramid-transactions.svg", "" %}
+
+<div>
+
+#### Access to **basic financial transactions** {.barrier-title}
 
 - Interacting with ATM needs to be assisted
 - Paying with cash needs to be assisted
 - Paying at a POS system needs to be assisted
 - All of this increases her risk of fraud and scams
+
+</div>
+
+</div>
 
 <!-- Pyramid diagram goes here. -->
 

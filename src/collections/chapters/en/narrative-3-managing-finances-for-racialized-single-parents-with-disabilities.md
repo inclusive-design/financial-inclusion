@@ -48,11 +48,21 @@ She's now responsible for paying bills, budgeting for groceries, and making sure
 
 Meanwhile, some people in her community are warning her against using banks or credit. Still, Lakshmi is considering applying for a secured credit card to help get through this difficult period. She's trying to figure things out on her own, but it feels confusing and overwhelming.
 
-#### Access to financial management
+<div class="two-column">
+
+{% includeSvg "mini-pyramid-management.svg", "" %}
+
+<div>
+
+#### Access to **financial management** {.barrier-title}
 
 - **The "basics" of financial literacy aren't basic enough:** Lakshmi needs to understand things like different types of bank accounts, how to pay bills, what is a want versus a need, and the very basics of money management.
 - **Inaccessible financial education:** Many resources are written generically in ways that aren't trauma-informed, or culturally relevant.
 - **Complex and technical language:** Financial agreements are often filled with jargon, making them difficult to understand without a pre-existing grasp on financial language.
+
+</div>
+
+</div>
 
 <!-- Pyramid diagram goes here. -->
 

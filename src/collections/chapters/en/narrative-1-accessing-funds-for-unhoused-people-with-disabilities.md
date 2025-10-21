@@ -22,7 +22,7 @@ introduction: |-
 ---
 ### James, 21
 
-_Edmonton, Alberta_
+_Edmonton, Alberta_{.surtitle}
 
 James lives with chronic depression. While some days he can manage his symptoms, other days it’s impossible for him to get out of bed. He’s often called lazy or undisciplined by his family, but he finds it extremely difficult to tell them how his depression makes him feel like he can’t move or speak. What’s even more frustrating is that he wants to get a job and live independently—but he can’t, and that sends him deeper into shame.
 
@@ -48,16 +48,36 @@ Social services got James on disability benefits. However, when James is able to
 
 While living in shelters, James had his belongings stolen, including his phone and his wallet, which contained all of his ID, debit card, and credit cards. Without these, he’s unable to access the small amount of money he had saved in his bank account whether through an ATM, at a bank branch, or online.
 
-#### Access to financial touchpoints
+<div class="two-column">
+
+{% includeSvg "mini-pyramid-touchpoints.svg", "" %}
+
+<div class="flow">
+
+#### Access to **financial touchpoints** {.barrier-title}
 
 - James can’t access ATMs without a debit card
 - He faces challenges entering bank branches due to stigma related to his appearance, and he lacks ID and a permanent address, both often required for in-person banking
 - He can’t access online banking because he doesn’t have his card number or access to his phone for multi-factor authentication.
 
-#### Access to basic financial transactions
+</div>
+
+</div>
+
+<div class="two-column">
+
+{% includeSvg "mini-pyramid-transactions.svg", "" %}
+
+<div class="flow">
+
+#### Access to **basic financial transactions** {.barrier-title}
 
 - Because of limited forms of ID, he can’t open bank accounts or open credit products
 - Any interaction that requires multi-factor authentication may be difficult as he may not have access to a second device
+
+</div>
+
+</div>
 
 <!-- Pyramid diagram goes here. -->
 

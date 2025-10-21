@@ -178,8 +178,8 @@
     --fi-color-primary-900: var(--fi-color-lime-900);
     --fi-color-pyramid-100: var(--fi-color-green-100);
     --fi-color-pyramid-200: var(--fi-color-green-200);
+    --fi-color-pyramid-300: var(--fi-color-green-300);
     --fi-color-pyramid-350: var(--fi-color-green-350);
-    --fi-color-pyramid-400: var(--fi-color-green-400);
     --fi-color-pyramid-500: var(--fi-color-green-500);
     --fi-color-pyramid-600: var(--fi-color-green-600);
     --fi-color-pyramid-700: var(--fi-color-green-700);
@@ -520,45 +520,57 @@ svg.full {
 .p2,
 .p3,
 .p4,
-.p6 {
+.p7 {
     fill: var(--fl-bgColor, var(--fill));
     stroke: var(--fl-fgColor, transparent);
     stroke-width: 1px;
 }
 
-.p7 {
-    stroke: var(--fl-fgColor, var(--fi-color-black));
+.p5 {
+    fill: var(--fl-fgColor, var(--fill));
+    stroke: var(--fl-fgColor, transparent);
+    stroke-width: 1px;
 }
 
-.p5,
-.p8 {
+.p6,
+.p9 {
     fill: var(--fl-fgColor, var(--fill));
 }
 
 .p1 {
-    --fill: var(--fi-color-pyramid-300);
-}
-
-.p2 {
     --fill: var(--fi-color-pyramid-100);
 }
 
-.p3 {
+.p2 {
     --fill: var(--fi-color-pyramid-200);
+}
+
+.p3 {
+    --fill: var(--fi-color-pyramid-300);
 }
 
 .p4 {
     --fill: var(--fi-color-pyramid-350);
 }
 
-.p5 {
+.p5,
+.p6 {
     --fill: var(--fi-color-pyramid-500);
 }
 
-.p6 {
+.p7 {
     --fill: var(--fi-color-yellow-500);
 }
 
 .p8 {
-    --fill: var(--fi-color-black);
+    stroke: var(--fl-fgColor, var(--fi-color-black));
+}
+
+.p9 {
+    fill: var(--fl-fgColor, var(--fi-color-black));
+}
+
+.barrier-title {
+    color: var(--fl-fgColor, var(--fi-color-green-500));
+    font-weight: var(--fi-font-weight-normal);
 }

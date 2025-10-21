@@ -38,11 +38,21 @@ For a while, CERB and unemployment benefits helped them get by. But those progra
 
 With more than half their income gone, Ki knows he needs to plan for the future—but he doesn't know where to begin. He's unfamiliar with financial tools, and when he tried to speak to someone at the bank, they couldn't offer much help. Nobody mentioned options like wills, insurance, or long-term savings strategies that could help protect his family.
 
-#### Access to financial advice and planning
+<div class="two-column">
+
+{% includeSvg "mini-pyramid-planning.svg", "" %}
+
+<div>
+
+#### Access to **financial advice and planning** {.barrier-title}
 
 - **Lack of awareness of protective measures:** There can be a lack of awareness about services like wills, life insurance, trust funds, or other programs and services to support one's family and dependents.
 This creates a huge gap as people with disabilities and Deaf people tend to live with greater financial uncertainty and with a lot of their income dependent on their caregivers' ability to earn.
 - **Lack of awareness of disability-specific financial products:** Although there are several disability-specific investment products for the disability community, such as RDSP, the disability tax credit, and more, many financial advisors at banks are not aware of these products and cannot advise appropriately. This means that many disabled people fall through the cracks, especially when there are cut-off ages for specific products.
+
+</div>
+
+</div>
 
 <!-- Pyramid diagram goes here. -->
 
