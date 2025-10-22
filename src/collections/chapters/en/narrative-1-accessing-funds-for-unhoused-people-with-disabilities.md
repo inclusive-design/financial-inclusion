@@ -43,7 +43,7 @@ Due to his depression flare ups, James has been unable to hold down full time jo
 Social services got James on disability benefits. However, when James is able to work, he has to carefully monitor his income to avoid surpassing the earnings threshold that would put his benefits at risk. This low limit discourages him from working more hours, even when he’s able to, and makes it nearly impossible to build up any meaningful savings.
 
 {% includeSvg 'wheel-narrative-1.svg', translations[lang]['wheel-narrative-1'], 'full' %}
-<!-- alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  James's narrative is marked on each slice. James is highly impacted by stigma and judgement, social aid and policies, accommodations at work and unexpected events. Slices are connected with a dashed line.-->
+<!-- alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the centre to the edge of the circle. The inner layer is labelled least impacted. The outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for  James's narrative is marked on each slice. James is highly impacted by stigma and judgement, social aid and policies, accommodations at work and unexpected events. Slices are connected with a dashed line.-->
 
 ### Barriers to accessing financial institutions
 
