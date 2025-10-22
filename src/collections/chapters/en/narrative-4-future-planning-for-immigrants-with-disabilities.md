@@ -33,7 +33,7 @@ Ki used to send money home to his parents, who rely on him for essentials like m
 For a while, CERB and unemployment benefits helped them get by. But those programs have ended, and Tan's nursing income just barely covers their expenses. Because her earnings slightly exceed the eligibility cut-off for their provincial disability program, Ki doesn't qualify—yet they still can't afford basics like medication or physical therapy.
 
 {% includeSvg 'wheel-narrative-4.svg', translations[lang]['wheel-narrative-4'], 'full' %}
-<!-- alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the light centre to the dark edge of the circle. The light inner layer is labelled least impacted. The dark outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for Ki's narrative is marked on each slice. Ki is highly impacted by social aid policies, cost of living, accommodations at work, and unexpected events. -->
+<!-- alt: A circle with three layers radiating out from the centre. A bidirectional arrow stretches from the centre to the edge of the circle. The inner layer is labelled least impacted. The outer layer is labelled most impacted. The circle is divided into eight slices, each representing one of the factors impacting financial stability. The level of impact for Ki's narrative is marked on each slice. Ki is highly impacted by social aid policies, cost of living, accommodations at work, and unexpected events. -->
 
 ### Barriers to accessing financial institutions
 
