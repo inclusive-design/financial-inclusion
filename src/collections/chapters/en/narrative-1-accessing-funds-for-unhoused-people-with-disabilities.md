@@ -48,9 +48,9 @@ Social services got James on disability benefits. However, when James is able to
 
 While living in shelters, James had his belongings stolen, including his phone and his wallet, which contained all of his ID, debit card, and credit cards. Without these, he’s unable to access the small amount of money he had saved in his bank account whether through an ATM, at a bank branch, or online.
 
-<div class="two-column">
+<div class="two-column flexible">
 
-{% includeSvg "mini-pyramid-touchpoints.svg", "" %}
+{% includeSvg "mini-pyramid-touchpoints.svg", translations[lang]['mini-pyramid-touchpoints-narrative-1'] %}
 
 <div class="flow">
 
@@ -64,9 +64,9 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 </div>
 
-<div class="two-column">
+<div class="two-column flexible">
 
-{% includeSvg "mini-pyramid-transactions.svg", "" %}
+{% includeSvg "mini-pyramid-transactions.svg", translations[lang]['mini-pyramid-transactions-narrative-1'] %}
 
 <div class="flow">
 
@@ -79,15 +79,13 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 </div>
 
-<!-- Pyramid diagram goes here. -->
-
 ### Current & ideal state journey map
 
 #### Scenario
 
 James is trying to withdraw some of his savings to pay for a used phone—his old one was stolen, and he needs a phone number to be contacted for any benefits, programs, or jobs he applies for
 
-<!-- Flow chart goes here. -->
+<!-- Flow chart goes here. Alt: A journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
 
 1. James' wallet and phone were stolen.
 2. He thinks he has enough saved to buy a used phone.
@@ -139,7 +137,9 @@ After learning about James, consider his life experiences and answer the followi
 
 Can James…
 
-{% includeSvg "inverted-pyramid.svg", "" %}
+<div class="two-column">
+
+<div>
 
 1. **Access your financial touchpoints?**<br />
    How might James feel safe and welcome at your branch?
@@ -149,3 +149,9 @@ Can James…
    How might James be supported in managing his finances given his transitional situation and fluctuating expenses?
 4. **Access your financial advising?**<br />
    How might James be supported in planning for long term stability and growth?
+
+</div>
+
+{% includeSvg "inverted-pyramid.svg", "" %}
+
+</div>

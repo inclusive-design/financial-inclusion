@@ -43,9 +43,9 @@ She receives her pension and disability benefits via direct deposit but has no a
 
 While she is forced to trust her community, she’s always scared of being taken advantage of. What if someone doesn’t give her all of the cash she withdraws from the ATM? What if someone at the till who’s helping her count her money takes a bit more than they should? What if the cab driver charges her more than what the trip costs? What if someone who knows her PIN number uses it?
 
-<div class="two-column">
+<div class="two-column flexible">
 
-{% includeSvg "mini-pyramid-touchpoints.svg", "" %}
+{% includeSvg "mini-pyramid-touchpoints.svg", translations[lang]['mini-pyramid-touchpoints-narrative-2'] %}
 
 <div>
 
@@ -61,7 +61,7 @@ While she is forced to trust her community, she’s always scared of being taken
 
 <div class="two-column">
 
-{% includeSvg "mini-pyramid-transactions.svg", "" %}
+{% includeSvg "mini-pyramid-transactions.svg", translations[lang]['mini-pyramid-transactions-narrative-2'] %}
 
 <div>
 
@@ -84,7 +84,7 @@ While she is forced to trust her community, she’s always scared of being taken
 
 Althea needs cash for her diabetes medication and groceries. It’s icy outside, so she waits all morning for her granddaughter to walk her to the store.
 
-<!-- Flow chart goes here. -->
+<!-- Flow chart goes here. Alt: A journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
 
 1. Althea waits for her granddaughter all morning to walk her to the store.
 2. Her granddaughter is late and Althea has to rush to the store alone.
@@ -134,7 +134,9 @@ After learning about Althea, consider her life experiences and answer the follow
 
 Can Althea…
 
-<!-- Inverted pyramid diagram goes here. -->
+<div class="two-column">
+
+<div>
 
 1. **Access your financial touchpoints?**<br />
    How might Althea be supported to have wider access to ATM’s, in-person banking, and online banking?
@@ -144,3 +146,9 @@ Can Althea…
    How might Althea be alerted to any potential fraud or unauthorized transactions on her account?
 4. **Access your financial advising?**<br />
    How might Althea learn about disability-related financial products to sustain her through her retirement years?
+
+</div>
+
+{% includeSvg "inverted-pyramid.svg", "" %}
+
+</div>

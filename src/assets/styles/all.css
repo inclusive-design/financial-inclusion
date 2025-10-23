@@ -291,6 +291,7 @@ figure {
 
 ul,
 ol {
+    list-style-position: inside;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
@@ -522,7 +523,7 @@ svg.full {
 .p4,
 .p7 {
     fill: var(--fl-bgColor, var(--fill));
-    stroke: var(--fl-fgColor, transparent);
+    stroke: var(--fl-fgColor, var(--fi-color-pyramid-600));
     stroke-width: 1px;
 }
 
@@ -573,4 +574,8 @@ svg.full {
 .barrier-title {
     color: var(--fl-fgColor, var(--fi-color-green-500));
     font-weight: var(--fi-font-weight-normal);
+}
+
+.two-column .barrier-title strong {
+    color: var(--fl-fgColor, var(--fi-color-green-500));
 }

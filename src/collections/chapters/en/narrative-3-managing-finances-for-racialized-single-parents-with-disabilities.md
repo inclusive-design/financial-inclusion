@@ -48,9 +48,9 @@ She's now responsible for paying bills, budgeting for groceries, and making sure
 
 Meanwhile, some people in her community are warning her against using banks or credit. Still, Lakshmi is considering applying for a secured credit card to help get through this difficult period. She's trying to figure things out on her own, but it feels confusing and overwhelming.
 
-<div class="two-column">
+<div class="two-column flexible">
 
-{% includeSvg "mini-pyramid-management.svg", "" %}
+{% includeSvg "mini-pyramid-management.svg", translations[lang]['mini-pyramid-management-narrative-3'] %}
 
 <div>
 
@@ -64,8 +64,6 @@ Meanwhile, some people in her community are warning her against using banks or c
 
 </div>
 
-<!-- Pyramid diagram goes here. -->
-
 ### Current & ideal state journey map
 
 #### Scenario
@@ -74,7 +72,7 @@ Lakshmi wants to start saving for her daughter's daily expenses. She has some go
 
 Her social worker suggests opening a savings account and slowly building her credit.
 
-<!-- Flow chart goes here. -->
+<!-- Flow chart goes here. Alt: A journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
 
 1. In her area, there is no Bank with a teller that speaks her language.
 2. At the bank, Lakshmi waits until a female teller is free—she feels more comfortable that way.
@@ -124,7 +122,9 @@ After learning about Lakshmi, consider her life experiences and answer the follo
 
 Can Lakshmi...
 
-<!-- Inverted pyramid diagram goes here. -->
+<div class="two-column">
+
+<div>
 
 1. **Access your financial touchpoints?**<br />
    How might Lakshmi find confidence in navigating financial touchpoints that are both in another language, and in financial jargon?
@@ -134,3 +134,9 @@ Can Lakshmi...
    How might Lakshmi learn how to manage money and build savings in a culturally-aware way?
 4. **Access your financial advising?**<br />
    How might Lakshmi begin to explore investment options, and understand how they're relevant to her situation?
+
+</div>
+
+{% includeSvg "inverted-pyramid.svg", "" %}
+
+</div>

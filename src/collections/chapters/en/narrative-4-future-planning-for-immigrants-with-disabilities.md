@@ -38,9 +38,9 @@ For a while, CERB and unemployment benefits helped them get by. But those progra
 
 With more than half their income gone, Ki knows he needs to plan for the future—but he doesn't know where to begin. He's unfamiliar with financial tools, and when he tried to speak to someone at the bank, they couldn't offer much help. Nobody mentioned options like wills, insurance, or long-term savings strategies that could help protect his family.
 
-<div class="two-column">
+<div class="two-column flexible">
 
-{% includeSvg "mini-pyramid-planning.svg", "" %}
+{% includeSvg "mini-pyramid-planning.svg", translations[lang]["mini-pyramid-planning-narrative-4"] %}
 
 <div>
 
@@ -64,7 +64,7 @@ Ki is struggling to adjust after the closure of his restaurant.
 
 Wanting to explore financial options to protect his family's future, Ki books an appointment with a financial advisor at his bank.
 
-<!-- Flow chart goes here. -->
+<!-- Flow chart goes here. Alt: A journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
 
 1. When booking his appointment, Ki asks if someone understands disability-related financial products. His question is dismissed.
 2. In the meeting, he explains his situation to the business account manager.
@@ -112,7 +112,9 @@ After learning about Ki, consider his life experiences and answer the following 
 
 Can Ki…
 
-<!-- Inverted pyramid diagram goes here. -->
+<div class="two-column">
+
+<div>
 
 1. **Access your financial touchpoints?**<br />
    How might online banking be accessible to Ki, who may not have energy to sustain a task for long periods of time?
@@ -122,3 +124,9 @@ Can Ki…
    How might Ki and Tan be supported in reducing expenses and increasing their earnings?
 4. **Access your financial advising?**<br />
    How might Ki be supported in making a financial plan for his family?
+
+</div>
+
+{% includeSvg "inverted-pyramid.svg", "" %}
+
+</div>
