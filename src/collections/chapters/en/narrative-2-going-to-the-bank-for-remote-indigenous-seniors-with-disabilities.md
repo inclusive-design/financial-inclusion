@@ -29,7 +29,6 @@ While she can converse in English, she’s much more comfortable talking in Inuk
 #### Social aid policy
 
 She’s on her province’s disability support program, and sometimes makes a little cash on the side playing bingo or other games in her community. While she’s able to work basic jobs, she doesn’t want to risk having additional income compromise her benefits, housing, and other medical support she’s able to get for her disability.
-Althea
 
 #### Where she lives & cost of living
 
@@ -59,7 +58,7 @@ While she is forced to trust her community, she’s always scared of being taken
 
 </div>
 
-<div class="two-column">
+<div class="two-column flexible">
 
 {% includeSvg "mini-pyramid-transactions.svg", translations[lang]['mini-pyramid-transactions-narrative-2'] %}
 
