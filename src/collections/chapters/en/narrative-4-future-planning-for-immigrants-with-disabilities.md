@@ -10,11 +10,9 @@ backgroundImage: /assets/uploads/narrative-4.jpg
 introduction: |-
   ### The Research
 
-  21.5% of immigrants in Canada reported having a disability. _(Vergara & Hardy, 2024)_
-
-  34-46% of newcomers encounter financial hardship during some point of settlement, despite newcomers who are more highly educated and skilled than ever before. _(Prosper Canada Centre for Financial Literacy, 2015)_
-
-  Only 31.5% of eligible Canadians (under 60) had a Registered Disability Savings Plan (RDSP) in 2020. Among those eligible but not enrolled in an RDSP, nearly 50% had never heard of it, 46% said they lacked the money to contribute, and 29% reported not having enough information. _(Statistics Canada, 2022)_
+  * 21.5% of immigrants in Canada reported having a disability. _(Vergara & Hardy, 2024)_
+  * 34-46% of newcomers encounter financial hardship during some point of settlement, despite newcomers who are more highly educated and skilled than ever before. _(Prosper Canada Centre for Financial Literacy, 2015)_
+  * Only 31.5% of eligible Canadians (under 60) had a Registered Disability Savings Plan (RDSP) in 2020. Among those eligible but not enrolled in an RDSP, nearly 50% had never heard of it, 46% said they lacked the money to contribute, and 29% reported not having enough information. _(Statistics Canada, 2022)_
 ---
 ### Ki, 49
 

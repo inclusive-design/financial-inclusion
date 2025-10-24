@@ -10,11 +10,9 @@ backgroundImage: /assets/uploads/narrative-2.jpg
 introduction: |-
   ### The research
 
-  The lack of access to banking services has disproportionate effect on Indigenous peoples. _(Share, 2023)_
-
-  On average, people living on First Nation reserves must travel about 25 km to reach a bank (compared to 9km for rural Canadians). _(Chen et al., 2023)_
-
-  Only 24% of Indigenous households have access to high-speed internet (compared to 37% of rural households). _(Innovation, Science and Economic Development Canada, 2022)_
+  * The lack of access to banking services has disproportionate effect on Indigenous peoples. _(Share, 2023)_
+  * On average, people living on First Nation reserves must travel about 25 km to reach a bank (compared to 9km for rural Canadians). _(Chen et al., 2023)_
+  * Only 24% of Indigenous households have access to high-speed internet (compared to 37% of rural households). _(Innovation, Science and Economic Development Canada, 2022)_
 ---
 ### Althea, 67
 

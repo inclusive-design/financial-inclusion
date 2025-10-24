@@ -816,6 +816,11 @@ h5,
     width: 50%;
 }
 
+.introduction ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 @media (width >= 60rem) {
     .grid {
         grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -829,4 +834,8 @@ h5,
     .grid > *:first-of-type::before {
         width: 50%;
     }
+}
+
+.print {
+    display: none;
 }

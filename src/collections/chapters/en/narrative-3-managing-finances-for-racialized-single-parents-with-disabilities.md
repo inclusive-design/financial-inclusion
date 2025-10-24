@@ -10,11 +10,9 @@ backgroundImage: /assets/uploads/narrative-3.jpg
 introduction: |-
   ### The Research
 
-  Racialized Canadians—about 26% of the population—frequently report poor treatment and bias when dealing with financial institutions. They are more likely to be pitched inappropriate financial products compared to non-racialized customers. _(Share, 2023)_
-
-  In Canada, about 1 in 3 women experience economic abuse—meaning their partner controls access to money, coerces debt, or sabotages employment. _(Canadian Centre for Financial Well-Being & Economic Abuse Awareness, 2023)_
-
-  In 2020, nearly 26% of individuals in single-parent families lived on a low income—almost four times the rate for couple families with children. _(Statistics Canada, 2023)_
+  * Racialized Canadians—about 26% of the population—frequently report poor treatment and bias when dealing with financial institutions. They are more likely to be pitched inappropriate financial products compared to non-racialized customers. _(Share, 2023)_
+  * In Canada, about 1 in 3 women experience economic abuse—meaning their partner controls access to money, coerces debt, or sabotages employment. _(Canadian Centre for Financial Well-Being & Economic Abuse Awareness, 2023)_
+  * In 2020, nearly 26% of individuals in single-parent families lived on a low income—almost four times the rate for couple families with children. _(Statistics Canada, 2023)_
 ---
 ### Lakshmi, 23 (and Naya, 5)
 

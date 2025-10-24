@@ -449,11 +449,6 @@ h6 {
     font-weight: var(--fi-font-weight-medium);
 }
 
-.chapter.narrative .introduction em {
-    font-family: var(--fi-font-family-display-alt);
-    font-style: normal;
-}
-
 .flow > h3 + * {
     --flow-space: 24pt;
 }
@@ -484,4 +479,8 @@ h6 {
 svg.full {
     margin-bottom: var(--step-5);
     margin-top: var(--step-5);
+}
+
+.web {
+    display: none;
 }

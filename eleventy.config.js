@@ -110,7 +110,7 @@ export default function eleventy(eleventyConfig) {
   });
 
   eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '', className = null) => {
-    const metadata = await Image(`./src/_includes/svg/${filename}`, {
+    const metadata = await Image(`./src/assets/images/${filename}`, {
       formats: ["svg"],
       dryRun: true,
     })
@@ -119,9 +119,10 @@ export default function eleventy(eleventyConfig) {
     svg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
     svg.setAttribute('aria-label', altText);
     if (className) {
-      svg.setAttribute('class', className);
+      svg.setAttribute('class', `web ${className}`);
     }
-    return svg.toString();
+    const img = `<img src="/assets/images/${filename}" alt="${altText}" class="print ${className}" />`
+    return `${img} ${svg.toString()}`;
   })
 
   eleventyConfig.addTransform("parse", parse);

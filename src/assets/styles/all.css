@@ -579,3 +579,12 @@ svg.full {
 .two-column .barrier-title strong {
     color: var(--fl-fgColor, var(--fi-color-green-500));
 }
+
+.introduction ul {
+    list-style-type: none;
+}
+
+.introduction em {
+    font-family: var(--fi-font-family-display-alt);
+    font-style: normal;
+}
