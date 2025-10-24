@@ -14,7 +14,7 @@ This activity will help you think through how accessible a certain offering is t
 
 #### Who to do this with
 
-You can do this with your team that works on a specific product or service - like financial advising, account opening, or your institution's app.
+You can do this with your team that works on a specific product or service–like financial advising, account opening, or your institution's app.
 
 #### Instructions
 
@@ -61,13 +61,13 @@ You can do this with your team that works on a specific product or service - lik
 
 #### Gap Mapping: Evaluate
 
-<!-- Wheel diagrams with overlays go here. 
-Wheel 1 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices. Solid dots on one of the layers of each slice identify the level of impact for each factor where an offering can be accessed. Six of the dots are on the inner layer, showing that an offering can be accessed when individuals are least impacted by these six factors. Two of the dots are on the middle layer, showing that an offering can be accessed when individuals are somewhat impacted by the two factors. The dots are connected with a  line, creating an area at the centre. 
-Wheel 2 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices. An area in the middle of the wheel connects solid dots on different levels for each factor, six of the solid dots are on the inner layer of least impact. Two of the dots are on the middle layer of some impact. Outlined dots on one of the layers of each slice identify the level of impact for each factor where an offering may be accessed. Two of the dots are on the inner layer, showing that an offering can be accessed when individuals are least impacted by these factors. Five of the dots are on the middle layers, showing that an offering can be accessed when individuals are somewhat impacted by these factors. One of the dots is on the out layer, showing that an offering can be accessed when individuals are most impacted by this factor. The outlined dots are connected with a line, creating an area around the central outliend area. 
-Wheel 3 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices.Two areas at the centre of the circle are outlined in black, one that identifies the layers of impact factors that can be met by an offering. The other identifies the layers of impact that may be met an offering. The area outside of the shape that outlines the levels of impact where needs are met by an offering is highlighted. 
+<!-- Wheel diagrams with overlays go here.
+Wheel 1 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices. Solid dots on one of the layers of each slice identify the level of impact for each factor where an offering can be accessed. Six of the dots are on the inner layer, showing that an offering can be accessed when individuals are least impacted by these six factors. Two of the dots are on the middle layer, showing that an offering can be accessed when individuals are somewhat impacted by the two factors. The dots are connected with a  line, creating an area at the centre.
+Wheel 2 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices. An area in the middle of the wheel connects solid dots on different levels for each factor, six of the solid dots are on the inner layer of least impact. Two of the dots are on the middle layer of some impact. Outlined dots on one of the layers of each slice identify the level of impact for each factor where an offering may be accessed. Two of the dots are on the inner layer, showing that an offering can be accessed when individuals are least impacted by these factors. Five of the dots are on the middle layers, showing that an offering can be accessed when individuals are somewhat impacted by these factors. One of the dots is on the out layer, showing that an offering can be accessed when individuals are most impacted by this factor. The outlined dots are connected with a line, creating an area around the central outliend area.
+Wheel 3 alt: The wheel of financial stability. A circle with three layers radiating out from the centre divided into eight slices.Two areas at the centre of the circle are outlined in black, one that identifies the layers of impact factors that can be met by an offering. The other identifies the layers of impact that may be met by an offering. The area outside of the shape that outlines the levels of impact where needs are met by an offering is highlighted.
 -->
 
-By connecting the green checkmarks on each “slice” or factor, you can begin to see how inclusive the offering is: the larger the area, the more inclusive your offering, and the better it is at meeting the needs of edge users. 
+By connecting the green checkmarks on each “slice” or factor, you can begin to see how inclusive the offering is: the larger the area, the more inclusive your offering, and the better it is at meeting the needs of edge users.
 
 By connecting the yellow question marks, you can begin to see where customers may not be able to access your offering.
 
