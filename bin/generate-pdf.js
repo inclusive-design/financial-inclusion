@@ -45,7 +45,7 @@ await rimraf('src/assets/downloads/guidebook-for-financial-inclusion.pdf');
 
 if (local && prince.includes('Prince 16')) {
   console.log('Rendering PDF using Prince binary...');
-  exec(`prince --pdf-profile='PDF/UA-1' _site/en/export/index.html -o src/assets/downloads/guidebook-for-financial-inclusion.pdf`, (_error, stdout, _stderr) => {
+  exec(`prince --pdf-profile='PDF/UA-1' https://narratives.financial-inclusion.pages.dev/en/export/ -o src/assets/downloads/guidebook-for-financial-inclusion.pdf`, (_error, stdout, _stderr) => {
     console.log("Saved guidebook-for-financial-inclusion.pdf.");
   });
 } else {

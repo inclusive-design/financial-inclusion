@@ -120,8 +120,10 @@ export default function eleventy(eleventyConfig) {
     svg.setAttribute('aria-label', altText);
     if (className) {
       svg.setAttribute('class', `web ${className}`);
+    } else {
+      svg.setAttribute('class', 'web');
     }
-    const img = `<img src="/assets/images/${filename}" alt="${altText}" class="print ${className}" />`
+    const img = `<img src="/assets/images/${filename}" alt="${altText}" class="${className ? `print ${className}` : 'print'}" />`
     return `${img} ${svg.toString()}`;
   })
 
