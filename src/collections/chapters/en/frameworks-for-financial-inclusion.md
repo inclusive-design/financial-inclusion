@@ -81,7 +81,7 @@ This wheel demonstrates the systemic and environmental factors that impact your 
 
 Each factor makes up a “slice” of the wheel. Together, all the slices form the full picture.
 
-{% includeSvg "wheel.svg", translations[lang].wheel %}
+{% includeSvg "wheel.svg", translations[lang].wheel, 'full' %}
 
 - Where you live
 - Stigma and judgement
