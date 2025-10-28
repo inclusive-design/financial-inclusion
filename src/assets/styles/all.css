@@ -475,6 +475,15 @@ svg.full {
     stroke: var(--fl-fgColor, var(--fi-color-wheel-900));
 }
 
+[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
+    .w1,
+    .w2,
+    .w3,
+    .w5 {
+        stroke-width: 1;
+    }
+}
+
 .w1 {
     --fill: var(--fi-color-wheel-500);
 }
