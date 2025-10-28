@@ -11,6 +11,7 @@ import Image from "@11ty/eleventy-img";
 import { parseHTML } from "linkedom";
 import { encode } from 'node-base64-image';
 import markdownItAttrs from 'markdown-it-attrs';
+import { existsSync } from "node:fs";
 
 export default function eleventy(eleventyConfig) {
   eleventyConfig.addGlobalData("now", () => new Date());
@@ -109,12 +110,25 @@ export default function eleventy(eleventyConfig) {
     return `<script>fluid.uiOptions.multilingual(".flc-prefsEditor-separatedPanel", ${JSON.stringify(options)});</script>`;
   });
 
-  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '', className = null) => {
-    const metadata = await Image(`./src/assets/images/${filename}`, {
+  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async function (fileSlug, altText = '', className = null, displayPrint = true) {
+    if (fileSlug.includes('.svg')) {
+      fileSlug = fileSlug.split('.svg')[0];
+    }
+
+    let printSlug = fileSlug;
+
+    if (existsSync(`./src/assets/images/${fileSlug}-print.svg`)) {
+      printSlug = `${fileSlug}-print`;
+    }
+
+    const printImg = `<img src="/assets/images/${printSlug}.svg" alt="${altText}" class="${className ? `print ${className}` : 'print'}" />`;
+
+    const primaryImage = await Image(`./src/assets/images/${fileSlug}.svg`, {
       formats: ["svg"],
       dryRun: true,
-    })
-    const { document } = parseHTML(metadata.svg[0].buffer.toString());
+    });
+
+    const { document } = parseHTML(primaryImage.svg[0].buffer.toString());
     const svg = document.querySelector('svg');
     svg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
     svg.setAttribute('aria-label', altText);
@@ -123,8 +137,27 @@ export default function eleventy(eleventyConfig) {
     } else {
       svg.setAttribute('class', 'web');
     }
-    const img = `<img src="/assets/images/${filename}" alt="${altText}" class="${className ? `print ${className}` : 'print'}" />`
-    return `${img} ${svg.toString()}`;
+
+    let mobileSvg = null;
+
+    if (existsSync(`./src/assets/images/${fileSlug}-mobile.svg`)) {
+      const mobileImage = await Image(`./src/assets/images/${fileSlug}-mobile.svg`, {
+        formats: ["svg"],
+        dryRun: true
+      });
+
+      const { document } = parseHTML(mobileImage.svg[0].buffer.toString());
+      mobileSvg = document.querySelector('svg');
+      mobileSvg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
+      mobileSvg.setAttribute('aria-label', altText);
+      if (className) {
+        mobileSvg.setAttribute('class', `web mobile ${className}`);
+      } else {
+        mobileSvg.setAttribute('class', 'web mobile');
+      }
+    }
+
+    return `${displayPrint ? printImg : ''}${svg.toString()}${mobileSvg ? mobileSvg.toString() : ''}`;
   })
 
   eleventyConfig.addTransform("parse", parse);

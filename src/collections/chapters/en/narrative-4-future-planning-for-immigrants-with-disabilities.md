@@ -36,13 +36,13 @@ For a while, CERB and unemployment benefits helped them get by. But those progra
 
 With more than half their income gone, Ki knows he needs to plan for the future—but he doesn't know where to begin. He's unfamiliar with financial tools, and when he tried to speak to someone at the bank, they couldn't offer much help. Nobody mentioned options like wills, insurance, or long-term savings strategies that could help protect his family.
 
-<div class="two-column flexible">
+#### Access to **financial advice and planning** {.barrier-title}
+
+<div class="two-column flexible barrier">
 
 {% includeSvg "mini-pyramid-planning.svg", translations[lang]["mini-pyramid-planning-narrative-4"] %}
 
-<div>
-
-#### Access to **financial advice and planning** {.barrier-title}
+<div class="flow">
 
 - **Lack of awareness of protective measures:** There can be a lack of awareness about services like wills, life insurance, trust funds, or other programs and services to support one's family and dependents.
 This creates a huge gap as people with disabilities and Deaf people tend to live with greater financial uncertainty and with a lot of their income dependent on their caregivers' ability to earn.

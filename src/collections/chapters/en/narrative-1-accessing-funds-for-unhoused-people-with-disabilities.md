@@ -44,13 +44,13 @@ Social services got James on disability benefits. However, when James is able to
 
 While living in shelters, James had his belongings stolen, including his phone and his wallet, which contained all of his ID, debit card, and credit cards. Without these, he’s unable to access the small amount of money he had saved in his bank account whether through an ATM, at a bank branch, or online.
 
-<div class="two-column flexible">
+#### Access to **financial touchpoints** {.barrier-title}
+
+<div class="two-column flexible barrier">
 
 {% includeSvg "mini-pyramid-touchpoints.svg", translations[lang]['mini-pyramid-touchpoints-narrative-1'] %}
 
 <div class="flow">
-
-#### Access to **financial touchpoints** {.barrier-title}
 
 - James can’t access ATMs without a debit card
 - He faces challenges entering bank branches due to stigma related to his appearance, and he lacks ID and a permanent address, both often required for in-person banking
@@ -60,13 +60,13 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 </div>
 
-<div class="two-column flexible">
+#### Access to **basic financial transactions** {.barrier-title}
+
+<div class="two-column flexible barrier">
 
 {% includeSvg "mini-pyramid-transactions.svg", translations[lang]['mini-pyramid-transactions-narrative-1'] %}
 
 <div class="flow">
-
-#### Access to **basic financial transactions** {.barrier-title}
 
 - Because of limited forms of ID, he can’t open bank accounts or open credit products
 - Any interaction that requires multi-factor authentication may be difficult as he may not have access to a second device

@@ -40,13 +40,13 @@ She receives her pension and disability benefits via direct deposit but has no a
 
 While she is forced to trust her community, she’s always scared of being taken advantage of. What if someone doesn’t give her all of the cash she withdraws from the ATM? What if someone at the till who’s helping her count her money takes a bit more than they should? What if the cab driver charges her more than what the trip costs? What if someone who knows her PIN number uses it?
 
-<div class="two-column flexible">
+#### Access to **financial touchpoints** {.barrier-title}
+
+<div class="two-column flexible barrier">
 
 {% includeSvg "mini-pyramid-touchpoints.svg", translations[lang]['mini-pyramid-touchpoints-narrative-2'] %}
 
-<div>
-
-#### Access to **financial touchpoints** {.barrier-title}
+<div class="flow">
 
 - No access to bank branches
 - Difficulty accessing ATMs due to grocery store hours
@@ -56,13 +56,13 @@ While she is forced to trust her community, she’s always scared of being taken
 
 </div>
 
-<div class="two-column flexible">
+#### Access to **basic financial transactions** {.barrier-title}
+
+<div class="two-column flexible barrier">
 
 {% includeSvg "mini-pyramid-transactions.svg", translations[lang]['mini-pyramid-transactions-narrative-2'] %}
 
-<div>
-
-#### Access to **basic financial transactions** {.barrier-title}
+<div class="flow">
 
 - Interacting with ATM needs to be assisted
 - Paying with cash needs to be assisted
@@ -72,8 +72,6 @@ While she is forced to trust her community, she’s always scared of being taken
 </div>
 
 </div>
-
-<!-- Pyramid diagram goes here. -->
 
 ### Current & ideal state journey map
 

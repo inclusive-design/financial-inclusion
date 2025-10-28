@@ -106,6 +106,7 @@
     --fi-color-green-800: #254926;
     --fi-color-green-900: #243624;
     --fi-color-white: #fff;
+    --fi-color-grey-50: #f6f5f2;
     --fi-color-grey-100: #e6e6e6;
     --fi-color-grey-200: #ccc;
     --fi-color-grey-300: #b3b3b3;
@@ -213,6 +214,7 @@
     --fi-spacing-1800: calc(72 / 16 * 1rem);
     --fi-spacing-2000: calc(80 / 16 * 1rem);
     --fi-spacing-3000: calc(120 / 16 * 1rem);
+    --fi-spacing-3700: calc(148 / 16 * 1rem);
     --fi-spacing-5600: calc(224 / 16 * 1rem);
 
     /** Border Widths **/
@@ -469,16 +471,8 @@ svg.full {
 .w2,
 .w3,
 .w4 {
-    stroke: var(--fl-fgColor, transparent);
-    stroke-width: var(--fi-border-width-1);
-}
-
-.w1,
-.w2,
-.w3,
-.w4,
-.w7 {
     fill: var(--fl-bgColor, var(--fill));
+    stroke: var(--fl-fgColor, var(--fi-color-wheel-900));
 }
 
 .w1 {
@@ -494,27 +488,41 @@ svg.full {
 }
 
 .w4 {
-    --fill: var(--fi-color-white);
+    --fill: var(--fi-color-neutral-50);
+
+    stroke: var(--fl-fgColor, transparent);
+    stroke-width: var(--fi-border-width-1);
+}
+
+.w5,
+.w9 {
+    stroke: var(--fl-fgColor, var(--stroke));
+}
+
+.w6,
+.w7,
+.w8 {
+    fill: var(--fl-fgColor, var(--fill));
 }
 
 .w5 {
-    stroke: var(--fl-fgColor, var(--fi-color-wheel-600));
+    --stroke: var(--fi-color-wheel-700);
 }
 
 .w6 {
-    fill: var(--fl-fgColor, var(--fi-color-attention-400));
+    --fill: var(--fi-color-attention-400);
 }
 
 .w7 {
-    fill: var(--fl-fgColor, var(--fi-color-black));
+    --fill: var(--fi-color-grey-800);
 }
 
 .w8 {
-    fill: var(--fl-fgColor, var(--fi-color-attention-500));
+    --fill: var(--fi-color-attention-600);
 }
 
 .w9 {
-    stroke: var(--fl-fgColor, var(--fi-color-black));
+    --stroke: var(--fi-color-black);
 }
 
 .p1,

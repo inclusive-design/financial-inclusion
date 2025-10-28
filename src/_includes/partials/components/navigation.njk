@@ -1,11 +1,14 @@
-<nav class="navigation">
+    <nav class="navigation">
     <div class="wrapper">
         <div class="brand-and-toggle">
             <a class="standalone" rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
                 <span>{% __ "site-title" %}</span>
                 {% includeSvg "shapes-brand.svg", "" %}
             </a>
-            <button id="navigation-toggle" aria-expanded="false" aria-label="{% __ 'menu' %}"> {% includeSvg 'menu-open.svg' %} {% includeSvg 'menu-close.svg' %} </button>
+            <button id="navigation-toggle" aria-expanded="false" aria-label="{% __ 'menu' %}">
+                {% includeSvg 'menu-open.svg', "", "menu__open", false %}
+                {% includeSvg 'menu-close.svg', "", "menu__close", false %}
+            </button>
         </div>
         <div class="menu">
             {% set navItems = collections['all-' + lang] | eleventyNavigation %}
