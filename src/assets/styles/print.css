@@ -476,7 +476,7 @@ h6 {
     width: 6.25in;
 }
 
-svg.full {
+.full {
     margin-bottom: var(--step-5);
     margin-top: var(--step-5);
 }

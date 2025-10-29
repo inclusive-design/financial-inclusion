@@ -419,7 +419,7 @@ li > * + * {
     margin-top: 1em;
 }
 
-svg.full {
+.full {
     height: auto;
     width: 100%;
 }

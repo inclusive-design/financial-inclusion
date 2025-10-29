@@ -9,7 +9,6 @@ import parse from "./src/_transforms/parse.js";
 import { consolePlus } from 'eleventy-plugin-console-plus';
 import Image from "@11ty/eleventy-img";
 import { parseHTML } from "linkedom";
-import { encode } from 'node-base64-image';
 import markdownItAttrs from 'markdown-it-attrs';
 import { existsSync } from "node:fs";
 
@@ -80,11 +79,6 @@ export default function eleventy(eleventyConfig) {
       }
     });
     return translationUrl;
-  });
-
-  eleventyConfig.addFilter("base64Image", async function (url) {
-    const encodedImage = await encode(url, { string: true, local: true });
-    return encodedImage;
   });
 
   /*

@@ -17,6 +17,11 @@
         width: max-content;
     }
 
+    .pagedjs_page {
+        box-shadow: rgba(3, 4, 7, 0.13) 0px 3px 5px -2px, rgba(3, 4, 7, 0.15) 0px 7px 14px -5px,
+            0 0 0 1px #aaa;
+    }
+
     .pagedjs_page[data-page-number="3"],
     .pagedjs_page[data-page-number="6"],
     .pagedjs_page[data-page-number="10"],
@@ -71,8 +76,7 @@
       :root {
       {% for chapter in collections['chapters-' + lang] %}{% if chapter.data.backgroundImage and chapter.data.backgroundImage !== '' %}
         {% if deploy.local %}
-        {% set backgroundImagePath = 'src' + chapter.data.backgroundImage %}
-        --background-image-{{ loop.index }}:url('data:image/jpg;base64,{{ backgroundImagePath | base64Image }}');
+        --background-image-{{ loop.index }}:url('http://localhost:8080{{ chapter.data.backgroundImage }}');
         {% else %}
         --background-image-{{ loop.index }}:url('{{ deploy.url }}{{ chapter.data.backgroundImage }}');
         {% endif %}
