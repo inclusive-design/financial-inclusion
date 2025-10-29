@@ -50,7 +50,7 @@ jobs:
             --data @docraptor.json \
             > src/assets/downloads/guidebook-for-financial-inclusion.pdf
       - name: Archive code coverage results
-        uses: actions/upload-artifact@v4.6.2
+        uses: actions/upload-artifact@v5.0.0
         with:
           name: guidebook-for-financial-inclusion
           path: src/assets/downloads/guidebook-for-financial-inclusion.pdf
