@@ -130,8 +130,13 @@ export default function eleventy(eleventyConfig) {
 
     const { document } = parseHTML(primaryImage.svg[0].buffer.toString());
     const svg = document.querySelector('svg');
-    svg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
-    svg.setAttribute('aria-label', altText);
+    if (altText !== '') {
+      svg.setAttribute('role', 'img');
+      svg.setAttribute('aria-label', altText);
+    } else {
+      svg.setAttribute('role', 'presentation');
+    }
+
     if (className) {
       svg.setAttribute('class', `web ${className}`);
     } else {
@@ -148,8 +153,13 @@ export default function eleventy(eleventyConfig) {
 
       const { document } = parseHTML(mobileImage.svg[0].buffer.toString());
       mobileSvg = document.querySelector('svg');
-      mobileSvg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
-      mobileSvg.setAttribute('aria-label', altText);
+      if (altText !== '') {
+        mobileSvg.setAttribute('role', 'img');
+        mobileSvg.setAttribute('aria-label', altText);
+      } else {
+        mobileSvg.setAttribute('role', 'presentation');
+      }
+
       if (className) {
         mobileSvg.setAttribute('class', `web mobile ${className}`);
       } else {
