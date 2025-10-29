@@ -81,11 +81,19 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 James is trying to withdraw some of his savings to pay for a used phone—his old one was stolen, and he needs a phone number to be contacted for any benefits, programs, or jobs he applies for
 
-<!-- Flow chart goes here. Alt: A journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
+<div class="narrative-1">
+
+{% includeSvg "journey-map-narrative-1", translations[lang]["journey-map"] %}
+
+<div class="scenario">
 
 1. James' wallet and phone were stolen.
 2. He thinks he has enough saved to buy a used phone.
 3. He goes to the bank hoping the teller can help, even without his debit card or ID.
+
+</div>
+
+<div class="usual">
 
 ##### What usually happens
 
@@ -93,11 +101,19 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 2. He tries the ATM, but without a debit card, he can’t access his money.
 3. Defeated, he realizes that he has no way of accessing his money—or getting a new phone.
 
+</div>
+
+<div class="potential">
+
 ##### What could happen
 
 1. At the bank branch, he gets some funny judgemental looks from other customers.
 2. The teller verifies him with biometric data and lets him withdraw $200.
 3. He buys and activates a used phone at the local corner store.
+
+</div>
+
+</div>
 
 ### Exploring possibilities: Quick wins to big moves
 
