@@ -597,3 +597,7 @@ img.page-1 {
 .narrative-1 .potential li:nth-child(3) {
     top: 227pt;
 }
+
+.narrative-1 + h3 {
+    break-before: always;
+}

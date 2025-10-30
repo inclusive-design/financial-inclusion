@@ -900,10 +900,6 @@ h5,
     width: 310px;
 }
 
-.narrative-1 + h3 {
-    break-before: always;
-}
-
 .narrative-1 h5 {
     font-size: 1.2rem;
 }
