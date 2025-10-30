@@ -520,84 +520,86 @@ h6 {
     display: none;
 }
 
-.journey-map-narrative-1 {
+.journey-map {
     margin-top: 0;
+}
+
+.journey-map + h3 {
+    break-before: always;
+}
+
+.journey-map-page-1,
+.journey-map-page-2 {
+    height: auto;
+}
+
+.journey-map-page-1 {
+    position: absolute;
+}
+
+.journey-map-page-1.narrative-1 {
+    bottom: -1.125in;
+    left: 1in;
+    width: 151pt;
+}
+
+.journey-map-page-2.narrative-1 {
+    width: 236pt;
+}
+
+.journey-map .scenario {
     position: relative;
 }
 
-.journey-map-narrative-1 li {
-    position: absolute;
+.journey-map.narrative-1 li {
     width: 182pt;
 }
 
-.journey-map-narrative-1 .scenario {
-    position: relative;
-}
-
-.journey-map-narrative-1 .scenario li:first-child {
+.journey-map.narrative-1 .scenario li:first-child {
     left: 164pt;
     top: 91pt;
 }
 
-.journey-map-narrative-1 .scenario li:nth-child(2) {
+.journey-map.narrative-1 .scenario li:nth-child(2) {
     left: 164pt;
     top: 167pt;
 }
 
-.journey-map-narrative-1 .scenario li:nth-child(3) {
+.journey-map.narrative-1 .scenario li:nth-child(3) {
     left: 164pt;
     top: 243pt;
 }
 
-.journey-map-narrative-1-page-1 {
-    bottom: -1.125in;
-    height: auto;
-    left: 1in;
-    position: absolute;
-    width: 151pt;
-}
-
-.journey-map-narrative-1-page-2 {
-    height: auto;
-    width: 236pt;
-}
-
-.journey-map-narrative-1 .usual {
+.journey-map.narrative-1 .usual {
     left: 28pt;
-    position: absolute;
     top: 112pt;
 }
 
-.journey-map-narrative-1 .usual li:first-child {
+.journey-map.narrative-1 .usual li:first-child {
     top: 39pt;
 }
 
-.journey-map-narrative-1 .usual li:nth-child(2) {
+.journey-map.narrative-1 .usual li:nth-child(2) {
     top: 131pt;
 }
 
-.journey-map-narrative-1 .usual li:nth-child(3) {
+.journey-map.narrative-1 .usual li:nth-child(3) {
     top: 224pt;
 }
 
-.journey-map-narrative-1 .potential {
+.journey-map.narrative-1 .potential {
     left: 251pt;
-    position: absolute;
     top: 318pt;
 }
 
-.journey-map-narrative-1 .potential li:first-child {
+.journey-map.narrative-1 .potential li:first-child {
     top: 33pt;
 }
 
-.journey-map-narrative-1 .potential li:nth-child(2) {
+.journey-map.narrative-1 .potential li:nth-child(2) {
     top: 132pt;
 }
 
-.journey-map-narrative-1 .potential li:nth-child(3) {
+.journey-map.narrative-1 .potential li:nth-child(3) {
     top: 227pt;
-}
-
-.journey-map-narrative-1 + h3 {
-    break-before: always;
 }

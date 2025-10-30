@@ -602,6 +602,19 @@ li > * + * {
     font-style: normal;
 }
 
-.journey-map-narrative-1 ol {
+.journey-map {
+    position: relative;
+}
+
+.journey-map ol {
     list-style: none;
+}
+
+.journey-map li {
+    position: absolute;
+}
+
+.journey-map .usual,
+.journey-map .potential {
+    position: absolute;
 }
