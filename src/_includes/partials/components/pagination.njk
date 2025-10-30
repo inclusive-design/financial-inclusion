@@ -1,11 +1,6 @@
 {% set previousChapter = collections['paginated-' + lang] | getPreviousCollectionItem %}
 {% set nextChapter = collections['paginated-' + lang] | getNextCollectionItem %}
 <nav class="pagination" aria-label="{% __ 'pagination' %}">
-<<<<<<< Updated upstream
-    {% if previousChapter %}<a class="standalone" href="{{ previousChapter.url }}">{% include "svg/previous.svg" %} {% __ 'previous' %}</a>{% endif %}
-    {% if nextChapter %}<a class="standalone" href="{{ nextChapter.url }}">{% __ 'next' %} {% include "svg/next.svg" %}</a>{% endif %}
-=======
     {% if previousChapter %}<a class="standalone" href="{{ previousChapter.url }}">{% includeSvg "previous.svg", "", null, false %} {% __ 'previous' %}</a>{% endif %}
     {% if nextChapter %}<a class="standalone" href="{{ nextChapter.url }}">{% __ 'next' %} {% includeSvg "next.svg", "", null, false %}</a>{% endif %}
->>>>>>> Stashed changes
 </nav>

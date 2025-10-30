@@ -103,17 +103,12 @@ export default function eleventy(eleventyConfig) {
     return `<script>fluid.uiOptions.multilingual(".flc-prefsEditor-separatedPanel", ${JSON.stringify(options)});</script>`;
   });
 
-<<<<<<< Updated upstream
-  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '', className = null) => {
-    const metadata = await Image(`./src/_includes/svg/${filename}`, {
-=======
   eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async function (fileSlug, altText = '', className = null, displayPrint = true) {
     if (fileSlug.includes('.svg')) {
       fileSlug = fileSlug.split('.svg')[0];
     }
 
     const primaryImage = await Image(`./src/assets/images/${fileSlug}.svg`, {
->>>>>>> Stashed changes
       formats: ["svg"],
       dryRun: true,
     })
@@ -122,11 +117,6 @@ export default function eleventy(eleventyConfig) {
     svg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
     svg.setAttribute('aria-label', altText);
     if (className) {
-<<<<<<< Updated upstream
-      svg.setAttribute('class', className);
-    }
-    return svg.toString();
-=======
       if (displayPrint) {
         svg.setAttribute('class', `web ${className}`);
       } else {
@@ -172,7 +162,6 @@ export default function eleventy(eleventyConfig) {
     }
 
     return `${displayPrint ? printImg : ''}${svg.toString()}${mobileSvg ? mobileSvg.toString() : ''}`;
->>>>>>> Stashed changes
   })
 
   eleventyConfig.addTransform("parse", parse);

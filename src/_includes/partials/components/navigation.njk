@@ -3,11 +3,7 @@
         <div class="brand-and-toggle">
             <a class="standalone" rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
                 <span>{% __ "site-title" %}</span>
-<<<<<<< Updated upstream
-                {% include "svg/shapes-brand.svg" %}
-=======
                 {% includeSvg "shapes-brand.svg", "", null, false %}
->>>>>>> Stashed changes
             </a>
             <button id="navigation-toggle" aria-expanded="false" aria-label="{% __ 'menu' %}"> {% includeSvg 'menu-open.svg' %} {% includeSvg 'menu-close.svg' %} </button>
         </div>
@@ -18,11 +14,7 @@
                 <li>
                     <a class="link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | renderContent('md') | striptags | safe }}</a>
                         {% if item.children.length > 0 %}
-<<<<<<< Updated upstream
-                            <button aria-expanded="false" aria-label="{{ item.title | renderContent('md') | striptags | safe }}">{% include "svg/disclosure.svg.njk" %}</button>
-=======
                             <button aria-expanded="false" aria-label="{{ item.title | renderContent('md') | striptags | safe }}">{% includeSvg "disclosure.svg", "", null, false %}</button>
->>>>>>> Stashed changes
                             <ul role="list">
                                 {% for child in item.children %}
                                 <li>
