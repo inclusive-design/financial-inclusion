@@ -18,7 +18,7 @@ introduction: |-
 ---
 ### James, 21
 
-_Edmonton, Alberta_{.surtitle}
+_Edmonton, Alberta_ {.surtitle}
 
 James lives with chronic depression. While some days he can manage his symptoms, other days it’s impossible for him to get out of bed. He’s often called lazy or undisciplined by his family, but he finds it extremely difficult to tell them how his depression makes him feel like he can’t move or speak. What’s even more frustrating is that he wants to get a job and live independently—but he can’t, and that sends him deeper into shame.
 
@@ -44,6 +44,8 @@ Social services got James on disability benefits. However, when James is able to
 
 While living in shelters, James had his belongings stolen, including his phone and his wallet, which contained all of his ID, debit card, and credit cards. Without these, he’s unable to access the small amount of money he had saved in his bank account whether through an ATM, at a bank branch, or online.
 
+<div class="barriers">
+
 #### Access to **financial touchpoints** {.barrier-title}
 
 <div class="two-column flexible barrier">
@@ -62,7 +64,7 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 #### Access to **basic financial transactions** {.barrier-title}
 
-<div class="two-column flexible barrier">
+<div class="two-column barrier flexible">
 
 {% includeSvg "mini-pyramid-transactions.svg", translations[lang]['mini-pyramid-transactions-narrative-1'] %}
 
@@ -75,15 +77,19 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 </div>
 
-### Current & ideal state journey map
+</div>
+
+### Current & ideal state journey map{.journey-map-title}
 
 #### Scenario
 
 James is trying to withdraw some of his savings to pay for a used phone—his old one was stolen, and he needs a phone number to be contacted for any benefits, programs, or jobs he applies for
 
+<img src="/assets/images/journey-map-narrative-1-print-page-1.svg" class="print page-1" width="151" height="479" />
+
 <div class="narrative-1">
 
-{% includeSvg "journey-map-narrative-1", translations[lang]["journey-map"] %}
+{% includeSvg "journey-map-narrative-1", translations[lang]["journey-map"], null, false %}
 
 <div class="scenario">
 
@@ -92,6 +98,8 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 3. He goes to the bank hoping the teller can help, even without his debit card or ID.
 
 </div>
+
+<img src="/assets/images/journey-map-narrative-1-print-page-2.svg" class="print page-2" width="236" height="546" />
 
 <div class="usual">
 

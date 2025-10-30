@@ -459,10 +459,6 @@ li > * + * {
     margin-top: 2rem;
 }
 
-.two-column.flexible > * {
-    width: auto;
-}
-
 .two-column.flexible strong {
     color: var(--fl-fgColor, var(--fi-color-attention-500));
 }
@@ -604,4 +600,8 @@ li > * + * {
 .introduction em {
     font-family: var(--fi-font-family-display-alt);
     font-style: normal;
+}
+
+.narrative-1 ol {
+    list-style: none;
 }

@@ -893,16 +893,19 @@ h5,
 }
 
 .narrative-1 {
+    margin-inline: auto;
+    margin-top: var(--fi-space-3xl);
     padding-bottom: 2rem;
     position: relative;
+    width: 310px;
+}
+
+.narrative-1 + h3 {
+    break-before: always;
 }
 
 .narrative-1 h5 {
     font-size: 1.2rem;
-}
-
-.narrative-1 ol {
-    list-style: none;
 }
 
 .narrative-1 li {
@@ -999,7 +1002,6 @@ h5,
             top: 402px;
         }
     }
-
 
     .narrative-1 .usual {
         left: 72px;
