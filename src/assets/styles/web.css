@@ -892,7 +892,7 @@ h5,
     display: none;
 }
 
-.narrative-1 {
+.journey-map-narrative-1 {
     margin-inline: auto;
     margin-top: var(--fi-space-3xl);
     padding-bottom: 2rem;
@@ -900,90 +900,90 @@ h5,
     width: 310px;
 }
 
-.narrative-1 h5 {
+.journey-map-narrative-1 h5 {
     font-size: 1.2rem;
 }
 
-.narrative-1 li {
+.journey-map-narrative-1 li {
     font-size: 1rem;
     position: absolute;
     width: 204px;
 }
 
-.narrative-1 .scenario {
+.journey-map-narrative-1 .scenario {
     left: 72px;
     position: absolute;
     top: 0;
 }
 
-.narrative-1 .scenario li:first-child {
+.journey-map-narrative-1 .scenario li:first-child {
     top: -4px;
 }
 
-.narrative-1 .scenario li:nth-child(2) {
+.journey-map-narrative-1 .scenario li:nth-child(2) {
     top: 82px;
 }
 
-.narrative-1 .scenario li:nth-child(3) {
+.journey-map-narrative-1 .scenario li:nth-child(3) {
     top: 190px;
 }
 
-.narrative-1 .usual {
+.journey-map-narrative-1 .usual {
     left: 32px;
     position: absolute;
     top: 344px;
 }
 
-.narrative-1 .usual li:first-child {
+.journey-map-narrative-1 .usual li:first-child {
     top: 66px;
 }
 
-.narrative-1 .usual li:nth-child(2) {
+.journey-map-narrative-1 .usual li:nth-child(2) {
     top: 175px;
 }
 
-.narrative-1 .usual li:nth-child(3) {
+.journey-map-narrative-1 .usual li:nth-child(3) {
     top: 284px;
 }
 
-.narrative-1 .potential {
+.journey-map-narrative-1 .potential {
     left: 106px;
     position: absolute;
     top: 736px;
 }
 
-.narrative-1 .potential li {
+.journey-map-narrative-1 .potential li {
     width: 204px;
 }
 
-.narrative-1 .potential li:first-child {
+.journey-map-narrative-1 .potential li:first-child {
     top: 69px;
 }
 
-.narrative-1 .potential li:nth-child(2) {
+.journey-map-narrative-1 .potential li:nth-child(2) {
     top: 206px;
 }
 
-.narrative-1 .potential li:nth-child(3) {
+.journey-map-narrative-1 .potential li:nth-child(3) {
     top: 312px;
 }
 
 @media (width >= 60rem) {
-    .narrative-1 {
+    .journey-map-narrative-1 {
         margin-inline: auto;
         width: 790px;
     }
 
-    .narrative-1 h5 {
+    .journey-map-narrative-1 h5 {
         font-size: 1.7188rem;
     }
 
-    .narrative-1 li {
+    .journey-map-narrative-1 li {
         font-size: 1.375rem;
         width: 240px;
     }
 
-    .narrative-1 .scenario {
+    .journey-map-narrative-1 .scenario {
         left: 330px;
 
         li:first-child {
@@ -999,7 +999,7 @@ h5,
         }
     }
 
-    .narrative-1 .usual {
+    .journey-map-narrative-1 .usual {
         left: 72px;
         top: 840px;
 
@@ -1020,7 +1020,7 @@ h5,
         }
     }
 
-    .narrative-1 .potential {
+    .journey-map-narrative-1 .potential {
         left: 502px;
         top: 1560px;
 

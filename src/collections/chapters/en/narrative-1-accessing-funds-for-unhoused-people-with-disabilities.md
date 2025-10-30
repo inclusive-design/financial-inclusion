@@ -85,9 +85,9 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 James is trying to withdraw some of his savings to pay for a used phone—his old one was stolen, and he needs a phone number to be contacted for any benefits, programs, or jobs he applies for
 
-<img src="/assets/images/journey-map-narrative-1-print-page-1.svg" class="print page-1" width="151" height="479" />
+<img src="/assets/images/journey-map-narrative-1-print-page-1.svg" class="print journey-map-narrative-1-page-1" width="151" height="479" />
 
-<div class="narrative-1">
+<div class="journey-map-narrative-1">
 
 {% includeSvg "journey-map-narrative-1", translations[lang]["journey-map"], null, false %}
 
@@ -99,7 +99,7 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 
 </div>
 
-<img src="/assets/images/journey-map-narrative-1-print-page-2.svg" class="print page-2" width="236" height="546" />
+<img src="/assets/images/journey-map-narrative-1-print-page-2.svg" class="print journey-map-narrative-1-page-2" width="236" height="546" />
 
 <div class="usual">
 

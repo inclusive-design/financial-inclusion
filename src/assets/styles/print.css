@@ -520,36 +520,36 @@ h6 {
     display: none;
 }
 
-.narrative-1 {
+.journey-map-narrative-1 {
     margin-top: 0;
     position: relative;
 }
 
-.narrative-1 li {
+.journey-map-narrative-1 li {
     position: absolute;
     width: 182pt;
 }
 
-.narrative-1 .scenario {
+.journey-map-narrative-1 .scenario {
     position: relative;
 }
 
-.narrative-1 .scenario li:first-child {
+.journey-map-narrative-1 .scenario li:first-child {
     left: 164pt;
     top: 91pt;
 }
 
-.narrative-1 .scenario li:nth-child(2) {
+.journey-map-narrative-1 .scenario li:nth-child(2) {
     left: 164pt;
     top: 167pt;
 }
 
-.narrative-1 .scenario li:nth-child(3) {
+.journey-map-narrative-1 .scenario li:nth-child(3) {
     left: 164pt;
     top: 243pt;
 }
 
-img.page-1 {
+.journey-map-narrative-1-page-1 {
     bottom: -1.125in;
     height: auto;
     left: 1in;
@@ -557,47 +557,47 @@ img.page-1 {
     width: 151pt;
 }
 
-.narrative-1 img.page-2 {
+.journey-map-narrative-1-page-2 {
     height: auto;
     width: 236pt;
 }
 
-.narrative-1 .usual {
+.journey-map-narrative-1 .usual {
     left: 28pt;
     position: absolute;
     top: 112pt;
 }
 
-.narrative-1 .usual li:first-child {
+.journey-map-narrative-1 .usual li:first-child {
     top: 39pt;
 }
 
-.narrative-1 .usual li:nth-child(2) {
+.journey-map-narrative-1 .usual li:nth-child(2) {
     top: 131pt;
 }
 
-.narrative-1 .usual li:nth-child(3) {
+.journey-map-narrative-1 .usual li:nth-child(3) {
     top: 224pt;
 }
 
-.narrative-1 .potential {
+.journey-map-narrative-1 .potential {
     left: 251pt;
     position: absolute;
     top: 318pt;
 }
 
-.narrative-1 .potential li:first-child {
+.journey-map-narrative-1 .potential li:first-child {
     top: 33pt;
 }
 
-.narrative-1 .potential li:nth-child(2) {
+.journey-map-narrative-1 .potential li:nth-child(2) {
     top: 132pt;
 }
 
-.narrative-1 .potential li:nth-child(3) {
+.journey-map-narrative-1 .potential li:nth-child(3) {
     top: 227pt;
 }
 
-.narrative-1 + h3 {
+.journey-map-narrative-1 + h3 {
     break-before: always;
 }
