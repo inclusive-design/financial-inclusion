@@ -321,12 +321,16 @@ a.standalone {
     display: inline-block;
 }
 
+.header .language {
+    margin-top: var(--fi-space-xs);
+}
+
 .header .language li {
     display: inline;
 }
 
 .header .language li + li::before {
-    content: "/";
+    content: "\A0\A0/\A0\A0";
 }
 
 @media (width >= 60rem) {
@@ -394,6 +398,10 @@ h1 em::after {
 }
 
 @media (width >= 60rem) {
+    .header.language {
+        margin-top: 0;
+    }
+
     .brand-and-toggle a svg {
         width: 10.75rem;
     }
