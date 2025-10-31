@@ -7,7 +7,6 @@
 {% block content %}
     <article>
         <div class="wrapper flow">
-            <h2>{{ chapterTitle | renderContent('md') | striptags | safe }}</h2>
             {{ content | safe }}
             {% include "partials/components/pagination.njk" %}
         </div>

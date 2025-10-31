@@ -48,10 +48,10 @@ export default (value, outputPath) => {
             }
         }
 
+        // TODO: Fix heading levels on home page.
         if (outputPath.includes("chapters") || outputPath.includes("chapitres")) {
             const headings = document.querySelectorAll("main h3, main h4, main h5, main h6");
             for (const heading of headings) {
-                console.log(heading.tagName);
                 if (heading.tagName === "H3") {
                     heading.setAttribute("aria-level", 2);
                 }

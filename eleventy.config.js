@@ -176,6 +176,10 @@ export default function eleventy(eleventyConfig) {
     "src/admin/config.yml": "admin/config.yml"
   });
 
+  eleventyConfig.addPassthroughCopy({
+    "src/robots.txt": "robots.txt"
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/assets/icons": "/" });
   eleventyConfig.addPassthroughCopy("src/assets/downloads");
 

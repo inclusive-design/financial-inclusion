@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="author" content="{{ site[lang].author }}">
 <meta name="description" content="{{ excerpt if excerpt else site[lang].description }}">
+<meta name="theme-color" content="#dee81c">
+<meta name="color-scheme" content="light only">
 <meta name="og:type" property="og:type" content="website">
 <meta name="og:site_name" property="og:site_name" content="{{ site[lang].title }}">
 <meta name="og:description" property="og:description" content="{{ excerpt if excerpt else site[lang].description }}">
@@ -10,5 +12,6 @@
 <meta property="og:image" content="{{ previewImage if previewImage else 'https://financial-inclusion.inclusivedesign.ca/assets/images/social-' + lang + '.png' }}">
 <meta property="og:image:alt" content="{{ previewImageAlt if previewImageAlt else site[lang].title }}">
 <link rel="icon" href="/favicon-{{ lang }}.ico" sizes="32x32">
+<link rel="canonical" href="{{ 'http://localhost:8080' if deploy.local else 'https://financial-inclusion.inclusivedesign.ca' }}{{ page.url }}">
 <link rel="icon" href="/icon-{{ lang }}.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon-{{ lang }}.png">

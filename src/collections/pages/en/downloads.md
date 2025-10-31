@@ -7,4 +7,4 @@ eleventyNavigation:
   key: Downloads
   order: 99
 ---
-[Download the Guidebook]({{ deploy.url }}/assets/guidebook-for-financial-inclusion.pdf)
+[Download the Guidebook](https://financial-inclusion.inclusivedesign.ca/assets/downloads/guidebook-for-financial-inclusion.pdf)
