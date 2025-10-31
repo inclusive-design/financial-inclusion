@@ -1,7 +1,7 @@
 <footer>
     <div class="wrapper grid">
         <div class="contact flow">
-            <h4>{% __ 'contact-us' %}</h4>
+            <h2 class="h4">{% __ 'contact-us' %}</h2>
             <p class="h5">{% __ 'email' %}</p>
             <p class="small"><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
             <p class="h5">{% __ 'phone' %}</p>
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="funders">
-            <h4>{% __ 'funded-by' %}</h4>
+            <h2 class="h4">{% __ 'funded-by' %}</h2>
             <p class="small">
                 {% if lang == 'en' %}
                 <a rel="external" href="https://www.canada.ca/en/employment-social-development.html" hreflang="en">{% includeSvg "esdc.svg", translations[lang].esdc, null, false %}</a>
