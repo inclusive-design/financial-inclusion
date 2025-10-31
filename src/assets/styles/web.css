@@ -995,6 +995,7 @@ svg.web.mobile {
 }
 
 .journey-map.narrative-2 {
+    margin-block: 150px;
     width: 310px;
 }
 
@@ -1011,16 +1012,16 @@ svg.web.mobile {
 }
 
 .journey-map.narrative-2 .scenario li:nth-child(2) {
-    top: 82px;
+    top: 133px;
 }
 
 .journey-map.narrative-2 .scenario li:nth-child(3) {
-    top: 190px;
+    top: 236px;
 }
 
 .journey-map.narrative-2 .usual {
     left: 32px;
-    top: 344px;
+    top: 442px;
 }
 
 .journey-map.narrative-2 .usual li:first-child {
@@ -1032,12 +1033,12 @@ svg.web.mobile {
 }
 
 .journey-map.narrative-2 .usual li:nth-child(3) {
-    top: 284px;
+    top: 386px;
 }
 
 .journey-map.narrative-2 .potential {
     left: 106px;
-    top: 736px;
+    top: 963px;
 }
 
 .journey-map.narrative-2 .potential li {
@@ -1049,11 +1050,11 @@ svg.web.mobile {
 }
 
 .journey-map.narrative-2 .potential li:nth-child(2) {
-    top: 206px;
+    top: 228px;
 }
 
 .journey-map.narrative-2 .potential li:nth-child(3) {
-    top: 312px;
+    top: 435px;
 }
 
 .journey-map.narrative-3 {
@@ -1266,6 +1267,7 @@ svg.web.mobile {
     }
 
     .journey-map.narrative-2 {
+        margin-block-end: 200px;
         width: 790px;
     }
 
@@ -1282,16 +1284,16 @@ svg.web.mobile {
     }
 
     .journey-map.narrative-2 .scenario li:nth-child(2) {
-        top: 178px;
+        top: 210px;
     }
 
     .journey-map.narrative-2 .scenario li:nth-child(3) {
-        top: 402px;
+        top: 394px;
     }
 
     .journey-map.narrative-2 .usual {
         left: 72px;
-        top: 840px;
+        top: 770px;
     }
 
     .journey-map.narrative-2 .usual li {
@@ -1303,16 +1305,16 @@ svg.web.mobile {
     }
 
     .journey-map.narrative-2 .usual li:nth-child(2) {
-        top: 325px;
+        top: 317px;
     }
 
     .journey-map.narrative-2 .usual li:nth-child(3) {
-        top: 548px;
+        top: 620px;
     }
 
     .journey-map.narrative-2 .potential {
         left: 502px;
-        top: 1560px;
+        top: 1595px;
     }
 
     .journey-map.narrative-2 .potential li {
@@ -1324,11 +1326,11 @@ svg.web.mobile {
     }
 
     .journey-map.narrative-2 .potential li:nth-child(2) {
-        top: 328px;
+        top: 338px;
     }
 
     .journey-map.narrative-2 .potential li:nth-child(3) {
-        top: 515px;
+        top: 595px;
     }
 
     .journey-map.narrative-3 {

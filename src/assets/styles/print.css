@@ -638,17 +638,17 @@ h6 {
 
 .journey-map.narrative-2 .scenario li:first-child {
     left: 164pt;
-    top: 91pt;
+    top: 87pt;
 }
 
 .journey-map.narrative-2 .scenario li:nth-child(2) {
     left: 164pt;
-    top: 167pt;
+    top: 180pt;
 }
 
 .journey-map.narrative-2 .scenario li:nth-child(3) {
     left: 164pt;
-    top: 243pt;
+    top: 273pt;
 }
 
 .journey-map.narrative-2 .usual {
@@ -665,12 +665,12 @@ h6 {
 }
 
 .journey-map.narrative-2 .usual li:nth-child(3) {
-    top: 224pt;
+    top: 282pt;
 }
 
 .journey-map.narrative-2 .potential {
     left: 251pt;
-    top: 318pt;
+    top: 197pt;
 }
 
 .journey-map.narrative-2 .potential li:first-child {
@@ -678,11 +678,11 @@ h6 {
 }
 
 .journey-map.narrative-2 .potential li:nth-child(2) {
-    top: 132pt;
+    top: 144pt;
 }
 
 .journey-map.narrative-2 .potential li:nth-child(3) {
-    top: 227pt;
+    top: 295pt;
 }
 
 .journey-map.narrative-3 li {
