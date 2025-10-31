@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="99" height="1448" fill="none" viewBox="0 0 99 1448">
-    <circle cx="48.805" cy="10.147" r="8.684" stroke="#E8451C" stroke-width="1.632" transform="rotate(90 48.805 10.147)"/>
-    <circle cx="48.805" cy="235.282" r="8.684" stroke="#E8A41C" stroke-width="1.632" transform="rotate(90 48.805 235.282)"/>
-    <circle cx="10" cy="506.18" r="8.184" stroke="#CB3335" stroke-width="1.632" transform="rotate(90 10 506.18)"/>
-    <circle cx="9.5" cy="666.116" r="8.684" stroke="#CB3335" stroke-width="1.632" transform="rotate(90 9.5 666.116)"/>
-    <circle cx="9.805" cy="852.131" r="8.684" stroke="#CB3335" stroke-width="1.632" transform="rotate(90 9.805 852.131)"/>
-    <path stroke="url(#a)" stroke-width="1.632" d="M48.805 19.647v99.103"/>
-    <path stroke="#E8A41C" stroke-width="1.632" d="M48.805 136.499v89.282"/>
-    <path stroke="#CB3335" stroke-width="1.632" d="M9.805 513.75v143.5M9.805 675v168.75"/>
-    <path stroke="url(#b)" stroke-width="1.632" d="M90.305 412v-7.883c0-9.013-7.307-16.32-16.32-16.32h-8.36c-9.013 0-16.32-7.308-16.32-16.322v-35.551"/>
-    <path stroke="url(#c)" stroke-width="1.632" d="M9.805 497.75v-94.118c0-9.014 7.307-16.32 16.32-16.32h6.86c9.013 0 16.3-7.267 16.264-16.28-.14-36.178-.5-119.434-.5-127.188"/>
-    <circle cx="48.805" cy="128.25" r="8.684" stroke="#E8A41C" stroke-width="1.632" transform="rotate(90 48.805 128.25)"/>
-    <circle cx="89.304" cy="1056.5" r="8.684" stroke="#C5C818" stroke-width="1.632" transform="rotate(90 89.304 1056.5)"/>
-    <circle cx="89.306" cy="1242.76" r="8.684" stroke="#99C818" stroke-width="1.632" transform="rotate(90 89.306 1242.76)"/>
-    <circle cx="89.5" cy="1437.54" r="8.684" stroke="#7BD383" stroke-width="1.632" transform="rotate(90 89.5 1437.54)"/>
-    <path stroke="url(#d)" stroke-width="1.632" d="M88.806 1251v177.5"/>
-    <path stroke="url(#e)" stroke-width="1.632" d="M89.306 1066v167.75"/>
-    <path stroke="url(#f)" stroke-width="1.632" d="M89.304 926.998v120.252"/>
+    <circle cx="48.805" cy="10.147" r="8.684" stroke="var(--fl-fgColor, #E8451C)" stroke-width="1.632" transform="rotate(90 48.805 10.147)"/>
+    <circle cx="48.805" cy="235.282" r="8.684" stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" transform="rotate(90 48.805 235.282)"/>
+    <circle cx="10" cy="506.18" r="8.184" stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" transform="rotate(90 10 506.18)"/>
+    <circle cx="9.5" cy="666.116" r="8.684" stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" transform="rotate(90 9.5 666.116)"/>
+    <circle cx="9.805" cy="852.131" r="8.684" stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" transform="rotate(90 9.805 852.131)"/>
+    <path stroke="var(--fl-fgColor, url(#2-a-mobile))" stroke-width="1.632" d="M48.805 19.647v99.103"/>
+    <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M48.805 136.499v89.282"/>
+    <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M9.805 513.75v143.5M9.805 675v168.75"/>
+    <path stroke="var(--fl-fgColor, url(#2-b-mobile))" stroke-width="1.632" d="M90.305 412v-7.883c0-9.013-7.307-16.32-16.32-16.32h-8.36c-9.013 0-16.32-7.308-16.32-16.322v-35.551"/>
+    <path stroke="var(--fl-fgColor, url(#2-c-mobile))" stroke-width="1.632" d="M9.805 497.75v-94.118c0-9.014 7.307-16.32 16.32-16.32h6.86c9.013 0 16.3-7.267 16.264-16.28-.14-36.178-.5-119.434-.5-127.188"/>
+    <circle cx="48.805" cy="128.25" r="8.684" stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" transform="rotate(90 48.805 128.25)"/>
+    <circle cx="89.304" cy="1056.5" r="8.684" stroke="var(--fl-fgColor, #C5C818)" stroke-width="1.632" transform="rotate(90 89.304 1056.5)"/>
+    <circle cx="89.306" cy="1242.76" r="8.684" stroke="var(--fl-fgColor, #99C818)" stroke-width="1.632" transform="rotate(90 89.306 1242.76)"/>
+    <circle cx="89.5" cy="1437.54" r="8.684" stroke="var(--fl-fgColor, #7BD383)" stroke-width="1.632" transform="rotate(90 89.5 1437.54)"/>
+    <path stroke="var(--fl-fgColor, url(#2-d-mobile))" stroke-width="1.632" d="M88.806 1251v177.5"/>
+    <path stroke="var(--fl-fgColor, url(#2-e-mobile))" stroke-width="1.632" d="M89.306 1066v167.75"/>
+    <path stroke="var(--fl-fgColor, url(#2-f-mobile))" stroke-width="1.632" d="M89.304 926.998v120.252"/>
     <defs>
-      <linearGradient id="a" x1="44.801" x2="44.801" y1="8.26" y2="192.127" gradientUnits="userSpaceOnUse">
+      <linearGradient id="2-a-mobile" x1="44.801" x2="44.801" y1="8.26" y2="192.127" gradientUnits="userSpaceOnUse">
         <stop stop-color="#CB3335"/>
         <stop offset="1" stop-color="#E8A41C"/>
       </linearGradient>
-      <linearGradient id="b" x1="50.196" x2="105.979" y1="351.949" y2="420.81" gradientUnits="userSpaceOnUse">
+      <linearGradient id="2-b-mobile" x1="50.196" x2="105.979" y1="351.949" y2="420.81" gradientUnits="userSpaceOnUse">
         <stop stop-color="#E8A41C"/>
         <stop offset="1" stop-color="#C5C818"/>
       </linearGradient>
-      <linearGradient id="c" x1="48.446" x2="35.185" y1="373.277" y2="413.562" gradientUnits="userSpaceOnUse">
+      <linearGradient id="2-c-mobile" x1="48.446" x2="35.185" y1="373.277" y2="413.562" gradientUnits="userSpaceOnUse">
         <stop stop-color="#E8A41C"/>
         <stop offset="1" stop-color="#CB3335"/>
       </linearGradient>
-      <linearGradient id="d" x1="87.901" x2="87.901" y1="1266.97" y2="1448.35" gradientUnits="userSpaceOnUse">
+      <linearGradient id="2-d-mobile" x1="87.901" x2="87.901" y1="1266.97" y2="1448.35" gradientUnits="userSpaceOnUse">
         <stop stop-color="#99C818"/>
         <stop offset="1" stop-color="#7BD383"/>
       </linearGradient>
-      <linearGradient id="e" x1="306.538" x2="306.538" y1="1345.67" y2="1528.3" gradientUnits="userSpaceOnUse">
+      <linearGradient id="2-e-mobile" x1="306.538" x2="306.538" y1="1345.67" y2="1528.3" gradientUnits="userSpaceOnUse">
         <stop stop-color="#C5C818"/>
         <stop offset="1" stop-color="#99C818"/>
       </linearGradient>
-      <linearGradient id="f" x1="304.553" x2="304.553" y1="1279.02" y2="1461.65" gradientUnits="userSpaceOnUse">
+      <linearGradient id="2-f-mobile" x1="304.553" x2="304.553" y1="1279.02" y2="1461.65" gradientUnits="userSpaceOnUse">
         <stop stop-color="#C5C818"/>
         <stop offset="1" stop-color="#99C818"/>
       </linearGradient>

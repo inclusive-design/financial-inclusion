@@ -627,7 +627,7 @@ li > * + * {
 }
 
 .diagram {
-    color: var(--fi-color-neutral-800);
+    color: var(--fl-fgColor, var(--fi-color-neutral-800));
     font-family: var(--fi-font-family-display);
     font-size: var(--step--1);
     font-weight: var(--fi-font-weight-semibold);
@@ -638,7 +638,7 @@ li > * + * {
 .card {
     background: var(--fl-bgColor, var(--fill));
     border: 1px solid var(--fl-fgColor, transparent);
-    color: var(--fi-color-neutral-800);
+    color: var(--fl-fgColor, var(--fi-color-neutral-800));
     font-family: var(--fi-font-family-display);
     font-size: var(--step--1);
     font-weight: var(--fi-font-weight-semibold);
@@ -653,6 +653,7 @@ li > * + * {
     font-weight: var(--fi-font-weight-bold);
     line-height: 1.2;
     margin-bottom: var(--fi-space-s);
+    margin-top: 0;
 }
 
 .longterm-low .card,

@@ -74,7 +74,7 @@ Her social worker suggests opening a savings account and slowly building her cre
 
 <div class="journey-map narrative-3">
 
-{% includeSvg "journey-map-narrative-2", translations[lang]["journey-map"], null, false %}
+{% includeSvg "journey-map-narrative-3", translations[lang]["journey-map"], null, false %}
 
 <div class="scenario">
 
@@ -193,7 +193,7 @@ Quicker impact {.diagram .desktop-only}
 </div>
 
 ### Edge User Deep Dive: Lakshmi {.edge-user-deep-dive}
- 
+
 After learning about Lakshmi, consider her life experiences and answer the following questions. How much of your institution's products and services can she access?
 
 Can Lakshmi...

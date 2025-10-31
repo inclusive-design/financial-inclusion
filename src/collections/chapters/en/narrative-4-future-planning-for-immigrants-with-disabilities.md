@@ -66,7 +66,7 @@ Wanting to explore financial options to protect his family's future, Ki books an
 
 <div class="journey-map narrative-4">
 
-{% includeSvg "journey-map-narrative-2", translations[lang]["journey-map"], null, false %}
+{% includeSvg "journey-map-narrative-4", translations[lang]["journey-map"], null, false %}
 
 <div class="scenario">
 
