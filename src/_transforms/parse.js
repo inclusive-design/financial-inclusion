@@ -48,6 +48,28 @@ export default (value, outputPath) => {
             }
         }
 
+        if (outputPath.includes("chapters")) {
+            const headings = document.querySelectorAll("main h3, main h4, main h5, main h6");
+            for (const heading of headings) {
+                console.log(heading.tagName);
+                if (heading.tagName === "H3") {
+                    heading.setAttribute("aria-level", 2);
+                }
+
+                if (heading.tagName === "H4") {
+                    heading.setAttribute("aria-level", 3);
+                }
+
+                if (heading.tagName === "H5") {
+                    heading.setAttribute("aria-level", 4);
+                }
+
+                if (heading.tagName === "H6") {
+                    heading.setAttribute("aria-level", 5);
+                }
+            }
+        }
+
         return "<!DOCTYPE html>\r\n" + document.documentElement?.outerHTML;
     }
 
