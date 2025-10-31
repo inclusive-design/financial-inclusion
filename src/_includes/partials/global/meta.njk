@@ -5,9 +5,9 @@
 <meta name="og:type" property="og:type" content="website">
 <meta name="og:site_name" property="og:site_name" content="{{ site[lang].title }}">
 <meta name="og:description" property="og:description" content="{{ excerpt if excerpt else site[lang].description }}">
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{{ title | striptags }}">
 <meta property="og:url" content="{{ page.url }}">
-<meta property="og:image" content="{{ previewImage if previewImage else 'https://standards.inclusivedesign.ca/assets/images/social-' + lang + '.png' }}">
+<meta property="og:image" content="{{ previewImage if previewImage else 'https://financial-inclusion.inclusivedesign.ca/assets/images/social-' + lang + '.png' }}">
 <meta property="og:image:alt" content="{{ previewImageAlt if previewImageAlt else site[lang].title }}">
 <link rel="icon" href="/favicon-{{ lang }}.ico" sizes="32x32">
 <link rel="icon" href="/icon-{{ lang }}.svg" type="image/svg+xml">
