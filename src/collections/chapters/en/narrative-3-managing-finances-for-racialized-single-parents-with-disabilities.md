@@ -62,7 +62,7 @@ Meanwhile, some people in her community are warning her against using banks or c
 
 </div>
 
-### Current & ideal state journey map
+### Current & ideal state journey map{.journey-map-title}
 
 #### Scenario
 
@@ -70,11 +70,23 @@ Lakshmi wants to start saving for her daughter's daily expenses. She has some go
 
 Her social worker suggests opening a savings account and slowly building her credit.
 
-<!-- Flow chart goes here. Alt: A journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
+<img src="/assets/images/journey-map-narrative-3-print-page-1.svg" class="print journey-map-page-1 narrative-3" width="151" height="479" />
+
+<div class="journey-map narrative-3">
+
+{% includeSvg "journey-map-narrative-2", translations[lang]["journey-map"], null, false %}
+
+<div class="scenario">
 
 1. In her area, there is no Bank with a teller that speaks her language.
 2. At the bank, Lakshmi waits until a female teller is free—she feels more comfortable that way.
 3. She says she wants to open a savings account.
+
+</div>
+
+<img src="/assets/images/journey-map-narrative-3-print-page-2.svg" class="print journey-map-page-2 narrative-3" width="236" height="546" />
+
+<div class="usual">
 
 ##### What usually happens
 
@@ -82,11 +94,19 @@ Her social worker suggests opening a savings account and slowly building her cre
 2. Lakshmi doesn’t understand but feels too nervous to ask.
 3. She’s worried about holding up the line. The words blur together, and she signs the forms quickly, anxious and unsure about what she’s agreed to.
 
+</div>
+
+<div class="potential">
+
 ##### What could happen
 
 1. The teller notices Lakshmi’s confusion and kindly invites her to a private booth.
 2. They sit down, and the teller gently asks why she wants to open a savings account, to better understand her needs.
 3. Realizing Lakshmi is saving for her daughter’s day to day expenses, the teller suggests a high-interest savings account with no annual fees and helps her through the steps.
+
+</div>
+
+</div>
 
 ### Exploring possibilities: Quick wins to big moves
 

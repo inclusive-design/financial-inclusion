@@ -73,17 +73,29 @@ While she is forced to trust her community, she’s always scared of being taken
 
 </div>
 
-### Current & ideal state journey map
+### Current & ideal state journey map{.journey-map-title}
 
 #### Scenario
 
 Althea needs cash for her diabetes medication and groceries. It’s icy outside, so she waits all morning for her granddaughter to walk her to the store.
 
-<!-- Flow chart goes here. Alt: A journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
+<img src="/assets/images/journey-map-narrative-2-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
+
+<div class="journey-map narrative-2">
+
+{% includeSvg "journey-map-narrative-2", translations[lang]["journey-map"], null, false %}
+
+<div class="scenario">
 
 1. Althea waits for her granddaughter all morning to walk her to the store.
 2. Her granddaughter is late and Althea has to rush to the store alone.
 3. She arrives just before closing, but the store is already locking up.
+
+</div>
+
+<img src="/assets/images/journey-map-narrative-2-print-page-2.svg" class="print journey-map-page-2 narrative-2" width="236" height="546" />
+
+<div class="usual">
 
 ##### What usually happens
 
@@ -91,11 +103,19 @@ Althea needs cash for her diabetes medication and groceries. It’s icy outside,
 2. Without a debit card that supports audio or large text, she finds the ATM hard to use and feels uncomfortable asking the store owners for help.
 3. She feels anxious, dependent, and worried about not having enough cash at hand until the next day.
 
+</div>
+
+<div class="potential">
+
 ##### What could happen
 
 1. Althea goes to the ATM, which has recently been moved to a secure, heated booth with 24/7 access.
 2. Machine upgraded with a large-print screen, tactile buttons, voice guided prompts in Inuktitut and English, and a screen reader mode.
 3. She takes out the amount she needs, confidently follows the voice instructions, and is done in minutes. Althea feels proud and independent.
+
+</div>
+
+</div>
 
 ### Exploring possibilities: Quick wins to big moves
 

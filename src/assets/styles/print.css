@@ -545,6 +545,36 @@ h6 {
     width: 236pt;
 }
 
+.journey-map-page-1.narrative-2 {
+    bottom: -1.125in;
+    left: 1in;
+    width: 151pt;
+}
+
+.journey-map-page-2.narrative-2 {
+    width: 236pt;
+}
+
+.journey-map-page-1.narrative-3 {
+    bottom: -1.125in;
+    left: 1in;
+    width: 151pt;
+}
+
+.journey-map-page-2.narrative-3 {
+    width: 236pt;
+}
+
+.journey-map-page-1.narrative-4 {
+    bottom: -1.125in;
+    left: 1in;
+    width: 151pt;
+}
+
+.journey-map-page-2.narrative-4 {
+    width: 236pt;
+}
+
 .journey-map .scenario {
     position: relative;
 }
@@ -599,5 +629,164 @@ h6 {
 }
 
 .journey-map.narrative-1 .potential li:nth-child(3) {
+    top: 227pt;
+}
+
+.journey-map.narrative-2 li {
+    width: 182pt;
+}
+
+.journey-map.narrative-2 .scenario li:first-child {
+    left: 164pt;
+    top: 91pt;
+}
+
+.journey-map.narrative-2 .scenario li:nth-child(2) {
+    left: 164pt;
+    top: 167pt;
+}
+
+.journey-map.narrative-2 .scenario li:nth-child(3) {
+    left: 164pt;
+    top: 243pt;
+}
+
+.journey-map.narrative-2 .usual {
+    left: 28pt;
+    top: 112pt;
+}
+
+.journey-map.narrative-2 .usual li:first-child {
+    top: 39pt;
+}
+
+.journey-map.narrative-2 .usual li:nth-child(2) {
+    top: 131pt;
+}
+
+.journey-map.narrative-2 .usual li:nth-child(3) {
+    top: 224pt;
+}
+
+.journey-map.narrative-2 .potential {
+    left: 251pt;
+    top: 318pt;
+}
+
+.journey-map.narrative-2 .potential li:first-child {
+    top: 33pt;
+}
+
+.journey-map.narrative-2 .potential li:nth-child(2) {
+    top: 132pt;
+}
+
+.journey-map.narrative-2 .potential li:nth-child(3) {
+    top: 227pt;
+}
+
+.journey-map.narrative-3 li {
+    width: 182pt;
+}
+
+.journey-map.narrative-3 .scenario li:first-child {
+    left: 164pt;
+    top: 91pt;
+}
+
+.journey-map.narrative-3 .scenario li:nth-child(2) {
+    left: 164pt;
+    top: 167pt;
+}
+
+.journey-map.narrative-3 .scenario li:nth-child(3) {
+    left: 164pt;
+    top: 243pt;
+}
+
+.journey-map.narrative-3 .usual {
+    left: 28pt;
+    top: 112pt;
+}
+
+.journey-map.narrative-3 .usual li:first-child {
+    top: 39pt;
+}
+
+.journey-map.narrative-3 .usual li:nth-child(2) {
+    top: 131pt;
+}
+
+.journey-map.narrative-3 .usual li:nth-child(3) {
+    top: 224pt;
+}
+
+.journey-map.narrative-3 .potential {
+    left: 251pt;
+    top: 318pt;
+}
+
+.journey-map.narrative-3 .potential li:first-child {
+    top: 33pt;
+}
+
+.journey-map.narrative-3 .potential li:nth-child(2) {
+    top: 132pt;
+}
+
+.journey-map.narrative-3 .potential li:nth-child(3) {
+    top: 227pt;
+}
+
+.journey-map.narrative-4 li {
+    width: 182pt;
+}
+
+.journey-map.narrative-4 .scenario li:first-child {
+    left: 164pt;
+    top: 91pt;
+}
+
+.journey-map.narrative-4 .scenario li:nth-child(2) {
+    left: 164pt;
+    top: 167pt;
+}
+
+.journey-map.narrative-4 .scenario li:nth-child(3) {
+    left: 164pt;
+    top: 243pt;
+}
+
+.journey-map.narrative-4 .usual {
+    left: 28pt;
+    top: 112pt;
+}
+
+.journey-map.narrative-4 .usual li:first-child {
+    top: 39pt;
+}
+
+.journey-map.narrative-4 .usual li:nth-child(2) {
+    top: 131pt;
+}
+
+.journey-map.narrative-4 .usual li:nth-child(3) {
+    top: 224pt;
+}
+
+.journey-map.narrative-4 .potential {
+    left: 251pt;
+    top: 318pt;
+}
+
+.journey-map.narrative-4 .potential li:first-child {
+    top: 33pt;
+}
+
+.journey-map.narrative-4 .potential li:nth-child(2) {
+    top: 132pt;
+}
+
+.journey-map.narrative-4 .potential li:nth-child(3) {
     top: 227pt;
 }

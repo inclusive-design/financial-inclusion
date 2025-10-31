@@ -54,7 +54,7 @@ This creates a huge gap as people with disabilities and Deaf people tend to live
 
 <!-- Pyramid diagram goes here. -->
 
-### Current & ideal state journey map
+### Current & ideal state journey map{.journey-map-title}
 
 #### Scenario
 
@@ -62,17 +62,33 @@ Ki is struggling to adjust after the closure of his restaurant.
 
 Wanting to explore financial options to protect his family's future, Ki books an appointment with a financial advisor at his bank.
 
-<!-- Flow chart goes here. Alt: A journey map timeline. The timeline begins with the current scenario and splits into what usually happens and what could happen. -->
+<img src="/assets/images/journey-map-narrative-4-print-page-1.svg" class="print journey-map-page-1 narrative-4" width="151" height="479" />
+
+<div class="journey-map narrative-4">
+
+{% includeSvg "journey-map-narrative-2", translations[lang]["journey-map"], null, false %}
+
+<div class="scenario">
 
 1. When booking his appointment, Ki asks if someone understands disability-related financial products. His question is dismissed.
 2. In the meeting, he explains his situation to the business account manager.
 3. The manager listens and expresses sympathy.
+
+</div>
+
+<img src="/assets/images/journey-map-narrative-4-print-page-2.svg" class="print journey-map-page-2 narrative-4" width="236" height="546" />
+
+<div class="usual">
 
 ##### What usually happens
 
 1. However, he says that unless Ki is officially approved for a disability benefit, there's nothing they can offer.
 2. Ki asks about flexible loans or savings tools for people with health issues, but the manager is unaware of any such options.
 3. Ki leaves feeling discouraged and unseen. He tried to be proactive but found no support.
+
+</div>
+
+<div class="potential">
 
 ##### What could happen
 
@@ -81,6 +97,10 @@ Wanting to explore financial options to protect his family's future, Ki books an
    They discuss the pros and cons of each program and how they might meet Ki's needs.
 3. Ki takes the information home to discuss with Tan.
    He feels hopeful—like there may be a path forward through this difficult time.
+
+</div>
+
+</div>
 
 ### Exploring possibilities: Quick wins to big moves
 

@@ -994,6 +994,192 @@ svg.web.mobile {
     top: 312px;
 }
 
+.journey-map.narrative-2 {
+    width: 310px;
+}
+
+.journey-map.narrative-2 li {
+    width: 204px;
+}
+
+.journey-map.narrative-2 .scenario {
+    left: 72px;
+}
+
+.journey-map.narrative-2 .scenario li:first-child {
+    top: -4px;
+}
+
+.journey-map.narrative-2 .scenario li:nth-child(2) {
+    top: 82px;
+}
+
+.journey-map.narrative-2 .scenario li:nth-child(3) {
+    top: 190px;
+}
+
+.journey-map.narrative-2 .usual {
+    left: 32px;
+    top: 344px;
+}
+
+.journey-map.narrative-2 .usual li:first-child {
+    top: 66px;
+}
+
+.journey-map.narrative-2 .usual li:nth-child(2) {
+    top: 175px;
+}
+
+.journey-map.narrative-2 .usual li:nth-child(3) {
+    top: 284px;
+}
+
+.journey-map.narrative-2 .potential {
+    left: 106px;
+    top: 736px;
+}
+
+.journey-map.narrative-2 .potential li {
+    width: 204px;
+}
+
+.journey-map.narrative-2 .potential li:first-child {
+    top: 69px;
+}
+
+.journey-map.narrative-2 .potential li:nth-child(2) {
+    top: 206px;
+}
+
+.journey-map.narrative-2 .potential li:nth-child(3) {
+    top: 312px;
+}
+
+.journey-map.narrative-3 {
+    width: 310px;
+}
+
+.journey-map.narrative-3 li {
+    width: 204px;
+}
+
+.journey-map.narrative-3 .scenario {
+    left: 72px;
+}
+
+.journey-map.narrative-3 .scenario li:first-child {
+    top: -4px;
+}
+
+.journey-map.narrative-3 .scenario li:nth-child(2) {
+    top: 82px;
+}
+
+.journey-map.narrative-3 .scenario li:nth-child(3) {
+    top: 190px;
+}
+
+.journey-map.narrative-3 .usual {
+    left: 32px;
+    top: 344px;
+}
+
+.journey-map.narrative-3 .usual li:first-child {
+    top: 66px;
+}
+
+.journey-map.narrative-3 .usual li:nth-child(2) {
+    top: 175px;
+}
+
+.journey-map.narrative-3 .usual li:nth-child(3) {
+    top: 284px;
+}
+
+.journey-map.narrative-3 .potential {
+    left: 106px;
+    top: 736px;
+}
+
+.journey-map.narrative-3 .potential li {
+    width: 204px;
+}
+
+.journey-map.narrative-3 .potential li:first-child {
+    top: 69px;
+}
+
+.journey-map.narrative-3 .potential li:nth-child(2) {
+    top: 206px;
+}
+
+.journey-map.narrative-3 .potential li:nth-child(3) {
+    top: 312px;
+}
+
+.journey-map.narrative-4 {
+    width: 310px;
+}
+
+.journey-map.narrative-4 li {
+    width: 204px;
+}
+
+.journey-map.narrative-4 .scenario {
+    left: 72px;
+}
+
+.journey-map.narrative-4 .scenario li:first-child {
+    top: -4px;
+}
+
+.journey-map.narrative-4 .scenario li:nth-child(2) {
+    top: 82px;
+}
+
+.journey-map.narrative-4 .scenario li:nth-child(3) {
+    top: 190px;
+}
+
+.journey-map.narrative-4 .usual {
+    left: 32px;
+    top: 344px;
+}
+
+.journey-map.narrative-4 .usual li:first-child {
+    top: 66px;
+}
+
+.journey-map.narrative-4 .usual li:nth-child(2) {
+    top: 175px;
+}
+
+.journey-map.narrative-4 .usual li:nth-child(3) {
+    top: 284px;
+}
+
+.journey-map.narrative-4 .potential {
+    left: 106px;
+    top: 736px;
+}
+
+.journey-map.narrative-4 .potential li {
+    width: 204px;
+}
+
+.journey-map.narrative-4 .potential li:first-child {
+    top: 69px;
+}
+
+.journey-map.narrative-4 .potential li:nth-child(2) {
+    top: 206px;
+}
+
+.journey-map.narrative-4 .potential li:nth-child(3) {
+    top: 312px;
+}
+
 @media (width < 60rem) {
     .desktop-only {
         display: none;
@@ -1076,6 +1262,204 @@ svg.web.mobile {
     }
 
     .journey-map.narrative-1 .potential li:nth-child(3) {
+        top: 515px;
+    }
+
+    .journey-map.narrative-2 {
+        width: 790px;
+    }
+
+    .journey-map.narrative-2 li {
+        width: 240px;
+    }
+
+    .journey-map.narrative-2 .scenario {
+        left: 330px;
+    }
+
+    .journey-map.narrative-2 .scenario li:first-child {
+        top: 4px;
+    }
+
+    .journey-map.narrative-2 .scenario li:nth-child(2) {
+        top: 178px;
+    }
+
+    .journey-map.narrative-2 .scenario li:nth-child(3) {
+        top: 402px;
+    }
+
+    .journey-map.narrative-2 .usual {
+        left: 72px;
+        top: 840px;
+    }
+
+    .journey-map.narrative-2 .usual li {
+        width: 260px;
+    }
+
+    .journey-map.narrative-2 .usual li:first-child {
+        top: 112px;
+    }
+
+    .journey-map.narrative-2 .usual li:nth-child(2) {
+        top: 325px;
+    }
+
+    .journey-map.narrative-2 .usual li:nth-child(3) {
+        top: 548px;
+    }
+
+    .journey-map.narrative-2 .potential {
+        left: 502px;
+        top: 1560px;
+    }
+
+    .journey-map.narrative-2 .potential li {
+        width: 286px;
+    }
+
+    .journey-map.narrative-2 .potential li:first-child {
+        top: 120px;
+    }
+
+    .journey-map.narrative-2 .potential li:nth-child(2) {
+        top: 328px;
+    }
+
+    .journey-map.narrative-2 .potential li:nth-child(3) {
+        top: 515px;
+    }
+
+    .journey-map.narrative-3 {
+        width: 790px;
+    }
+
+    .journey-map.narrative-3 li {
+        width: 240px;
+    }
+
+    .journey-map.narrative-3 .scenario {
+        left: 330px;
+    }
+
+    .journey-map.narrative-3 .scenario li:first-child {
+        top: 4px;
+    }
+
+    .journey-map.narrative-3 .scenario li:nth-child(2) {
+        top: 178px;
+    }
+
+    .journey-map.narrative-3 .scenario li:nth-child(3) {
+        top: 402px;
+    }
+
+    .journey-map.narrative-3 .usual {
+        left: 72px;
+        top: 840px;
+    }
+
+    .journey-map.narrative-3 .usual li {
+        width: 260px;
+    }
+
+    .journey-map.narrative-3 .usual li:first-child {
+        top: 112px;
+    }
+
+    .journey-map.narrative-3 .usual li:nth-child(2) {
+        top: 325px;
+    }
+
+    .journey-map.narrative-3 .usual li:nth-child(3) {
+        top: 548px;
+    }
+
+    .journey-map.narrative-3 .potential {
+        left: 502px;
+        top: 1560px;
+    }
+
+    .journey-map.narrative-3 .potential li {
+        width: 286px;
+    }
+
+    .journey-map.narrative-3 .potential li:first-child {
+        top: 120px;
+    }
+
+    .journey-map.narrative-3 .potential li:nth-child(2) {
+        top: 328px;
+    }
+
+    .journey-map.narrative-3 .potential li:nth-child(3) {
+        top: 515px;
+    }
+
+    .journey-map.narrative-4 {
+        width: 790px;
+    }
+
+    .journey-map.narrative-4 li {
+        width: 240px;
+    }
+
+    .journey-map.narrative-4 .scenario {
+        left: 330px;
+    }
+
+    .journey-map.narrative-4 .scenario li:first-child {
+        top: 4px;
+    }
+
+    .journey-map.narrative-4 .scenario li:nth-child(2) {
+        top: 178px;
+    }
+
+    .journey-map.narrative-4 .scenario li:nth-child(3) {
+        top: 402px;
+    }
+
+    .journey-map.narrative-4 .usual {
+        left: 72px;
+        top: 840px;
+    }
+
+    .journey-map.narrative-4 .usual li {
+        width: 260px;
+    }
+
+    .journey-map.narrative-4 .usual li:first-child {
+        top: 112px;
+    }
+
+    .journey-map.narrative-4 .usual li:nth-child(2) {
+        top: 325px;
+    }
+
+    .journey-map.narrative-4 .usual li:nth-child(3) {
+        top: 548px;
+    }
+
+    .journey-map.narrative-4 .potential {
+        left: 502px;
+        top: 1560px;
+    }
+
+    .journey-map.narrative-4 .potential li {
+        width: 286px;
+    }
+
+    .journey-map.narrative-4 .potential li:first-child {
+        top: 120px;
+    }
+
+    .journey-map.narrative-4 .potential li:nth-child(2) {
+        top: 328px;
+    }
+
+    .journey-map.narrative-4 .potential li:nth-child(3) {
         top: 515px;
     }
 
