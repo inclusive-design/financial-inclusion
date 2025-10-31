@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="1410" fill="none" viewBox="0 0 99 1410">
+  <circle cx="48.804" cy="324.125" r="8.684" stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" transform="rotate(90 48.804 324.125)"/>
+  <circle cx="9.804" cy="542.51" r="8.184" stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" transform="rotate(90 9.804 542.51)"/>
+  <circle cx="9.805" cy="701.334" r="8.684" stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" transform="rotate(90 9.805 701.334)"/>
+  <circle cx="9.797" cy="886.75" r="8.684" stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" transform="rotate(90 9.797 886.75)"/>
+  <path stroke="var(--fl-fgColor, url(#4-a-mobile))" stroke-width="1.632" d="M48.68 18.75V183"/>
+  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M48.554 200.75V315.5"/>
+  <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M9.805 550.25v143M9.797 709.875V878"/>
+  <path stroke="var(--fl-fgColor, url(#4-b-mobile))" stroke-width="1.632" d="M89.804 441.26v-10.825c0-9.013-7.307-16.32-16.32-16.32h-8.36c-9.013 0-16.32-7.307-16.32-16.32V348"/>
+  <path stroke="var(--fl-fgColor, url(#4-c-mobile))" stroke-width="1.632" d="M9.804 534.25V431.118c0-9.013 7.307-16.32 16.32-16.32h6.36c9.014 0 16.32-7.288 16.32-16.301v-65.622"/>
+  <circle cx="48.679" cy="10.01" r="8.684" stroke="var(--fl-fgColor, #E8451C)" stroke-width="1.632" transform="rotate(90 48.68 10.01)"/>
+  <circle cx="48.304" cy="192.26" r="8.684" stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" transform="rotate(90 48.304 192.26)"/>
+  <circle cx="89.303" cy="1085.83" r="8.684" stroke="var(--fl-fgColor, #C5C818)" stroke-width="1.632" transform="rotate(90 89.303 1085.83)"/>
+  <path stroke="var(--fl-fgColor, url(#4-d-mobile))" stroke-width="1.632" d="M89.305 1199.75v190.75"/>
+  <path stroke="var(--fl-fgColor, url(#4-e-mobile))" stroke-width="1.632" d="M89.305 1094.62v88.01"/>
+  <path stroke="var(--fl-fgColor, url(#4-f-mobile))" stroke-width="1.632" d="M89.303 1034.71V1077"/>
+  <circle cx="89.305" cy="1191.2" r="8.684" stroke="var(--fl-fgColor, #99C818)" stroke-width="1.632" transform="rotate(90 89.305 1191.2)"/>
+  <circle cx="89.305" cy="1400" r="8.684" stroke="var(--fl-fgColor, #7BD383)" stroke-width="1.632" transform="rotate(90 89.305 1400)"/>
+  <defs>
+    <linearGradient id="4-a-mobile" x1="44.8" x2="44.8" y1="96.26" y2="280.127" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CB3335"/>
+      <stop offset="1" stop-color="#E8A41C"/>
+    </linearGradient>
+    <linearGradient id="4-b-mobile" x1="49.696" x2="113.358" y1="373.91" y2="443.981" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8A41C"/>
+      <stop offset="1" stop-color="#C5C818"/>
+    </linearGradient>
+    <linearGradient id="4-c-mobile" x1="47.956" x2="33.284" y1="400.032" y2="441.861" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8A41C"/>
+      <stop offset="1" stop-color="#CB3335"/>
+    </linearGradient>
+    <linearGradient id="4-d-mobile" x1="87.526" x2="87.526" y1="1348.09" y2="1529.47" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#99C818"/>
+      <stop offset="1" stop-color="#7BD383"/>
+    </linearGradient>
+    <linearGradient id="4-e-mobile" x1="306.538" x2="306.538" y1="1479.67" y2="1662.3" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5C818"/>
+      <stop offset="1" stop-color="#99C818"/>
+    </linearGradient>
+    <linearGradient id="4-f-mobile" x1="304.553" x2="304.553" y1="1338.97" y2="1521.59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5C818"/>
+      <stop offset="1" stop-color="#99C818"/>
+    </linearGradient>
+  </defs>
+</svg>

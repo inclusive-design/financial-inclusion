@@ -10,19 +10,15 @@ backgroundImage: /assets/uploads/narrative-1.jpg
 introduction: |-
   ### The research
 
-  235,000 people in Canada experience homelessness each year. _(Dionne et. al., 2023)_
-
-  1 in 10 Canadians have experienced hidden homelessness, which means staying in temporary accommodations—like couch surfing, staying with friends or family, or sleeping in cars. _(Ali, 2018)_
-
-  Having two or more disabilities is strongly correlated with hidden homelessness. _(Ali, 2018)_
-
-  Canadians who use antidepressants and other similar medication were two times more likely to experience hidden homelessness. _(Ali, 2018)_
-
-  People who are unhoused have money—they just can’t access it due to barriers with their financial institution. _(Hung et al., 2024)_
+  * 235,000 people in Canada experience homelessness each year. _(Dionne et. al., 2023)_
+  * 1 in 10 Canadians have experienced hidden homelessness, which means staying in temporary accommodations—like couch surfing, staying with friends or family, or sleeping in cars. _(Ali, 2018)_
+  * Having two or more disabilities is strongly correlated with hidden homelessness. _(Ali, 2018)_
+  * Canadians who use antidepressants and other similar medication were two times more likely to experience hidden homelessness. _(Ali, 2018)_
+  * People who are unhoused have money—they just can’t access it due to barriers with their financial institution. _(Hung et al., 2024)_
 ---
 ### James, 21
 
-_Edmonton, Alberta_
+Edmonton, Alberta {.surtitle}
 
 James lives with chronic depression. While some days he can manage his symptoms, other days it’s impossible for him to get out of bed. He’s often called lazy or undisciplined by his family, but he finds it extremely difficult to tell them how his depression makes him feel like he can’t move or speak. What’s even more frustrating is that he wants to get a job and live independently—but he can’t, and that sends him deeper into shame.
 
@@ -48,30 +44,64 @@ Social services got James on disability benefits. However, when James is able to
 
 While living in shelters, James had his belongings stolen, including his phone and his wallet, which contained all of his ID, debit card, and credit cards. Without these, he’s unable to access the small amount of money he had saved in his bank account whether through an ATM, at a bank branch, or online.
 
-#### Access to financial touchpoints
+<div class="barriers">
+
+#### Access to **financial touchpoints** {.barrier-title}
+
+<div class="two-column flexible barrier">
+
+{% includeSvg "mini-pyramid-touchpoints.svg", translations[lang]['mini-pyramid-touchpoints-narrative-1'] %}
+
+<div class="flow">
 
 - James can’t access ATMs without a debit card
 - He faces challenges entering bank branches due to stigma related to his appearance, and he lacks ID and a permanent address, both often required for in-person banking
 - He can’t access online banking because he doesn’t have his card number or access to his phone for multi-factor authentication.
 
-#### Access to basic financial transactions
+</div>
+
+</div>
+
+#### Access to **basic financial transactions** {.barrier-title}
+
+<div class="two-column barrier flexible">
+
+{% includeSvg "mini-pyramid-transactions.svg", translations[lang]['mini-pyramid-transactions-narrative-1'] %}
+
+<div class="flow">
 
 - Because of limited forms of ID, he can’t open bank accounts or open credit products
 - Any interaction that requires multi-factor authentication may be difficult as he may not have access to a second device
 
-<!-- Pyramid diagram goes here. -->
+</div>
 
-### Current & ideal state journey map
+</div>
+
+</div>
+
+### Current & ideal state journey map{.journey-map-title}
 
 #### Scenario
 
 James is trying to withdraw some of his savings to pay for a used phone—his old one was stolen, and he needs a phone number to be contacted for any benefits, programs, or jobs he applies for
 
-<!-- Flow chart goes here. -->
+<img alt="" role="presentation" src="/assets/images/journey-map-narrative-1-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
+
+<div class="journey-map narrative-1">
+
+{% includeSvg "journey-map-narrative-1", translations[lang]["journey-map"], null, false %}
+
+<div class="scenario">
 
 1. James' wallet and phone were stolen.
 2. He thinks he has enough saved to buy a used phone.
 3. He goes to the bank hoping the teller can help, even without his debit card or ID.
+
+</div>
+
+<img alt="" role="presentation" src="/assets/images/journey-map-narrative-1-print-page-2.svg" class="print journey-map-page-2 narrative-1" width="236" height="546" />
+
+<div class="usual">
 
 ##### What usually happens
 
@@ -79,47 +109,115 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 2. He tries the ATM, but without a debit card, he can’t access his money.
 3. Defeated, he realizes that he has no way of accessing his money—or getting a new phone.
 
+</div>
+
+<div class="potential">
+
 ##### What could happen
 
 1. At the bank branch, he gets some funny judgemental looks from other customers.
 2. The teller verifies him with biometric data and lets him withdraw $200.
 3. He buys and activates a used phone at the local corner store.
 
-### Exploring possibilities: Quick wins to big moves
+</div>
+
+</div>
+
+### Exploring possibilities: Quick wins to big moves {.exploring-possibilities}
 
 Here are examples to spark ideas for serving clients like James. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<div class="two-by-two-wrapper">
 
-#### Train staff on trauma and mental health
+Long term impact {.diagram .desktop-only}
+
+Lower effort {.diagram .desktop-only .pull-left}
+
+Higher effort {.diagram .desktop-only .pull-right}
+
+<div class="two-by-two">
+
+<div class="longterm-low">
+
+#### Long term impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Train staff on trauma and mental health
 
 Partner with people with lived experience to deliver training on addiction, trauma, and mental health to help staff respond with empathy and reduce stigma.
 
-#### Accept flexible ID options and shared address
+</div>
+
+</div>
+
+<div class="longterm-high">
+
+#### Long term impact, higher effort{.mobile-only}
+
+<div class="card">
+
+##### Accept flexible ID options and shared address
 
 Accept shelter letters, expired IDs, or service org documents as alternatives.
 
 Accept shelter or community centre addresses as valid for account creation and documentation.
 
-#### Support ID recovery
+</div>
+
+</div>
+
+<div class="quick-low">
+
+#### Quicker impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Support ID recovery
 
 Partner with local social services and offer materials to help clients replace lost IDs or bank cards.
 
-#### Mobile banking events
+</div>
+
+<div class="card">
+
+##### Mobile banking events
 
 Partner with local outreach services to deliver workshops, banking events, and financial education
 
-#### Offer alternative authentication
+</div>
+
+</div>
+
+#### Quicker impact, higher effort{.mobile-only}
+
+<div class="quick-high">
+
+<div class="card">
+
+##### Offer alternative authentication
 
 Consider alternative ways to access accounts besides bank cards and ID, such as biometric authentication.
 
-### Edge User Deep Dive: James
+</div>
+
+</div>
+
+</div>
+
+Quicker impact {.diagram .desktop-only}
+
+</div>
+
+### Edge User Deep Dive: James {.edge-user-deep-dive}
 
 After learning about James, consider his life experiences and answer the following questions. How much of your institution’s products and services can he access?
 
-Can James…
+#### Can James…{.can}
 
-{% includeSvg "inverted-pyramid.svg", "" %}
+<div class="two-column deep-dive-list">
+
+<div>
 
 1. **Access your financial touchpoints?**<br />
    How might James feel safe and welcome at your branch?
@@ -129,3 +227,9 @@ Can James…
    How might James be supported in managing his finances given his transitional situation and fluctuating expenses?
 4. **Access your financial advising?**<br />
    How might James be supported in planning for long term stability and growth?
+
+</div>
+
+{% includeSvg "inverted-pyramid.svg", "" %}
+
+</div>

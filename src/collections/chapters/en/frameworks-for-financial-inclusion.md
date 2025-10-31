@@ -81,7 +81,7 @@ This wheel demonstrates the systemic and environmental factors that impact your 
 
 Each factor makes up a “slice” of the wheel. Together, all the slices form the full picture.
 
-{% includeSvg "wheel.svg", translations[lang].wheel %}
+{% includeSvg "wheel.svg", translations[lang].wheel, 'full' %}
 
 - Where you live
 - Stigma and judgement
@@ -126,7 +126,7 @@ One’s appearance can affect the stigma and judgment others hold toward them, a
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", translations[lang].slice %}
+{% includeSvg "slice.svg", "" %}
 
 </div>
 <div class="flow">
@@ -147,7 +147,7 @@ Social aid can have policies that are exclusionary. For example, disability prog
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", translations[lang].slice %}
+{% includeSvg "slice.svg", "" %}
 
 </div>
 <div class="flow">
@@ -168,7 +168,7 @@ Wages are not keeping up with the cost of living. Depending on how much income o
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", translations[lang].slice %}
+{% includeSvg "slice.svg", "" %}
 
 </div>
 <div class="flow">
@@ -189,7 +189,7 @@ One’s ability to gain and retain employment is subject to whether their employ
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", translations[lang].slice %}
+{% includeSvg "slice.svg", "" %}
 
 </div>
 <div class="flow">
@@ -210,7 +210,7 @@ Collective events like the pandemic or a natural disaster, or personal events li
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", translations[lang].slice %}
+{% includeSvg "slice.svg", "" %}
 
 </div>
 
@@ -232,7 +232,7 @@ One’s ability to read and understand the dominant language fluently can affect
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", translations[lang].slice %}
+{% includeSvg "slice.svg", "" %}
 
 </div>
 <div class="flow">
@@ -253,7 +253,7 @@ One’s immigration status can deeply impact their ability to earn money, gain e
 <div class="two-column flexible">
 <div class="w-80">
 
-{% includeSvg "slice.svg", translations[lang].slice %}
+{% includeSvg "slice.svg", "" %}
 
 </div>
 <div class="flow">

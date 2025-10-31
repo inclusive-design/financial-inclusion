@@ -9,7 +9,8 @@ import parse from "./src/_transforms/parse.js";
 import { consolePlus } from 'eleventy-plugin-console-plus';
 import Image from "@11ty/eleventy-img";
 import { parseHTML } from "linkedom";
-import { encode } from 'node-base64-image';
+import markdownItAttrs from 'markdown-it-attrs';
+import { existsSync } from "node:fs";
 
 export default function eleventy(eleventyConfig) {
   eleventyConfig.addGlobalData("now", () => new Date());
@@ -33,7 +34,12 @@ export default function eleventy(eleventyConfig) {
       }
     },
     css: { enabled: false },
-    minify: { enabled: false }
+    minify: { enabled: false },
+    markdown: {
+      plugins: [
+        [markdownItAttrs, {}]
+      ]
+    }
   });
 
   ["en", "fr"].forEach((lang) => {
@@ -75,11 +81,6 @@ export default function eleventy(eleventyConfig) {
     return translationUrl;
   });
 
-  eleventyConfig.addFilter("base64Image", async function (url) {
-    const encodedImage = await encode(url, { string: true, local: true });
-    return encodedImage;
-  });
-
   /*
       Provide a custom duplicate of eleventy-plugin-fluid's uioInit shortcode in
       order to run it without the text-size preference.
@@ -103,19 +104,70 @@ export default function eleventy(eleventyConfig) {
     return `<script>fluid.uiOptions.multilingual(".flc-prefsEditor-separatedPanel", ${JSON.stringify(options)});</script>`;
   });
 
-  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async (filename, altText = '', className = null) => {
-    const metadata = await Image(`./src/_includes/svg/${filename}`, {
+  eleventyConfig.addNunjucksAsyncShortcode("includeSvg", async function (fileSlug, altText = '', className = null, displayPrint = true) {
+    if (fileSlug.includes('.svg')) {
+      fileSlug = fileSlug.split('.svg')[0];
+    }
+
+    let printSlug = fileSlug;
+
+    if (existsSync(`./src/assets/images/${fileSlug}-print.svg`)) {
+      printSlug = `${fileSlug}-print`;
+    }
+
+    const printImg = `<img src="/assets/images/${printSlug}.svg" alt="${altText}" class="${className ? `print ${className}` : 'print'}" />`;
+
+    const primaryImage = await Image(`./src/assets/images/${fileSlug}.svg`, {
       formats: ["svg"],
       dryRun: true,
-    })
-    const { document } = parseHTML(metadata.svg[0].buffer.toString());
+    });
+
+    const { document } = parseHTML(primaryImage.svg[0].buffer.toString());
     const svg = document.querySelector('svg');
-    svg.setAttribute('role', altText !== '' ? 'img' : 'presentation')
-    svg.setAttribute('aria-label', altText);
-    if (className) {
-      svg.setAttribute('class', className);
+    if (altText !== '') {
+      svg.setAttribute('role', 'img');
+      svg.setAttribute('aria-label', altText);
+    } else {
+      svg.setAttribute('role', 'presentation');
     }
-    return svg.toString();
+
+    if (className) {
+      svg.setAttribute('class', `web ${className}`);
+    } else {
+      svg.setAttribute('class', 'web');
+    }
+
+    let mobileSvg = null;
+
+    if (existsSync(`./src/assets/images/${fileSlug}-mobile.svg`)) {
+      const mobileImage = await Image(`./src/assets/images/${fileSlug}-mobile.svg`, {
+        formats: ["svg"],
+        dryRun: true
+      });
+
+      const { document } = parseHTML(mobileImage.svg[0].buffer.toString());
+      mobileSvg = document.querySelector('svg');
+      if (altText !== '') {
+        mobileSvg.setAttribute('role', 'img');
+        mobileSvg.setAttribute('aria-label', altText);
+      } else {
+        mobileSvg.setAttribute('role', 'presentation');
+      }
+
+      if (className) {
+        mobileSvg.setAttribute('class', `web mobile ${className}`);
+      } else {
+        mobileSvg.setAttribute('class', 'web mobile');
+      }
+
+      if (className) {
+        svg.setAttribute('class', `web desktop ${className}`);
+      } else {
+        svg.setAttribute('class', 'web desktop');
+      }
+    }
+
+    return `${displayPrint ? printImg : ''}${svg.toString()}${mobileSvg ? mobileSvg.toString() : ''}`;
   })
 
   eleventyConfig.addTransform("parse", parse);

@@ -1,11 +1,14 @@
-<nav class="navigation">
+    <nav class="navigation">
     <div class="wrapper">
         <div class="brand-and-toggle">
             <a class="standalone" rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
                 <span>{% __ "site-title" %}</span>
-                {% include "svg/shapes-brand.svg" %}
+                {% includeSvg "shapes-brand.svg", "" %}
             </a>
-            <button id="navigation-toggle" aria-expanded="false" aria-label="{% __ 'menu' %}"> {% includeSvg 'menu-open.svg' %} {% includeSvg 'menu-close.svg' %} </button>
+            <button id="navigation-toggle" aria-expanded="false" aria-label="{% __ 'menu' %}">
+                {% includeSvg 'menu-open.svg', "", "menu__open", false %}
+                {% includeSvg 'menu-close.svg', "", "menu__close", false %}
+            </button>
         </div>
         <div class="menu">
             {% set navItems = collections['all-' + lang] | eleventyNavigation %}
@@ -14,7 +17,7 @@
                 <li>
                     <a class="link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | renderContent('md') | striptags | safe }}</a>
                         {% if item.children.length > 0 %}
-                            <button aria-expanded="false" aria-label="{{ item.title | renderContent('md') | striptags | safe }}">{% include "svg/disclosure.svg.njk" %}</button>
+                            <button aria-expanded="false" aria-label="{{ item.title | renderContent('md') | striptags | safe }}">{% includeSvg "disclosure.svg", "" %}</button>
                             <ul role="list">
                                 {% for child in item.children %}
                                 <li>

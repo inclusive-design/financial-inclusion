@@ -8,10 +8,6 @@ on:
         required: true
         type: boolean
         default: true
-      tag:
-        description: "Tag to merge"
-        required: true
-        type: string
 
 jobs:
   render-pdf:

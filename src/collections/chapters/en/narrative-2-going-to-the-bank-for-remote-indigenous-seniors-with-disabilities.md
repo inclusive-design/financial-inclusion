@@ -10,15 +10,13 @@ backgroundImage: /assets/uploads/narrative-2.jpg
 introduction: |-
   ### The research
 
-  The lack of access to banking services has disproportionate effect on Indigenous peoples. _(Share, 2023)_
-
-  On average, people living on First Nation reserves must travel about 25 km to reach a bank (compared to 9km for rural Canadians). _(Chen et al., 2023)_
-
-  Only 24% of Indigenous households have access to high-speed internet (compared to 37% of rural households). _(Innovation, Science and Economic Development Canada, 2022)_
+  * The lack of access to banking services has disproportionate effect on Indigenous peoples. _(Share, 2023)_
+  * On average, people living on First Nation reserves must travel about 25 km to reach a bank (compared to 9km for rural Canadians). _(Chen et al., 2023)_
+  * Only 24% of Indigenous households have access to high-speed internet (compared to 37% of rural households). _(Innovation, Science and Economic Development Canada, 2022)_
 ---
 ### Althea, 67
 
-_Pond Inlet, Nunavut_
+Pond Inlet, Nunavut {.surtitle}
 
 Althea is an Inuk woman living in a small community in Nunuvut. She has low vision due to diabetes and uses a magnifier for reading. She currently relies on her granddaughter and neighbours to help her do admin tasks, as she avoids doing tasks online—both because of the spotty internet coverage in her community, and because she finds most websites inaccessible and hard to navigate.
 
@@ -29,7 +27,6 @@ While she can converse in English, she’s much more comfortable talking in Inuk
 #### Social aid policy
 
 She’s on her province’s disability support program, and sometimes makes a little cash on the side playing bingo or other games in her community. While she’s able to work basic jobs, she doesn’t want to risk having additional income compromise her benefits, housing, and other medical support she’s able to get for her disability.
-Althea
 
 #### Where she lives & cost of living
 
@@ -43,32 +40,62 @@ She receives her pension and disability benefits via direct deposit but has no a
 
 While she is forced to trust her community, she’s always scared of being taken advantage of. What if someone doesn’t give her all of the cash she withdraws from the ATM? What if someone at the till who’s helping her count her money takes a bit more than they should? What if the cab driver charges her more than what the trip costs? What if someone who knows her PIN number uses it?
 
-#### Access to financial touchpoints
+#### Access to **financial touchpoints** {.barrier-title}
+
+<div class="two-column flexible barrier">
+
+{% includeSvg "mini-pyramid-touchpoints.svg", translations[lang]['mini-pyramid-touchpoints-narrative-2'] %}
+
+<div class="flow">
 
 - No access to bank branches
 - Difficulty accessing ATMs due to grocery store hours
 - Difficulty accessing online banking due to internet instability in remote regions and not having regular access to a computer or device.
 
-#### Access to basic financial transactions
+</div>
+
+</div>
+
+#### Access to **basic financial transactions** {.barrier-title}
+
+<div class="two-column flexible barrier">
+
+{% includeSvg "mini-pyramid-transactions.svg", translations[lang]['mini-pyramid-transactions-narrative-2'] %}
+
+<div class="flow">
 
 - Interacting with ATM needs to be assisted
 - Paying with cash needs to be assisted
 - Paying at a POS system needs to be assisted
 - All of this increases her risk of fraud and scams
 
-<!-- Pyramid diagram goes here. -->
+</div>
 
-### Current & ideal state journey map
+</div>
+
+### Current & ideal state journey map{.journey-map-title}
 
 #### Scenario
 
 Althea needs cash for her diabetes medication and groceries. It’s icy outside, so she waits all morning for her granddaughter to walk her to the store.
 
-<!-- Flow chart goes here. -->
+<img src="/assets/images/journey-map-narrative-2-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
+
+<div class="journey-map narrative-2">
+
+{% includeSvg "journey-map-narrative-2", translations[lang]["journey-map"], null, false %}
+
+<div class="scenario">
 
 1. Althea waits for her granddaughter all morning to walk her to the store.
 2. Her granddaughter is late and Althea has to rush to the store alone.
 3. She arrives just before closing, but the store is already locking up.
+
+</div>
+
+<img src="/assets/images/journey-map-narrative-2-print-page-2.svg" class="print journey-map-page-2 narrative-2" width="236" height="546" />
+
+<div class="usual">
 
 ##### What usually happens
 
@@ -76,45 +103,113 @@ Althea needs cash for her diabetes medication and groceries. It’s icy outside,
 2. Without a debit card that supports audio or large text, she finds the ATM hard to use and feels uncomfortable asking the store owners for help.
 3. She feels anxious, dependent, and worried about not having enough cash at hand until the next day.
 
+</div>
+
+<div class="potential">
+
 ##### What could happen
 
 1. Althea goes to the ATM, which has recently been moved to a secure, heated booth with 24/7 access.
 2. Machine upgraded with a large-print screen, tactile buttons, voice guided prompts in Inuktitut and English, and a screen reader mode.
 3. She takes out the amount she needs, confidently follows the voice instructions, and is done in minutes. Althea feels proud and independent.
 
-### Exploring possibilities: Quick wins to big moves
+</div>
+
+</div>
+
+### Exploring possibilities: Quick wins to big moves {.exploring-possibilities}
 
 Here are examples to spark ideas for serving clients like Althea. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<div class="two-by-two-wrapper">
 
-#### Train staff in disability confidence
+Long term impact {.diagram .desktop-only}
+
+Lower effort {.diagram .desktop-only .pull-left}
+
+Higher effort {.diagram .desktop-only .pull-right}
+
+<div class="two-by-two">
+
+<div class="longterm-low">
+
+#### Long term impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Train staff in disability confidence
 
 Work with trainers with lived experience in being disabled and Deaf to train existing and new staff on respectful communication and assistive tools.
 
-#### Aim for accessible excellence in banking
+</div>
+
+</div>
+
+<div class="longterm-high">
+
+#### Long term impact, higher effort{.mobile-only}
+
+<div class="card">
+
+##### Aim for accessible excellence in banking
 
 Work with the disability community to ensure all of your touchpoints, including branches, ATMs, services, and digital platforms meet accessibility standards.
 
-#### Accessible forms and documents
+</div>
+
+</div>
+
+<div class="quick-low">
+
+#### Quicker impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Accessible forms and documents
 
 Design forms and documents with clear labels, organized information, and screen reader compatibility.
 
-#### Accessible signage
+</div>
+
+<div class="card">
+
+##### Accessible signage
 
 Use large-print, high-contrast, and braille signage and wayfinding within branches.
 
-#### Continuous testing and improvement
+</div>
+
+</div>
+
+<div class="quick-high">
+
+#### Quicker impact, higher effort{.mobile-only}
+
+<div class="card">
+
+##### Continuous testing and improvement
 
 Engage with a cross disability and intersectional community for research and continual testing to improve the accessibility digital touchpoints. Meet the latest version of WCAG AA at a minimum.
 
-### Edge User Deep Dive: Althea
+</div>
+
+</div>
+
+</div>
+
+Quicker impact {.diagram .desktop-only}
+
+</div>
+
+### Edge User Deep Dive: Althea {.edge-user-deep-dive}
 
 After learning about Althea, consider her life experiences and answer the following questions. How much of your institution’s products and services can she access?
 
-Can Althea…
+#### Can Althea…{.can}
 
-<!-- Inverted pyramid diagram goes here. -->
+<div class="two-column deep-dive-list">
+
+<div>
 
 1. **Access your financial touchpoints?**<br />
    How might Althea be supported to have wider access to ATM’s, in-person banking, and online banking?
@@ -124,3 +219,9 @@ Can Althea…
    How might Althea be alerted to any potential fraud or unauthorized transactions on her account?
 4. **Access your financial advising?**<br />
    How might Althea learn about disability-related financial products to sustain her through her retirement years?
+
+</div>
+
+{% includeSvg "inverted-pyramid.svg", "" %}
+
+</div>

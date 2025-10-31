@@ -80,15 +80,20 @@ h6 {
     font-size: var(--step-0);
 }
 
-.surtitle {
-    string-set: chapter-title content();
-}
-
 .surtitle,
 .chapter.narrative .introduction h3 {
-    font-family: var(--family-serif-alt);
+    font-family: var(--fi-font-family-display-alt);
     font-size: var(--step-1);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--fi-font-weight-normal);
+}
+
+.surtitle {
+    display: block;
+    margin-top: 8pt;
+}
+
+.surtitle + p {
+    margin-top: 32pt;
 }
 
 /* 3. Structure */
@@ -132,11 +137,38 @@ h6 {
     page-group: start;
 }
 
+.journey-map-title {
+    margin-top: 0;
+    page-break-before: always;
+}
+
 .back-matter {
     color: var(--fi-color-white);
     page: back-matter;
     page-break-before: auto;
     page-group: start;
+}
+
+.barrier-title {
+    margin-bottom: 1rem;
+    margin-left: calc(60px + 1.5rem);
+}
+
+.barrier ul {
+    list-style-position: outside;
+    margin-left: 1.5rem;
+}
+
+.two-column.flexible.barrier > :first-child {
+    width: 60px;
+}
+
+.two-column.flexible.barrier > :first-child img {
+    height: auto;
+}
+
+.two-column.flexible.barrier > :last-child {
+    width: calc(100% - 60px - 1.5rem);
 }
 
 @page {
@@ -181,7 +213,7 @@ h6 {
 
 @page chapter-5 {
     @top-left {
-        content: string(chapter-title);
+        content: string(narrative-title);
         font-family: Diphylleia, serif;
     }
 
@@ -195,6 +227,7 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: var(--fi-color-white);
 
     @top-left {
         content: normal;
@@ -207,7 +240,7 @@ h6 {
 
 @page chapter-6 {
     @top-left {
-        content: string(chapter-title);
+        content: string(narrative-title);
         font-family: Diphylleia, serif;
     }
 
@@ -221,6 +254,7 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: var(--fi-color-white);
 
     @top-left {
         content: normal;
@@ -233,7 +267,7 @@ h6 {
 
 @page chapter-7 {
     @top-left {
-        content: string(chapter-title);
+        content: string(narrative-title);
         font-family: Diphylleia, serif;
     }
 
@@ -247,6 +281,7 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: var(--fi-color-white);
 
     @top-left {
         content: normal;
@@ -259,7 +294,7 @@ h6 {
 
 @page chapter-8 {
     @top-left {
-        content: string(chapter-title);
+        content: string(narrative-title);
         font-family: Diphylleia, serif;
     }
 
@@ -273,6 +308,7 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: var(--fi-color-white);
 
     @top-left {
         content: normal;
@@ -394,10 +430,15 @@ h6 {
     string-set: chapter-title content();
 }
 
+.chapter.narrative .hidden-title {
+    display: none;
+    string-set: narrative-title content();
+}
+
 .chapter.narrative h2 {
-    color: var(--color-white);
+    color: var(--fi-color-white);
     font-size: var(--step-5);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--fi-font-weight-normal);
     margin-top: 0;
 }
 
@@ -424,23 +465,21 @@ h6 {
 }
 
 .chapter.narrative .introduction {
-    border-left: 1px solid var(--color-lime);
-    color: var(--color-white);
+    border-left: 1px solid var(--fi-color-lime-500);
+    color: var(--fi-color-white);
     margin-left: -24pt;
     margin-top: 96pt;
-    max-width: calc(2 / 3 * 100%);
     padding-left: 32pt;
 }
 
 .chapter.narrative .introduction p {
-    font-family: var(--family-display);
+    font-family: var(--fi-font-family-display);
     font-size: var(--step-0);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--fi-font-weight-medium);
 }
 
-.chapter.narrative .introduction em {
-    font-family: var(--family-serif-alt);
-    font-style: normal;
+.chapter.narrative .introduction li + li {
+    margin-top: var(--step-1);
 }
 
 .flow > h3 + * {
@@ -464,24 +503,339 @@ h6 {
 }
 
 /* 4. Components */
-reversed-list {
-    display: block;
-}
-
-reversed-list ol {
-    counter-reset: list-item var(--data-count);
-}
-
-reversed-list ol li {
-    counter-increment: list-item -1;
-}
-
-reversed-list ol li::marker {
-    content: counters(list-item, ".", decimal);
-}
-
 .two-column {
     margin-left: 0;
     padding-right: 1.125rem;
     width: 6.25in;
+}
+
+.full {
+    margin-bottom: var(--step-5);
+    margin-top: var(--step-5);
+}
+
+.web {
+    display: none;
+}
+
+.journey-map {
+    margin-top: 0;
+}
+
+.journey-map + h3 {
+    break-before: always;
+}
+
+.journey-map-page-1,
+.journey-map-page-2 {
+    height: auto;
+}
+
+.journey-map-page-1 {
+    position: absolute;
+}
+
+.journey-map-page-1.narrative-1 {
+    bottom: -1.125in;
+    left: 1in;
+    width: 151pt;
+}
+
+.journey-map-page-2.narrative-1 {
+    width: 236pt;
+}
+
+.journey-map-page-1.narrative-2 {
+    bottom: -1.125in;
+    left: 1in;
+    width: 151pt;
+}
+
+.journey-map-page-2.narrative-2 {
+    width: 236pt;
+}
+
+.journey-map-page-1.narrative-3 {
+    bottom: -1.125in;
+    left: 1in;
+    width: 151pt;
+}
+
+.journey-map-page-2.narrative-3 {
+    width: 236pt;
+}
+
+.journey-map-page-1.narrative-4 {
+    bottom: -1.125in;
+    left: 1in;
+    width: 151pt;
+}
+
+.journey-map-page-2.narrative-4 {
+    width: 236pt;
+}
+
+.journey-map .scenario {
+    position: relative;
+}
+
+.journey-map.narrative-1 li {
+    width: 182pt;
+}
+
+.journey-map.narrative-1 .scenario li:first-child {
+    left: 164pt;
+    top: 91pt;
+}
+
+.journey-map.narrative-1 .scenario li:nth-child(2) {
+    left: 164pt;
+    top: 167pt;
+}
+
+.journey-map.narrative-1 .scenario li:nth-child(3) {
+    left: 164pt;
+    top: 243pt;
+}
+
+.journey-map.narrative-1 .usual {
+    left: 28pt;
+    top: 112pt;
+}
+
+.journey-map.narrative-1 .usual li:first-child {
+    top: 39pt;
+}
+
+.journey-map.narrative-1 .usual li:nth-child(2) {
+    top: 131pt;
+}
+
+.journey-map.narrative-1 .usual li:nth-child(3) {
+    top: 224pt;
+}
+
+.journey-map.narrative-1 .potential {
+    left: 251pt;
+    top: 318pt;
+}
+
+.journey-map.narrative-1 .potential li:first-child {
+    top: 33pt;
+}
+
+.journey-map.narrative-1 .potential li:nth-child(2) {
+    top: 132pt;
+}
+
+.journey-map.narrative-1 .potential li:nth-child(3) {
+    top: 227pt;
+}
+
+.journey-map.narrative-2 li {
+    width: 182pt;
+}
+
+.journey-map.narrative-2 .scenario li:first-child {
+    left: 164pt;
+    top: 87pt;
+}
+
+.journey-map.narrative-2 .scenario li:nth-child(2) {
+    left: 164pt;
+    top: 180pt;
+}
+
+.journey-map.narrative-2 .scenario li:nth-child(3) {
+    left: 164pt;
+    top: 273pt;
+}
+
+.journey-map.narrative-2 .usual {
+    left: 28pt;
+    top: 112pt;
+}
+
+.journey-map.narrative-2 .usual li:first-child {
+    top: 39pt;
+}
+
+.journey-map.narrative-2 .usual li:nth-child(2) {
+    top: 131pt;
+}
+
+.journey-map.narrative-2 .usual li:nth-child(3) {
+    top: 282pt;
+}
+
+.journey-map.narrative-2 .potential {
+    left: 251pt;
+    top: 197pt;
+}
+
+.journey-map.narrative-2 .potential li:first-child {
+    top: 33pt;
+}
+
+.journey-map.narrative-2 .potential li:nth-child(2) {
+    top: 144pt;
+}
+
+.journey-map.narrative-2 .potential li:nth-child(3) {
+    top: 295pt;
+}
+
+.journey-map.narrative-3 li {
+    width: 182pt;
+}
+
+.journey-map.narrative-3 .scenario li:first-child {
+    left: 164pt;
+    top: 38pt;
+}
+
+.journey-map.narrative-3 .scenario li:nth-child(2) {
+    left: 164pt;
+    top: 134pt;
+}
+
+.journey-map.narrative-3 .scenario li:nth-child(3) {
+    left: 164pt;
+    top: 247pt;
+}
+
+.journey-map.narrative-3 .usual {
+    left: 28pt;
+    top: 112pt;
+}
+
+.journey-map.narrative-3 .usual li:first-child {
+    top: 39pt;
+}
+
+.journey-map.narrative-3 .usual li:nth-child(2) {
+    top: 152pt;
+}
+
+.journey-map.narrative-3 .usual li:nth-child(3) {
+    top: 245pt;
+}
+
+.journey-map.narrative-3 .potential {
+    left: 251pt;
+    top: 185pt;
+}
+
+.journey-map.narrative-3 .potential li:first-child {
+    top: 33pt;
+}
+
+.journey-map.narrative-3 .potential li:nth-child(2) {
+    top: 127pt;
+}
+
+.journey-map.narrative-3 .potential li:nth-child(3) {
+    top: 239pt;
+}
+
+.journey-map.narrative-4 li {
+    width: 182pt;
+}
+
+.journey-map.narrative-4 .scenario li:first-child {
+    left: 164pt;
+    top: 65pt;
+}
+
+.journey-map.narrative-4 .scenario li:nth-child(2) {
+    left: 164pt;
+    top: 217pt;
+}
+
+.journey-map.narrative-4 .scenario li:nth-child(3) {
+    left: 164pt;
+    top: 315pt;
+}
+
+.journey-map.narrative-4 .usual {
+    left: 28pt;
+    top: 114pt;
+}
+
+.journey-map.narrative-4 .usual li:first-child {
+    top: 39pt;
+}
+
+.journey-map.narrative-4 .usual li:nth-child(2) {
+    top: 174pt;
+}
+
+.journey-map.narrative-4 .usual li:nth-child(3) {
+    top: 306pt;
+}
+
+.journey-map.narrative-4 .potential {
+    left: 251pt;
+    top: 235pt;
+}
+
+.journey-map.narrative-4 .potential li:first-child {
+    top: 33pt;
+}
+
+.journey-map.narrative-4 .potential li:nth-child(2) {
+    top: 107pt;
+}
+
+.journey-map.narrative-4 .potential li:nth-child(3) {
+    top: 257pt;
+}
+
+.exploring-possibilities,
+.edge-user-deep-dive {
+    margin-top: 0;
+    page-break-before: always;
+}
+
+.two-by-two-wrapper {
+    break-inside: avoid;
+    position: relative;
+}
+
+.two-by-two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space, 2rem);
+    margin-bottom: var(--space, 2rem);
+    margin-top: var(--space, 2rem);
+    padding-left: var(--space, 2rem);
+    width: 100%;
+}
+
+.two-by-two h4 {
+    display: none;
+}
+
+.two-by-two > * {
+    width: calc(50% - 2rem);
+}
+
+.two-by-two > *:first-child {
+    align-self: flex-end;
+    justify-items: flex-end;
+}
+
+.two-by-two > *:nth-child(2) {
+    align-self: flex-end;
+    justify-items: flex-start;
+}
+
+.two-by-two > *:nth-child(3) {
+    align-self: flex-start;
+    justify-items: flex-end;
+}
+
+.two-by-two > *:last-child {
+    align-self: flex-start;
+    justify-items: flex-start;
 }

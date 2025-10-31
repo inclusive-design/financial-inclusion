@@ -13,24 +13,24 @@
         </div>
         <div class="idrc-ocadu">
             <div class="inner">
-            <a rel="external" href="https://idrc.ocadu.ca">{% includeSvg "idrc.svg", site[lang].author %}</a>
-            <a rel="external" href="https://ocadu.ca">{% includeSvg "ocadu.svg", site[lang].institution %}</a>
+            <a rel="external" href="https://idrc.ocadu.ca">{% includeSvg "idrc.svg", site[lang].author, null, false %}</a>
+            <a rel="external" href="https://ocadu.ca">{% includeSvg "ocadu.svg", site[lang].institution, null, false %}</a>
             </div>
         </div>
         <div class="funders">
             <h4>{% __ 'funded-by' %}</h4>
             <p class="small">
                 {% if lang == 'en' %}
-                <a rel="external" href="https://www.canada.ca/en/employment-social-development.html" hreflang="en">{% includeSvg "esdc.svg", translations[lang].esdc %}</a>
+                <a rel="external" href="https://www.canada.ca/en/employment-social-development.html" hreflang="en">{% includeSvg "esdc.svg", translations[lang].esdc, null, false %}</a>
                 {% elseif lang =='fr' %}
-                <a rel="external" href="https://www.canada.ca/fr/emploi-developpement-social.html" hreflang="fr">{% includeSvg "edsc.svg", translations[lang].esdc %}</a>
+                <a rel="external" href="https://www.canada.ca/fr/emploi-developpement-social.html" hreflang="fr">{% includeSvg "edsc.svg", translations[lang].esdc, null, false %}</a>
                 {% endif %}
             </p>
         </div>
         <div class="license-sources-credits flow">
             <p class="small">
                 <a rel="external" href="https://creativecommons.org/licenses/by/4.0/">
-                    {% includeSvg "cc-by.svg", translations[lang].cc-by %}
+                {% includeSvg "cc-by.svg", translations[lang].cc-by, null, false %}
                 </a><br />
                 {% __ 'license' %}
             </p>

@@ -816,7 +816,61 @@ h5,
     width: 50%;
 }
 
+.introduction ul {
+    border-left: var(--fi-spacing-050) solid var(--fi-color-lime-500);
+    margin-left: calc(-1 * var(--fi-space-m));
+    padding-left: var(--fi-space-m);
+}
+
+.introduction li {
+    break-inside: avoid-column;
+    padding-bottom: var(--fi-space-m);
+}
+
+.introduction li:last-child {
+    padding-bottom: 0;
+}
+
+.two-column.barrier {
+    align-items: flex-start;
+}
+
+.two-column.barrier svg {
+    max-width: var(--fi-spacing-1800);
+}
+
+.two-column.barrier > *:first-child {
+    width: max-content;
+}
+
+.two-column.barrier > *:last-child {
+    max-width: 2 / 3 * 100%;
+    width: 100%;
+}
+
+svg.web.desktop {
+    display: none;
+}
+
+svg.web.mobile {
+    display: block;
+}
+
 @media (width >= 60rem) {
+    .barrier-title {
+        margin-inline-start: var(--fi-spacing-3700);
+        margin-top: var(--fi-spacing-2000);
+        padding-inline-start: var(--fi-spacing-600);
+    }
+
+    .two-column.barrier {
+        align-items: flex-start;
+    }
+
+    .two-column.barrier svg {
+        max-width: var(--fi-spacing-3700);
+    }
+
     .grid {
         grid-template-columns: 2fr 1fr 1fr 1fr;
         grid-template-rows: auto;
@@ -828,5 +882,631 @@ h5,
 
     .grid > *:first-of-type::before {
         width: 50%;
+    }
+
+    .introduction ul {
+        column-gap: var(--fi-space-2xl);
+        column-rule: var(--fi-spacing-050) solid var(--fi-color-lime-500);
+        columns: 2;
+    }
+
+    .introduction li {
+        padding-bottom: var(--fi-space-2xl);
+    }
+
+    svg.web.mobile {
+        display: none;
+    }
+
+    svg.web.desktop {
+        display: block;
+    }
+}
+
+.two-by-two h4 {
+    margin-bottom: var(--fi-space-m);
+    margin-top: var(--fi-space-2xl);
+}
+
+.print {
+    display: none;
+}
+
+.journey-map {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--fi-space-xl);
+    padding-bottom: 2rem;
+}
+
+.journey-map h5 {
+    font-size: 1.2rem;
+}
+
+.journey-map li {
+    font-size: 1rem;
+}
+
+.journey-map .scenario {
+    position: absolute;
+    top: 0;
+}
+
+.journey-map.narrative-1 {
+    width: 310px;
+}
+
+.journey-map.narrative-1 li {
+    width: 204px;
+}
+
+.journey-map.narrative-1 .scenario {
+    left: 72px;
+}
+
+.journey-map.narrative-1 .scenario li:first-child {
+    top: -4px;
+}
+
+.journey-map.narrative-1 .scenario li:nth-child(2) {
+    top: 82px;
+}
+
+.journey-map.narrative-1 .scenario li:nth-child(3) {
+    top: 190px;
+}
+
+.journey-map.narrative-1 .usual {
+    left: 32px;
+    top: 344px;
+}
+
+.journey-map.narrative-1 .usual li:first-child {
+    top: 66px;
+}
+
+.journey-map.narrative-1 .usual li:nth-child(2) {
+    top: 175px;
+}
+
+.journey-map.narrative-1 .usual li:nth-child(3) {
+    top: 284px;
+}
+
+.journey-map.narrative-1 .potential {
+    left: 106px;
+    top: 736px;
+}
+
+.journey-map.narrative-1 .potential li {
+    width: 204px;
+}
+
+.journey-map.narrative-1 .potential li:first-child {
+    top: 69px;
+}
+
+.journey-map.narrative-1 .potential li:nth-child(2) {
+    top: 206px;
+}
+
+.journey-map.narrative-1 .potential li:nth-child(3) {
+    top: 312px;
+}
+
+.journey-map.narrative-2 {
+    margin-block: 150px;
+    width: 310px;
+}
+
+.journey-map.narrative-2 li {
+    width: 204px;
+}
+
+.journey-map.narrative-2 .scenario {
+    left: 72px;
+}
+
+.journey-map.narrative-2 .scenario li:first-child {
+    top: -4px;
+}
+
+.journey-map.narrative-2 .scenario li:nth-child(2) {
+    top: 133px;
+}
+
+.journey-map.narrative-2 .scenario li:nth-child(3) {
+    top: 236px;
+}
+
+.journey-map.narrative-2 .usual {
+    left: 32px;
+    top: 442px;
+}
+
+.journey-map.narrative-2 .usual li:first-child {
+    top: 66px;
+}
+
+.journey-map.narrative-2 .usual li:nth-child(2) {
+    top: 175px;
+}
+
+.journey-map.narrative-2 .usual li:nth-child(3) {
+    top: 386px;
+}
+
+.journey-map.narrative-2 .potential {
+    left: 106px;
+    top: 963px;
+}
+
+.journey-map.narrative-2 .potential li {
+    width: 204px;
+}
+
+.journey-map.narrative-2 .potential li:first-child {
+    top: 69px;
+}
+
+.journey-map.narrative-2 .potential li:nth-child(2) {
+    top: 228px;
+}
+
+.journey-map.narrative-2 .potential li:nth-child(3) {
+    top: 435px;
+}
+
+.journey-map.narrative-3 {
+    padding-bottom: 180px;
+    width: 310px;
+}
+
+.journey-map.narrative-3 li {
+    width: 204px;
+}
+
+.journey-map.narrative-3 .scenario {
+    left: 72px;
+}
+
+.journey-map.narrative-3 .scenario li:first-child {
+    top: -4px;
+}
+
+.journey-map.narrative-3 .scenario li:nth-child(2) {
+    top: 107px;
+}
+
+.journey-map.narrative-3 .scenario li:nth-child(3) {
+    top: 245px;
+}
+
+.journey-map.narrative-3 .usual {
+    left: 32px;
+    top: 392px;
+}
+
+.journey-map.narrative-3 .usual li:first-child {
+    top: 66px;
+}
+
+.journey-map.narrative-3 .usual li:nth-child(2) {
+    top: 226px;
+}
+
+.journey-map.narrative-3 .usual li:nth-child(3) {
+    top: 328px;
+}
+
+.journey-map.narrative-3 .potential {
+    left: 106px;
+    top: 904px;
+}
+
+.journey-map.narrative-3 .potential li {
+    width: 204px;
+}
+
+.journey-map.narrative-3 .potential li:first-child {
+    top: 69px;
+}
+
+.journey-map.narrative-3 .potential li:nth-child(2) {
+    top: 230px;
+}
+
+.journey-map.narrative-3 .potential li:nth-child(3) {
+    top: 416px;
+}
+
+.journey-map.narrative-4 {
+    margin-block-end: 140px;
+    width: 310px;
+}
+
+.journey-map.narrative-4 li {
+    width: 204px;
+}
+
+.journey-map.narrative-4 .scenario {
+    left: 72px;
+}
+
+.journey-map.narrative-4 .scenario li:first-child {
+    top: -4px;
+}
+
+.journey-map.narrative-4 .scenario li:nth-child(2) {
+    top: 180px;
+}
+
+.journey-map.narrative-4 .scenario li:nth-child(3) {
+    top: 313px;
+}
+
+.journey-map.narrative-4 .usual {
+    left: 32px;
+    top: 465px;
+}
+
+.journey-map.narrative-4 .usual li:first-child {
+    top: 66px;
+}
+
+.journey-map.narrative-4 .usual li:nth-child(2) {
+    top: 225px;
+}
+
+.journey-map.narrative-4 .usual li:nth-child(3) {
+    top: 410px;
+}
+
+.journey-map.narrative-4 .potential {
+    left: 106px;
+    top: 1005px;
+}
+
+.journey-map.narrative-4 .potential li {
+    width: 204px;
+}
+
+.journey-map.narrative-4 .potential li:first-child {
+    top: 69px;
+}
+
+.journey-map.narrative-4 .potential li:nth-child(2) {
+    top: 175px;
+}
+
+.journey-map.narrative-4 .potential li:nth-child(3) {
+    top: 383px;
+}
+
+@media (width < 60rem) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+@media (width >= 60rem) {
+    .journey-map {
+        margin-top: var(--fi-space-3xl);
+    }
+
+    .journey-map h5 {
+        font-size: 1.7188rem;
+    }
+
+    .journey-map li {
+        font-size: 1.375rem;
+    }
+
+    .journey-map.narrative-1 {
+        width: 790px;
+    }
+
+    .journey-map.narrative-1 li {
+        width: 240px;
+    }
+
+    .journey-map.narrative-1 .scenario {
+        left: 330px;
+    }
+
+    .journey-map.narrative-1 .scenario li:first-child {
+        top: 4px;
+    }
+
+    .journey-map.narrative-1 .scenario li:nth-child(2) {
+        top: 178px;
+    }
+
+    .journey-map.narrative-1 .scenario li:nth-child(3) {
+        top: 402px;
+    }
+
+    .journey-map.narrative-1 .usual {
+        left: 72px;
+        top: 840px;
+    }
+
+    .journey-map.narrative-1 .usual li {
+        width: 260px;
+    }
+
+    .journey-map.narrative-1 .usual li:first-child {
+        top: 112px;
+    }
+
+    .journey-map.narrative-1 .usual li:nth-child(2) {
+        top: 325px;
+    }
+
+    .journey-map.narrative-1 .usual li:nth-child(3) {
+        top: 548px;
+    }
+
+    .journey-map.narrative-1 .potential {
+        left: 502px;
+        top: 1560px;
+    }
+
+    .journey-map.narrative-1 .potential li {
+        width: 286px;
+    }
+
+    .journey-map.narrative-1 .potential li:first-child {
+        top: 120px;
+    }
+
+    .journey-map.narrative-1 .potential li:nth-child(2) {
+        top: 328px;
+    }
+
+    .journey-map.narrative-1 .potential li:nth-child(3) {
+        top: 515px;
+    }
+
+    .journey-map.narrative-2 {
+        margin-block-end: 200px;
+        width: 790px;
+    }
+
+    .journey-map.narrative-2 li {
+        width: 240px;
+    }
+
+    .journey-map.narrative-2 .scenario {
+        left: 330px;
+    }
+
+    .journey-map.narrative-2 .scenario li:first-child {
+        top: 4px;
+    }
+
+    .journey-map.narrative-2 .scenario li:nth-child(2) {
+        top: 210px;
+    }
+
+    .journey-map.narrative-2 .scenario li:nth-child(3) {
+        top: 394px;
+    }
+
+    .journey-map.narrative-2 .usual {
+        left: 72px;
+        top: 770px;
+    }
+
+    .journey-map.narrative-2 .usual li {
+        width: 260px;
+    }
+
+    .journey-map.narrative-2 .usual li:first-child {
+        top: 112px;
+    }
+
+    .journey-map.narrative-2 .usual li:nth-child(2) {
+        top: 317px;
+    }
+
+    .journey-map.narrative-2 .usual li:nth-child(3) {
+        top: 620px;
+    }
+
+    .journey-map.narrative-2 .potential {
+        left: 502px;
+        top: 1595px;
+    }
+
+    .journey-map.narrative-2 .potential li {
+        width: 286px;
+    }
+
+    .journey-map.narrative-2 .potential li:first-child {
+        top: 120px;
+    }
+
+    .journey-map.narrative-2 .potential li:nth-child(2) {
+        top: 338px;
+    }
+
+    .journey-map.narrative-2 .potential li:nth-child(3) {
+        top: 595px;
+    }
+
+    .journey-map.narrative-3 {
+        width: 790px;
+    }
+
+    .journey-map.narrative-3 li {
+        width: 280px;
+    }
+
+    .journey-map.narrative-3 .scenario {
+        left: 330px;
+    }
+
+    .journey-map.narrative-3 .scenario li:first-child {
+        top: 8px;
+    }
+
+    .journey-map.narrative-3 .scenario li:nth-child(2) {
+        top: 194px;
+    }
+
+    .journey-map.narrative-3 .scenario li:nth-child(3) {
+        top: 414px;
+    }
+
+    .journey-map.narrative-3 .usual {
+        left: 72px;
+        top: 765px;
+    }
+
+    .journey-map.narrative-3 .usual li {
+        width: 260px;
+    }
+
+    .journey-map.narrative-3 .usual li:first-child {
+        top: 112px;
+    }
+
+    .journey-map.narrative-3 .usual li:nth-child(2) {
+        top: 362px;
+    }
+
+    .journey-map.narrative-3 .usual li:nth-child(3) {
+        top: 570px;
+    }
+
+    .journey-map.narrative-3 .potential {
+        left: 502px;
+        top: 1598px;
+    }
+
+    .journey-map.narrative-3 .potential li {
+        width: 320px;
+    }
+
+    .journey-map.narrative-3 .potential li:first-child {
+        top: 120px;
+    }
+
+    .journey-map.narrative-3 .potential li:nth-child(2) {
+        top: 300px;
+    }
+
+    .journey-map.narrative-3 .potential li:nth-child(3) {
+        top: 555px;
+    }
+
+    .journey-map.narrative-4 {
+        margin-block-end: 200px;
+        width: 790px;
+    }
+
+    .journey-map.narrative-4 li {
+        width: 400px;
+    }
+
+    .journey-map.narrative-4 .scenario {
+        left: 330px;
+    }
+
+    .journey-map.narrative-4 .scenario li:first-child {
+        top: 4px;
+    }
+
+    .journey-map.narrative-4 .scenario li:nth-child(2) {
+        top: 190px;
+    }
+
+    .journey-map.narrative-4 .scenario li:nth-child(3) {
+        top: 350px;
+    }
+
+    .journey-map.narrative-4 .usual {
+        left: 72px;
+        top: 650px;
+    }
+
+    .journey-map.narrative-4 .usual li {
+        width: 260px;
+    }
+
+    .journey-map.narrative-4 .usual li:first-child {
+        top: 112px;
+    }
+
+    .journey-map.narrative-4 .usual li:nth-child(2) {
+        top: 367px;
+    }
+
+    .journey-map.narrative-4 .usual li:nth-child(3) {
+        top: 627px;
+    }
+
+    .journey-map.narrative-4 .potential {
+        left: 502px;
+        top: 1430px;
+    }
+
+    .journey-map.narrative-4 .potential li {
+        width: 286px;
+    }
+
+    .journey-map.narrative-4 .potential li:first-child {
+        top: 120px;
+    }
+
+    .journey-map.narrative-4 .potential li:nth-child(2) {
+        top: 268px;
+    }
+
+    .journey-map.narrative-4 .potential li:nth-child(3) {
+        top: 557px;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .two-by-two-wrapper {
+        position: relative;
+    }
+
+    .two-by-two {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space, 2rem);
+        margin-bottom: var(--space, 2rem);
+        margin-top: var(--space, 2rem);
+        padding-left: var(--space, 2rem);
+        width: 100%;
+    }
+
+    .two-by-two > * {
+        width: calc(50% - 2rem);
+    }
+
+    .two-by-two > *:first-child {
+        align-self: flex-end;
+        justify-items: flex-end;
+    }
+
+    .two-by-two > *:nth-child(2) {
+        align-self: flex-end;
+        justify-items: flex-start;
+    }
+
+    .two-by-two > *:nth-child(3) {
+        align-self: flex-start;
+        justify-items: flex-end;
+    }
+
+    .two-by-two > *:last-child {
+        align-self: flex-start;
+        justify-items: flex-start;
     }
 }

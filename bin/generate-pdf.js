@@ -2,6 +2,7 @@ import axios from 'axios';
 import fs from 'node:fs';
 import { argv } from 'node:process';
 import { exec } from 'node:child_process';
+import { rimraf } from 'rimraf';
 
 const user_credentials = process.env.DOCRAPTOR_API_KEY || 'YOUR_API_KEY_HERE';
 
@@ -22,6 +23,7 @@ const config = {
       prince_options: {
         media: "print",
         baseurl: "https://financial-inclusion.pages.dev",
+        profile: "PDF/UA-1"
       }
     }
   }
@@ -35,13 +37,13 @@ function princeVersion() {
   });
 }
 
-const local = argv[2] === 'local' || false;
-
 const prince = await princeVersion();
 
-if (local && prince.includes('Prince 16')) {
+await rimraf('src/assets/downloads/guidebook-for-financial-inclusion.pdf');
+
+if (prince.includes('Prince 16')) {
   console.log('Rendering PDF using Prince binary...');
-  exec(`prince https://financial-inclusion.pages.dev/en/export/index.html -o src/assets/downloads/guidebook-for-financial-inclusion.pdf`, (_error, stdout, _stderr) => {
+  exec(`prince --pdf-profile='PDF/UA-1' http://localhost:8080/en/export/ -o src/assets/downloads/guidebook-for-financial-inclusion.pdf`, (_error, stdout, _stderr) => {
     console.log("Saved guidebook-for-financial-inclusion.pdf.");
   });
 } else {
