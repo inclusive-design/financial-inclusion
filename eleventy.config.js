@@ -159,6 +159,12 @@ export default function eleventy(eleventyConfig) {
       } else {
         mobileSvg.setAttribute('class', 'web mobile');
       }
+
+      if (className) {
+        svg.setAttribute('class', `web desktop ${className}`);
+      } else {
+        svg.setAttribute('class', 'web desktop');
+      }
     }
 
     return `${displayPrint ? printImg : ''}${svg.toString()}${mobileSvg ? mobileSvg.toString() : ''}`;

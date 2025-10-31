@@ -16,7 +16,7 @@ introduction: |-
 ---
 ### Ki, 49
 
-_Halifax, Nova Scotia_
+Halifax, Nova Scotia {.surtitle}
 
 Ki used to run a small restaurant and support his family, including his elderly parents back home. He had a mild heart condition, but he managed it while building a steady life with his wife, Tan, a full-time nurse, and their two kids.
 
@@ -86,23 +86,77 @@ Wanting to explore financial options to protect his family's future, Ki books an
 
 Here are examples to spark ideas for serving clients like Ki. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<div class="two-by-two-wrapper">
 
-#### Make offerings more inclusive
+Long term impact {.diagram .desktop-only}
+
+Lower effort {.diagram .desktop-only .pull-left}
+
+Higher effort {.diagram .desktop-only .pull-right}
+
+<div class="two-by-two">
+
+<div class="longterm-low">
+
+#### Long term impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Make offerings more inclusive
 
 Partner with Deaf and Disabled people to identify gaps in how inclusive current products are, and make changes that serve your full client base—not just the majority.
 
-#### Build upon existing alternative financial models
+</div>
+
+</div>
+
+<div class="longterm-high">
+
+#### Long term impact, higher effort{.mobile-only}
+
+<div class="card">
+
+##### Build upon existing alternative financial models
 
 Learn about and integrate alternative systems like lending circles, mutual aid, and Zakat. These are legitimate and long-standing economic strategies in many immigrant communities.
 
-#### Build trust through people
+</div>
+
+</div>
+
+<div class="quick-low">
+
+#### Quicker impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Build trust through people
 
 Hire staff with lived experience of disability. People are more likely to engage and learn from someone who understands their reality and speaks their language, literally and culturally.
 
-#### Train staff on disability specific financial programs
+</div>
+
+</div>
+
+#### Quicker impact, higher effort{.mobile-only}
+
+<div class="quick-high">
+
+<div class="card">
+
+##### Train staff on disability specific financial programs
 
 Train staff and advisors on financial supports like the Disability Tax Credit and Registered Disability Savings Plan. Too often, these are unknown or misunderstood even by advisors.
+
+</div>
+
+</div>
+
+</div>
+
+Quicker impact {.diagram .desktop-only}
+
+</div>
 
 ### Edge User Deep Dive: Ki
 

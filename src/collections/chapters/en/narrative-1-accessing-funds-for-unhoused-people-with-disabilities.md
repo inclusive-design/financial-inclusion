@@ -18,7 +18,7 @@ introduction: |-
 ---
 ### James, 21
 
-_Edmonton, Alberta_ {.surtitle}
+Edmonton, Alberta {.surtitle}
 
 James lives with chronic depression. While some days he can manage his symptoms, other days it’s impossible for him to get out of bed. He’s often called lazy or undisciplined by his family, but he finds it extremely difficult to tell them how his depression makes him feel like he can’t move or speak. What’s even more frustrating is that he wants to get a job and live independently—but he can’t, and that sends him deeper into shame.
 
@@ -85,7 +85,7 @@ While living in shelters, James had his belongings stolen, including his phone a
 
 James is trying to withdraw some of his savings to pay for a used phone—his old one was stolen, and he needs a phone number to be contacted for any benefits, programs, or jobs he applies for
 
-<img src="/assets/images/journey-map-narrative-1-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
+<img alt="" role="presentation" src="/assets/images/journey-map-narrative-1-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
 
 <div class="journey-map narrative-1">
 
@@ -99,7 +99,7 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 
 </div>
 
-<img src="/assets/images/journey-map-narrative-1-print-page-2.svg" class="print journey-map-page-2 narrative-1" width="236" height="546" />
+<img alt="" role="presentation" src="/assets/images/journey-map-narrative-1-print-page-2.svg" class="print journey-map-page-2 narrative-1" width="236" height="546" />
 
 <div class="usual">
 
@@ -127,35 +127,93 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 
 Here are examples to spark ideas for serving clients like James. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<div class="two-by-two-wrapper">
 
-#### Train staff on trauma and mental health
+Long term impact {.diagram .desktop-only}
+
+Lower effort {.diagram .desktop-only .pull-left}
+
+Higher effort {.diagram .desktop-only .pull-right}
+
+<div class="two-by-two">
+
+<div class="longterm-low">
+
+#### Long term impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Train staff on trauma and mental health
 
 Partner with people with lived experience to deliver training on addiction, trauma, and mental health to help staff respond with empathy and reduce stigma.
 
-#### Accept flexible ID options and shared address
+</div>
+
+</div>
+
+<div class="longterm-high">
+
+#### Long term impact, higher effort{.mobile-only}
+
+<div class="card">
+
+##### Accept flexible ID options and shared address
 
 Accept shelter letters, expired IDs, or service org documents as alternatives.
 
 Accept shelter or community centre addresses as valid for account creation and documentation.
 
-#### Support ID recovery
+</div>
+
+</div>
+
+<div class="quick-low">
+
+#### Quicker impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Support ID recovery
 
 Partner with local social services and offer materials to help clients replace lost IDs or bank cards.
 
-#### Mobile banking events
+</div>
+
+<div class="card">
+
+##### Mobile banking events
 
 Partner with local outreach services to deliver workshops, banking events, and financial education
 
-#### Offer alternative authentication
+</div>
+
+</div>
+
+#### Quicker impact, higher effort{.mobile-only}
+
+<div class="quick-high">
+
+<div class="card">
+
+##### Offer alternative authentication
 
 Consider alternative ways to access accounts besides bank cards and ID, such as biometric authentication.
+
+</div>
+
+</div>
+
+</div>
+
+Quicker impact {.diagram .desktop-only}
+
+</div>
 
 ### Edge User Deep Dive: James
 
 After learning about James, consider his life experiences and answer the following questions. How much of your institution’s products and services can he access?
 
-Can James…
+#### Can James…
 
 <div class="two-column">
 

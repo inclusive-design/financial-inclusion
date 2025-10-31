@@ -16,7 +16,7 @@ introduction: |-
 ---
 ### Althea, 67
 
-_Pond Inlet, Nunavut_
+Pond Inlet, Nunavut {.surtitle}
 
 Althea is an Inuk woman living in a small community in Nunuvut. She has low vision due to diabetes and uses a magnifier for reading. She currently relies on her granddaughter and neighbours to help her do admin tasks, as she avoids doing tasks online—both because of the spotty internet coverage in her community, and because she finds most websites inaccessible and hard to navigate.
 
@@ -101,27 +101,85 @@ Althea needs cash for her diabetes medication and groceries. It’s icy outside,
 
 Here are examples to spark ideas for serving clients like Althea. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<div class="two-by-two-wrapper">
 
-#### Train staff in disability confidence
+Long term impact {.diagram .desktop-only}
+
+Lower effort {.diagram .desktop-only .pull-left}
+
+Higher effort {.diagram .desktop-only .pull-right}
+
+<div class="two-by-two">
+
+<div class="longterm-low">
+
+#### Long term impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Train staff in disability confidence
 
 Work with trainers with lived experience in being disabled and Deaf to train existing and new staff on respectful communication and assistive tools.
 
-#### Aim for accessible excellence in banking
+</div>
+
+</div>
+
+<div class="longterm-high">
+
+#### Long term impact, higher effort{.mobile-only}
+
+<div class="card">
+
+##### Aim for accessible excellence in banking
 
 Work with the disability community to ensure all of your touchpoints, including branches, ATMs, services, and digital platforms meet accessibility standards.
 
-#### Accessible forms and documents
+</div>
+
+</div>
+
+<div class="quick-low">
+
+#### Quicker impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Accessible forms and documents
 
 Design forms and documents with clear labels, organized information, and screen reader compatibility.
 
-#### Accessible signage
+</div>
+
+<div class="card">
+
+##### Accessible signage
 
 Use large-print, high-contrast, and braille signage and wayfinding within branches.
 
-#### Continuous testing and improvement
+</div>
+
+</div>
+
+<div class="quick-high">
+
+#### Quicker impact, higher effort{.mobile-only}
+
+<div class="card">
+
+##### Continuous testing and improvement
 
 Engage with a cross disability and intersectional community for research and continual testing to improve the accessibility digital touchpoints. Meet the latest version of WCAG AA at a minimum.
+
+</div>
+
+</div>
+
+</div>
+
+Quicker impact {.diagram .desktop-only}
+
+</div>
 
 ### Edge User Deep Dive: Althea
 

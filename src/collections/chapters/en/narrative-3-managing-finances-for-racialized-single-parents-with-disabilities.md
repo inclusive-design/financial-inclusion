@@ -16,7 +16,7 @@ introduction: |-
 ---
 ### Lakshmi, 23 (and Naya, 5)
 
-_Surrey, British Columbia_
+Surrey, British Columbia {.surtitle}
 
 Lakshmi and her daughter Naya have been living in social housing for a few months now. She immigrated to Canada with her ex-husband, who had complete control over their family finances. After leaving the marriage suddenly, Lakshmi feels relieved to be in a safe and stable home but also overwhelmed. Having a learning disability makes it even more difficult to focus and manage finances on her own.
 
@@ -92,27 +92,85 @@ Her social worker suggests opening a savings account and slowly building her cre
 
 Here are examples to spark ideas for serving clients like Lakshmi. We use a 2x2 grid to show the scale of effort and impact.
 
-<!-- Grid diagram goes here. -->
+<div class="two-by-two-wrapper">
 
-#### Train staff on social aid programs and benefits
+Long term impact {.diagram .desktop-only}
+
+Lower effort {.diagram .desktop-only .pull-left}
+
+Higher effort {.diagram .desktop-only .pull-right}
+
+<div class="two-by-two">
+
+<div class="longterm-low">
+
+#### Long term impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Train staff on social aid programs and benefits
 
 Train staff about social aid programs to understand how different banking products may impact one's financial states and social aid.
 
-#### Run community workshops
+</div>
+
+</div>
+
+<div class="longterm-high">
+
+#### Long term impact, higher effort{.mobile-only}
+
+<div class="card">
+
+##### Run community workshops
 
 Partner with schools, libraries, community centres, and community groups to teach financial basics like account types, credits, budgeting, financial scams in familiar settings.
 
-#### Use clear language
+</div>
 
-Avoid jargon, and explain financial jargon in clear terms. Make sure people understand the impact of their choices.
+</div>
 
-#### Invest in community leaders
+<div class="quick-low">
+
+#### Quicker impact, lower effort{.mobile-only}
+
+<div class="card">
+
+##### Invest in community leaders
 
 Partner with trusted community leaders so they can share accurate information about your services and help others with confidence.
 
-#### Co-create inclusive financial literacy resources
+</div>
+
+<div class="card">
+
+##### Use clear language
+
+Avoid jargon, and explain financial jargon in clear terms. Make sure people understand the impact of their choices.
+
+</div>
+
+</div>
+
+#### Quicker impact, higher effort{.mobile-only}
+
+<div class="quick-high">
+
+<div class="card">
+
+##### Co-create inclusive financial literacy resources
 
 Work with community groups to develop culturally-relevant financial literacy materials in multiple formats, such as videos, visuals, and simple guides for all learning styles.
+
+</div>
+
+</div>
+
+</div>
+
+Quicker impact {.diagram .desktop-only}
+
+</div>
 
 ### Edge User Deep Dive: Lakshmi
 

@@ -839,17 +839,32 @@ h5,
     max-width: var(--fi-spacing-1800);
 }
 
-.web:not(.mobile) {
+.two-column.barrier > *:first-child {
+    width: max-content;
+}
+
+.two-column.barrier > *:last-child {
+    max-width: 2 / 3 * 100%;
+    width: 100%;
+}
+
+svg.web.desktop {
     display: none;
 }
 
-.web.mobile {
+svg.web.mobile {
     display: block;
 }
 
 @media (width >= 60rem) {
+    .barrier-title {
+        margin-inline-start: var(--fi-spacing-3700);
+        margin-top: var(--fi-spacing-2000);
+        padding-inline-start: var(--fi-spacing-600);
+    }
+
     .two-column.barrier {
-        align-items: center;
+        align-items: flex-start;
     }
 
     .two-column.barrier svg {
@@ -879,13 +894,18 @@ h5,
         padding-bottom: var(--fi-space-2xl);
     }
 
-    .web.mobile {
+    svg.web.mobile {
         display: none;
     }
 
-    .web:not(.mobile) {
+    svg.web.desktop {
         display: block;
     }
+}
+
+.two-by-two h4 {
+    margin-bottom: var(--fi-space-m);
+    margin-top: var(--fi-space-2xl);
 }
 
 .print {
@@ -895,7 +915,7 @@ h5,
 .journey-map {
     margin-left: auto;
     margin-right: auto;
-    margin-top: var(--fi-space-3xl);
+    margin-top: var(--fi-space-xl);
     padding-bottom: 2rem;
 }
 
@@ -974,7 +994,17 @@ h5,
     top: 312px;
 }
 
+@media (width < 60rem) {
+    .desktop-only {
+        display: none;
+    }
+}
+
 @media (width >= 60rem) {
+    .journey-map {
+        margin-top: var(--fi-space-3xl);
+    }
+
     .journey-map h5 {
         font-size: 1.7188rem;
     }
@@ -1047,5 +1077,47 @@ h5,
 
     .journey-map.narrative-1 .potential li:nth-child(3) {
         top: 515px;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .two-by-two-wrapper {
+        position: relative;
+    }
+
+    .two-by-two {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space, 2rem);
+        margin-bottom: var(--space, 2rem);
+        margin-top: var(--space, 2rem);
+        padding-left: var(--space, 2rem);
+        width: 100%;
+    }
+
+    .two-by-two > * {
+        width: calc(50% - 2rem);
+    }
+
+    .two-by-two > *:first-child {
+        align-self: flex-end;
+        justify-items: flex-end;
+    }
+
+    .two-by-two > *:nth-child(2) {
+        align-self: flex-end;
+        justify-items: flex-start;
+    }
+
+    .two-by-two > *:nth-child(3) {
+        align-self: flex-start;
+        justify-items: flex-end;
+    }
+
+    .two-by-two > *:last-child {
+        align-self: flex-start;
+        justify-items: flex-start;
     }
 }
