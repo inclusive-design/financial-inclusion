@@ -5,9 +5,7 @@
     <circle cx="6.694" cy="297.557" r="5.921" stroke="#CB3335" stroke-width="1.545" transform="rotate(90 6.694 297.557)"/>
     <circle cx="6.694" cy="429.5" r="5.921" stroke="#CB3335" stroke-width="1.545" transform="rotate(90 6.694 429.5)"/>
     <path stroke="#CB3335" stroke-width="1.545" d="M7 170.5v120.75"/>
-    <g filter="url(#a)">
-      <path stroke="#CB3335" stroke-width="1.545" d="M6.95 304.25V423.5"/>
-    </g>
+    <path stroke="#CB3335" stroke-width="1.545" d="M6.95 304.25V423.5"/>
     <path stroke="url(#b)" stroke-width="1.545" d="M230 114v-6.191c0-8.53-6.915-15.445-15.446-15.445H102.446C93.916 92.364 87 85.459 87 76.928V29"/>
     <path stroke="url(#c)" stroke-width="1.545" d="M7 157.25v-49.441c0-8.53 6.915-15.445 15.445-15.445h49.11c8.53 0 15.445-6.905 15.445-15.436V29"/>
     <path stroke="url(#d)" stroke-width="1.545" d="M229.771 348.375V495.75"/>
@@ -32,15 +30,6 @@
         <stop stop-color="#C5C818"/>
         <stop offset="1" stop-color="#99C818"/>
       </linearGradient>
-      <filter id="a" width="9.543" height="127.25" x="2.178" y="304.25" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-        <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-        <feOffset dy="4"/>
-        <feGaussianBlur stdDeviation="2"/>
-        <feComposite in2="hardAlpha" operator="out"/>
-        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-        <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
-        <feBlend in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
-      </filter>
+
     </defs>
   </svg>
