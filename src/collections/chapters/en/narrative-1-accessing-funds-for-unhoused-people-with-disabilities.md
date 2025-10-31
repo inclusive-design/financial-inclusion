@@ -123,7 +123,7 @@ James is trying to withdraw some of his savings to pay for a used phone—his ol
 
 </div>
 
-### Exploring possibilities: Quick wins to big moves
+### Exploring possibilities: Quick wins to big moves {.exploring-possibilities}
 
 Here are examples to spark ideas for serving clients like James. We use a 2x2 grid to show the scale of effort and impact.
 
@@ -209,7 +209,7 @@ Quicker impact {.diagram .desktop-only}
 
 </div>
 
-### Edge User Deep Dive: James
+### Edge User Deep Dive: James {.edge-user-deep-dive}
 
 After learning about James, consider his life experiences and answer the following questions. How much of your institution’s products and services can he access?
 

@@ -88,7 +88,7 @@ Her social worker suggests opening a savings account and slowly building her cre
 2. They sit down, and the teller gently asks why she wants to open a savings account, to better understand her needs.
 3. Realizing Lakshmi is saving for her daughter’s day to day expenses, the teller suggests a high-interest savings account with no annual fees and helps her through the steps.
 
-### Exploring possibilities: Quick wins to big moves
+### Exploring possibilities: Quick wins to big moves {.exploring-possibilities}
 
 Here are examples to spark ideas for serving clients like Lakshmi. We use a 2x2 grid to show the scale of effort and impact.
 
@@ -172,8 +172,8 @@ Quicker impact {.diagram .desktop-only}
 
 </div>
 
-### Edge User Deep Dive: Lakshmi
-
+### Edge User Deep Dive: Lakshmi {.edge-user-deep-dive}
+ 
 After learning about Lakshmi, consider her life experiences and answer the following questions. How much of your institution's products and services can she access?
 
 Can Lakshmi...
