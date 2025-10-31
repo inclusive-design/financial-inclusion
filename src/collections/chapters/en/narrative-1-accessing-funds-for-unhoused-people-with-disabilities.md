@@ -213,9 +213,9 @@ Quicker impact {.diagram .desktop-only}
 
 After learning about James, consider his life experiences and answer the following questions. How much of your institution’s products and services can he access?
 
-#### Can James…
+#### Can James…{.can}
 
-<div class="two-column">
+<div class="two-column deep-dive-list">
 
 <div>
 

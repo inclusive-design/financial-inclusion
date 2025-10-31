@@ -696,3 +696,48 @@ li > * + * {
     top: 40%;
     transform: rotate(90deg);
 }
+
+.can {
+    color: var(--fl-fgColor, var(--fi-color-green-500));
+}
+
+.deep-dive-list > *:first-child {
+    width: 75%;
+}
+
+.deep-dive-list img {
+    bottom: 0;
+    position: absolute;
+    right: -1.125in;
+}
+
+.deep-dive-list ol {
+    list-style: none;
+    list-style-position: outside;
+    margin-left: 4rem;
+}
+
+.deep-dive-list li {
+    counter-increment: deep-dive-list;
+    position: relative;
+}
+
+.deep-dive-list li::before {
+    align-items: center;
+    background: var(--fi-color-yellow-500);
+    border-radius: 17px;
+    content: counter(deep-dive-list);
+    display: flex;
+    font-family: var(--fi-font-family-display);
+    font-size: var(--step--1);
+    font-weight: var(--fi-font-weight-bold);
+    height: 34px;
+    justify-content: center;
+    left: -4rem;
+    position: absolute;
+    width: 34px;
+}
+
+.deep-dive-list li + li {
+    margin-top: var(--fi-space-xl);
+}

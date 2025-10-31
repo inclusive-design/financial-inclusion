@@ -205,9 +205,9 @@ Quicker impact {.diagram .desktop-only}
 
 After learning about Althea, consider her life experiences and answer the following questions. How much of your institution’s products and services can she access?
 
-Can Althea…
+#### Can Althea…{.can}
 
-<div class="two-column">
+<div class="two-column deep-dive-list">
 
 <div>
 

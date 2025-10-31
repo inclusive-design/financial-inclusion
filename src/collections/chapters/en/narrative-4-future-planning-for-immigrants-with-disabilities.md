@@ -182,9 +182,9 @@ Quicker impact {.diagram .desktop-only}
 
 After learning about Ki, consider his life experiences and answer the following questions. How much of your institution's products and services can he access?
 
-Can Ki…
+#### Can Ki…{.can}
 
-<div class="two-column">
+<div class="two-column deep-dive-list">
 
 <div>
 
