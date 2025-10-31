@@ -444,7 +444,7 @@ li > * + * {
 }
 
 .w-80 {
-    width: 80;
+    width: 80px;
 }
 
 .two-column svg {
@@ -652,8 +652,7 @@ li > * + * {
     font-size: var(--step-0);
     font-weight: var(--fi-font-weight-bold);
     line-height: 1.2;
-    margin-bottom: var(--fi-space-l);
-    margin-top: 0;
+    margin-bottom: var(--fi-space-s);
 }
 
 .longterm-low .card,

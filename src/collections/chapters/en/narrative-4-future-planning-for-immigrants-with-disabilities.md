@@ -102,7 +102,7 @@ Wanting to explore financial options to protect his family's future, Ki books an
 
 </div>
 
-### Exploring possibilities: Quick wins to big moves
+### Exploring possibilities: Quick wins to big moves {.exploring-possibilities}
 
 Here are examples to spark ideas for serving clients like Ki. We use a 2x2 grid to show the scale of effort and impact.
 
@@ -178,7 +178,7 @@ Quicker impact {.diagram .desktop-only}
 
 </div>
 
-### Edge User Deep Dive: Ki
+### Edge User Deep Dive: Ki {.edge-user-deep-dive}
 
 After learning about Ki, consider his life experiences and answer the following questions. How much of your institution's products and services can he access?
 

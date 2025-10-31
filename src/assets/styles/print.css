@@ -789,4 +789,53 @@ h6 {
 
 .journey-map.narrative-4 .potential li:nth-child(3) {
     top: 227pt;
+
+    .exploring-possibilities,
+    .edge-user-deep-dive {
+        margin-top: 0;
+        page-break-before: always;
+    }
+
+    .two-by-two-wrapper {
+        break-inside: avoid;
+        position: relative;
+    }
+
+    .two-by-two {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space, 2rem);
+        margin-bottom: var(--space, 2rem);
+        margin-top: var(--space, 2rem);
+        padding-left: var(--space, 2rem);
+        width: 100%;
+    }
+
+    .two-by-two h4 {
+        display: none;
+    }
+
+    .two-by-two > * {
+        width: calc(50% - 2rem);
+    }
+
+    .two-by-two > *:first-child {
+        align-self: flex-end;
+        justify-items: flex-end;
+    }
+
+    .two-by-two > *:nth-child(2) {
+        align-self: flex-end;
+        justify-items: flex-start;
+    }
+
+    .two-by-two > *:nth-child(3) {
+        align-self: flex-start;
+        justify-items: flex-end;
+    }
+
+    .two-by-two > *:last-child {
+        align-self: flex-start;
+        justify-items: flex-start;
+    }
 }
