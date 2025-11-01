@@ -36,6 +36,7 @@
             </p>
                 {% set sourcesAndCredits = collections['back-matter-' + lang] %}
             <p class="small">{% for item in sourcesAndCredits %}<a href="{{ item.url }}">{{ item.data.title }}</a>{% if not loop.last %} {% __ 'and' %} {% endif %}{% endfor %}</p>
+            <p class="small">{% __ 'version' %} {{ pkg.version }}</p>
         </div>
     </div>
 </footer>
