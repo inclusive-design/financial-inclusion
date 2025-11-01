@@ -117,24 +117,44 @@ h6 {
     page-group: start;
 }
 
+.hidden-title {
+    display: none;
+}
+
 [data-chapter="5"] {
-    page: chapter-5;
+    page: narrative-1;
     page-group: start;
+}
+
+[data-chapter="5"] .hidden-title {
+    string-set: narrative-1-title content();
 }
 
 [data-chapter="6"] {
-    page: chapter-6;
+    page: narrative-2;
     page-group: start;
+}
+
+[data-chapter="6"] .hidden-title {
+    string-set: narrative-2-title content();
 }
 
 [data-chapter="7"] {
-    page: chapter-7;
+    page: narrative-3;
     page-group: start;
 }
 
+[data-chapter="7"] .hidden-title {
+    string-set: narrative-3-title content();
+}
+
 [data-chapter="8"] {
-    page: chapter-8;
+    page: narrative-4;
     page-group: start;
+}
+
+[data-chapter="8"] .hidden-title {
+    string-set: narrative-4-title content();
 }
 
 .journey-map-title {
@@ -211,9 +231,9 @@ h6 {
     }
 }
 
-@page chapter-5 {
+@page narrative-1 {
     @top-left {
-        content: string(narrative-title);
+        content: string(narrative-1-title);
         font-family: Diphylleia, serif;
     }
 
@@ -222,7 +242,7 @@ h6 {
     }
 }
 
-@page chapter-5:first-of-group {
+@page narrative-1:first-of-group {
     background-image: var(--background-image-5);
     background-position: center;
     background-repeat: no-repeat;
@@ -238,9 +258,9 @@ h6 {
     }
 }
 
-@page chapter-6 {
+@page narrative-2 {
     @top-left {
-        content: string(narrative-title);
+        content: string(narrative-2-title);
         font-family: Diphylleia, serif;
     }
 
@@ -249,7 +269,7 @@ h6 {
     }
 }
 
-@page chapter-6:first-of-group {
+@page narrative-2:first-of-group {
     background-image: var(--background-image-6);
     background-position: center;
     background-repeat: no-repeat;
@@ -265,9 +285,9 @@ h6 {
     }
 }
 
-@page chapter-7 {
+@page narrative-3 {
     @top-left {
-        content: string(narrative-title);
+        content: string(narrative-3-title);
         font-family: Diphylleia, serif;
     }
 
@@ -276,7 +296,7 @@ h6 {
     }
 }
 
-@page chapter-7:first-of-group {
+@page narrative-3:first-of-group {
     background-image: var(--background-image-7);
     background-position: center;
     background-repeat: no-repeat;
@@ -292,9 +312,9 @@ h6 {
     }
 }
 
-@page chapter-8 {
+@page narrative-4 {
     @top-left {
-        content: string(narrative-title);
+        content: string(narrative-4-title);
         font-family: Diphylleia, serif;
     }
 
@@ -303,7 +323,7 @@ h6 {
     }
 }
 
-@page chapter-8:first-of-group {
+@page narrative-4:first-of-group {
     background-image: var(--background-image-8);
     background-position: center;
     background-repeat: no-repeat;
@@ -428,11 +448,6 @@ h6 {
     line-height: 1.26;
     margin-top: 4.5in;
     string-set: chapter-title content();
-}
-
-.chapter.narrative .hidden-title {
-    display: none;
-    string-set: narrative-title content();
 }
 
 .chapter.narrative h2 {
