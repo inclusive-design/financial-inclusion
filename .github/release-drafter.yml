@@ -1,31 +1,28 @@
+name-template: '$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
 categories:
-  - title: Features
-    label: enhancement
-  - title: Bug Fixes
-    label: bug
-  - title: Chores
+  - title: "Features"
+    label: "enhancement"
+  - title: "Bug Fixes"
+    label: "bug"
+  - title: "Chores"
     labels:
-      - chore
-      - documentation
-      - test
-  - title: Dependencies
-    label: dependencies
+      - "chore"
+      - "documentation"
+  - title: "Dependencies"
+    label: "dependencies"
 autolabeler:
-  - label: chore
+  - label: "chore"
     title:
       - '/^chore(?!\((deps|release)\))/i'
-      - /^test/i
-  - label: test
-    title:
-      - /^test/i
-  - label: bug
+  - label: "bug"
     title:
       - '/^fix(?!\(deps\))/i'
-  - label: enhancement
+  - label: "enhancement"
     title:
-      - /^feat/i
+      - "/^feat/i"
 exclude-labels:
-  - changelog
+  - "changelog"
 category-template: "### $TITLE"
 template: |
   $CHANGES
