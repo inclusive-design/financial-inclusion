@@ -1,7 +1,7 @@
 ---
 uuid: b9f77708-2e6e-4c15-afed-0363253c7af7
 title: L’enjeu de l’inclusion financière
-shortTitle: L’enjeu de
+shortTitle: L’enjeu
 nav: true
 type: standard
 order: 2
