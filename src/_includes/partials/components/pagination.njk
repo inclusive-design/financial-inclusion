@@ -1,5 +1,7 @@
-{% set previousChapter = collections['paginated-' + lang] | getPreviousCollectionItem %}
-{% set nextChapter = collections['paginated-' + lang] | getNextCollectionItem %}
+{% set index = collections['paginated-' + lang] | getCollectionItemIndex(page) %}
+{% set previousChapter = collections['paginated-' + lang][index - 1] %}
+{% set nextChapter = collections['paginated-' + lang][index + 1] %}
+
 <nav class="pagination" aria-label="{% __ 'pagination' %}">
     {% if previousChapter %}<a class="standalone" href="{{ previousChapter.url }}">{% includeSvg "previous.svg" %} {% __ 'previous' %}</a>{% endif %}
     {% if nextChapter %}<a class="standalone" href="{{ nextChapter.url }}">{% __ 'next' %} {% includeSvg "next.svg" %}</a>{% endif %}
