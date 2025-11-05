@@ -8,7 +8,7 @@ order: 9
 ---
 ### Activity 1: Gap mapping
 
-The Guidebook for Financial Inclusion, including activities and worksheets, is available as a [downloadable printable and accessible PDF](/en/downloads/).{.web}
+The Guidebook for Financial Inclusion, including activities and worksheets, is available as a [downloadable printable and accessible PDF](/en/download/).{.web}
 
 #### Goal of the activity
 
@@ -43,7 +43,7 @@ You can do this with your team that works on a specific product or service–lik
    - Social aid status
    {.factors-list}
 
-3. Print out the "slices" for each of your factors<span class="web"> (see [file](/en/downloads))</span>.
+3. Print out the "slices" for each of your factors<span class="web"> (see [file](/en/download))</span>.
 4. For each factor, mark down which groups of customers your offering can serve without barriers:
 
    - Can access your offering
@@ -55,71 +55,71 @@ You can do this with your team that works on a specific product or service–lik
 
 </div>
 
-#### Gap Mapping: Example{.example}
+#### **Gap Mapping:** Example {.example}
 
 Offering: RRSP{.diagram .color-red-600}
 
-{% includeSvg "gap-mapping-example", translations[lang]['example-gap-map'] %}
+{% includeSvg "gap-mapping-example", translations[lang]['example-gap-map'], "desktop-only" %}
 
 ##### Where you live
 
-- **Least impact:** Urban, suburban{.filled}
-- **Some impact:** Rural{.filled}
-- **Most impact:** Remote{.filled}
-{.yes-maybe-no .fillable}
+   - **Least impact:** Urban, suburban{.filled}
+   - **Some impact:** Rural{.filled}
+   - **Most impact:** Remote{.filled}
+   {.yes-maybe-no .fillable}
 
 ##### Stigma and judgement
 
-- **Least impact:** Appearing like the majority{.filled}
-- **Some impact:** Appearing visibly different than the majority{.filled}
-- **Most impact:** Appearing homeless, in a mental health crisis, or visibly disabled{.filled}
-{.yes-maybe-no .fillable}
+   - **Least impact:** Appearing like the majority{.filled}
+   - **Some impact:** Appearing visibly different than the majority{.filled}
+   - **Most impact:** Appearing homeless, in a mental health crisis, or visibly disabled{.filled}
+   {.yes-maybe-no .fillable}
 
 ##### Social aid policies
 
-- **Least impact:** Don’t need social aid{.filled}
-- **Some impact:** Qualified, but with income capped{.filled}
-- **Most impact:** Don’t qualify due to fluctuating income, barriers to applying, or being in a common law relationship{.filled}
-{.yes-maybe-no .fillable}
+   - **Least impact:** Don’t need social aid{.filled}
+   - **Some impact:** Qualified, but with income capped{.filled}
+   - **Most impact:** Don’t qualify due to fluctuating income, barriers to applying, or being in a common law relationship{.filled}
+   {.yes-maybe-no .fillable}
 
 ##### Cost of living
 
-- **Least impact:** Enough income, plus extra{.filled}
-- **Some impact:** Living paycheque to paycheque, no extra savings{.filled}
-- **Most impact:** On social aid, no or limited income{.filled}
-{.yes-maybe-no .fillable}
+   - **Least impact:** Enough income, plus extra{.filled}
+   - **Some impact:** Living paycheque to paycheque, no extra savings{.filled}
+   - **Most impact:** On social aid, no or limited income{.filled}
+   {.yes-maybe-no .fillable}
 
 ##### Employment accommodations
 
-- **Least impact:** Fully accommodated{.filled}
-- **Some impact:** Partially accommodated{.filled}
-- **Most impact:** Not accommodated{.filled}
-{.yes-maybe-no .fillable}
+   - **Least impact:** Fully accommodated{.filled}
+   - **Some impact:** Partially accommodated{.filled}
+   - **Most impact:** Not accommodated{.filled}
+   {.yes-maybe-no .fillable}
 
 ##### Unexpected events
 
-- **Least impact:** Have support, funds or income{.filled}
-- **Some impact:** Some community and family support, emergency fund or income{.filled}
-- **Most impact:** No community, family, and income or emergency fund{.filled}
-{.yes-maybe-no .fillable}
+   - **Least impact:** Have support, funds or income{.filled}
+   - **Some impact:** Some community and family support, emergency fund or income{.filled}
+   - **Most impact:** No community, family, and income or emergency fund{.filled}
+   {.yes-maybe-no .fillable}
 
 ##### Language
 
-- **Least impact:** Uses English or French fluently{.filled}
-- **Some impact:** Uses English or French partially{.filled}
-- **Most impact:** Doesn’t use English or French{.filled}
-{.yes-maybe-no .fillable}
+   - **Least impact:** Uses English or French fluently{.filled}
+   - **Some impact:** Uses English or French partially{.filled}
+   - **Most impact:** Doesn’t use English or French{.filled}
+   {.yes-maybe-no .fillable}
 
 ##### Immigration status
 
-- **Least impact:** Citizen, PR{.filled}
-- **Some impact:** Temporary visa (study, work){.filled}
-- **Most impact:** Refugees, undocumented immigrants{.filled}
-{.yes-maybe-no .fillable}
+   - **Least impact:** Citizen, PR{.filled}
+   - **Some impact:** Temporary visa (study, work){.filled}
+   - **Most impact:** Refugees, undocumented immigrants{.filled}
+   {.yes-maybe-no .fillable}
 
 #### **Gap Mapping:** Worksheet{.worksheet-title}
 
-Download a printable worksheet as part of the [PDF guidebook](/en/downloads/).{.web} 
+Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.web} 
 
 <div class="print">
 
@@ -216,14 +216,17 @@ Bonus round: Identifying mismatches between offerings and users.
 
 To see how an offering meets, or fails to meet, the needs of specific edge users, overlay the area that your offering covers with the mapping of one of the narratives. Choose one of the narratives earlier in this guidebook, or create your own through user research.
 
+<div class="two-column flexible gap-legend diagram">
+
 {% includeSvg "gap-legend", "" %}
 
+- Your offering is accessible to these people
+- Your offering might be accessible to these people
+- James
 
-Your offering is accessible to these people
-Your offering might be accessible to these people
-James
+</div>
 
-{% includeSvg "visualizing-gaps", translations[lang]["visualizing-gaps"] %}
+{% includeSvg "visualizing-gaps", translations[lang]["visualizing-gaps"] %}{.visualizing-gaps}
 
 ### Activity 2: Edge User Deep Dive
 
