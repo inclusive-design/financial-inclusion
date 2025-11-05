@@ -18,6 +18,8 @@ introduction: |-
 
 Pond Inlet, Nunavut {.surtitle}
 
+Althea est une femme inuite vivant dans une petite communauté du Nunavut. Diabétique et malvoyante, elle utilise une loupe pour lire. Elle dépend actuellement de sa petite-fille et de ses voisins pour ses tâches administratives, car elle évite d'utiliser Internet, à la fois en raison de la faible couverture Internet dans sa communauté et parce qu'elle trouve la plupart des sites Web inaccessibles et difficiles à naviguer.
+
 #### Langue
 
 Bien qu’elle puisse converser en anglais, elle est beaucoup plus à l’aise lorsqu’elle parle en inuktitut, sa langue maternelle. Lire en anglais peut être difficile, d’autant plus que sa vue est limitée.
