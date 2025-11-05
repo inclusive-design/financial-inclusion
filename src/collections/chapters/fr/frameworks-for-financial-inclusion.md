@@ -20,7 +20,7 @@ La situation financière des personnes découle non seulement de leurs actions i
 
   </div>
 
-  - {% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
+- {% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
 
   <div>
 
