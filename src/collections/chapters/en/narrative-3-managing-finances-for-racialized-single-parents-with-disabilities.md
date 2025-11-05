@@ -114,11 +114,11 @@ Here are examples to spark ideas for serving clients like Lakshmi. We use a 2x2 
 
 <div class="two-by-two-wrapper">
 
-Long term impact {.diagram .desktop-only}
+Long term impact {.diagram .align-center .desktop-only}
 
-Lower effort {.diagram .desktop-only .pull-left}
+Lower effort {.diagram .align-center .desktop-only .pull-left}
 
-Higher effort {.diagram .desktop-only .pull-right}
+Higher effort {.diagram .align-center .desktop-only .pull-right}
 
 <div class="two-by-two">
 
@@ -188,7 +188,7 @@ Work with community groups to develop culturally-relevant financial literacy mat
 
 </div>
 
-Quicker impact {.diagram .desktop-only}
+Quicker impact {.diagram .align-center .desktop-only}
 
 </div>
 

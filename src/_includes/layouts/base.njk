@@ -15,7 +15,7 @@
     document.querySelector('#manifest-placeholder').setAttribute('href', manifestUrl);
   </script>
   <title>{{ title | renderContent("md") | striptags | safe }}</title>
-  {% include "partials/global/stylesheets.njk" %}
+  {% include "partials/global/stylesheets-web.njk" %}
 {% include "partials/global/scripts.njk" %}
   {% getBundle "fontawesome" %}
 </head>
@@ -44,33 +44,5 @@
   </main>
   {% include "partials/global/footer.njk" %}
   {% uioCustomInit lang, supportedLanguages[lang].dir %}
-
-  <script type="module">
-    class ReversedList extends HTMLElement {
-      static tagName = "reversed-list";
-
-      constructor() {
-          super();
-
-          this._init = this._init.bind(this);
-      }
-
-      connectedCallback() {
-          if (this.children.length) {
-            this._init();
-          }
-        }
-
-      _init() {
-          this.ol = this.querySelector('ol');
-
-          if (this.ol) {
-            this.ol.setAttribute("reversed", true);
-          }
-      }
-    }
-
-    window.customElements.define(ReversedList.tagName, ReversedList);
-  </script>
 </body>
 </html>

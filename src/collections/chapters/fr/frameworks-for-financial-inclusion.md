@@ -20,7 +20,7 @@ La situation financière des personnes découle non seulement de leurs actions i
 
   </div>
 
-  - {% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
+- {% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
 
   <div>
 
@@ -81,7 +81,7 @@ Cette roue met en évidence les facteurs systémiques et environnementaux qui in
 
 Chaque partie de la roue représente un facteur, et l’ensemble de ces parties forme le portrait global.
 
-{% includeSvg "wheel.svg", translations[lang].wheel, 'full' %}
+{% includeSvg "wheel", translations[lang].wheel, 'full' %}
 
 - Lieu de résidence
 - Stigmatisation et préjudice
