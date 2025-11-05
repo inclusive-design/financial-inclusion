@@ -5,6 +5,7 @@ shortTitle: Récit 2
 nav: true
 type: narrative
 order: 6
+parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
 backgroundImage: /assets/uploads/narrative-2.jpg
 introduction: |-
   ### Données de recherche
