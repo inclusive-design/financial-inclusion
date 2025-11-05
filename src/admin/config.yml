@@ -71,6 +71,7 @@ collections:
         value_field: uuid
         search_fields: [title]
         display_fields: [title]
+        i18n: duplicate
         required: false
       - label: Background Image
         name: backgroundImage

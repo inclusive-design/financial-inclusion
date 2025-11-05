@@ -5,6 +5,7 @@ shortTitle: Récit 1
 nav: true
 type: narrative
 order: 5
+parent: 85dafcfd-1302-4ed5-8f67-0c43a05e639a
 backgroundImage: /assets/uploads/narrative-1.jpg
 introduction: |-
   ### Données de recherche
