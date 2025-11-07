@@ -29,6 +29,7 @@ People’s financial states are not only products of their individual action, bu
   The framework zooms out and consider the wider and interconnected environmental and systemic factors that shape and influence financial interactions.
 
   </div>
+{.frameworks}
 
 ### Hierarchy of needs at financial institutions
 

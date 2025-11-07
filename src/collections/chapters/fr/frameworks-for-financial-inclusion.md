@@ -29,6 +29,7 @@ La situation financière des personnes découle non seulement de leurs actions i
   Ce cadre adopte une perspective élargie pour examiner les facteurs environnementaux et systémiques, à la fois vastes et interconnectés, qui façonnent et influencent les interactions financières.
 
   </div>
+{.frameworks}
 
 ### Hiérarchie des besoins dans les institutions financières
 

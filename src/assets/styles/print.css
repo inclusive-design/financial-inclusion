@@ -162,6 +162,10 @@ h6 {
     page-break-before: always;
 }
 
+.page-break-before-always {
+    page-break-before: always;
+}
+
 .back-matter {
     color: var(--fi-color-white);
     page: back-matter;

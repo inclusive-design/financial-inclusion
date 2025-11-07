@@ -1,7 +1,7 @@
 ---
 uuid: 3dbf7cfd-46a1-44a6-b534-709356a007dc
-title: Activities _&_ Worksheets
-shortTitle: Activities
+title: Activités _&_ feuilles de travail
+shortTitle: Activités
 nav: true
 type: standard
 order: 9
@@ -55,11 +55,11 @@ You can do this with your team that works on a specific product or service–lik
 
 </div>
 
-#### **Gap Mapping:** Example {.example .page-break-before-always}
+#### **Gap Mapping:** Example {.example}
 
 Offering: RRSP{.diagram .color-red-600}
 
-{% includeSvg "gap-mapping-example", translations[lang]['example-gap-map'], "desktop-only" %}
+{% includeSvg "gap-mapping-example-fr", translations[lang]['example-gap-map'], "desktop-only" %}
 
 ##### Where you live
 
@@ -117,7 +117,7 @@ Offering: RRSP{.diagram .color-red-600}
    - {% includeSvg "no", "" %} **Most impact:** Refugees, undocumented immigrants{.filled}
    {.yes-maybe-no .fillable}
 
-#### **Gap Mapping:** Worksheet{.worksheet-title .page-break-before-always}
+#### **Gap Mapping:** Worksheet{.worksheet-title}
 
 Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.web} 
 
@@ -125,7 +125,7 @@ Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.w
 
 ##### Offering:
 
-<img src="/assets/images/gap-mapping-fillable.svg" width="935" height="904" alt="{% __ 'fillable-gap-map' %}" />
+<img src="/assets/images/gap-mapping-fillable-fr.svg" width="1019" height="1015" alt="{% __ 'fillable-gap-map' %}" />
 
 ##### Where you live
 
@@ -185,7 +185,7 @@ Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.w
 
 </div>
 
-#### Gap Mapping: Evaluate{.page-break-before-always}
+#### Gap Mapping: Evaluate
 
 <div class="instructions">
 
@@ -210,9 +210,9 @@ Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.w
    **To make your product more inclusive, brainstorm how you could stretch further to the edges.**
 </div>
 
-##### **Bonus round:** Identifying mismatches between offerings and users{.page-break-before-always}
+##### Visualizing gaps further
 
-**Visualizing gaps further**
+Bonus round: Identifying mismatches between offerings and users.
 
 To see how an offering meets, or fails to meet, the needs of specific edge users, overlay the area that your offering covers with the mapping of one of the narratives. Choose one of the narratives earlier in this guidebook, or create your own through user research.
 
@@ -228,7 +228,7 @@ To see how an offering meets, or fails to meet, the needs of specific edge users
 
 {% includeSvg "visualizing-gaps", translations[lang]["visualizing-gaps"] %}{.visualizing-gaps}
 
-### Activity 2: Edge User Deep Dive{.page-break-before-always}
+### Activity 2: Edge User Deep Dive
 
 #### Goal of the activity
 
@@ -247,7 +247,7 @@ A cross-functional team across the organization, like at a design charette or co
 
 </div>
 
-#### **Edge User Deep Dive:** Worksheet{.worksheet-title .page-break-before-always}
+#### **Edge User Deep Dive:** Worksheet{.worksheet-title}
 
 Can (edge user group)…
 
@@ -270,7 +270,7 @@ Can (edge user group)…
 
 </div>
 
-#### Bonus: Circles of control{.page-break-before-always}
+#### Bonus: Circles of control
 
 Now that barriers have been identified, it's time to focus on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't - and therefore what you can focus your efforts and energy on.
 
@@ -289,11 +289,13 @@ Now that barriers have been identified, it's time to focus on what you can tangi
 
 </div>
 
-#### **Circles of control:** Worksheet{.worksheet-title .page-break-before-always}
+#### **Circles of control:** Worksheet{.worksheet-title}
 
 Now that barriers and ideas have been identified, it's time to focus on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't—and therefore what you can focus your efforts and energy on.
 
-{% includeSvg "circles-of-control.svg", "Fillable circles of control diagram." %}
+{% includeSvg "circles-of-control.svg", "" %}
+
+<!-- Circles of control diagram goes here. preview alt: Fillable circles of control diagram. -->
 
 - What can't I/we change?
 - What can I/we influence?
