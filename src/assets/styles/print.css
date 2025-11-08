@@ -533,7 +533,8 @@ h6 {
     margin-top: var(--step-5);
 }
 
-.web {
+.web,
+li svg.web {
     display: none;
 }
 

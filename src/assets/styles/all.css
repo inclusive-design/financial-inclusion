@@ -759,6 +759,25 @@ ul.frameworks li > div > * + * {
     margin-left: -1.25em;
 }
 
+.instructions ol > li:has(img.wheel),
+.instructions ol > li:has(svg.wheel) {
+    margin-left: calc(200px + 2rem);
+    min-height: 200px;
+    position: relative;
+}
+
+.instructions ol > li img.wheel,
+.instructions ol > li svg.wheel {
+    left: calc(-1 * (200px + 4rem));
+    position: absolute;
+    top: 0;
+}
+
+.instructions ol > li:has(img.wheel) > div p:not(:first-child),
+.instructions ol > li:has(svg.wheel) > div p:not(:first-child) {
+    margin-left: -1.25em;
+}
+
 .instructions .factors-list {
     color: var(--fl-fgColor, var(--fi-color-attention-600));
     list-style-type: none;
@@ -790,18 +809,22 @@ ul.frameworks li > div > * + * {
 }
 
 .yes-maybe-no li {
-    margin-left: 3em;
-    position: relative;
-    text-indent: -3em;
+    margin-left: 56px;
+    text-indent: -56px;
 }
 
 .yes-maybe-no li img,
 .yes-maybe-no li svg {
     border-radius: 50%;
-    height: 43px;
+    display: inline-block;
     margin-bottom: calc(-1 * var(--fi-space-xs));
     margin-right: var(--fi-space-s);
-    width: 43px;
+    overflow: visible;
+}
+
+.yes-maybe-no li svg {
+    height: 36px;
+    width: 36px;
 }
 
 .yes-maybe-no li + li {
@@ -831,10 +854,14 @@ ul.frameworks li > div > * + * {
         columns: 2;
     }
 
-    .yes-maybe-no li::before {
-        height: 43px;
-        mask-size: 43px 43px;
-        width: 43px;
+    .yes-maybe-no li svg {
+        height: 42px;
+        width: 42px;
+    }
+
+    .yes-maybe-no li {
+        margin-left: 62px;
+        text-indent: -62px;
     }
 }
 

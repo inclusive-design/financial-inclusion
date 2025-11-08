@@ -121,7 +121,7 @@ Offering: RRSP{.diagram .color-red-600}
 
 Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.web} 
 
-<div class="print">
+<div class="print flow">
 
 ##### Offering:
 

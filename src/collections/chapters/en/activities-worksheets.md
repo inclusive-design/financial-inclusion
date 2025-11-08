@@ -121,67 +121,11 @@ Offering: RRSP{.diagram .color-red-600}
 
 Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.web} 
 
-<div class="print">
+<div class="print flow">
 
 ##### Offering:
 
 <img src="/assets/images/gap-mapping-fillable.svg" width="935" height="904" alt="{% __ 'fillable-gap-map' %}" />
-
-##### Where you live
-
-- **Least impact:** Urban, suburban
-- **Some impact:** Rural
-- **Most impact:** Remote
-{.yes-maybe-no .fillable}
-
-##### Stigma and judgement
-
-- **Least impact:** Appearing like the majority
-- **Some impact:** Appearing visibly different than the majority
-- **Most impact:** Appearing homeless, in a mental health crisis, or visibly disabled
-{.yes-maybe-no .fillable}
-
-##### Social aid policies
-
-- **Least impact:** Don’t need social aid
-- **Some impact:** Qualified, but with income capped
-- **Most impact:** Don’t qualify due to fluctuating income, barriers to applying, or being in a common law relationship
-{.yes-maybe-no .fillable}
-
-##### Cost of living
-
-- **Least impact:** Enough income, plus extra
-- **Some impact:** Living paycheque to paycheque, no extra savings
-- **Most impact:** On social aid, no or limited income
-{.yes-maybe-no .fillable}
-
-##### Employment accommodations
-
-- **Least impact:** Fully accommodated
-- **Some impact:** Partially accommodated
-- **Most impact:** Not accommodated
-{.yes-maybe-no .fillable}
-
-##### Unexpected events
-
-- **Least impact:** Have support, funds or income
-- **Some impact:** Some community and family support, emergency fund or income
-- **Most impact:** No community, family, and income or emergency fund
-{.yes-maybe-no .fillable}
-
-##### Language
-
-- **Least impact:** Uses English or French fluently
-- **Some impact:** Uses English or French partially
-- **Most impact:** Doesn’t use English or French
-{.yes-maybe-no .fillable}
-
-##### Immigration status
-
-- **Least impact:** Citizen, PR
-- **Some impact:** Temporary visa (study, work)
-- **Most impact:** Refugees, undocumented immigrants
-{.yes-maybe-no .fillable}
 
 </div>
 
@@ -189,25 +133,38 @@ Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.w
 
 <div class="instructions">
 
-{% includeSvg "connect-the-checkmarks", translations[lang]["connect-the-checkmarks"] %}
+1. {% includeSvg "connect-the-checkmarks", translations[lang]["connect-the-checkmarks"], "wheel" %}
 
-1. **Connect the checkmarks**
+   <div class="flow">
+   
+   **Connect the checkmarks**
 
    By connecting the checkmarks on each “slice” or factor, you can begin to see how inclusive the offering is: the larger the area, the more inclusive your offering, and the better it is at meeting the needs of edge users.
+   
+   </div>
 
-{% includeSvg "connect-the-question-marks", translations[lang]["connect-the-question-marks"] %}
+2. {% includeSvg "connect-the-question-marks", translations[lang]["connect-the-question-marks"], "wheel" %}
 
-2. **Connect the question marks**
+   <div class="flow">
+   
+   **Connect the question marks**
 
    By connecting the question marks, you can begin to see where customers may not be able to access your offering.
+   
+   </div>
 
-{% includeSvg "notice-the-gap", translations[lang]["notice-the-gap"] %}
+3. {% includeSvg "notice-the-gap", translations[lang]["notice-the-gap"], "wheel" %}
 
-3. **Notice your gap and brainstorm**
+   <div class="flow">
+   
+   **Notice your gap and brainstorm**
 
    The area outside of your shape represents the needs your offering is not able to meet.
 
    **To make your product more inclusive, brainstorm how you could stretch further to the edges.**
+   
+   </div>
+
 </div>
 
 ##### **Bonus round:** Identifying mismatches between offerings and users{.page-break-before-always}
