@@ -286,6 +286,10 @@ a.standalone {
     padding-top: 2px;
     text-decoration: none;
 
+    span span {
+        white-space: nowrap;
+    }
+
     &:hover {
         box-shadow: 0 0 0 1.5px var(--fi-action-border-hover) inset;
     }
