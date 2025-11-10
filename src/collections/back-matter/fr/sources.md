@@ -1,0 +1,20 @@
+---
+title: Sources
+order: 10
+---
+1. Agence de la consommation en matière financière du Canada. (2024, 25 juin). Rapport annuel 2023-2024. Gouvernement du Canada. https://www.canada.ca/fr/agence-consommation-matiere-financiere/organisation/planification/rapports-annuels/rapport-annuel-2023-2024.html
+2. ACORN Canada. (2023, juin). Fair credit for all: ACORN members speak out on access to fair banking and credit in Canada. https://acorncanada.org/wp-content/uploads/2023/06/EN-ACORN-Report-Fair-Credit-2023.pdf
+3. McDiarmid, C. (2021, 18 août). Accessibilité dans les organisations du secteur public fédéral au Canada, 2021 (No 89-654-X2021001). Statistique Canada. https://www150.statcan.gc.ca/n1/pub/89-654-x/89-654-x2021001-fra.htm
+4. Chollangi, N. (2022, 15 mars). 15 percent of Canadians are ‘underbanked’ - Here’s what that means and why it’s a barrier to equitable recovery. Prosper Canada Learning Hub. https://learninghub.prospercanada.org/knowledge/15-percent-of-canadians-are-underbanked-heres-what-that-means-and-why-its-a-barrier-to-equitable-recovery/
+5. Dionne, M.-A., Laporte, C., Loeppky, J. & Miller, A. (2023, 16 juin). Un aperçu des données canadiennes sur l’itinérance, 2023 (Série de documents de recherche sur le revenu, no 2023004). Statistique Canada. https://www150.statcan.gc.ca/n1/pub/75f0002m/75f0002m2023004-fra.htm
+6. Ali, N. (2018, 1 août). Understanding hidden homelessness. Homeless Hub. https://homelesshub.ca/blog/2018/understanding-hidden-homelessness/
+7. Hung, J., et al. (2025) Community Perspectives on Financial Inclusion. Inclusive Design Research Centre. https://idrc.cachefly.net/financial-inclusion/Community-Perspectives-on-Financial-Inclusion.pdf
+8. Agence de la consommation en matière financière du Canada. (2021). Amélioration de la littératie financière. Gouvernement du Canada. https://www.canada.ca/fr/agence-consommation-matiere-financiere/programmes/recherche/defi-batir-meilleurs-avenirs-financiers-2021/amelioration-litteratie-financiere.html
+9. Chen, H., O’Habib, D. & Xiao, H. Y. (2023, 16 nov.). How far do Canadians need to travel to access cash? (Discussion Papers No 2023-28). Banque du Canada. https://doi.org/10.34989/sdp-2023-28
+10. Innovation, Sciences et Développement économique Canada. (2022, 11 avril). La haute vitesse pour tous : la stratégie canadienne pour la connectivité. Gouvernement du Canada. https://ised-isde.canada.ca/site/high-speed-internet-canada/fr/la-strategie-canadienne-pour-la-connectivite/haut-vitesse-pour-tous-la-strategie-canadienne-pour-la-connectivite.html
+11. SHARE. (2023, mars). Proxy alert : RBC and BMO racial equity audit. https://share.ca/wp-content/uploads/2023/03/PROXY-ALERT_RBC_BMO_racial-equity-audit.pdf
+12. Canadian Centre for Financial Well-Being & Economic Abuse Awareness. (2023, juillet). The state of economic abuse report. https://ccfwe.org/wp-content/uploads/2023/07/The-State-of-Economic-Abuse-Report-ccfwe.pdf
+13. Statistique Canada. (2022, 1 avr.). Enquête sur l’épargne des personnes handicapées, 2020. Statistique Canada : Le Quotidien. https://www150.statcan.gc.ca/n1/daily-quotidien/220401/dq220401b-fra.htm
+14. Statistique Canada. (2023). Malgré certains progrès, les familles monoparentales dirigées par une mère sont toujours aux prises avec des difficultés liées au marché du travail et à l’abordabilité. Statistique Canada : Le Quotidien, https://www.statcan.gc.ca/o1/fr/plus/7523-malgre-certains-progres-les-familles-monoparentales-dirigees-par-une-mere-sont-toujours
+15. Vergara, D., & Hardy, V. (2024, 13 juin). Caractéristiques de l’activité sur le marché du travail des personnes ayant une incapacité et sans incapacité, 2023 (nº 71-222-X2024002). Statistique Canada. https://www150.statcan.gc.ca/n1/pub/71-222-x/71-222-x2024002-fra.htm
+16. Centre de littératie financière Prospérité Canada. (2015, novembre). Financial literacy and newcomers to Canada. Prospérité Canada. https://prospercanada.org/getattachment/3ff26769-c2d4-4d9e-82e9-f56467e4eb31/Financial-Literacy-and-Newcomers-to-Canada.aspx
