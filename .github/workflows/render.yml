@@ -44,7 +44,7 @@ jobs:
           DOCUMENT_OPTIONS
       - name: Render PDF
         run: |
-          curl https://${{ DOCRAPTOR_API_KEY }}@api.docraptor.com/docs \
+          curl https://${{ env.DOCRAPTOR_API_KEY }}@api.docraptor.com/docs \
             --fail --silent --show-error \
             --header "Content-Type:application/json" \
             --data @docraptor.json \
