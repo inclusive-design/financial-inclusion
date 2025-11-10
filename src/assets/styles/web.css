@@ -826,7 +826,7 @@ h5,
 }
 
 .introduction ul {
-    border-left: var(--fi-spacing-050) solid var(--fi-color-lime-500);
+    border-left: var(--fi-spacing-050) solid var(--fl-fgColor, var(--fi-color-lime-500));
     margin-left: calc(-1 * var(--fi-space-m));
     padding-left: var(--fi-space-m);
 }
@@ -895,7 +895,7 @@ svg.web.mobile {
 
     .introduction ul {
         column-gap: var(--fi-space-2xl);
-        column-rule: var(--fi-spacing-050) solid var(--fi-color-lime-500);
+        column-rule: var(--fi-spacing-050) solid var(--fl-fgColor, var(--fi-color-lime-500));
         columns: 2;
     }
 
