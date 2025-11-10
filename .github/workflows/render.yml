@@ -42,6 +42,11 @@ jobs:
             }
           }
           DOCUMENT_OPTIONS
+      - name: Store config as artifact
+        uses: actions/upload-artifact@v5.0.0
+        with:
+          name: docraptor-config
+          path: docraptor.json
       - name: Render PDF
         run: |
           curl https://${{ env.DOCRAPTOR_API_KEY }}@api.docraptor.com/docs \
