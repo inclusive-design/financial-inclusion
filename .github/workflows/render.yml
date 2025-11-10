@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       use-test-api:
-        description: "Use test API key"
+        description: "Use test API"
         required: true
         type: boolean
         default: true
@@ -34,21 +34,23 @@ jobs:
           {
             "test": ${{ github.events.inputs.use-test-api }},
             "document_type": "pdf",
-            "document_url": "https://financial-inclusion.pages.dev/en/export/index.html",
+            "document_url": "https://financial-inclusion.inclusivedesign.ca/en/export/index.html",
             "pipeline": 11,
             "prince_options": {
               "media": "print",
-              "baseurl": "https://financial-inclusion.pages.dev",
+              "baseurl": "https://financial-inclusion.inclusivedesign.ca",
             }
           }
           DOCUMENT_OPTIONS
       - name: Render PDF
         run: |
-          curl https://YOUR_API_KEY_HERE@api.docraptor.com/docs \
+          curl https://${{ DOCRAPTOR_API_KEY }}@api.docraptor.com/docs \
             --fail --silent --show-error \
             --header "Content-Type:application/json" \
             --data @docraptor.json \
             > src/assets/downloads/guidebook-for-financial-inclusion.pdf
+        env:
+          DOCRAPTOR_API_KEY: ${{ github.events.inputs.use-test-api == true && 'YOUR_API_KEY_HERE' || secrets.DOCRAPTOR_API_KEY }}
       - name: Archive code coverage results
         uses: actions/upload-artifact@v5.0.0
         with:
