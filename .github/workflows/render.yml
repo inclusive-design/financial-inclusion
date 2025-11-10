@@ -28,8 +28,6 @@ jobs:
         with:
           app-id: ${{ vars.GHA_APP_ID }}
           private-key: ${{ secrets.GHA_PRIVATE_KEY }}
-      - name: Checkout repository
-        uses: actions/checkout@v4
       - name: Configure DocRaptor
         run: |
           cat <<-'DOCUMENT_OPTIONS' > docraptor.json
@@ -50,11 +48,11 @@ jobs:
             --fail --silent --show-error \
             --header "Content-Type:application/json" \
             --data @docraptor.json \
-            > src/assets/downloads/guidebook-for-financial-inclusion.pdf
+            > guidebook-for-financial-inclusion.pdf
         env:
           DOCRAPTOR_API_KEY: ${{ github.events.inputs.use-test-api == true && 'YOUR_API_KEY_HERE' || secrets.DOCRAPTOR_API_KEY }}
-      - name: Archive code coverage results
+      - name: Store PDF as artifact
         uses: actions/upload-artifact@v5.0.0
         with:
           name: guidebook-for-financial-inclusion
-          path: src/assets/downloads/guidebook-for-financial-inclusion.pdf
+          path: guidebook-for-financial-inclusion.pdf
