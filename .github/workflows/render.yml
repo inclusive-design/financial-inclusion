@@ -49,7 +49,7 @@ jobs:
       - name: Render PDF
         run: |
           curl https://${{ env.DOCRAPTOR_API_KEY }}@api.docraptor.com/docs \
-            --fail --silent --show-error \
+            --fail --verbose --show-error \
             --header "Content-Type:application/json" \
             --data @docraptor.json \
             > guidebook-for-financial-inclusion.pdf
