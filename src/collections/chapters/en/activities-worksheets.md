@@ -252,7 +252,7 @@ Now that barriers have been identified, it's time to focus on what you can tangi
 
 Now that barriers and ideas have been identified, it's time to focus on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't—and therefore what you can focus your efforts and energy on.
 
-{% includeSvg "circles-of-control.svg", "Fillable circles of control diagram." %}
+{% includeSvg "circles-of-control.svg", translations[lang]['circles-of-control'] %}
 
 - What can't I/we change?
 - What can I/we influence?

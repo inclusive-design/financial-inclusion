@@ -204,66 +204,66 @@ Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.w
 
 {% includeSvg "notice-the-gap", translations[lang]["notice-the-gap"] %}
 
-3. **Notice your gap and brainstorm**
+3. **Prenez note de votre écart et réfléchissez-y**
 
-   The area outside of your shape represents the needs your offering is not able to meet.
+   La zone située à l’extérieur de la forme représente les besoins que votre offre ne peut pas combler.
 
-   **To make your product more inclusive, brainstorm how you could stretch further to the edges.**
+   **Pour rendre votre produit plus inclusif, réfléchissez à des façons d’étendre votre portée jusqu’aux marges.**
 </div>
 
-##### Visualizing gaps further
+##### Explorer plus en profondeur les écarts
 
-Bonus round: Identifying mismatches between offerings and users.
+Activité bonus : Repérer les écarts entre les offres et les utilisateur·trice·s
 
-To see how an offering meets, or fails to meet, the needs of specific edge users, overlay the area that your offering covers with the mapping of one of the narratives. Choose one of the narratives earlier in this guidebook, or create your own through user research.
+Pour observer comment votre offre répond – ou ne répond pas – aux besoins de certain·e·s utilisateur·trice·s en situation de vulnérabilité, superposez la zone que couvre votre offre à la cartographie de l’un des récits. Choisissez un récit présenté plus tôt dans ce guide ou créez le vôtre à partir d’une recherche auprès d’utilisateur·trice·s.
 
 <div class="two-column flexible gap-legend diagram">
 
 {% includeSvg "gap-legend", "" %}
 
-- Your offering is accessible to these people
-- Your offering might be accessible to these people
+- Votre offre est accessible à ces personnes
+- Votre offre pourrait être accessible à ces personnes
 - James
 
 </div>
 
 {% includeSvg "visualizing-gaps", translations[lang]["visualizing-gaps"] %}{.visualizing-gaps}
 
-### Activity 2: Edge User Deep Dive
+### Activité 2 : Analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité
 
-#### Goal of the activity
+#### Objectif de l’activité
 
-This activity can be used on its own, or as a follow up to the Gap Mapping activity. The Edge User Deep Dive helps you pick one specific edge user group, and think through how much of your services and products they can actually access.
+Cette activité peut être réalisée de façon autonome ou à titre de complément à l’activité de cartographie des écarts. L’analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité vous aide à choisir un groupe précis et à examiner dans quelle mesure vos produits et services leur sont véritablement accessibles.
 
-#### Who to do this with
+#### Avec qui faire cette activité
 
-A cross-functional team across the organization, like at a design charette or company-wide conference.
+Une équipe interfonctionnelle de l’organisation, réunie par exemple dans le cadre d’une charrette de conception ou d’une conférence tenue à l’échelle de l’entreprise.
 
 #### Instructions
 
 <div class="instructions">
 
-1. Pick one edge user group to focus on for this activity.
-2. Use the worksheet to think through what barriers this user may encounter at each level of the Hierarchy of Needs at Financial Institutions, and ideas on how to remove those barriers.
+1. Choisissez un groupe d’utilisateur·trice·s en situation de vulnérabilité sur lequel vous concentrer pour cette activité.
+2. Servez-vous de la feuille de travail pour analyser les obstacles que cet·te utilisateur·trice pourrait rencontrer à chaque niveau de la hiérarchie des besoins au sein des institutions financières, et pour trouver des pistes visant à les éliminer.
 
 </div>
 
-#### **Edge User Deep Dive:** Worksheet{.worksheet-title}
+#### Feuille de travail : **analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité**{.worksheet-title}
 
-Can (edge user group)…
+Les utilisateur·trice·s en situation de vulnérabilité ont-iels la possibilité de…
 
 <div class="two-column deep-dive-list">
 
 <div>
 
-1. **Access financial touchpoints?**<br />
-   Bank branches, ATM's, online banking
-2. **Access financial transactions?**<br />
-   Opening an account, depositing and withdrawing funds, making purchases
-3. **Access financial management?**<br />
-   Money management, budgeting, using and managing credit
-4. **Access financial advising?**<br />
-   Disability-specific financial advising, future planning
+1. **Trouver vos points d’accès aux services financiers?**<br />
+   Succursales bancaires, guichets automatiques, services bancaires en ligne
+2. **Effectuer des opérations financières?**<br />
+   Ouverture d’un compte, dépôts et retraits de fonds, achats
+3. **Gérer leurs finances?**<br />
+   Gestion de l’argent, budgétisation, utilisation et gestion du crédit
+4. **Accéder à vos services de conseil financier?**<br />
+   Conseils financiers destinés aux personnes en situation de handicap, planification de l’avenir
 
 </div>
 
@@ -271,34 +271,31 @@ Can (edge user group)…
 
 </div>
 
-#### Bonus: Circles of control
+#### Activité bonus : Cercles de contrôle
 
-Now that barriers have been identified, it's time to focus on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't - and therefore what you can focus your efforts and energy on.
+Maintenant que les obstacles sont identifiés, il est temps de vous concentrer sur ce que vous pouvez réellement changer. Les cercles de contrôle vous aideront à préciser ce que vous et votre équipe pouvez modifier et ce qui échappe à votre portée, pour ainsi concentrer vos efforts et votre énergie là où ils auront le plus d’impact.
 
 ##### Instructions
 
 <div class="instructions">
 
-1. Referring to the barriers from the edge user deep dive worksheet, work with yourself or your team to articulate:
+1. En vous appuyant sur les obstacles identifiés dans la feuille de travail de l’analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité, travaillez seul·e ou avec votre équipe afin d’exprimer clairement les éléments suivants :
 
-   - **What can I or we change?** This can range from small differences in the way you do your tasks, or projects that your team can initiate.
-   - **What can I or we influence?** This can include things that you and/ or your team may be able to influence through partnership or allyship with others in your organization, but may not be able to directly change.
-   - **What can't I or we change?** These are things, usually larger systems or constraints that you and/or your team can't change.
+   - **Ce que je/nous pouvons changer :** il peut s’agir de petits ajustements dans la façon de réaliser vos tâches ou de projets que votre équipe pourrait entreprendre.
+   - **Ce que je/nous pouvons influencer :** des éléments que vous ou votre équipe pouvez influencer en collaborant avec d’autres membres de votre organisation, sans toutefois pouvoir les modifier directement.
+   - **Ce que je/nous ne pouvons pas changer :** des éléments relevant de systèmes ou de contraintes plus vastes, sur lesquels vous ou votre équipe exercez peu ou pas de contrôle.
 
-2. Do this in whatever order feels best or is most productive for your team. There's no hard or fast rule.
-3. When you are done, create action items based on what you and/or your team can change, and what you and/or your team can influence.
+2. Procédez dans l’ordre qui vous semble le plus logique ou le plus utile pour votre équipe. Il n’y a pas de règle stricte.
+3. Une fois l’activité terminée, définissez des mesures à prendre en fonction de ce que vous et votre équipe pouvez changer ou influencer.
 
 </div>
 
-#### **Circles of control:** Worksheet{.worksheet-title}
+#### **Cercles de contrôle :** feuille de travail{.worksheet-title}
 
-Now that barriers and ideas have been identified, it's time to focus on what you can tangibly change. The circles of control will help you articulate what you and your team can change, and what you can't—and therefore what you can focus your efforts and energy on.
+Maintenant que les obstacles et les idées sont identifiés, il est temps de vous concentrer sur ce que vous pouvez réellement changer. Les cercles de contrôle vous aideront à préciser ce que vous et votre équipe pouvez modifier et ce qui échappe à votre portée, pour ainsi concentrer vos efforts et votre énergie là où ils auront le plus d’impact.
 
-{% includeSvg "circles-of-control.svg", "" %}
+{% includeSvg "circles-of-control.svg", translations[lang]['circles-of-control'] %}
 
-<!-- Circles of control diagram goes here. preview alt: Fillable circles of control diagram. -->
-
-- What can't I/we change?
-- What can I/we influence?
-- What can I/we change?
-
+- Ce que je/nous ne pouvons pas changer
+- Ce que je/nous pouvons influencer
+- Ce que je/nous pouvons changer
