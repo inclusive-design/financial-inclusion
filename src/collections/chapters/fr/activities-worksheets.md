@@ -6,200 +6,201 @@ nav: true
 type: standard
 order: 9
 ---
-### Activity 1: Gap mapping
+### Activité 1 : Cartographie des écarts
 
 The Guidebook for Financial Inclusion, including activities and worksheets, is available as a [downloadable printable and accessible PDF](/en/download/).{.web}
 
-#### Goal of the activity
+#### Objectif de l’activité
 
-This activity will help you think through how accessible a certain offering is to different edge user groups–this could be products like chequing accounts and RRSP's, or services like financial advising. It will help you discover who your offering already works for, and who your edge users are.
+Cette activité vous aidera à analyser dans quelle mesure une offre donnée est accessible à divers groupes d’utilisateur·trice·s en situation de vulnérabilité, qu’il s’agisse de produits (comme les comptes chèques ou les REER) ou de services (comme les services-conseils financiers). Cela vous permettra de repérer pour qui votre offre fonctionne déjà et d’identifier vos utilisateur·trice·s en situation de vulnérabilité.
 
-#### Who to do this with
+#### Avec qui faire cette activité
 
-You can do this with your team that works on a specific product or service–like financial advising, account opening, or your institution's app.
+Cette activité peut se faire avec l’équipe responsable d’un produit ou d’un service précis, comme les conseils financiers, l’ouverture de comptes ou l’application mobile de votre institution.
 
 #### Instructions
 
 <div class="instructions">
 
-1. Pick one offering that your institution provides.
-2. Look at the systemic and environmental factors in the Wheel of Financial Stability. Select the factors that may create barriers for your customers to what you are offering.  
+1. Choisissez un produit ou un service offert par votre institution.
+2. Examinez les facteurs systémiques et environnementaux présentés dans la Roue de la stabilité financière. Repérez les facteurs qui pourraient limiter l’accès de vos client·e·s à votre produit ou à votre service.  
 
-   Keep in mind that barriers may be:
+   Gardez en tête que les obstacles peuvent être de différents types :
 
-   **Physical and environmental:** Can your customers physically access your offering in the environment they have to do it in?
+   **Physiques et environnementaux :** vos client·e·s peuvent-ils accéder physiquement à votre offre dans l’environnement où ils doivent le faire?
 
-   **Mental:** Do your customers perceive that this offering is for them?
+   **Psychologiques :** vos client·e·s perçoivent-ils que cette offre leur est destinée?
 
-   **Societal:** Do others (tellers, advisors, even family and social networks) perceive that this offering is for your customers?
+   **Sociétaux :** les autres (personnel de service, conseiller·ère·s, membres de la famille ou du réseau social) perçoivent-ils que cette offre s’adresse à vos client·e·s?
 
-   - Language 
-   - Immigration status
-   - Where they live
-   - Employment status and accommodations
-   - Income and cost of living
-   - Savings and unexpected events
-   - Stigma and judgment
-   - Social aid status
+   - Langue
+   - Statut d’immigration
+   - Lieu de résidence
+   - Situation d’emploi et mesures d’adaptation
+   - Revenu et coût de la vie
+   - Épargne et événements imprévus
+   - Stigmatisation et préjugés
+   - Statut d’aide sociale
    {.factors-list}
 
-3. Print out the "slices" for each of your factors<span class="web"> (see [file](/en/download))</span>.
-4. For each factor, mark down which groups of customers your offering can serve without barriers:
+3. Imprimez les « parties » correspondant à chacun des facteurs que vous avez choisis<span class="web"> (voir le [fichier](/fr/telechargez))</span>.
+4. Pour chaque facteur, notez quels groupes de client·e·s peuvent accéder à votre offre sans obstacle.
 
-   - {% includeSvg "yes", "" %} Can access your offering
-   - {% includeSvg "maybe", "" %} May not be able to access your offering
-   - {% includeSvg "no", "" %} Not able to access your offering
+   - {% includeSvg "yes", "" %} Peuvent accéder à votre offre
+   - {% includeSvg "maybe", "" %} Pourraient avoir de la difficulté à accéder à votre offre
+   - {% includeSvg "no", "" %} Ne peuvent pas accéder à votre offre
    {.yes-maybe-no}
 
-   Remember that when this activity is done internally, it is an assumption (unless backed up by user research). This activity is most effective when done with users who have these life experiences.
+   Rappelez-vous que, lorsqu’elle est faite à l’interne, cette activité repose sur des hypothèses, sauf si elles sont appuyées par des recherches auprès d’utilisateur·trice·s. L’activité est beaucoup plus pertinente lorsqu’elle est réalisée avec des utilisateur·trice·s qui ont vécu ces expériences.
 
 </div>
 
-#### **Gap Mapping:** Example {.example}
+#### **Cartographie des écarts:** exemple {.example}
 
-Offering: RRSP{.diagram .color-red-600}
+Offre : REER{.diagram .color-red-600}
 
 {% includeSvg "gap-mapping-example-fr", translations[lang]['example-gap-map'], "desktop-only" %}
 
-##### Where you live
+##### Lieu de résidence
 
-   - {% includeSvg "yes", "" %} **Least impact:** Urban, suburban{.filled}
-   - {% includeSvg "yes", "" %} **Some impact:** Rural{.filled}
-   - {% includeSvg "maybe", "" %} **Most impact:** Remote{.filled}
+   - {% includeSvg "yes", "" %} **Impact minimal :** milieux urbains et suburbains{.filled}
+   - {% includeSvg "yes", "" %} **Impact modéré :** milieux ruraux{.filled}
+   - {% includeSvg "maybe", "" %} **Impact maximal :** régions éloignées{.filled}
    {.yes-maybe-no .fillable}
 
-##### Stigma and judgement
+##### Stigmatisation et préjugés
 
-   - {% includeSvg "yes", "" %} **Least impact:** Appearing like the majority{.filled}
-   - {% includeSvg "maybe", "" %} **Some impact:** Appearing visibly different than the majority{.filled}
-   - {% includeSvg "no", "" %} **Most impact:** Appearing homeless, in a mental health crisis, or visibly disabled{.filled}
+   - {% includeSvg "yes", "" %} **Impact minimal :** apparence semblable à celle de la majorité{.filled}
+   - {% includeSvg "maybe", "" %} **Impact modéré :** apparence visiblement différente de celle de la majorité{.filled}
+   - {% includeSvg "no", "" %} **Impact maximal :** apparence associée à une situation d’itinérance, à une crise de santé mentale ou à un handicap apparent{.filled}
    {.yes-maybe-no .fillable}
 
-##### Social aid policies
+##### Politiques d’aide sociale
 
-   - {% includeSvg "yes", "" %} **Least impact:** Don’t need social aid{.filled}
-   - {% includeSvg "maybe", "" %} **Some impact:** Qualified, but with income capped{.filled}
-   - {% includeSvg "no", "" %} **Most impact:** Don’t qualify due to fluctuating income, barriers to applying, or being in a common law relationship{.filled}
+   - {% includeSvg "yes", "" %} **Impact minimal :** ne pas avoir besoin d’aide sociale{.filled}
+   - {% includeSvg "maybe", "" %} **Impact modéré :** être admissible, mais avec un revenu plafonné{.filled}
+   - {% includeSvg "no", "" %} **Impact maximal :** ne pas être admissible en raison d’un revenu fluctuant, d’obstacles à la demande ou d’une union de fait{.filled}
    {.yes-maybe-no .fillable}
 
-##### Cost of living
+##### Coût de la vie
 
-   - {% includeSvg "yes", "" %} **Least impact:** Enough income, plus extra{.filled}
-   - {% includeSvg "no", "" %} **Some impact:** Living paycheque to paycheque, no extra savings{.filled}
-   - {% includeSvg "no", "" %} **Most impact:** On social aid, no or limited income{.filled}
+   - {% includeSvg "yes", "" %} **Impact minimal :** revenu suffisant, avec un peu de marge{.filled}
+   - {% includeSvg "no", "" %} **Impact modéré :** vivre d’un chèque de paie à l’autre, sans pouvoir épargner{.filled}
+   - {% includeSvg "no", "" %} **Impact maximal :** dépendre de l’aide sociale ou disposer d’un revenu très limité{.filled}
    {.yes-maybe-no .fillable}
 
-##### Employment accommodations
+##### Mesures d’adaptation en emploi
 
-   - {% includeSvg "yes", "" %} **Least impact:** Fully accommodated{.filled}
-   - {% includeSvg "maybe", "" %} **Some impact:** Partially accommodated{.filled}
-   - {% includeSvg "no", "" %} **Most impact:** Not accommodated{.filled}
+   - {% includeSvg "yes", "" %} **Impact minimal :** pleinement accommodé·e{.filled}
+   - {% includeSvg "maybe", "" %} **Impact modéré :** accommodé·e partiellement{.filled}
+   - {% includeSvg "no", "" %} **Impact maximal :** non accommodé·e{.filled}
    {.yes-maybe-no .fillable}
 
-##### Unexpected events
+##### Événements imprévus
 
-   - {% includeSvg "yes", "" %} **Least impact:** Have support, funds or income{.filled}
-   - {% includeSvg "yes", "" %} **Some impact:** Some community and family support, emergency fund or income{.filled}
-   - {% includeSvg "no", "" %} **Most impact:** No community, family, and income or emergency fund{.filled}
+   - {% includeSvg "yes", "" %} **Impact minimal :** avoir accès à du soutien, à des fonds ou à un revenu{.filled}
+   - {% includeSvg "yes", "" %} **Impact modéré :** disposer d’un certain soutien communautaire ou familial, d’un fonds d’urgence ou d’un revenu{.filled}
+   - {% includeSvg "no", "" %} **Impact maximal :** absence de réseau communautaire ou familial, de revenu ou de fonds d’urgence{.filled}
    {.yes-maybe-no .fillable}
 
-##### Language
+##### Langue
 
-   - {% includeSvg "yes", "" %} **Least impact:** Uses English or French fluently{.filled}
-   - {% includeSvg "maybe", "" %} **Some impact:** Uses English or French partially{.filled}
-   - {% includeSvg "no", "" %} **Most impact:** Doesn’t use English or French{.filled}
+   - {% includeSvg "yes", "" %} **Impact minimal :** maîtrise couramment l’anglais ou le français{.filled}
+   - {% includeSvg "maybe", "" %} **Impact modéré :** maîtrise partiellement l’anglais ou le français{.filled}
+   - {% includeSvg "no", "" %} **Impact maximal :** ne maîtrise ni l’anglais ni le français{.filled}
    {.yes-maybe-no .fillable}
 
-##### Immigration status
+##### Statut d’immigration
 
-   - {% includeSvg "yes", "" %} **Least impact:** Citizen, PR{.filled}
-   - {% includeSvg "no", "" %} **Some impact:** Temporary visa (study, work){.filled}
-   - {% includeSvg "no", "" %} **Most impact:** Refugees, undocumented immigrants{.filled}
+   - {% includeSvg "yes", "" %} **Impact minimal :** citoyen·ne ou résident·e permanent·e{.filled}
+   - {% includeSvg "no", "" %} **Impact modéré :** titulaire d’un visa temporaire (études, travail){.filled}
+   - {% includeSvg "no", "" %} **Impact maximal :** réfugié·e ou personne sans statut légal{.filled}
    {.yes-maybe-no .fillable}
 
-#### **Gap Mapping:** Worksheet{.worksheet-title}
+#### **Cartographie des écarts** : feuille de travail{.worksheet-title}
 
 Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.web} 
 
 <div class="print flow">
 
-##### Offering:
+##### Offre:
 
 <img src="/assets/images/gap-mapping-fillable-fr.svg" width="1019" height="1015" alt="{% __ 'fillable-gap-map' %}" />
 
-##### Where you live
+##### Lieu de résidence
 
-- **Least impact:** Urban, suburban
-- **Some impact:** Rural
-- **Most impact:** Remote
+- **Impact minimal :** milieux urbains et suburbains
+- **Impact modéré :** milieux ruraux
+- **Impact maximal :** régions éloignées
 {.yes-maybe-no .fillable}
 
-##### Stigma and judgement
+##### Stigmatisation et préjugés
 
-- **Least impact:** Appearing like the majority
-- **Some impact:** Appearing visibly different than the majority
-- **Most impact:** Appearing homeless, in a mental health crisis, or visibly disabled
+- **Impact minimal :** apparence semblable à celle de la majorité
+- **Impact modéré :** apparence visiblement différente de celle de la majorité
+- **Impact maximal :** apparence associée à une situation d’itinérance, à une crise de santé mentale ou à un handicap apparent
 {.yes-maybe-no .fillable}
 
-##### Social aid policies
+##### Politiques d’aide sociale
 
-- **Least impact:** Don’t need social aid
-- **Some impact:** Qualified, but with income capped
-- **Most impact:** Don’t qualify due to fluctuating income, barriers to applying, or being in a common law relationship
+- **Impact minimal :** ne pas avoir besoin d’aide sociale
+- **Impact modéré :** être admissible, mais avec un revenu plafonné
+- **Impact maximal :** ne pas être admissible en raison d’un revenu fluctuant, d’obstacles à la demande ou d’une union de fait
 {.yes-maybe-no .fillable}
 
-##### Cost of living
+##### Coût de la vie
 
-- **Least impact:** Enough income, plus extra
-- **Some impact:** Living paycheque to paycheque, no extra savings
-- **Most impact:** On social aid, no or limited income
+- **Impact minimal :** revenu suffisant, avec un peu de marge
+- **Impact modéré :** vivre d’un chèque de paie à l’autre, sans pouvoir épargner
+- **Impact maximal :** dépendre de l’aide sociale ou disposer d’un revenu très limité
 {.yes-maybe-no .fillable}
 
-##### Employment accommodations
+##### Mesures d’adaptation en emploi
 
-- **Least impact:** Fully accommodated
-- **Some impact:** Partially accommodated
-- **Most impact:** Not accommodated
+- **Impact minimal :** pleinement accommodé·e
+- **Impact modéré :** accommodé·e partiellement
+- **Impact maximal :** non accommodé·e
 {.yes-maybe-no .fillable}
 
-##### Unexpected events
+##### Événements imprévus
 
-- **Least impact:** Have support, funds or income
-- **Some impact:** Some community and family support, emergency fund or income
-- **Most impact:** No community, family, and income or emergency fund
+- **Impact minimal :** avoir accès à du soutien, à des fonds ou à un revenu
+- **Impact modéré :** disposer d’un certain soutien communautaire ou familial, d’un fonds d’urgence ou d’un revenu
+- **Impact maximal :** absence de réseau communautaire ou familial, de revenu ou de fonds d’urgence
 {.yes-maybe-no .fillable}
 
-##### Language
+##### Langue
 
-- **Least impact:** Uses English or French fluently
-- **Some impact:** Uses English or French partially
-- **Most impact:** Doesn’t use English or French
+- **Impact minimal :** maîtrise couramment l’anglais ou le français
+- **Impact modéré :** maîtrise partiellement l’anglais ou le français
+- **Impact maximal :** ne maîtrise ni l’anglais ni le français
 {.yes-maybe-no .fillable}
 
-##### Immigration status
+##### Statut d’immigration
 
-- **Least impact:** Citizen, PR
-- **Some impact:** Temporary visa (study, work)
-- **Most impact:** Refugees, undocumented immigrants
+- **Impact minimal :** citoyen·ne ou résident·e permanent·e
+- **Impact modéré :** titulaire d’un visa temporaire (études, travail)
+- **Impact maximal :** réfugié·e ou personne sans statut légal
 {.yes-maybe-no .fillable}
 
 </div>
 
-#### Gap Mapping: Evaluate
+#### **Cartographie des écarts** : évaluation{.worksheet-title .page-break-before-always}
 
 <div class="instructions">
 
 {% includeSvg "connect-the-checkmarks", translations[lang]["connect-the-checkmarks"] %}
 
-1. **Connect the checkmarks**
+1. **Reliez les coches**
 
-   By connecting the checkmarks on each “slice” or factor, you can begin to see how inclusive the offering is: the larger the area, the more inclusive your offering, and the better it is at meeting the needs of edge users.
+   En reliant les coches vertes sur chaque partie ou facteur, vous verrez à quel point votre offre est inclusive : plus la zone est grande, plus votre offre est inclusive et mieux elle répond aux besoins des utilisateur·trice·s en situation de vulnérabilité.
 
 {% includeSvg "connect-the-question-marks", translations[lang]["connect-the-question-marks"] %}
 
-2. **Connect the question marks**
+2. **Reliez les points d'interrogation**
 
-   By connecting the question marks, you can begin to see where customers may not be able to access your offering.
+   En reliant les points d’interrogation jaunes, vous pouvez voir dans quels cas certain·e·s client·e·s risquent de ne pas pouvoir accéder à votre offre.
+
 
 {% includeSvg "notice-the-gap", translations[lang]["notice-the-gap"] %}
 

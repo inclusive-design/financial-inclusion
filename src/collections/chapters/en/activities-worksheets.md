@@ -129,7 +129,7 @@ Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.w
 
 </div>
 
-#### Gap Mapping: Evaluate{.page-break-before-always}
+#### **Gap Mapping:** Evaluate{.worksheet-title .page-break-before-always}
 
 <div class="instructions">
 
@@ -206,7 +206,9 @@ A cross-functional team across the organization, like at a design charette or co
 
 #### **Edge User Deep Dive:** Worksheet{.worksheet-title .page-break-before-always}
 
-Can (edge user group)…
+Can <span class="placeholder"></span> … {.diagram .color-red-600}
+
+(edge user group){.placeholder-caption .diagram .color-red-600}
 
 <div class="two-column deep-dive-list">
 

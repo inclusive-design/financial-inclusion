@@ -370,8 +370,7 @@ a:visited {
 }
 
 /* Utils */
-.flow > * + *,
-li > * + * {
+.flow > * + * {
     margin-top: var(--flow-space, 1em);
 }
 
@@ -792,6 +791,16 @@ ul.frameworks li > div > * + * {
     margin-left: 0;
 }
 
+p + p,
+p + ul,
+p + ol {
+    margin-top: var(--flow-space, 1em);
+}
+
+.two-column > * + * {
+    margin-top: 0;
+}
+
 .instructions ol ul li {
     margin-left: 1.5em;
     text-indent: -1.5em;
@@ -897,4 +906,17 @@ ul.frameworks li > div > * + * {
 
 .visualizing-gaps {
     margin-top: var(--fi-spacing-2000);
+}
+
+span.placeholder {
+    border-bottom: 2px solid var(--fl-fgColor, var(--fi-color-red-600));
+    display: inline-block;
+    margin-left: 1ch;
+    margin-right: 1ch;
+    text-decoration: underline;
+    width: 14em;
+}
+
+.placeholder-caption {
+    margin-left: 4rem;
 }
