@@ -35,7 +35,6 @@ jobs:
             "test": ${{ github.events.inputs.use-test-api }},
             "document_type": "pdf",
             "document_url": "https://financial-inclusion.inclusivedesign.ca/en/export/index.html",
-            "pipeline": 11,
             "prince_options": {
               "media": "print",
               "baseurl": "https://financial-inclusion.inclusivedesign.ca",
