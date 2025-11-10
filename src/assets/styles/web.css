@@ -1345,6 +1345,7 @@ svg.web.mobile {
     }
 
     .journey-map.narrative-3 {
+        margin-block-end: 240px;
         width: 790px;
     }
 
@@ -1462,7 +1463,7 @@ svg.web.mobile {
     }
 
     .journey-map.narrative-4 .potential li {
-        width: 286px;
+        width: 310px;
     }
 
     .journey-map.narrative-4 .potential li:first-child {
