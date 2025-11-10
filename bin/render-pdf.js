@@ -37,8 +37,6 @@ function princeVersion() {
 
 const prince = await princeVersion();
 
-fs.rm('src/assets/downloads/guidebook-for-financial-inclusion.pdf');
-
 if (prince.includes('Prince 16')) {
   console.log('Rendering PDF using Prince binary...');
   exec(`prince --pdf-profile='PDF/UA-1' http://localhost:8080/en/export/ -o src/assets/downloads/guidebook-for-financial-inclusion.pdf`, (_error, stdout, _stderr) => {
