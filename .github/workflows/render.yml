@@ -28,31 +28,19 @@ jobs:
         with:
           app-id: ${{ vars.GHA_APP_ID }}
           private-key: ${{ secrets.GHA_PRIVATE_KEY }}
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
       - name: Configure DocRaptor
-        run: |
-          cat <<-'DOCUMENT_OPTIONS' > docraptor.json
-          {
-            "test": ${{ github.events.inputs.use-test-api }},
-            "document_type": "pdf",
-            "document_url": "https://financial-inclusion.inclusivedesign.ca/en/export/index.html",
-            "pipeline": 11,
-            "prince_options": {
-              "media": "print",
-              "baseurl": "https://financial-inclusion.inclusivedesign.ca"
-            }
-          }
-          DOCUMENT_OPTIONS
-      - name: Render PDF
-        run: |
-          curl https://${{ env.DOCRAPTOR_API_KEY }}@api.docraptor.com/docs \
-            --fail --silent --show-error \
-            --header "Content-Type:application/json" \
-            --data @docraptor.json \
-            > guidebook-for-financial-inclusion.pdf
+        run: node bin/render-pdf.js
         env:
           DOCRAPTOR_API_KEY: ${{ github.events.inputs.use-test-api == true && 'YOUR_API_KEY_HERE' || secrets.DOCRAPTOR_API_KEY }}
       - name: Store PDF as artifact
         uses: actions/upload-artifact@v5.0.0
         with:
           name: guidebook-for-financial-inclusion
-          path: guidebook-for-financial-inclusion.pdf
+          path: assets/src/downloads/guidebook-for-financial-inclusion.pdf
