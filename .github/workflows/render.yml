@@ -43,4 +43,4 @@ jobs:
         uses: actions/upload-artifact@v5.0.0
         with:
           name: guidebook-for-financial-inclusion
-          path: guidebook-for-financial-inclusion.pdf
+          path: assets/src/downloads/guidebook-for-financial-inclusion.pdf
