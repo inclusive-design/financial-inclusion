@@ -29,6 +29,7 @@ La situation financière des personnes découle non seulement de leurs actions i
   Ce cadre adopte une perspective élargie pour examiner les facteurs environnementaux et systémiques, à la fois vastes et interconnectés, qui façonnent et influencent les interactions financières.
 
   </div>
+{.frameworks}
 
 ### Hiérarchie des besoins dans les institutions financières
 
@@ -81,7 +82,7 @@ Cette roue met en évidence les facteurs systémiques et environnementaux qui in
 
 Chaque partie de la roue représente un facteur, et l’ensemble de ces parties forme le portrait global.
 
-{% includeSvg "wheel.svg", translations[lang].wheel, 'full' %}
+{% includeSvg "wheel", translations[lang].wheel, 'full' %}
 
 - Lieu de résidence
 - Stigmatisation et préjudice
