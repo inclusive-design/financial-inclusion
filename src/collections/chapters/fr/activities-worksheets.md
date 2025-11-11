@@ -227,7 +227,7 @@ Pour observer comment votre offre répond – ou ne répond pas – aux besoins 
 
 </div>
 
-{% includeSvg "visualizing-gaps", translations[lang]["visualizing-gaps"] %}{.visualizing-gaps}
+{% includeSvg "visualizing-gaps-fr", translations[lang]["visualizing-gaps"] %}{.visualizing-gaps}
 
 ### Activité 2 : Analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité
 
