@@ -46,7 +46,7 @@ if (prince.includes('Prince 16')) {
   console.log('Rendering PDF using DocRaptor API...');
   axios(config)
     .then(function (response) {
-      fs.writeFile("./src/assets/downloads/guidebook-for-financial-inclusion.pdf", response.data, "binary", function (
+      fs.writeFile("guidebook-for-financial-inclusion.pdf", response.data, "binary", function (
         writeErr
       ) {
         if (writeErr) throw writeErr;
