@@ -1,7 +1,7 @@
 ---
 title: Downloads
 layout: layouts/base
-permalink: /en/download/index.html
+permalink: /en/downloads/index.html
 lang: en
 eleventyNavigation:
   key: Downloads

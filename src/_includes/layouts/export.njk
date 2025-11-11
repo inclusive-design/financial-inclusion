@@ -70,9 +70,8 @@
     }
   </style>
   {% endif %}
+  {% include "partials/global/stylesheets-print.njk" %}
   <style>
-      {{ allCss | safe }}
-      {{ printCss | safe }}
       :root {
       {% for chapter in collections['chapters-' + lang] %}{% if chapter.data.backgroundImage and chapter.data.backgroundImage !== '' %}
         {% if deploy.local %}

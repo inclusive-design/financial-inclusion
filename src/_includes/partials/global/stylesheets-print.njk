@@ -1,0 +1,6 @@
+{% set allCss %} {% include '../../../assets/styles/all.css' %} {% endset %}
+{% set printCss %} {% include '../../../assets/styles/print.css' %} {% endset %}
+<style>
+    {{ allCss | safe }}
+    {{ printCss | safe }}
+</style>

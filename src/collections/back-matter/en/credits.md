@@ -27,4 +27,5 @@ Ned Zimmerman, contributor
 
 **Special thanks to the financial institutions who generously shared their time to give us feedback and co-design this resource with us.**
 
-_Last edited August 2025_
+_Version {{ pkg.version }}_  
+_Last edited {% lastCommitDate %}_

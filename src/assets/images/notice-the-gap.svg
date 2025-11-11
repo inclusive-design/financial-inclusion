@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="201" height="201" fill="none" viewBox="0 0 201 201">
+    <circle cx="100.492" cy="100.346" r="99.166" fill="var(--fl-fgColor, #EAADAE)" stroke="var(--fl-bgColor, gray)" stroke-dasharray="2 2"/>
+    <circle cx="100.492" cy="100.344" r="76.008" fill="var(--fl-fgColor, #F5D6D7)" stroke="var(--fl-bgColor, gray)" stroke-dasharray="2 2"/>
+    <circle cx="100.492" cy="100.35" r="46.943" fill="var(--fl-fgColor, #fff)" stroke="var(--fl-bgColor, #fff)" stroke-dasharray="2 2"/>
+    <path stroke="var(--fl-bgColor, gray)" stroke-dasharray="2 2" d="M99.671 200.016V1.25M29.496 170.383 170.375 29.875M30.461 29.412 171.169 170.12M200.158 100.531H1.467"/>
+    <path fill="var(--fl-bgColor, transparent)" fill-opacity=".5" stroke="var(--fl-bgColor, #161616" stroke-width="1.281" d="m59.562 80.733-.089.078-.056.104-22.103 41.542-3.083-49.451 46.908-11.074-21.577 18.801ZM81.656 139.773l.07.02.074.003 34.451 1.354-45.05 23.485-33.758-36.963 44.213 12.101Zm58.286-56.353-.033-.1-14.415-42.946-.238-.709-.663.344-37.892 19.626 47.85-43.034 29.655 57.474v52.999l-43.558 12.31 19.129-21.182.165-.182v-34.6Z"/>
+    <circle cx="125.78" cy="39.264" r="4.483" fill="var(--fl-bgColor, #161616)"/>
+    <path fill="var(--fl-bgColor, #fff)" fill-opacity=".8" stroke="var(--fl-bgColor, #161616)" stroke-width="2.562" d="M139.23 83.377v34.827l-20.386 22.866-37.176-1.472-45.593-12.691 23.059-43.492 23.995-20.982 41.879-21.974 14.222 42.918Z"/>
+    <circle cx="84.793" cy="62.319" r="4.483" fill="var(--fl-bgColor, #161616)"/>
+    <circle cx="164.06" cy="73.799" r="3.843" fill="var(--fl-fgColor, #fff)" stroke="var(--fl-bgColor, #161616)" stroke-width="1.281"/>
+    <circle cx="33.558" cy="73.85" r="3.843" fill="var(--fl-fgColor, #fff)" stroke="var(--fl-bgColor, #161616)" stroke-width="1.281"/>
+    <circle cx="59.029" cy="82.768" r="4.483" fill="var(--fl-bgColor, #161616)"/>
+    <circle cx="139.723" cy="85.327" r="4.483" fill="var(--fl-bgColor, #161616)"/>
+    <circle cx="35.974" cy="127.596" r="4.483" fill="var(--fl-bgColor, #161616)"/>
+    <circle cx="164.06" cy="127.596" r="3.843" fill="var(--fl-fgColor, #fff)" stroke="var(--fl-bgColor, #161616)" stroke-width="1.281"/>
+    <circle cx="80.95" cy="140.452" r="4.483" fill="var(--fl-bgColor, #161616)"/>
+    <circle cx="119.376" cy="141.737" r="4.483" fill="var(--fl-bgColor, #161616)"/>
+    <circle cx="70.703" cy="164.792" r="3.843" fill="var(--fl-fgColor, #fff)" stroke="var(--fl-bgColor, #161616)" stroke-width="1.281"/>
+    <circle cx="134.746" cy="14.686" r="3.843" fill="var(--fl-fgColor, #fff)" stroke="var(--fl-bgColor, #161616)" stroke-width="1.281"/>
+  </svg>

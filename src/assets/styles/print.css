@@ -162,6 +162,10 @@ h6 {
     page-break-before: always;
 }
 
+.page-break-before-always {
+    page-break-before: always;
+}
+
 .back-matter {
     color: var(--fi-color-white);
     page: back-matter;
@@ -529,7 +533,8 @@ h6 {
     margin-top: var(--step-5);
 }
 
-.web {
+.web,
+li svg.web {
     display: none;
 }
 

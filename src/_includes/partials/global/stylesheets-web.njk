@@ -1,0 +1,7 @@
+{% uioStyleProps %}
+{% set allCss %} {% include '../../../assets/styles/all.css' %} {% endset %}
+{% set webCss %} {% include '../../../assets/styles/web.css' %} {% endset %}
+<style>
+    {{ allCss | safe }}
+    {{ webCss | safe }}
+</style>

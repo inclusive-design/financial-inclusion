@@ -123,11 +123,11 @@ Here are examples to spark ideas for serving clients like Althea. We use a 2x2 g
 
 <div class="two-by-two-wrapper">
 
-Long term impact {.diagram .desktop-only}
+Long term impact {.diagram .align-center .desktop-only}
 
-Lower effort {.diagram .desktop-only .pull-left}
+Lower effort {.diagram .align-center .desktop-only .pull-left}
 
-Higher effort {.diagram .desktop-only .pull-right}
+Higher effort {.diagram .align-center .desktop-only .pull-right}
 
 <div class="two-by-two">
 
@@ -197,7 +197,7 @@ Engage with a cross disability and intersectional community for research and con
 
 </div>
 
-Quicker impact {.diagram .desktop-only}
+Quicker impact {.diagram .align-center .desktop-only}
 
 </div>
 

@@ -27,4 +27,5 @@ Ned Zimmerman, collaborateur
 
 **Nous tenons à exprimer notre sincère gratitude envers les institutions financières qui ont généreusement consacré de leur temps pour nous transmettre leurs commentaires et co-concevoir cette ressource avec nous.**
 
-_Dernière mise à jour : novembre 2025_
+_Version {{ pkg.version }}_  
+_Dernière mise à jour : {% lastCommitDate %}_
