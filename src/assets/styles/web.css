@@ -921,7 +921,8 @@ svg.web.mobile {
     margin-top: var(--fi-space-2xl);
 }
 
-.print {
+.print,
+li img.print {
     display: none;
 }
 
