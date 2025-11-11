@@ -1,42 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="472" height="2230" fill="none" viewBox="0 0 472 2230">
-    <path stroke="var(--fl-fgColor, #E8451C)" stroke-width="1.632" d="M302.156 24.234c0 12.535-10.093 22.687-22.531 22.687-12.439 0-22.531-10.152-22.532-22.687 0-12.535 10.093-22.688 22.532-22.688 12.438 0 22.531 10.152 22.531 22.688Z"/>
-    <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M302.154 226.496c0 12.536-10.093 22.688-22.532 22.688-12.438 0-22.531-10.153-22.531-22.688 0-12.535 10.093-22.687 22.531-22.687 12.439 0 22.532 10.152 22.532 22.687ZM302.154 408.898c0 12.535-10.093 22.687-22.532 22.687-12.438 0-22.531-10.152-22.531-22.687 0-12.536 10.093-22.688 22.531-22.688 12.439 0 22.532 10.152 22.532 22.688Z"/>
-    <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M46.148 898.496c0 12.536-10.093 22.688-22.531 22.688-12.439 0-22.531-10.152-22.531-22.688 0-12.535 10.092-22.687 22.53-22.687 12.44 0 22.532 10.152 22.532 22.687ZM46.771 1102.74c0 12.53-10.093 22.69-22.531 22.69-12.439 0-22.531-10.16-22.531-22.69 0-12.54 10.092-22.69 22.53-22.69 12.44 0 22.532 10.15 22.532 22.69ZM46.764 1407.72c0 12.53-10.093 22.69-22.531 22.69-12.439 0-22.531-10.16-22.531-22.69 0-12.54 10.092-22.69 22.531-22.69 12.439 0 22.531 10.15 22.531 22.69Z"/>
-    <path stroke="var(--fl-fgColor, url(#2-a))" stroke-width="1.632" d="M279.623 47.5v157"/>
-    <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M279.625 250v137"/>
-    <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M24.24 922v158.25M24.24 1125.5v259.25"/>
-    <path stroke="var(--fl-fgColor, url(#2-b))" stroke-width="1.632" d="M448.234 815.632v-59.534c0-9.014-7.307-16.32-16.32-16.32h-134.36c-9.013 0-16.32-7.276-16.32-16.29V517.632"/>
-    <path stroke="var(--fl-fgColor, url(#2-c))" stroke-width="1.632" d="M24.233 875.5V756.476c0-9.013 7.307-16.32 16.32-16.32h224.36c9.014 0 16.318-7.2 16.308-16.214-.067-62.722-.387-255.244-.387-291.942"/>
-    <circle cx="448.353" cy="1732.37" r="22.688" stroke="var(--fl-fgColor, #C5C818)" stroke-width="1.632" transform="rotate(90 448.353 1732.37)"/>
-    <circle cx="448.353" cy="1949.44" r="22.688" stroke="var(--fl-fgColor, #99C818)" stroke-width="1.632" transform="rotate(90 448.353 1949.44)"/>
-    <circle cx="448.352" cy="2206.02" r="22.688" stroke="var(--fl-fgColor, #7BD383)" stroke-width="1.632" transform="rotate(90 448.352 2206.02)"/>
-    <path stroke="var(--fl-fgColor, url(#2-d))" stroke-width="1.632" d="M448.353 1972v211.25"/>
-    <path stroke="var(--fl-fgColor, url(#2-e))" stroke-width="1.632" d="M448.353 1755.25v171.5"/>
-    <path stroke="var(--fl-fgColor, url(#2-f))" stroke-width="1.632" d="m448.233 814.749.001 895.251"/>
-    <defs>
-      <linearGradient id="2-a" x1="275.25" x2="275.25" y1="61.735" y2="329.316" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#CB3335"/>
-        <stop offset="1" stop-color="#E8A41C"/>
-      </linearGradient>
-      <linearGradient id="2-b" x1="284.864" x2="341.382" y1="680.178" y2="851.105" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#E8A41C"/>
-        <stop offset="1" stop-color="#C5C818"/>
-      </linearGradient>
-      <linearGradient id="2-c" x1="275.646" x2="236.615" y1="680.486" y2="861.93" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#E8A41C"/>
-        <stop offset="1" stop-color="#CB3335"/>
-      </linearGradient>
-      <linearGradient id="2-d" x1="445.825" x2="445.825" y1="1975.49" y2="2239.46" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#99C818"/>
-        <stop offset="1" stop-color="#7BD383"/>
-      </linearGradient>
-      <linearGradient id="2-e" x1="1961940" x2="1961940" y1="1662.07" y2="1927.85" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#C5C818"/>
-        <stop offset="1" stop-color="#99C818"/>
-      </linearGradient>
-      <linearGradient id="2-f" x1="442.917" x2="442.917" y1="1565.71" y2="1831.48" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#C5C818"/>
-        <stop offset="1" stop-color="#99C818"/>
-      </linearGradient>
-    </defs>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="556" height="2278" fill="none" viewBox="0 0 556 2278">
+  <path stroke="var(--fl-fgColor, #E8451C)" stroke-width="1.632" d="M302.816 23.504c0 12.535-10.093 22.687-22.531 22.687-12.439 0-22.531-10.152-22.531-22.687 0-12.535 10.092-22.687 22.531-22.688 12.438 0 22.531 10.153 22.531 22.688Z"/>
+  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M302.816 423.505c0 12.535-10.093 22.688-22.531 22.688-12.438 0-22.531-10.153-22.531-22.688 0-12.535 10.092-22.687 22.531-22.687 12.439 0 22.531 10.152 22.531 22.687Z"/>
+  <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M45.878 966.568c0 12.535-10.092 22.688-22.53 22.688-12.44-.001-22.532-10.153-22.532-22.688 0-12.535 10.093-22.687 22.531-22.687 12.439 0 22.531 10.152 22.531 22.687ZM45.878 1220.94c0 12.54-10.092 22.69-22.53 22.69-12.44 0-22.532-10.15-22.532-22.69 0-12.53 10.093-22.68 22.531-22.68 12.439 0 22.531 10.15 22.531 22.68ZM45.878 1583.01c0 12.53-10.092 22.68-22.53 22.68-12.44 0-22.532-10.15-22.532-22.68 0-12.54 10.093-22.69 22.531-22.69 12.439 0 22.531 10.15 22.531 22.69Z"/>
+  <path stroke="var(--fl-fgColor, url(#2-a))" stroke-width="1.632" d="M280.27 47.007v172.119"/>
+  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M280.285 264.939v135.062"/>
+  <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M23.264 989.503V1198M23.326 1243.5v316"/>
+  <path stroke="var(--fl-fgColor, url(#2-b))" stroke-width="1.632" d="M532.286 912.001v-59.534c0-9.013-7.307-16.32-16.32-16.32h-219.36c-9.014 0-16.32-7.276-16.32-16.29V614.001"/>
+  <path stroke="var(--fl-fgColor, url(#2-c))" stroke-width="1.632" d="M23.286 944.002v-91.156c0-9.014 7.306-16.32 16.32-16.32h224.359c9.013 0 16.32-7.282 16.32-16.296V447.001"/>
+  <circle stroke="var(--fl-fgColor, #C5C818)" cx="532.286" cy="1672.07" r="22.688" stroke-width="1.632" transform="rotate(90 532.286 1672.07)"/>
+  <circle stroke="var(--fl-fgColor, #99C818)" cx="532.286" cy="1964.01" r="22.688" stroke-width="1.632" transform="rotate(90 532.286 1964.01)"/>
+  <circle stroke="var(--fl-fgColor, #7BD383)" cx="532.301" cy="2254.01" r="22.688" stroke-width="1.632" transform="rotate(90 532.301 2254.01)"/>
+  <path stroke="var(--fl-fgColor, url(#2-d))" stroke-width="1.632" d="M532.301 1987v244"/>
+  <path stroke="var(--fl-fgColor, url(#2-e))" stroke-width="1.632" d="M532.3 1694.5v247"/>
+  <path stroke="var(--fl-fgColor, url(#2-f))" stroke-width="1.632" d="M532.286 912.001V1649.5"/>
+  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M302.465 242.255c0 12.535-10.092 22.688-22.531 22.688-12.438 0-22.531-10.153-22.531-22.688 0-12.535 10.093-22.687 22.531-22.687 12.439 0 22.531 10.152 22.531 22.687Z"/>
+  <defs>
+    <linearGradient id="2-a" x1="274.647" x2="274.647" y1="47.007" y2="314.588" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CB3335"/>
+      <stop offset="1" stop-color="#E8A41C"/>
+    </linearGradient>
+    <linearGradient id="2-b" x1="285.764" x2="325.409" y1="776.547" y2="957.475" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8A41C"/>
+      <stop offset="1" stop-color="#C5C818"/>
+    </linearGradient>
+    <linearGradient id="2-c" x1="274.698" x2="235.666" y1="776.856" y2="958.299" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8A41C"/>
+      <stop offset="1" stop-color="#CB3335"/>
+    </linearGradient>
+    <linearGradient id="2-d" x1="531.672" x2="531.672" y1="1961.78" y2="2225.75" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#99C818"/>
+      <stop offset="1" stop-color="#7BD383"/>
+    </linearGradient>
+    <linearGradient id="2-e" x1="531.672" x2="531.672" y1="1649" y2="1914.77" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5C818"/>
+      <stop offset="1" stop-color="#99C818"/>
+    </linearGradient>
+    <linearGradient id="2-f" x1="442.785" x2="442.785" y1="1551" y2="1816.78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5C818"/>
+      <stop offset="1" stop-color="#99C818"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,40 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="473" height="2026" fill="none" viewBox="0 0 473 2026">
-  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M303.67 206.742c0 12.535-10.092 22.688-22.531 22.688-12.438-.001-22.531-10.153-22.531-22.688 0-12.535 10.093-22.687 22.531-22.687 12.439 0 22.531 10.152 22.531 22.687ZM303.67 365.164c0 12.535-10.092 22.687-22.531 22.687-12.438 0-22.531-10.152-22.531-22.687 0-12.535 10.093-22.687 22.531-22.688 12.439 0 22.531 10.153 22.531 22.688Z"/>
-  <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M46.67 779.128c0 12.535-10.092 22.688-22.53 22.688-12.44 0-22.532-10.153-22.532-22.688 0-12.535 10.093-22.687 22.531-22.687 12.439 0 22.531 10.152 22.531 22.687ZM47.28 1033c0 12.54-10.093 22.69-22.532 22.69-12.438 0-22.531-10.15-22.531-22.69 0-12.53 10.093-22.69 22.531-22.69 12.439 0 22.531 10.16 22.531 22.69ZM47.283 1292.63c0 12.53-10.093 22.68-22.532 22.68-12.438 0-22.53-10.15-22.53-22.68 0-12.54 10.092-22.69 22.53-22.69 12.44 0 22.532 10.15 22.532 22.69Z"/>
-  <path stroke="var(--fl-fgColor, url(#4-a))" stroke-width="1.632" d="M281.137 47.25v136.375"/>
-  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M281.14 229.625v113"/>
-  <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M24.753 801.625v208.745M24.751 1055.62v214.26"/>
-  <path stroke="var(--fl-fgColor, url(#4-b))" stroke-width="1.632" d="M449.401 729.48v-59.534c0-9.013-7.307-16.32-16.32-16.32H297.46c-9.014 0-16.32-7.276-16.32-16.29V431.48"/>
-  <path stroke="var(--fl-fgColor, url(#4-c))" stroke-width="1.632" d="M24.14 756.25v-85.745c0-9.014 7.306-16.321 16.32-16.321h224.36c9.013 0 16.32-7.216 16.32-16.229V388.667"/>
-  <path stroke="var(--fl-fgColor, #E8451C)" stroke-width="1.632" d="M303.667 24.482c0 12.535-10.093 22.688-22.531 22.688-12.439 0-22.531-10.153-22.532-22.688 0-12.535 10.093-22.687 22.532-22.687 12.438 0 22.531 10.152 22.531 22.687Z"/>
-  <circle cx="449.399" cy="1568.99" r="22.688" stroke="var(--fl-fgColor, #C5C818)" stroke-width="1.632" transform="rotate(90 449.399 1568.99)"/>
-  <circle cx="448.415" cy="1713.99" r="22.688" stroke="var(--fl-fgColor, #99C818)" stroke-width="1.632" transform="rotate(90 448.415 1713.99)"/>
-  <circle cx="448.415" cy="2001.99" r="22.688" stroke="var(--fl-fgColor, #7BD383)" stroke-width="1.632" transform="rotate(90 448.415 2001.99)"/>
-  <path stroke="var(--fl-fgColor, url(#4-d))" stroke-width="1.632" d="M448.415 1736.75v242.5"/>
-  <path stroke="var(--fl-fgColor, url(#4-e))" stroke-width="1.632" d="M448.618 1591.5v99.5"/>
-  <path stroke="var(--fl-fgColor, url(#4-f))" stroke-width="1.632" d="m449.397 729.447.001 816.303"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="556" height="2306" fill="none" viewBox="0 0 556 2306">
+  <path stroke="var(--fl-fgColor, #E8451C)" stroke-width="1.632" d="M302.9 23.504c-.001 12.535-10.093 22.687-22.532 22.687-12.438 0-22.531-10.152-22.531-22.687 0-12.535 10.093-22.687 22.531-22.688 12.439 0 22.532 10.153 22.532 22.688Z"/>
+  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M302.9 563.498c-.001 12.535-10.093 22.687-22.532 22.687-12.438 0-22.531-10.152-22.531-22.687 0-12.536 10.093-22.688 22.531-22.688 12.439 0 22.532 10.152 22.532 22.688Z"/>
+  <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M45.9 982.756c0 12.535-10.092 22.684-22.53 22.684-12.44 0-22.532-10.149-22.532-22.684 0-12.535 10.093-22.688 22.531-22.688 12.439 0 22.532 10.152 22.532 22.688ZM45.9 1309.19c0 12.54-10.092 22.69-22.53 22.69-12.44 0-22.532-10.15-22.532-22.69 0-12.53 10.093-22.68 22.531-22.68 12.439 0 22.532 10.15 22.532 22.68ZM45.879 1634.44c0 12.53-10.093 22.69-22.532 22.69-12.438 0-22.53-10.16-22.531-22.69 0-12.54 10.093-22.69 22.531-22.69 12.439 0 22.532 10.15 22.532 22.69Z"/>
+  <path stroke="var(--fl-fgColor, url(#4-a))" stroke-width="1.632" d="M280.354 47.001v279.5"/>
+  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M280.369 372.001v168.5"/>
+  <path stroke="var(--fl-fgColor, #CB3335)" stroke-width="1.632" d="M23.41 1005v281.5M23.348 1331.75v279.75"/>
+  <path stroke="var(--fl-fgColor, url(#4-b))" stroke-width="1.632" d="M532.37 939.501v-59.534c0-9.013-7.307-16.32-16.32-16.32H296.689c-9.013 0-16.32-7.276-16.32-16.29V641.501"/>
+  <path stroke="var(--fl-fgColor, url(#4-c))" stroke-width="1.632" d="M23.37 959.751v-79.405c0-9.013 7.306-16.32 16.32-16.32h224.359c9.013 0 16.32-7.207 16.32-16.221V586.501"/>
+  <circle stroke="var(--fl-fgColor, #C5C818)" cx="532.369" cy="1611.51" r="22.688" stroke-width="1.632" transform="rotate(90 532.369 1611.51)"/>
+  <circle stroke="var(--fl-fgColor, #99C818)" cx="532.37" cy="1932.51" r="22.688" stroke-width="1.632" transform="rotate(90 532.37 1932.51)"/>
+  <circle stroke="var(--fl-fgColor, #7BD383)" cx="532.369" cy="2282.01" r="22.688" stroke-width="1.632" transform="rotate(90 532.369 2282.01)"/>
+  <path stroke="var(--fl-fgColor, url(#4-d))" stroke-width="1.632" d="M532.447 1955.25v303.25"/>
+  <path stroke="var(--fl-fgColor, url(#4-e))" stroke-width="1.632" d="M532.446 1634.25v276"/>
+  <path stroke="var(--fl-fgColor, url(#4-f))" stroke-width="1.632" d="m532.369 939.501.001 649.249"/>
+  <path stroke="var(--fl-fgColor, #E8A41C)" stroke-width="1.632" d="M302.9 350.005c0 12.535-10.093 22.688-22.531 22.688-12.439 0-22.531-10.153-22.531-22.688 0-12.535 10.092-22.687 22.531-22.687 12.438 0 22.531 10.152 22.531 22.687Z"/>
   <defs>
-    <linearGradient id="4-a" x1="276.764" x2="276.764" y1="-135.514" y2="132.067" gradientUnits="userSpaceOnUse">
+    <linearGradient id="4-a" x1="274.731" x2="274.731" y1="74.507" y2="342.088" gradientUnits="userSpaceOnUse">
       <stop stop-color="#CB3335"/>
       <stop offset="1" stop-color="#E8A41C"/>
     </linearGradient>
-    <linearGradient id="4-b" x1="284.797" x2="340.974" y1="594.026" y2="765.205" gradientUnits="userSpaceOnUse">
+    <linearGradient id="4-b" x1="285.847" x2="325.493" y1="804.047" y2="984.975" gradientUnits="userSpaceOnUse">
       <stop stop-color="#E8A41C"/>
       <stop offset="1" stop-color="#C5C818"/>
     </linearGradient>
-    <linearGradient id="4-c" x1="275.553" x2="236.521" y1="594.513" y2="775.957" gradientUnits="userSpaceOnUse">
+    <linearGradient id="4-c" x1="274.782" x2="235.75" y1="804.356" y2="985.8" gradientUnits="userSpaceOnUse">
       <stop stop-color="#E8A41C"/>
       <stop offset="1" stop-color="#CB3335"/>
     </linearGradient>
-    <linearGradient id="4-d" x1="447.099" x2="447.099" y1="1776.48" y2="2040.44" gradientUnits="userSpaceOnUse">
+    <linearGradient id="4-d" x1="531.756" x2="531.756" y1="1989.28" y2="2253.25" gradientUnits="userSpaceOnUse">
       <stop stop-color="#99C818"/>
       <stop offset="1" stop-color="#7BD383"/>
     </linearGradient>
-    <linearGradient id="4-e" x1="447.299" x2="447.299" y1="1465.45" y2="1731.22" gradientUnits="userSpaceOnUse">
+    <linearGradient id="4-e" x1="531.756" x2="531.756" y1="1676.5" y2="1942.27" gradientUnits="userSpaceOnUse">
       <stop stop-color="#C5C818"/>
       <stop offset="1" stop-color="#99C818"/>
     </linearGradient>
-    <linearGradient id="4-f" x1="444.401" x2="444.401" y1="1368.45" y2="1634.22" gradientUnits="userSpaceOnUse">
+    <linearGradient id="4-f" x1="442.869" x2="442.869" y1="1578.5" y2="1844.28" gradientUnits="userSpaceOnUse">
       <stop stop-color="#C5C818"/>
       <stop offset="1" stop-color="#99C818"/>
     </linearGradient>
