@@ -37,8 +37,11 @@ jobs:
         run: npm ci
       - name: Render PDF
         run: |
-          export DOCRAPTOR_API_KEY=${{ github.events.inputs.use-test-api == true && 'YOUR_API_KEY_HERE' || secrets.DOCRAPTOR_API_KEY }}
+          echo $TEST
           node bin/render-pdf.js
+        env:
+          TEST: ${{ github.events.inputs.use-test-api && 'foo' || 'bar' }}
+          DOCRAPTOR_API_KEY: ${{ github.events.inputs.use-test-api && 'YOUR_API_KEY_HERE' || secrets.DOCRAPTOR_API_KEY }}
       - name: Store PDF as artifact
         uses: actions/upload-artifact@v5.0.0
         with:
