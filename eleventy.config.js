@@ -11,6 +11,7 @@ import Image from "@11ty/eleventy-img";
 import { parseHTML } from "linkedom";
 import markdownItAttrs from 'markdown-it-attrs';
 import { existsSync } from "node:fs";
+import * as childProcess from "node:child_process";
 
 export default function eleventy(eleventyConfig) {
   eleventyConfig.addGlobalData("now", () => new Date());
@@ -192,6 +193,12 @@ export default function eleventy(eleventyConfig) {
       return false;
     }
   });
+
+  eleventyConfig.addShortcode('lastCommitDate', function () {
+    const lastUpdatedFromGit = childProcess.execSync(`git log -1 --format=%cd --date=short`).toString().trim();
+    const formattedDate = new Date(lastUpdatedFromGit).toLocaleString(`${this.ctx.page.lang}-CA`, {month: 'long', year: 'numeric'});
+    return formattedDate;
+});
 
   return {
     dir: {
