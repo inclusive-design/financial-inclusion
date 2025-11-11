@@ -1,38 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="151" height="478" fill="none" viewBox="0 0 151 478">
-    <circle cx="75.073" cy="7.91" r="6.256" stroke="#E8451C" stroke-width="1.632" transform="rotate(90 75.073 7.91)"/>
-    <circle cx="75.344" cy="103.785" r="6.256" stroke="#E8A41C" stroke-width="1.632" transform="rotate(90 75.344 103.785)"/>
-    <circle cx="7.071" cy="364.878" r="6.256" stroke="#CB3335" stroke-width="1.632" opacity=".25" transform="rotate(90 7.07 364.878)"/>
-    <circle cx="143.072" cy="364.878" r="6.256" stroke="#C5C818" stroke-width="1.632" opacity=".25" transform="rotate(90 143.072 364.878)"/>
-    <circle cx="143.072" cy="458.447" r="6.256" stroke="#99C818" stroke-width="1.632" opacity=".25" transform="rotate(90 143.072 458.447)"/>
-    <circle cx="7.071" cy="458.447" r="6.256" stroke="#CB3335" stroke-width="1.632" opacity=".25" transform="rotate(90 7.07 458.447)"/>
-    <path stroke="url(#a)" stroke-width="1.632" d="M75.344 14v83.5"/>
-    <path stroke="#E8A41C" stroke-width="1.632" d="M75.344 109.875v101.5"/>
-    <path stroke="#CB3335" stroke-width="1.632" d="M7.343 371.406v79.969M7.343 464.975v79.969" opacity=".25"/>
-    <path stroke="url(#b)" stroke-width="1.632" d="M143.072 357.806v-6.528c0-9.013-7.307-16.32-16.32-16.32h-35.36c-9.013 0-16.32-7.297-16.32-16.31v-94.273" opacity=".35"/>
-    <path stroke="url(#c)" stroke-width="1.632" d="M7.344 357.806v-6.528c0-9.013 7.306-16.32 16.32-16.32h35.36c9.013 0 16.32-7.264 16.32-16.277V205.588" opacity=".35"/>
-    <path stroke="url(#d)" stroke-width="1.632" d="M142.8 465.519v79.425" opacity=".25"/>
-    <path stroke="url(#e)" stroke-width="1.632" d="M142.8 371.406v79.969" opacity=".25"/>
-    <circle cx="75.344" cy="218.035" r="6.256" fill="#fff" stroke="#E8A41C" stroke-width="1.632" transform="rotate(90 75.344 218.035)"/>
-    <defs>
-      <linearGradient id="a" x1="-3960660" x2="-3960660" y1="35.905" y2="116.418" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#CB3335"/>
-        <stop offset="1" stop-color="#E8A41C"/>
-      </linearGradient>
-      <linearGradient id="b" x1="76.55" x2="89.731" y1="317.006" y2="370.896" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#E8A41C"/>
-        <stop offset="1" stop-color="#C5C818"/>
-      </linearGradient>
-      <linearGradient id="c" x1="73.866" x2="60.685" y1="317.006" y2="370.896" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#E8A41C"/>
-        <stop offset="1" stop-color="#CB3335"/>
-      </linearGradient>
-      <linearGradient id="d" x1="141.484" x2="141.484" y1="465.519" y2="544.944" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#99C818"/>
-        <stop offset="1" stop-color="#7BD383"/>
-      </linearGradient>
-      <linearGradient id="e" x1="141.484" x2="141.484" y1="371.406" y2="451.375" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#C5C818"/>
-        <stop offset="1" stop-color="#99C818"/>
-      </linearGradient>
-    </defs>
-  </svg>
+  <circle cx="75.074" cy="7.072" r="6.256" stroke="#E8451C" stroke-width="1.632" transform="rotate(90 75.074 7.072)"/>
+  <circle cx="75.346" cy="102.947" r="6.256" stroke="#E8A41C" stroke-width="1.632" transform="rotate(90 75.346 102.947)"/>
+  <circle cx="7.072" cy="364.04" r="6.256" stroke="#CB3335" stroke-width="1.632" opacity=".25" transform="rotate(90 7.072 364.04)"/>
+  <circle cx="143.074" cy="364.04" r="6.256" stroke="#C5C818" stroke-width="1.632" opacity=".25" transform="rotate(90 143.074 364.04)"/>
+  <circle cx="143.074" cy="457.609" r="6.256" stroke="#99C818" stroke-width="1.632" opacity=".25" transform="rotate(90 143.074 457.609)"/>
+  <circle cx="7.072" cy="457.609" r="6.256" stroke="#CB3335" stroke-width="1.632" opacity=".25" transform="rotate(90 7.072 457.609)"/>
+  <path stroke="url(#a)" stroke-width="1.632" d="M75.346 13.162v83.5"/>
+  <path stroke="#E8A41C" stroke-width="1.632" d="M75.346 109.037v101.5"/>
+  <path stroke="#CB3335" stroke-width="1.632" d="M7.345 370.568v79.969M7.345 464.137v79.969" opacity=".25"/>
+  <path stroke="url(#b)" stroke-width="1.632" d="M143.074 356.968v-6.528c0-9.013-7.307-16.32-16.32-16.32h-35.36c-9.014 0-16.32-7.297-16.32-16.31v-94.273" opacity=".35"/>
+  <path stroke="url(#c)" stroke-width="1.632" d="M7.346 356.968v-6.528c0-9.013 7.306-16.32 16.32-16.32h35.36c9.014 0 16.32-7.264 16.32-16.277V204.75" opacity=".35"/>
+  <path stroke="url(#d)" stroke-width="1.632" d="M142.802 464.681v79.425" opacity=".25"/>
+  <path stroke="url(#e)" stroke-width="1.632" d="M142.802 370.568v79.969" opacity=".25"/>
+  <circle cx="75.346" cy="217.197" r="6.256" fill="#fff" stroke="#E8A41C" stroke-width="1.632" transform="rotate(90 75.346 217.197)"/>
+  <defs>
+    <linearGradient id="a" x1="-3960660" x2="-3960660" y1="35.067" y2="115.58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CB3335"/>
+      <stop offset="1" stop-color="#E8A41C"/>
+    </linearGradient>
+    <linearGradient id="b" x1="76.552" x2="89.733" y1="316.168" y2="370.058" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8A41C"/>
+      <stop offset="1" stop-color="#C5C818"/>
+    </linearGradient>
+    <linearGradient id="c" x1="73.868" x2="60.687" y1="316.168" y2="370.058" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8A41C"/>
+      <stop offset="1" stop-color="#CB3335"/>
+    </linearGradient>
+    <linearGradient id="d" x1="141.486" x2="141.486" y1="464.681" y2="544.106" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#99C818"/>
+      <stop offset="1" stop-color="#7BD383"/>
+    </linearGradient>
+    <linearGradient id="e" x1="141.486" x2="141.486" y1="370.568" y2="450.537" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5C818"/>
+      <stop offset="1" stop-color="#99C818"/>
+    </linearGradient>
+  </defs>
+</svg>
