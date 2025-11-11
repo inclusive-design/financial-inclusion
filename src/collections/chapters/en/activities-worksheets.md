@@ -8,7 +8,7 @@ order: 9
 ---
 ### Activity 1: Gap mapping
 
-The Guidebook for Financial Inclusion, including activities and worksheets, is available as a [downloadable printable and accessible PDF](/en/download/).{.web}
+The Guidebook for Financial Inclusion, including activities and worksheets, is available as a [downloadable printable and accessible PDF](/en/downloads/).{.web}
 
 #### Goal of the activity
 

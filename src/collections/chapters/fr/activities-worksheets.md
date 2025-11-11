@@ -8,7 +8,7 @@ order: 9
 ---
 ### Activité 1 : Cartographie des écarts
 
-The Guidebook for Financial Inclusion, including activities and worksheets, is available as a [downloadable printable and accessible PDF](/en/download/).{.web}
+Le Guide pour l'inclusion financière, comprenant des activités et des feuilles de travail, est disponible en tant que [PDF téléchargeable, imprimable et accessible](/fr/telechargements/).{.web}
 
 #### Objectif de l’activité
 
@@ -119,7 +119,7 @@ Offre : REER{.diagram .color-red-600}
 
 #### **Cartographie des écarts** : feuille de travail{.worksheet-title}
 
-Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.web} 
+Téléchargez une feuille de travail imprimable dans le cadre du [guide PDF](/fr/telechargez/).{.web} 
 
 <div class="print flow">
 
@@ -200,7 +200,6 @@ Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.w
 2. **Reliez les points d'interrogation**
 
    En reliant les points d’interrogation jaunes, vous pouvez voir dans quels cas certain·e·s client·e·s risquent de ne pas pouvoir accéder à votre offre.
-
 
 {% includeSvg "notice-the-gap", translations[lang]["notice-the-gap"] %}
 
