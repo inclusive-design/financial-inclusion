@@ -1,16 +1,15 @@
-name: Render PDF
+name: Render PDFs
 
 on:
   workflow_dispatch:
     inputs:
-      use-test-api:
-        description: "Use test API"
-        required: true
+      render-for-production:
+        description: "Render for production"
         type: boolean
-        default: true
+        default: false
 
 jobs:
-  render-pdf:
+  render-pdfs:
     timeout-minutes: 5
     permissions:
       contents: write
@@ -36,13 +35,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Render PDFs
-        run: node bin/render-pdf.js
+        run: npm run render:pdf:local
+        if: ${{ ! inputs.render-for-production }}
+      - name: Render PDFs for production
+        if: ${{ inputs.render-for-production }}
+        run: npm run render:pdf
         env:
-          DOCRAPTOR_API_KEY: ${{ inputs.use-test-api && 'YOUR_API_KEY_HERE' || secrets.DOCRAPTOR_API_KEY }}
-      - name: Store PDFs as artifacts
-        uses: actions/upload-artifact@v5.0.0
-        with:
-          name: guidebook-pdfs
-          path: |
-            assets/src/downloads/guidebook-for-financial-inclusion.pdf
-            assets/src/downloads/guide-pour-l-inclusion-financiere.pdf
+          DOCRAPTOR_API_KEY: ${{ secrets.DOCRAPTOR_API_KEY }}
+      - uses: stefanzweifel/git-auto-commit-action@v7

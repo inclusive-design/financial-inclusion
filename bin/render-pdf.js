@@ -1,6 +1,9 @@
 import axios from 'axios';
 import fs from 'node:fs';
-import { exec } from 'node:child_process';
+import { argv } from 'node:process';
+// import { exec } from 'node:child_process';
+import Prince from 'prince';
+import util from 'node:util';
 
 const user_credentials = process.env.DOCRAPTOR_API_KEY || 'YOUR_API_KEY_HERE';
 
@@ -34,40 +37,42 @@ const docraptorConfig = (lang) => {
   };
 }
 
-function princeVersion() {
-  return new Promise((resolve) => {
-    exec('prince --version', (_error, stdout, _stderr) => {
-      resolve(stdout);
-    });
-  });
-}
-
-const prince = await princeVersion();
-
-if (prince.includes('Prince 16')) {
-  console.log('Rendering PDFs using Prince binary...');
+if (argv[2] === 'local') {
+  console.log('Rendering PDFs using Prince...');
 
   for (const [lang, filename] of Object.entries(languages)) {
-    exec(`prince --pdf-profile='PDF/UA-1' http://localhost:8080/${lang}/export/ -o src/assets/downloads/${filename}.pdf`, (_error, stdout, _stderr) => {
-      console.log(`Saved ${filename}.pdf.`);
-    });
-  }
-} else {
-  console.log('Rendering PDFs using DocRaptor API...');
-
-  for (const [lang, filename] of Object.entries(languages)) {
-    axios(docraptorConfig(lang))
-    .then(function (response) {
-      fs.writeFile(`./src/assets/downloads/${filename}.pdf`, response.data, "binary", function (
-        writeErr
-      ) {
-        if (writeErr) throw writeErr;
-        console.log(`Saved ${filename}.pdf.`);
-      });
+    Prince({
+      "pdf-profile": "PDF/UA-1"
     })
-    .catch(function (error) {
-      var decoder = new TextDecoder("utf-8");
-      console.error(decoder.decode(error.response.data));
-    });
+      .inputs(`http://localhost:8080/${lang}/export/`)
+      .output(`src/assets/downloads/${filename}.pdf`)
+      .execute()
+      .then(function () {
+        console.log(`Saved ${filename}.pdf.`);
+      }, function (error) {
+        console.error(`Error: ${util.inspect(error)}`);
+      });
+
+    // exec(`prince --pdf-profile='PDF/UA-1' http://localhost:8080/${lang}/export/ -o src/assets/downloads/${filename}.pdf`, (_error, stdout, _stderr) => {
+    //   console.log(`Saved ${filename}.pdf.`);
+    // });
   }
-}
+} // else {
+//   console.log('Rendering PDFs using DocRaptor...');
+
+//   for (const [lang, filename] of Object.entries(languages)) {
+//     axios(docraptorConfig(lang))
+//       .then(function (response) {
+//         fs.writeFile(`./src/assets/downloads/${filename}.pdf`, response.data, "binary", function (
+//           writeErr
+//         ) {
+//           if (writeErr) throw writeErr;
+//           console.log(`Saved ${filename}.pdf.`);
+//         });
+//       })
+//       .catch(function (error) {
+//         var decoder = new TextDecoder("utf-8");
+//         console.error(decoder.decode(error.response.data));
+//       });
+//   }
+// }
