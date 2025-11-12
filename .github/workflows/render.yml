@@ -28,8 +28,11 @@ jobs:
           app-id: ${{ vars.GHA_APP_ID }}
           private-key: ${{ secrets.GHA_PRIVATE_KEY }}
       - uses: actions/checkout@v5
-      - run: |
-          curl https://www.princexml.com/download/prince_16.1-1_ubuntu22.04_amd64.deb -O
+      - name: Download Prince .deb file
+        run: curl https://www.princexml.com/download/prince_16.1-1_ubuntu22.04_amd64.deb -O
+      - name: Install Prince and dependencies
+        run: |
+          sudo apt install libavif13 libtiff5
           sudo apt install ./prince_16.1-1_ubuntu22.04_amd64.deb
           which prince
       - uses: actions/setup-node@v6
