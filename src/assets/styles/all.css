@@ -400,7 +400,6 @@ a:visited {
 }
 
 .frameworks > :first-child {
-    align-items: flex-start;
     display: flex;
     flex-grow: 1;
     width: 60px;
@@ -739,6 +738,11 @@ a:visited {
     width: 34px;
 }
 
+.hierarchy-list > :last-child {
+    text-align: right;
+}
+
+.hierarchy-list li + li,
 .deep-dive-list li + li {
     margin-top: var(--fi-space-xl);
 }
@@ -783,6 +787,11 @@ a:visited {
 .instructions .factors-list li {
     margin-left: calc(2 * var(--fi-spacing-500));
     text-indent: calc(-2 * var(--fi-spacing-500));
+}
+
+.factors-list.plain {
+    color: currentcolor;
+    margin-top: var(--fi-space-2xl);
 }
 
 .instructions ol ul {
@@ -847,6 +856,10 @@ p + ol {
     margin-bottom: -0.125em;
     margin-right: var(--fi-spacing-500);
     width: var(--fi-spacing-500);
+}
+
+.factors-list.plain li::before {
+    display: none;
 }
 
 .yes-maybe-no.fillable svg,

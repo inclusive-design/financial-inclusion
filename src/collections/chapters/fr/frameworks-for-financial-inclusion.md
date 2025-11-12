@@ -10,32 +10,39 @@ order: 3
 
 La situation financière des personnes découle non seulement de leurs actions individuelles, mais aussi de facteurs systémiques et environnementaux. C’est pourquoi nos récits mettent en lumière les obstacles présents tant à l’échelle individuelle qu’à l’échelle systémique. Nous utilisons deux cadres pour illustrer cette réalité :
 
-- {% includeSvg "mini-pyramid.svg", translations[lang]['mini-pyramid'] %}
+<div class="two-column frameworks">
 
-  <div>
+{% includeSvg "mini-pyramid.svg", translations[lang]['mini-pyramid'] %}
 
-  #### Niveau individuel : hiérarchie des besoins dans les institutions financières
+<div>
 
-  Ce cadre présente les différents besoins des personnes lorsqu’elles interagissent avec des institutions financières et les obstacles qu’elles rencontrent à chaque étape.
+#### Niveau individuel : hiérarchie des besoins dans les institutions financières
 
-  </div>
+Ce cadre présente les différents besoins des personnes lorsqu’elles interagissent avec des institutions financières et les obstacles qu’elles rencontrent à chaque étape.
 
-- {% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
+</div>
 
-  <div>
+</div>
 
-  #### Niveau systémique : roue de la stabilité financière
+<div class="two-column frameworks">
 
-  Ce cadre adopte une perspective élargie pour examiner les facteurs environnementaux et systémiques, à la fois vastes et interconnectés, qui façonnent et influencent les interactions financières.
+{% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
 
-  </div>
-{.frameworks}
+<div>
+
+#### Niveau systémique : roue de la stabilité financière
+
+Ce cadre adopte une perspective élargie pour examiner les facteurs environnementaux et systémiques, à la fois vastes et interconnectés, qui façonnent et influencent les interactions financières.
+
+</div>
+
+</div>
 
 ### Hiérarchie des besoins dans les institutions financières
 
 Inspiré de la hiérarchie des besoins de Maslow, ce cadre présente les différentes strates de services financiers dont les personnes ont besoin, en partant de l’accès de base jusqu’à la planification financière à long terme. Comme pour une fondation, les strates inférieures doivent être consolidées avant que les personnes puissent progresser vers les strates supérieures.
 
-<div class="two-column">
+<div class="two-column hierarchy-list">
 
 1. **Points d’accès aux services financiers**<br />
 Obstacles : succursales bancaires, guichets automatiques, services bancaires en ligne, matériel et dispositifs utilisés pour les opérations financières
@@ -74,15 +81,15 @@ Servez-vous de ce cadre pour déterminer où vos client·e·s actuels éprouvent
 
 Si vous visez un groupe en particulier, utilisez le cadre pour visualiser la relation que ses membres entretiennent actuellement avec votre institution. Planifiez ensuite les moyens de les aider à progresser vers une inclusion financière plus complète.
 
-### Roue de la stabilité financière
+### Roue de la stabilité financière{.page-break-before-always}
 
 Cette roue met en évidence les facteurs systémiques et environnementaux qui influencent la capacité de vos client·e·s à atteindre une stabilité financière durable.
+
+{% includeSvg "wheel", translations[lang].wheel, 'full' %}
 
 #### Facteurs
 
 Chaque partie de la roue représente un facteur, et l’ensemble de ces parties forme le portrait global.
-
-{% includeSvg "wheel", translations[lang].wheel, 'full' %}
 
 - Lieu de résidence
 - Stigmatisation et préjudice
@@ -92,6 +99,7 @@ Chaque partie de la roue représente un facteur, et l’ensemble de ces parties 
 - Événements imprévus
 - Langue
 - Statut d’immigration
+{.factors-list .plain}
 
 #### Niveau d’impact
 

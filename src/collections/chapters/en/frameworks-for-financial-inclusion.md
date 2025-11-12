@@ -42,7 +42,7 @@ The framework zooms out and consider the wider and interconnected environmental 
 
 Inspired by Maslow’s Hierarchy of Needs, this framework outlines different layers of financial services people need, starting with basic access and moving toward long-term financial planning. Like a foundation, the bottom layers need to be achieved before people can move upward.
 
-<div class="two-column">
+<div class="two-column hierarchy-list">
 
 1. **Financial touchpoints**<br />
    Barriers to: Bank branches, ATM’s, online banking, banking equipment and artifacts
@@ -57,7 +57,7 @@ Inspired by Maslow’s Hierarchy of Needs, this framework outlines different lay
 
 </div>
 
-#### Why this matters
+#### Why this matters{.page-break-before-always}
 
 This hierarchy not only offers a framework to outline the barriers people face with financial services, it also helps financial institutions build stronger relationships with their clients. Before earning someone’s trust to plan their financial future, you must first ensure they can open an account or even enter a branch.
 
@@ -81,15 +81,15 @@ Use the framework to evaluate where your current clients face friction in intera
 
 If you're targeting a specific group, use the framework to map their current relationship with your institution. Then, plan how to help them move upward in this model—toward fuller financial inclusion.
 
-### Wheel of financial stability
+### Wheel of financial stability{.page-break-before-always}
 
 This wheel demonstrates the systemic and environmental factors that impact your customers’ ability to achieve financial stability.
+
+{% includeSvg "wheel.svg", translations[lang].wheel, 'full' %}
 
 #### Factors
 
 Each factor makes up a “slice” of the wheel. Together, all the slices form the full picture.
-
-{% includeSvg "wheel.svg", translations[lang].wheel, 'full' %}
 
 - Where you live
 - Stigma and judgement
@@ -99,6 +99,7 @@ Each factor makes up a “slice” of the wheel. Together, all the slices form t
 - Unexpected events
 - Language
 - Immigration status
+{.factors-list .plain}
 
 #### Level of Impact
 
@@ -275,7 +276,7 @@ One’s immigration status can deeply impact their ability to earn money, gain e
 </div>
 </div>
 
-#### Why this matters
+#### Why this matters{.page-break-before-always}
 
 A way of understanding exclusion: This framework helps you understand who is likely to encounter the most barriers when dealing with financial institutions. The more impacted they are, the more they are your “edge users”. Based on Inclusive Design principles, solving for the edge will inevitably meet the needs of those in the middle, leading to more innovative, robust, and future-proof solutions.
 
