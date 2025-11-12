@@ -29,12 +29,12 @@ jobs:
           private-key: ${{ secrets.GHA_PRIVATE_KEY }}
       - uses: actions/checkout@v5
       - name: Download Prince .deb file
-        run: curl https://www.princexml.com/download/prince_16.1-1_ubuntu22.04_amd64.deb -O
+        run: curl https://www.princexml.com/download/prince_16.1-1_ubuntu24.04_amd64.deb -O
       - name: Install Prince and dependencies
         run: |
           sudo apt-get update
           sudo apt-get install libavif13 libtiff5
-          sudo apt-get install ./prince_16.1-1_ubuntu22.04_amd64.deb
+          sudo apt-get install ./prince_16.1-1_ubuntu24.04_amd64.deb
           which prince
       - uses: actions/setup-node@v6
         with:
