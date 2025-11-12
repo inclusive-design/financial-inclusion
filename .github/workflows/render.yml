@@ -29,9 +29,8 @@ jobs:
           private-key: ${{ secrets.GHA_PRIVATE_KEY }}
       - uses: actions/checkout@v5
       - run: |
-          sudo apt install gdebi
           curl https://www.princexml.com/download/prince_16.1-1_ubuntu22.04_amd64.deb -O
-          sudo gdebi prince_16.1-1_ubuntu22.04_amd64.deb
+          sudo apt install ./prince_16.1-1_ubuntu22.04_amd64.deb
           which prince
       - uses: actions/setup-node@v6
         with:
