@@ -384,38 +384,36 @@ a:visited {
     width: 1px;
 }
 
-ul.frameworks {
-    list-style: none;
-}
-
-ul.frameworks li {
+.two-column.frameworks {
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-ul.frameworks h4 {
+.frameworks h4 {
     margin-top: 0;
 }
 
-ul.frameworks li + li {
+.frameworks + .frameworks {
     margin-top: var(--step-2);
 }
 
-ul.frameworks li > :first-child {
+.frameworks > :first-child {
+    align-items: flex-start;
+    display: flex;
     flex-grow: 1;
     width: 60px;
 }
 
-ul.frameworks li > :last-child {
+.frameworks > :last-child {
     flex-basis: 0;
     flex-grow: 999;
     margin-top: 0;
     min-width: 50%;
 }
 
-ul.frameworks li > div > * + * {
+.frameworks > div > * + * {
     margin-top: 1em;
 }
 

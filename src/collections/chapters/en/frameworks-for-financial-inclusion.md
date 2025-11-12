@@ -10,26 +10,33 @@ order: 3
 
 People’s financial states are not only products of their individual action, but often influenced by systemic and environmental factors. Because of this, our narratives demonstrate both barriers at an individual level and a systemic level. We use two frameworks to explain this:
 
-- {% includeSvg "mini-pyramid.svg", translations[lang]['mini-pyramid'] %}
+<div class="two-column frameworks">
 
-  <div>
+{% includeSvg "mini-pyramid.svg", translations[lang]['mini-pyramid'] %}
 
-  #### Individual level: Hierarchy of needs at Financial Institutions
+<div>
 
-  This framework explores the different needs individuals have when interacting with financial institutions, and the barriers they encounter at each stage.
+#### Individual level: Hierarchy of needs at Financial Institutions
 
-  </div>
+This framework explores the different needs individuals have when interacting with financial institutions, and the barriers they encounter at each stage.
 
-- {% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
+</div>
 
-  <div>
+</div>
 
-  #### Systems level: Wheel of Financial stability
+<div class="two-column frameworks">
 
-  The framework zooms out and consider the wider and interconnected environmental and systemic factors that shape and influence financial interactions.
+{% includeSvg "mini-wheel.svg", translations[lang]['mini-wheel'] %}
 
-  </div>
-{.frameworks}
+<div>
+
+#### Systems level: Wheel of Financial stability
+
+The framework zooms out and consider the wider and interconnected environmental and systemic factors that shape and influence financial interactions.
+
+</div>
+
+</div>
 
 ### Hierarchy of needs at financial institutions
 
