@@ -772,7 +772,10 @@ article .wrapper {
     --flow-space: var(--fi-space-fluid-l-xl);
 }
 
-.flow > h3 + * {
+.flow > h3 + *,
+.flow > .h3 + *,
+.flow > h4 + *,
+.flow > .h4 + * {
     --flow-space: var(--fi-space-fluid-s);
 }
 
