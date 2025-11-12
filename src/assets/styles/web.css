@@ -286,7 +286,7 @@ a.standalone {
     padding-top: 2px;
     text-decoration: none;
 
-    span span {
+    div {
         white-space: nowrap;
     }
 

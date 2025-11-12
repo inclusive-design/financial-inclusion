@@ -384,6 +384,10 @@ h6 {
     margin-top: 32pt;
 }
 
+.title div {
+    white-space: nowrap;
+}
+
 .title h1 em {
     font-family: var(--fi-font-family-display-alt);
     font-style: normal;
@@ -398,13 +402,10 @@ h6 {
 .title .logos-and-version {
     align-items: center;
     display: flex;
+    gap: 20pt;
     justify-content: space-between;
     margin-top: 210pt;
     width: 100%;
-}
-
-.title .logos-and-version svg + svg {
-    margin-left: 20pt;
 }
 
 .title .logos-and-version .version {
