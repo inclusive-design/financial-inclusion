@@ -18,6 +18,9 @@ jobs:
       matrix:
         os: ["ubuntu-latest"]
     runs-on: ${{ matrix.os }}
+    env:
+      PRINCE_DIR: ${{ github.workspace }}/.cache/prince
+      PRINCE_FILE: prince_16.1-1_ubuntu24.04_amd64.deb
 
     name: Render PDF
 
@@ -28,9 +31,25 @@ jobs:
           app-id: ${{ vars.GHA_APP_ID }}
           private-key: ${{ secrets.GHA_PRIVATE_KEY }}
       - uses: actions/checkout@v5
-      - run: |
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+      - name: Create Prince directory
+        run: mkdir -p "${{ env.PRINCE_DIR }}"
+      - name: Restore Prince .deb cache
+        id: prince-cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.PRINCE_DIR }}
+          key: prince-${{ runner.os }}-${{ env.PRINCE_FILE }}
+          restore-keys: |
+            prince-${{ runner.os }}-
+      - name: Download Prince .deb file on cache miss
+        if: steps.prince-cache.outputs.cache-hit != 'true'
+        run: curl -o "${{ env.PRINCE_DIR }}/${{ env.PRINCE_FILE }}" "https://www.princexml.com/download/${{ env.PRINCE_FILE }}"
+      - name: Install Prince and dependencies
+        run: |
           sudo apt-get update
-          sudo apt-get install -y libgif-dev
+          sudo apt-get install "${{ env.PRINCE_DIR }}/${{ env.PRINCE_FILE }}"
       - uses: actions/setup-node@v6
         with:
           node-version: 24
@@ -46,3 +65,6 @@ jobs:
         env:
           DOCRAPTOR_API_KEY: ${{ secrets.DOCRAPTOR_API_KEY }}
       - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: render PDFs"
+          file_pattern: "src/assets/downloads/*.pdf"
