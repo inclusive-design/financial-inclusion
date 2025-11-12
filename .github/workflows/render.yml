@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v5
       - run: |
           sudo apt-get update
-          sudo apt-get install -y libgif-dev
+          sudo apt-get install -y libgif-dev libavif-dev
       - uses: actions/setup-node@v6
         with:
           node-version: 24
