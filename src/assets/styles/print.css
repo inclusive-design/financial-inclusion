@@ -865,3 +865,7 @@ li svg.web {
     align-self: flex-start;
     justify-items: flex-start;
 }
+
+.factors-list {
+    columns: 2;
+}
