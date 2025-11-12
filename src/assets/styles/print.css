@@ -426,7 +426,7 @@ h6 {
 }
 
 .toc ol {
-    -prince-pdf-tag-type: toc;
+    -prince-pdf-tag-type: TOC; /* stylelint-disable-line value-keyword-case */
 }
 
 .toc ol,
@@ -438,7 +438,7 @@ h6 {
     border-top: solid 1pt currentcolor;
     font-size: var(--step-1);
     list-style: none;
-    -prince-pdf-tag-type: toci;
+    -prince-pdf-tag-type: TOCI; /* stylelint-disable-line value-keyword-case */
 }
 
 .toc li a {
