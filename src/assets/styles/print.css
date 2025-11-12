@@ -424,6 +424,10 @@ h6 {
     width: 100%;
 }
 
+.toc ol {
+    -prince-pdf-tag-type: toc;
+}
+
 .toc ol,
 .flow ul:has(svg) {
     padding-left: 0;
@@ -433,6 +437,7 @@ h6 {
     border-top: solid 1pt currentcolor;
     font-size: var(--step-1);
     list-style: none;
+    -prince-pdf-tag-type: toci;
 }
 
 .toc li a {
