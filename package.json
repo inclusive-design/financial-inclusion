@@ -59,7 +59,6 @@
     "markdownlint-cli2": "^0.18.0",
     "markdownlint-config-fluid": "^0.1.0",
     "npm-run-all2": "^8.0.0",
-    "prince": "^1.12.2",
     "rimraf": "^6.0.0",
     "start-server-and-test": "^2.1.2",
     "stylelint": "^14.0.0",
