@@ -869,22 +869,6 @@ p + ol {
         0 0 0 2px var(--fl-fgColor, var(--fi-color-grey-800));
 }
 
-@media (width >= 60rem) {
-    .factors-list {
-        columns: 2;
-    }
-
-    .yes-maybe-no li svg {
-        height: 42px;
-        width: 42px;
-    }
-
-    .yes-maybe-no li {
-        margin-left: 62px;
-        text-indent: -62px;
-    }
-}
-
 .worksheet-title,
 .example {
     font-weight: var(--fi-font-weight-normal);

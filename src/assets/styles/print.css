@@ -399,7 +399,7 @@ h6 {
     margin-top: 20pt;
 }
 
-.title .logos-and-version {
+.title .logos-and-meta {
     align-items: center;
     display: flex;
     gap: 20pt;
@@ -408,10 +408,24 @@ h6 {
     width: 100%;
 }
 
-.title .logos-and-version .version {
+.title .logos-and-meta .license-and-version {
     font-family: var(--fi-font-family-display);
     font-size: var(--step--1);
     margin-left: auto;
+    text-align: right;
+}
+
+.title .logos-and-meta .license-and-version .license a {
+    display: block;
+}
+
+.title .logos-and-meta .license-and-version .license svg {
+    height: auto;
+    width: 52pt;
+}
+
+.license-image {
+    line-height: 1;
 }
 
 .toc .container {
