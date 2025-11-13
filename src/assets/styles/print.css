@@ -818,6 +818,10 @@ li svg.web {
     page-break-before: always;
 }
 
+.deep-dive-list > *:first-child {
+    width: 100%;
+}
+
 .two-by-two-wrapper {
     break-inside: avoid;
     position: relative;
@@ -826,7 +830,7 @@ li svg.web {
 .two-by-two {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space, 2rem);
+    gap: var(--space, 1rem);
     margin-bottom: var(--space, 2rem);
     margin-top: var(--space, 2rem);
     padding-left: var(--space, 2rem);

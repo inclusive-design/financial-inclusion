@@ -79,7 +79,7 @@ While she is forced to trust her community, she’s always scared of being taken
 
 Althea needs cash for her diabetes medication and groceries. It’s icy outside, so she waits all morning for her granddaughter to walk her to the store.
 
-<img src="/assets/images/journey-map-narrative-2-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
+<img alt="" role="presentation" src="/assets/images/journey-map-narrative-2-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
 
 <div class="journey-map narrative-2">
 
@@ -93,7 +93,7 @@ Althea needs cash for her diabetes medication and groceries. It’s icy outside,
 
 </div>
 
-<img src="/assets/images/journey-map-narrative-2-print-page-2.svg" class="print journey-map-page-2 narrative-2" width="236" height="546" />
+<img alt="" role="presentation" src="/assets/images/journey-map-narrative-2-print-page-2.svg" class="print journey-map-page-2 narrative-2" width="236" height="546" />
 
 <div class="usual">
 
