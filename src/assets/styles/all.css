@@ -647,7 +647,7 @@ a:visited {
     font-weight: var(--fi-font-weight-semibold);
     line-height: 1.2;
     max-width: 22.5rem;
-    padding: var(--fi-space-l);
+    padding: var(--fi-space-s);
 }
 
 .card h5 {
@@ -814,6 +814,7 @@ p + ol {
 }
 
 .yes-maybe-no {
+    break-inside: avoid;
     list-style-type: none;
     margin-bottom: var(--fi-space-l);
     margin-left: 0;

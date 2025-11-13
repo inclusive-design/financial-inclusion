@@ -481,6 +481,10 @@ h6 {
     margin-top: 0;
 }
 
+.chapter[data-chapter="9"] h3 {
+    margin-top: 1em;
+}
+
 .chapter h2 em {
     color: var(--fi-color-white);
     font-family: var(--fi-font-family-display-alt);
@@ -489,7 +493,7 @@ h6 {
 }
 
 .chapter h2 + *,
-.chapter[data-chapter-number="1"] h3 {
+.chapter[data-chapter="1"] h3 {
     break-before: page;
     margin-top: 2.325in;
 }
@@ -837,6 +841,10 @@ li svg.web {
     page-break-before: always;
 }
 
+.deep-dive-list > *:first-child {
+    width: 100%;
+}
+
 .two-by-two-wrapper {
     break-inside: avoid;
     position: relative;
@@ -845,7 +853,7 @@ li svg.web {
 .two-by-two {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space, 2rem);
+    gap: var(--space, 1rem);
     margin-bottom: var(--space, 2rem);
     margin-top: var(--space, 2rem);
     padding-left: var(--space, 2rem);
@@ -881,5 +889,11 @@ li svg.web {
 }
 
 .factors-list {
+    break-inside: avoid;
     columns: 2;
+}
+
+.yes-maybe-no img {
+    height: 24pt;
+    width: 24pt;
 }

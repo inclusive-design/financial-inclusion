@@ -70,7 +70,7 @@ Lakshmi wants to start saving for her daughter's daily expenses. She has some go
 
 Her social worker suggests opening a savings account and slowly building her credit.
 
-<img src="/assets/images/journey-map-narrative-3-print-page-1.svg" class="print journey-map-page-1 narrative-3" width="151" height="479" />
+<img alt="" role="presentation" src="/assets/images/journey-map-narrative-3-print-page-1.svg" class="print journey-map-page-1 narrative-3" width="151" height="479" />
 
 <div class="journey-map narrative-3">
 
@@ -84,7 +84,7 @@ Her social worker suggests opening a savings account and slowly building her cre
 
 </div>
 
-<img src="/assets/images/journey-map-narrative-3-print-page-2.svg" class="print journey-map-page-2 narrative-3" width="236" height="546" />
+<img alt="" role="presentation" src="/assets/images/journey-map-narrative-3-print-page-2.svg" class="print journey-map-page-2 narrative-3" width="236" height="546" />
 
 <div class="usual">
 
