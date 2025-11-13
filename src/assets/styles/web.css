@@ -1527,6 +1527,20 @@ li img.print {
         align-self: flex-start;
         justify-items: flex-start;
     }
+
+    .factors-list {
+        columns: 2;
+    }
+
+    .yes-maybe-no li svg {
+        height: 42px;
+        width: 42px;
+    }
+
+    .yes-maybe-no li {
+        margin-left: 62px;
+        text-indent: -62px;
+    }
 }
 
 @media (width >= 60rem) {
