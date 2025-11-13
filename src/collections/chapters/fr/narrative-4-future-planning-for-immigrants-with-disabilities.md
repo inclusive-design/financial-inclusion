@@ -59,7 +59,7 @@ Ki éprouve de la difficulté à s’adapter à la suite de la fermeture de son 
 
 Souhaitant explorer différentes options financières pour assurer l’avenir de sa famille, il prend rendez-vous avec un·e conseiller·ère financier·ère à sa banque.
 
-<img src="/assets/images/journey-map-narrative-4-print-page-1.svg" class="print journey-map-page-1 narrative-4" width="151" height="479" />
+<img src="/assets/images/journey-map-narrative-4-print-page-1.svg" class="print journey-map-page-1 narrative-4 narrative-4-fr" width="151" height="479" />
 
 <div class="journey-map narrative-4">
 

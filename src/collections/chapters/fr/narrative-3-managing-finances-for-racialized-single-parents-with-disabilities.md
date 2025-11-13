@@ -70,7 +70,7 @@ Lakshmi souhaite commencer à économiser pour les dépenses quotidiennes de sa 
 
 Son agente d’intégration des immigrants lui recommande d’ouvrir un compte d’épargne et de commencer à bâtir son dossier de crédit progressivement.
 
-<img src="/assets/images/journey-map-narrative-3-print-page-1.svg" class="print journey-map-page-1 narrative-3" width="151" height="479" />
+<img src="/assets/images/journey-map-narrative-3-print-page-1.svg" class="print journey-map-page-1 narrative-3 narrative-3-fr" width="151" height="479" />
 
 <div class="journey-map narrative-3">
 

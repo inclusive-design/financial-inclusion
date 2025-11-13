@@ -79,9 +79,9 @@ Parce qu’Althea dépend des gens de sa communauté, elle a souvent peur qu’o
 
 Althea a besoin d’argent comptant pour acheter ses médicaments contre le diabète et pour faire ses courses. Comme les trottoirs sont couverts de glace, elle attend toute la matinée que sa petite-fille l’accompagne jusqu’au magasin.
 
-<img src="/assets/images/journey-map-narrative-2-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
+<img src="/assets/images/journey-map-narrative-2-print-page-1.svg" class="print journey-map-page-1 narrative-2" width="151" height="479" />
 
-<div class="journey-map narrative-2">
+<div class="journey-map narrative-2 narrative-2-fr">
 
 {% includeSvg "journey-map-narrative-2", translations[lang]["journey-map"], null, false %}
 

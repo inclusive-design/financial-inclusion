@@ -623,6 +623,10 @@ li svg.web {
     position: relative;
 }
 
+.journey-map.narrative-1-fr .scenario {
+    top: -48pt;
+}
+
 .journey-map.narrative-1 li {
     width: 182pt;
 }
@@ -680,6 +684,10 @@ li svg.web {
     width: 182pt;
 }
 
+.journey-map.narrative-2-fr .scenario {
+    top: -47pt;
+}
+
 .journey-map.narrative-2 .scenario li:first-child {
     left: 164pt;
     top: 87pt;
@@ -727,6 +735,10 @@ li svg.web {
 
 .journey-map.narrative-2 .potential li:nth-child(3) {
     top: 308pt;
+}
+
+.journey-map-page-1.narrative-3-fr {
+    top: 291pt;
 }
 
 .journey-map.narrative-3 li {
@@ -780,6 +792,10 @@ li svg.web {
 
 .journey-map.narrative-3 .potential li:nth-child(3) {
     top: 289pt;
+}
+
+.journey-map-page-1.narrative-4-fr {
+    top: 279pt;
 }
 
 .journey-map.narrative-4 li {
