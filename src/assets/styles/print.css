@@ -570,6 +570,10 @@ li svg.web {
     break-before: always;
 }
 
+.journey-map .usual {
+    width: 200pt;
+}
+
 .journey-map-page-1,
 .journey-map-page-2 {
     height: auto;
