@@ -1528,3 +1528,19 @@ li img.print {
         justify-items: flex-start;
     }
 }
+
+@media (width >= 60rem) {
+    .factors-list {
+        columns: 2;
+    }
+
+    .yes-maybe-no li svg {
+        height: 42px;
+        width: 42px;
+    }
+
+    .yes-maybe-no li {
+        margin-left: 62px;
+        text-indent: -62px;
+    }
+}
