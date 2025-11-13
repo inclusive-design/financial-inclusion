@@ -425,6 +425,10 @@ h6 {
     width: 100%;
 }
 
+.toc ol {
+    -prince-pdf-tag-type: TOC; /* stylelint-disable-line value-keyword-case */
+}
+
 .toc ol,
 .flow ul:has(svg) {
     padding-left: 0;
@@ -434,6 +438,7 @@ h6 {
     border-top: solid 1pt currentcolor;
     font-size: var(--step-1);
     list-style: none;
+    -prince-pdf-tag-type: TOCI; /* stylelint-disable-line value-keyword-case */
 }
 
 .toc li a {
@@ -462,6 +467,10 @@ h6 {
     margin-top: 0;
 }
 
+.chapter[data-chapter="9"] h3 {
+    margin-top: 1em;
+}
+
 .chapter h2 em {
     color: var(--fi-color-white);
     font-family: var(--fi-font-family-display-alt);
@@ -470,7 +479,7 @@ h6 {
 }
 
 .chapter h2 + *,
-.chapter[data-chapter-number="1"] h3 {
+.chapter[data-chapter="1"] h3 {
     break-before: page;
     margin-top: 2.325in;
 }
@@ -863,4 +872,14 @@ li svg.web {
 .two-by-two > *:last-child {
     align-self: flex-start;
     justify-items: flex-start;
+}
+
+.factors-list {
+    break-inside: avoid;
+    columns: 2;
+}
+
+.yes-maybe-no img {
+    height: 24pt;
+    width: 24pt;
 }

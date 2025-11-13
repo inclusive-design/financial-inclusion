@@ -24,7 +24,7 @@ They may have a basic bank account, but can’t rely on it for day-to-day needs,
 
 These are the same people who often need safe, affordable, and reliable financial services the most. So why aren’t they getting them?
 
-### Why this matters
+### Why this matters{.page-break-before-always}
 
 The number of people facing barriers to the financial system—whether due to disability, low digital literacy, unstable housing, limited ID, or nontraditional income—is not small.
 

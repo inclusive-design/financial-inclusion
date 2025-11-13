@@ -772,7 +772,10 @@ article .wrapper {
     --flow-space: var(--fi-space-fluid-l-xl);
 }
 
-.flow > h3 + * {
+.flow > h3 + *,
+.flow > .h3 + *,
+.flow > h4 + *,
+.flow > .h4 + * {
     --flow-space: var(--fi-space-fluid-s);
 }
 
@@ -1523,5 +1526,21 @@ li img.print {
     .two-by-two > *:last-child {
         align-self: flex-start;
         justify-items: flex-start;
+    }
+}
+
+@media (width >= 60rem) {
+    .factors-list {
+        columns: 2;
+    }
+
+    .yes-maybe-no li svg {
+        height: 42px;
+        width: 42px;
+    }
+
+    .yes-maybe-no li {
+        margin-left: 62px;
+        text-indent: -62px;
     }
 }
