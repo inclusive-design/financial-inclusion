@@ -2,11 +2,4 @@
 
 ## Usage
 
-### Building Site
-
-```bash
-npm ci
-npm run build
-```
-
-The rendered PDF will be found in `_site/assets/guidebook-for-financial-inclusion.pdf`.
+See the [wiki](https://github.com/inclusive-design/financial-inclusion/wiki).
