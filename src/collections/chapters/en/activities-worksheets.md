@@ -43,7 +43,7 @@ You can do this with your team that works on a specific product or service–lik
    - Social aid status
    {.factors-list}
 
-3. Print out the "slices" for each of your factors<span class="web"> (see [file](/en/download))</span>.
+3. Print out the "slices" for each of your factors<span class="web"> (see [file](/en/downloads))</span>.
 4. For each factor, mark down which groups of customers your offering can serve without barriers:
 
    - {% includeSvg "yes", "" %} Can access your offering
@@ -119,7 +119,7 @@ Offering: RRSP{.diagram .color-red-600}
 
 #### **Gap Mapping:** Worksheet{.worksheet-title .page-break-before-always}
 
-Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.web}
+Download a printable worksheet as part of the [PDF guidebook](/en/downloads/).{.web}
 
 <div class="print flow">
 

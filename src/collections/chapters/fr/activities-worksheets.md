@@ -119,7 +119,7 @@ Offre : REER{.diagram .color-red-600}
 
 #### **Cartographie des écarts** : feuille de travail{.worksheet-title}
 
-Téléchargez une feuille de travail imprimable dans le cadre du [guide PDF](/fr/telechargez/).{.web}
+Téléchargez une feuille de travail imprimable dans le cadre du [guide PDF](/fr/telechargements/).{.web}
 
 <div class="print flow">
 
