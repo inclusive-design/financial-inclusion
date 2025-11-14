@@ -23,7 +23,7 @@ Cette activité peut se faire avec l’équipe responsable d’un produit ou d�
 <div class="instructions">
 
 1. Choisissez un produit ou un service offert par votre institution.
-2. Examinez les facteurs systémiques et environnementaux présentés dans la Roue de la stabilité financière. Repérez les facteurs qui pourraient limiter l’accès de vos client·e·s à votre produit ou à votre service.  
+2. Examinez les facteurs systémiques et environnementaux présentés dans la Roue de la stabilité financière. Repérez les facteurs qui pourraient limiter l’accès de vos client·e·s à votre produit ou à votre service.
 
    Gardez en tête que les obstacles peuvent être de différents types :
 
@@ -119,69 +119,13 @@ Offre : REER{.diagram .color-red-600}
 
 #### **Cartographie des écarts** : feuille de travail{.worksheet-title}
 
-Téléchargez une feuille de travail imprimable dans le cadre du [guide PDF](/fr/telechargez/).{.web} 
+Téléchargez une feuille de travail imprimable dans le cadre du [guide PDF](/fr/telechargez/).{.web}
 
 <div class="print flow">
 
 ##### Offre:
 
 <img src="/assets/images/gap-mapping-fillable-fr.svg" width="1019" height="1015" alt="{% __ 'fillable-gap-map' %}" />
-
-##### Lieu de résidence
-
-- **Impact minimal :** milieux urbains et suburbains
-- **Impact modéré :** milieux ruraux
-- **Impact maximal :** régions éloignées
-{.yes-maybe-no .fillable}
-
-##### Stigmatisation et préjugés
-
-- **Impact minimal :** apparence semblable à celle de la majorité
-- **Impact modéré :** apparence visiblement différente de celle de la majorité
-- **Impact maximal :** apparence associée à une situation d’itinérance, à une crise de santé mentale ou à un handicap apparent
-{.yes-maybe-no .fillable}
-
-##### Politiques d’aide sociale
-
-- **Impact minimal :** ne pas avoir besoin d’aide sociale
-- **Impact modéré :** être admissible, mais avec un revenu plafonné
-- **Impact maximal :** ne pas être admissible en raison d’un revenu fluctuant, d’obstacles à la demande ou d’une union de fait
-{.yes-maybe-no .fillable}
-
-##### Coût de la vie
-
-- **Impact minimal :** revenu suffisant, avec un peu de marge
-- **Impact modéré :** vivre d’un chèque de paie à l’autre, sans pouvoir épargner
-- **Impact maximal :** dépendre de l’aide sociale ou disposer d’un revenu très limité
-{.yes-maybe-no .fillable}
-
-##### Mesures d’adaptation en emploi
-
-- **Impact minimal :** pleinement accommodé·e
-- **Impact modéré :** accommodé·e partiellement
-- **Impact maximal :** non accommodé·e
-{.yes-maybe-no .fillable}
-
-##### Événements imprévus
-
-- **Impact minimal :** avoir accès à du soutien, à des fonds ou à un revenu
-- **Impact modéré :** disposer d’un certain soutien communautaire ou familial, d’un fonds d’urgence ou d’un revenu
-- **Impact maximal :** absence de réseau communautaire ou familial, de revenu ou de fonds d’urgence
-{.yes-maybe-no .fillable}
-
-##### Langue
-
-- **Impact minimal :** maîtrise couramment l’anglais ou le français
-- **Impact modéré :** maîtrise partiellement l’anglais ou le français
-- **Impact maximal :** ne maîtrise ni l’anglais ni le français
-{.yes-maybe-no .fillable}
-
-##### Statut d’immigration
-
-- **Impact minimal :** citoyen·ne ou résident·e permanent·e
-- **Impact modéré :** titulaire d’un visa temporaire (études, travail)
-- **Impact maximal :** réfugié·e ou personne sans statut légal
-{.yes-maybe-no .fillable}
 
 </div>
 
