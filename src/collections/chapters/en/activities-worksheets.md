@@ -23,7 +23,7 @@ You can do this with your team that works on a specific product or service–lik
 <div class="instructions">
 
 1. Pick one offering that your institution provides.
-2. Look at the systemic and environmental factors in the Wheel of Financial Stability. Select the factors that may create barriers for your customers to what you are offering.  
+2. Look at the systemic and environmental factors in the Wheel of Financial Stability. Select the factors that may create barriers for your customers to what you are offering.
 
    Keep in mind that barriers may be:
 
@@ -33,7 +33,7 @@ You can do this with your team that works on a specific product or service–lik
 
    **Societal:** Do others (tellers, advisors, even family and social networks) perceive that this offering is for your customers?
 
-   - Language 
+   - Language
    - Immigration status
    - Where they live
    - Employment status and accommodations
@@ -43,7 +43,7 @@ You can do this with your team that works on a specific product or service–lik
    - Social aid status
    {.factors-list}
 
-3. Print out the "slices" for each of your factors<span class="web"> (see [file](/en/download))</span>.
+3. Print out the "slices" for each of your factors<span class="web"> (see [file](/en/downloads))</span>.
 4. For each factor, mark down which groups of customers your offering can serve without barriers:
 
    - {% includeSvg "yes", "" %} Can access your offering
@@ -57,7 +57,7 @@ You can do this with your team that works on a specific product or service–lik
 
 #### **Gap Mapping:** Example {.example .page-break-before-always}
 
-Offering: RRSP{.diagram .color-red-600}
+Offering: RRSP{.worksheet .diagram .color-red-600}
 
 {% includeSvg "gap-mapping-example", translations[lang]['example-gap-map'], "desktop-only" %}
 
@@ -119,7 +119,7 @@ Offering: RRSP{.diagram .color-red-600}
 
 #### **Gap Mapping:** Worksheet{.worksheet-title .page-break-before-always}
 
-Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.web} 
+Download a printable worksheet as part of the [PDF guidebook](/en/downloads/).{.web}
 
 <div class="print flow">
 
@@ -136,33 +136,33 @@ Download a printable worksheet as part of the [PDF guidebook](/en/download/).{.w
 1. {% includeSvg "connect-the-checkmarks", translations[lang]["connect-the-checkmarks"], "wheel" %}
 
    <div class="flow">
-   
+
    **Connect the checkmarks**
 
    By connecting the checkmarks on each “slice” or factor, you can begin to see how inclusive the offering is: the larger the area, the more inclusive your offering, and the better it is at meeting the needs of edge users.
-   
+
    </div>
 
 2. {% includeSvg "connect-the-question-marks", translations[lang]["connect-the-question-marks"], "wheel" %}
 
    <div class="flow">
-   
+
    **Connect the question marks**
 
    By connecting the question marks, you can begin to see where customers may not be able to access your offering.
-   
+
    </div>
 
 3. {% includeSvg "notice-the-gap", translations[lang]["notice-the-gap"], "wheel" %}
 
    <div class="flow">
-   
+
    **Notice your gap and brainstorm**
 
    The area outside of your shape represents the needs your offering is not able to meet.
 
    **To make your product more inclusive, brainstorm how you could stretch further to the edges.**
-   
+
    </div>
 
 </div>
@@ -206,9 +206,9 @@ A cross-functional team across the organization, like at a design charette or co
 
 #### **Edge User Deep Dive:** Worksheet{.worksheet-title .page-break-before-always}
 
-Can <span class="placeholder"></span> … {.diagram .color-red-600}
+Can <span class="placeholder"></span> … {.worksheet .diagram .color-green-500}
 
-(edge user group){.placeholder-caption .diagram .color-red-600}
+(edge user group){.placeholder-caption .worksheet .diagram .color-green-500}
 
 <div class="two-column deep-dive-list">
 
@@ -257,4 +257,3 @@ Now that barriers and ideas have been identified, it's time to focus on what you
 - What can't I/we change?
 - What can I/we influence?
 - What can I/we change?
-

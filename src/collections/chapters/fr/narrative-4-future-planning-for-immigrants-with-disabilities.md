@@ -103,7 +103,7 @@ Voici quelques exemples pour stimuler la réflexion sur la façon de mieux servi
 
 <div class="two-by-two-wrapper">
 
-Impact à long terme {.diagram .desktop-only}
+Impact à long terme {.diagram .align-center .desktop-only}
 
 effort moindre {.diagram .desktop-only .pull-left}
 
@@ -169,7 +169,7 @@ Offrir de la formation au personnel et aux conseiller·ère·s sur les mesures d
 
 </div>
 
-Impact plus rapide {.diagram .desktop-only}
+Impact plus rapide {.diagram .align-center .desktop-only}
 
 </div>
 

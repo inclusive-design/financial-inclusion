@@ -123,7 +123,7 @@ Voici quelques exemples pour stimuler la réflexion sur les façons de mieux sou
 
 <div class="two-by-two-wrapper">
 
-Impact à long terme {.diagram .desktop-only}
+Impact à long terme {.diagram .align-center .desktop-only}
 
 effort moindre {.diagram .desktop-only .pull-left}
 
@@ -197,7 +197,7 @@ Collaborer avec une communauté diversifiée et intersectionnelle de personnes e
 
 </div>
 
-Impact plus rapide {.diagram .desktop-only}
+Impact plus rapide {.diagram .align-center .desktop-only}
 
 </div>
 
