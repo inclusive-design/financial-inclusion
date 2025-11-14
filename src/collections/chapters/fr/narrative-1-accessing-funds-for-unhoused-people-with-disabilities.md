@@ -129,7 +129,7 @@ Voici quelques exemples pour inspirer des idées visant à mieux servir des clie
 
 <div class="two-by-two-wrapper">
 
-Impact à long terme {.diagram .desktop-only}
+Impact à long terme {.diagram .align-center .desktop-only}
 
 effort moindre {.diagram .desktop-only .pull-left}
 
@@ -205,7 +205,7 @@ Envisager d’autres moyens d’accéder à un compte que la carte bancaire ou l
 
 </div>
 
-Impact plus rapide {.diagram .desktop-only}
+Impact plus rapide {.diagram .align-center .desktop-only}
 
 </div>
 

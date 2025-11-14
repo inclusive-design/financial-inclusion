@@ -673,7 +673,7 @@ a:visited {
 }
 
 .card + .card {
-    margin-top: var(--fi-space-l);
+    margin-top: 1rem;
 }
 
 .center {
