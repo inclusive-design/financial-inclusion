@@ -81,7 +81,7 @@ Althea a besoin d’argent comptant pour acheter ses médicaments contre le diab
 
 <img src="/assets/images/journey-map-narrative-2-print-page-1.svg" class="print journey-map-page-1 narrative-2" width="151" height="479" />
 
-<div class="journey-map narrative-2 narrative-2-fr">
+<div class="journey-map narrative-2 narrative-fr">
 
 {% includeSvg "journey-map-narrative-2", translations[lang]["journey-map"], null, false %}
 

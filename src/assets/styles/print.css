@@ -629,8 +629,13 @@ li svg.web {
     position: relative;
 }
 
-.journey-map.narrative-1-fr .scenario {
-    top: -48pt;
+.journey-map.narrative-fr .usual h5 {
+    position: relative;
+    top: -15pt;
+}
+
+.journey-map.narrative-1.narrative-fr .scenario {
+    top: -55pt;
 }
 
 .journey-map.narrative-1 li {
@@ -690,8 +695,8 @@ li svg.web {
     width: 182pt;
 }
 
-.journey-map.narrative-2-fr .scenario {
-    top: -47pt;
+.journey-map.narrative-2.narrative-fr .scenario {
+    top: -55pt;
 }
 
 .journey-map.narrative-2 .scenario li:first-child {
@@ -744,7 +749,7 @@ li svg.web {
 }
 
 .journey-map-page-1.narrative-3-fr {
-    top: 291pt;
+    top: 296pt;
 }
 
 .journey-map.narrative-3 li {
@@ -801,7 +806,7 @@ li svg.web {
 }
 
 .journey-map-page-1.narrative-4-fr {
-    top: 279pt;
+    top: 284pt;
 }
 
 .journey-map.narrative-4 li {

@@ -87,7 +87,7 @@ James essaie de retirer une partie de ses économies pour acheter un téléphone
 
 <img alt="" role="presentation" src="/assets/images/journey-map-narrative-1-print-page-1.svg" class="print journey-map-page-1 narrative-1" width="151" height="479" />
 
-<div class="journey-map narrative-1 narrative-1-fr">
+<div class="journey-map narrative-1 narrative-fr">
 
 {% includeSvg "journey-map-narrative-1", translations[lang]["journey-map"], null, false %}
 
