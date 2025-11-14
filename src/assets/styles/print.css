@@ -497,7 +497,7 @@ h6 {
 .chapter h2 + *,
 .chapter[data-chapter="1"] h3 {
     break-before: page;
-    margin-top: 2.325in;
+    margin-top: 2in;
 }
 
 .chapter hr + h3,

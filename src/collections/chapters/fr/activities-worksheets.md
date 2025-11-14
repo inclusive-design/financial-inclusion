@@ -172,7 +172,7 @@ Pour observer comment votre offre répond – ou ne répond pas – aux besoins 
 
 {% includeSvg "visualizing-gaps-fr", translations[lang]["visualizing-gaps"] %}{.visualizing-gaps}
 
-### Activité 2 : Analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité
+### Activité 2 : Analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité {.page-break-before-always}
 
 #### Objectif de l’activité
 
@@ -191,9 +191,11 @@ Une équipe interfonctionnelle de l’organisation, réunie par exemple dans le 
 
 </div>
 
-#### Feuille de travail : **analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité**{.worksheet-title}
+#### Feuille de travail : **analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité** {.worksheet-title .page-break-before-always}
 
-Les utilisateur·trice·s en situation de vulnérabilité ont-iels la possibilité de…
+Les <span class="placeholder"></span> ont-iels la possibilité de… {.diagram .color-green-500}
+
+(utilisateur·trice·s en situation de vulnérabilité){.placeholder-caption .diagram .color-green-500}
 
 <div class="two-column deep-dive-list">
 
@@ -214,7 +216,7 @@ Les utilisateur·trice·s en situation de vulnérabilité ont-iels la possibilit
 
 </div>
 
-#### Activité bonus : Cercles de contrôle
+#### Activité bonus : Cercles de contrôle {.page-break-before-always}
 
 Maintenant que les obstacles sont identifiés, il est temps de vous concentrer sur ce que vous pouvez réellement changer. Les cercles de contrôle vous aideront à préciser ce que vous et votre équipe pouvez modifier et ce qui échappe à votre portée, pour ainsi concentrer vos efforts et votre énergie là où ils auront le plus d’impact.
 
@@ -233,7 +235,7 @@ Maintenant que les obstacles sont identifiés, il est temps de vous concentrer s
 
 </div>
 
-#### **Cercles de contrôle :** feuille de travail{.worksheet-title}
+#### **Cercles de contrôle :** feuille de travail {.worksheet-title .page-break-before-always}
 
 Maintenant que les obstacles et les idées sont identifiés, il est temps de vous concentrer sur ce que vous pouvez réellement changer. Les cercles de contrôle vous aideront à préciser ce que vous et votre équipe pouvez modifier et ce qui échappe à votre portée, pour ainsi concentrer vos efforts et votre énergie là où ils auront le plus d’impact.
 

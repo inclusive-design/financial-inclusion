@@ -634,8 +634,8 @@ a:visited {
     text-align: center;
 }
 
-.color-red-600 {
-    color: var(--fl-fgColor, var(--fi-color-red-600));
+.color-green-500 {
+    color: var(--fl-fgColor, var(--fi-color-green-500));
 }
 
 .card {
@@ -795,6 +795,10 @@ a:visited {
     margin-top: var(--fi-space-2xl);
 }
 
+.factors-list li {
+    break-inside: avoid-column;
+}
+
 .instructions ol ul {
     margin-left: 0;
 }
@@ -905,15 +909,21 @@ p + ol {
     margin-top: var(--fi-spacing-2000);
 }
 
+p:has(.placeholder) {
+    display: flex;
+}
+
 span.placeholder {
-    border-bottom: 2px solid var(--fl-fgColor, var(--fi-color-red-600));
+    border-bottom: 2px solid var(--fl-fgColor, var(--fi-color-green-500));
     display: inline-block;
+    flex-grow: 1;
     margin-left: 1ch;
     margin-right: 1ch;
     text-decoration: underline;
-    width: 14em;
+    width: auto;
 }
 
 .placeholder-caption {
     margin-left: 4rem;
+    margin-top: 0.5em;
 }
