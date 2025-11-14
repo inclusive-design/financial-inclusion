@@ -630,6 +630,10 @@ a:visited {
     line-height: 1.2;
 }
 
+.diagram.worksheet {
+    font-size: var(--step-0);
+}
+
 .align-center {
     text-align: center;
 }
