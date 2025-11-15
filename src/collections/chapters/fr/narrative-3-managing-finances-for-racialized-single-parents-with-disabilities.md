@@ -72,7 +72,7 @@ Son agente d’intégration des immigrants lui recommande d’ouvrir un compte d
 
 <img src="/assets/images/journey-map-narrative-3-print-page-1.svg" class="print journey-map-page-1 narrative-3 narrative-3-fr" width="151" height="479" />
 
-<div class="journey-map narrative-3">
+<div class="journey-map narrative-3 narrative-fr">
 
 {% includeSvg "journey-map-narrative-3", translations[lang]["journey-map"], null, false %}
 

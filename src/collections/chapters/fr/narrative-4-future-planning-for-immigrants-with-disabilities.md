@@ -61,7 +61,7 @@ Souhaitant explorer différentes options financières pour assurer l’avenir de
 
 <img src="/assets/images/journey-map-narrative-4-print-page-1.svg" class="print journey-map-page-1 narrative-4 narrative-4-fr" width="151" height="479" />
 
-<div class="journey-map narrative-4">
+<div class="journey-map narrative-4 narrative-fr">
 
 {% includeSvg "journey-map-narrative-4", translations[lang]["journey-map"], null, false %}
 
