@@ -1,7 +1,7 @@
 ---
 uuid: dd591d97-c496-458a-bc47-73c08aedad31
 title: 'Récit 2 : Accès aux services bancaires pour les aîné·e·s autochtones vivant en région éloignée et en situation de handicap'
-shortTitle: Récit 2
+shortTitle: 'Récit 2: Althea'
 nav: true
 type: narrative
 order: 6

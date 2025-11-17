@@ -1,7 +1,7 @@
 ---
 uuid: ca63a0bc-27d1-42cd-9179-8db396857f53
 title: 'Récit 3 : Gestion financière pour des parents monoparentaux racisés en situation de handicap'
-shortTitle: Récit 3
+shortTitle: 'Récit 3: Lakshmi'
 nav: true
 type: narrative
 order: 7

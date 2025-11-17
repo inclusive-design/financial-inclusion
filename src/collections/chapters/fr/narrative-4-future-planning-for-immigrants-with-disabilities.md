@@ -1,7 +1,7 @@
 ---
 uuid: 3f2832ee-30fd-4779-943f-a7bf6cd98431
 title: 'Récit 4 : Planification de l’avenir pour les personnes immigrantes en situation de handicap'
-shortTitle: Récit 4
+shortTitle: 'Récit 4: Ki'
 nav: true
 type: narrative
 order: 8

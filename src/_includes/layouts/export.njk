@@ -126,7 +126,7 @@
     {% for chapter in collections['chapters-' + lang] %}
     <div class="chapter {{ chapter.data.type }} flow" data-chapter="{{ loop.index }}">
         {% if chapter.data.type === 'narrative' %}
-        <div class="hidden-title">{{ chapter.data.title | renderContent("md") | striptags }}</div>
+        <div class="hidden-title">{{ chapter.data.shortTitle }}</div>
         {% set pieces = chapter.data.title | split(': ') %}
         <h2 data-narrative><span class="surtitle">{{ pieces[0] }}</span> {{ pieces[1] | renderContent('md') | replace('<p>', '') | replace('</p>', '') | safe }}</h2>
         {% else %}

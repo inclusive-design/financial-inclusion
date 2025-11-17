@@ -1,7 +1,7 @@
 ---
 uuid: 580d820d-8998-4de6-91ec-a81e60dacc89
 title: 'Narrative 1: **Accessing funds for unhoused people** with disabilities'
-shortTitle: Narrative 1
+shortTitle: 'Narrative 1: James'
 nav: true
 type: narrative
 order: 5

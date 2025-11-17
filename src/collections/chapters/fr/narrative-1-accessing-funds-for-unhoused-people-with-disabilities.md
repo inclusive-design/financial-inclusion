@@ -1,7 +1,7 @@
 ---
 uuid: 580d820d-8998-4de6-91ec-a81e60dacc89
 title: 'Récit 1 : Accès aux fonds pour les personnes handicapées en situation d’itinérance'
-shortTitle: Récit 1
+shortTitle: 'Récit 1: James'
 nav: true
 type: narrative
 order: 5
