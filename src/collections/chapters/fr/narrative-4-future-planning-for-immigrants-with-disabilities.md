@@ -107,7 +107,7 @@ Impact à long terme {.diagram .align-center .desktop-only}
 
 effort moindre {.diagram .desktop-only .pull-left}
 
-effort plus important {.diagram .desktop-only .pull-right}
+effort plus important {.diagram .desktop-only .align-center .pull-right}
 
 <div class="two-by-two">
 
