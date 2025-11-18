@@ -1,7 +1,7 @@
 ---
 uuid: dd591d97-c496-458a-bc47-73c08aedad31
 title: 'Récit 2 : Accès aux services bancaires pour les aîné·e·s autochtones vivant en région éloignée et en situation de handicap'
-shortTitle: Récit 2
+shortTitle: 'Récit 2: Althea'
 nav: true
 type: narrative
 order: 6
@@ -32,7 +32,7 @@ Elle reçoit des prestations dans le cadre du programme provincial de soutien au
 
 Vivre dans une collectivité nordique isolée signifie que tout coûte plus cher : les produits d’épicerie, les commandes en ligne (dont les frais de livraison sont élevés) et les déplacements pour des rendez-vous médicaux, de plus en plus fréquents à mesure qu’elle vieillit. Le coût de ces déplacements peut équivaloir à celui d’un billet d’avion vers une province du Sud. Avec l’âge, Althea s’inquiète de ne plus pouvoir suivre le rythme, d’autant plus que le montant des prestations d’invalidité demeure inchangé.
 
-{% includeSvg 'wheel-narrative-2.svg', translations[lang]['wheel-narrative-2'], 'full' %}
+{% includeSvg 'wheel-narrative-2-fr.svg', translations[lang]['wheel-narrative-2'], 'full' %}
 
 ### Obstacles à l’accès aux institutions financières
 
@@ -40,7 +40,7 @@ Althea reçoit sa pension et ses prestations d’invalidité par dépôt direct,
 
 Parce qu’Althea dépend des gens de sa communauté, elle a souvent peur qu’on profite d’elle. Et si quelqu’un ne lui remettait pas tout l’argent qu’elle retire du guichet automatique? Et si la personne à la caisse qui l’aide à compter son argent en profitait pour garder un peu plus qu’elle ne devrait? Et si le chauffeur de taxi lui faisait payer davantage que le coût réel du trajet? Et si quelqu’un qui connaît son NIP s’en servait à son insu?
 
-#### Points d’accès aux services financiers {.barrier-title}
+#### Points d’accès aux **services financiers** {.barrier-title}
 
 <div class="two-column flexible barrier">
 
@@ -56,7 +56,7 @@ Parce qu’Althea dépend des gens de sa communauté, elle a souvent peur qu’o
 
 </div>
 
-#### Accès aux **transactions financières de base**{.barrier-title}
+#### Accès aux **transactions financières de base** {.barrier-title}
 
 <div class="two-column flexible barrier">
 
@@ -127,7 +127,7 @@ Impact à long terme {.diagram .align-center .desktop-only}
 
 effort moindre {.diagram .desktop-only .pull-left}
 
-effort plus important {.diagram .desktop-only .pull-right}
+effort plus important {.diagram .desktop-only .align-center .pull-right}
 
 <div class="two-by-two">
 

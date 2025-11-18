@@ -1,7 +1,7 @@
 ---
 uuid: dd591d97-c496-458a-bc47-73c08aedad31
 title: 'Narrative 2: **Going to the bank for remote Indigenous seniors** with disabilities'
-shortTitle: Narrative 2
+shortTitle: 'Narrative 2: Althea'
 nav: true
 type: narrative
 order: 6

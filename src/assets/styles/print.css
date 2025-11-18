@@ -869,7 +869,11 @@ li svg.web {
 }
 
 .deep-dive-list > *:first-child {
-    width: 100%;
+    width: 80%;
+}
+
+.deep-dive-list > *:last-child {
+    width: 0;
 }
 
 .two-by-two-wrapper {

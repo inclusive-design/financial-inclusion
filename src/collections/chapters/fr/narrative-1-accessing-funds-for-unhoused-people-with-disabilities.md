@@ -1,7 +1,7 @@
 ---
 uuid: 580d820d-8998-4de6-91ec-a81e60dacc89
 title: 'Récit 1 : Accès aux fonds pour les personnes handicapées en situation d’itinérance'
-shortTitle: Récit 1
+shortTitle: 'Récit 1: James'
 nav: true
 type: narrative
 order: 5
@@ -10,7 +10,7 @@ backgroundImage: /assets/uploads/narrative-1.jpg
 introduction: |-
   ### Données de recherche
 
-  * Chaque année, environ 235 000 personnes au Canada vivent une situation d’itinérance. (Dionne et al., 2023)
+  * Chaque année, environ 235 000 personnes au Canada vivent une situation d’itinérance. (Dionne et al., 2023)
   * Une personne sur dix au Canada a déjà vécu une forme d’itinérance cachée, c’est-à-dire le fait d’habiter temporairement chez des ami·e·s ou des proches, de dormir sur un canapé ou encore dans une voiture. (Ali, 2018)
   * Avoir deux limitations fonctionnelles ou plus est fortement associé à une situation d’itinérance cachée. (Ali, 2018)
   * Les personnes au Canada qui prennent des antidépresseurs ou d’autres médicaments similaires sont deux fois plus susceptibles de vivre une forme d’itinérance cachée. (Ali, 2018)
@@ -38,7 +38,7 @@ En raison des rechutes liées à sa dépression, James a de la difficulté à co
 
 Grâce aux services sociaux, James reçoit maintenant des prestations d’invalidité. Toutefois, lorsqu’il est en mesure de travailler, il doit surveiller de près ses revenus pour éviter de dépasser le plafond de gains qui pourrait compromettre son admissibilité. Ce plafond très bas le décourage de travailler davantage, même lorsqu’il en a la capacité, et rend quasiment impossible l’accumulation d’économies réelles.
 
-{% includeSvg 'wheel-narrative-1.svg', translations[lang]['wheel-narrative-1'], 'full' %}
+{% includeSvg 'wheel-narrative-1-fr.svg', translations[lang]['wheel-narrative-1'], 'full' %}
 
 ### Obstacles à l’accès aux institutions financières
 
@@ -131,9 +131,9 @@ Voici quelques exemples pour inspirer des idées visant à mieux servir des clie
 
 Impact à long terme {.diagram .align-center .desktop-only}
 
-effort moindre {.diagram .desktop-only .pull-left}
+effort moindre {.diagram .align-center .desktop-only .pull-left}
 
-effort plus important {.diagram .desktop-only .pull-right}
+effort plus important {.diagram .desktop-only .align-center .pull-right}
 
 <div class="two-by-two">
 

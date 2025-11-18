@@ -642,6 +642,10 @@ a:visited {
     color: var(--fl-fgColor, var(--fi-color-green-500));
 }
 
+.color-red-600 {
+    color: var(--fl-fgColor, var(--fi-color-red-600));
+}
+
 .card {
     background: var(--fl-bgColor, var(--fill));
     border: 1px solid var(--fl-fgColor, transparent);
@@ -691,6 +695,7 @@ a:visited {
     position: absolute;
     top: 40%;
     transform: rotate(-90deg);
+    transform-origin: bottom;
 }
 
 .pull-right {
@@ -698,6 +703,7 @@ a:visited {
     right: -1.5rem;
     top: 40%;
     transform: rotate(90deg);
+    transform-origin: bottom;
 }
 
 .can {

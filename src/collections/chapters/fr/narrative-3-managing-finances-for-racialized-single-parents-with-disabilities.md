@@ -1,7 +1,7 @@
 ---
 uuid: ca63a0bc-27d1-42cd-9179-8db396857f53
 title: 'Récit 3 : Gestion financière pour des parents monoparentaux racisés en situation de handicap'
-shortTitle: Récit 3
+shortTitle: 'Récit 3: Lakshmi'
 nav: true
 type: narrative
 order: 7
@@ -36,7 +36,7 @@ Même avec un loyer subventionné, Lakshmi éprouve des difficultés à couvrir 
 
 En tant que mère monoparentale racisée, Lakshmi ressent la pression de certains membres de sa famille et de sa communauté pour retourner vivre avec son ex-mari, malgré la relation nocive qu’elle a quittée.
 
-{% includeSvg 'wheel-narrative-3.svg', translations[lang]['wheel-narrative-3'], 'full' %}
+{% includeSvg 'wheel-narrative-3-fr.svg', translations[lang]['wheel-narrative-3'], 'full' %}
 
 ### Obstacles à l’accès aux institutions financières
 
@@ -54,7 +54,7 @@ Pendant ce temps, certaines personnes de sa communauté la mettent en garde cont
 
 <div class="flow">
 
-- **Les soi-disant « bases » de l’éducation financière ne sont pas si élémentaires :** Lakshmi doit apprendre à distinguer les différents types de comptes bancaires, à payer ses factures, à faire la différence entre un besoin et un désir, et à maîtriser les notions essentielles de la gestion de l’argent.
+- **Les soi-disant « bases » de l’éducation financière ne sont pas si élémentaires :** Lakshmi doit apprendre à distinguer les différents types de comptes bancaires, à payer ses factures, à faire la différence entre un besoin et un désir, et à maîtriser les notions essentielles de la gestion de l’argent.
 - **Éducation financière difficile d’accès :** plusieurs ressources sont rédigées dans un langage trop général, sans approche ne tenant compte des traumatismes ni de la diversité culturelle.
 - **Langage complexe et technique:** les documents financiers sont souvent remplis de jargon, ce qui les rend difficiles à comprendre sans connaissance préalable.
 
@@ -118,7 +118,7 @@ Impact à long terme {.diagram .align-center .desktop-only}
 
 effort moindre {.diagram .desktop-only .pull-left}
 
-effort plus important {.diagram .desktop-only .pull-right}
+effort plus important {.diagram .desktop-only .align-center .pull-right}
 
 <div class="two-by-two">
 
