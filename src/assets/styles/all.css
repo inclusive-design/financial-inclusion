@@ -642,6 +642,10 @@ a:visited {
     color: var(--fl-fgColor, var(--fi-color-green-500));
 }
 
+.color-red-600 {
+    color: var(--fl-fgColor, var(--fi-color-red-600));
+}
+
 .card {
     background: var(--fl-bgColor, var(--fill));
     border: 1px solid var(--fl-fgColor, transparent);

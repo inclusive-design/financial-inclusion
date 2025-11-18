@@ -55,7 +55,7 @@ Cette activité peut se faire avec l’équipe responsable d’un produit ou d�
 
 </div>
 
-#### **Cartographie des écarts:** exemple {.example}
+#### **Cartographie des écarts:** exemple {.example .page-break-before-always}
 
 Offre : REER{.worksheet .diagram .color-red-600}
 
