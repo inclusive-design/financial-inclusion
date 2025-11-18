@@ -40,7 +40,7 @@ Althea reçoit sa pension et ses prestations d’invalidité par dépôt direct,
 
 Parce qu’Althea dépend des gens de sa communauté, elle a souvent peur qu’on profite d’elle. Et si quelqu’un ne lui remettait pas tout l’argent qu’elle retire du guichet automatique? Et si la personne à la caisse qui l’aide à compter son argent en profitait pour garder un peu plus qu’elle ne devrait? Et si le chauffeur de taxi lui faisait payer davantage que le coût réel du trajet? Et si quelqu’un qui connaît son NIP s’en servait à son insu?
 
-#### Points d’accès aux services financiers {.barrier-title}
+#### Points d’accès aux **services financiers** {.barrier-title}
 
 <div class="two-column flexible barrier">
 
@@ -56,7 +56,7 @@ Parce qu’Althea dépend des gens de sa communauté, elle a souvent peur qu’o
 
 </div>
 
-#### Accès aux **transactions financières de base**{.barrier-title}
+#### Accès aux **transactions financières de base** {.barrier-title}
 
 <div class="two-column flexible barrier">
 

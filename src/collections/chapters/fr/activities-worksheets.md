@@ -133,25 +133,38 @@ Téléchargez une feuille de travail imprimable dans le cadre du [guide PDF](/fr
 
 <div class="instructions">
 
-{% includeSvg "connect-the-checkmarks", translations[lang]["connect-the-checkmarks"] %}
+1. {% includeSvg "connect-the-checkmarks", translations[lang]["connect-the-checkmarks"], "wheel" %}
 
-1. **Reliez les coches**
+   <div class="flow">
+  
+   **Reliez les coches**
 
    En reliant les coches vertes sur chaque partie ou facteur, vous verrez à quel point votre offre est inclusive : plus la zone est grande, plus votre offre est inclusive et mieux elle répond aux besoins des utilisateur·trice·s en situation de vulnérabilité.
+  
+   </div>
 
-{% includeSvg "connect-the-question-marks", translations[lang]["connect-the-question-marks"] %}
+2. {% includeSvg "connect-the-question-marks", translations[lang]["connect-the-question-marks"], "wheel" %}
 
-2. **Reliez les points d'interrogation**
+   <div class="flow">
+
+   **Reliez les points d'interrogation**
 
    En reliant les points d’interrogation jaunes, vous pouvez voir dans quels cas certain·e·s client·e·s risquent de ne pas pouvoir accéder à votre offre.
 
-{% includeSvg "notice-the-gap", translations[lang]["notice-the-gap"] %}
+   </div>
 
-3. **Prenez note de votre écart et réfléchissez-y**
+3. {% includeSvg "notice-the-gap", translations[lang]["notice-the-gap"], "wheel" %}
+
+   <div class="flow">
+
+   **Prenez note de votre écart et réfléchissez-y**
 
    La zone située à l’extérieur de la forme représente les besoins que votre offre ne peut pas combler.
 
    **Pour rendre votre produit plus inclusif, réfléchissez à des façons d’étendre votre portée jusqu’aux marges.**
+
+   </div>
+
 </div>
 
 ##### Explorer plus en profondeur les écarts
