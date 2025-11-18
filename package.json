@@ -9,7 +9,7 @@
     "build:eleventy": "cross-env NODE_ENV=production eleventy",
     "build:pdf": "node bin/render-pdf.js",
     "build:pdf:local": "node bin/render-pdf.js local",
-    "render:pdf": "build:pdf",
+    "render:pdf": "npm run build:pdf",
     "render:pdf:local": "start-server-and-test start http://localhost:8080/en/export/index.html build:pdf:local",
     "clean": "rimraf _site",
     "debug": "cross-env DEBUG=Eleventy* eleventy",
