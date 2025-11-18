@@ -30,7 +30,7 @@ Ki envoyait régulièrement de l’argent à ses parents, qui dépendent de lui 
 
 Pendant un certain temps, la Prestation canadienne d’urgence (PCU) et les prestations d’assurance-emploi ont permis à la famille de joindre les deux bouts. Ces programmes étant maintenant terminés, le salaire de Tan comme infirmière couvre à peine leurs dépenses. Ses revenus dépassent légèrement le seuil d’admissibilité au programme provincial d’invalidité, ce qui fait que Ki n’a pas droit au soutien. Pourtant, ils ont de la difficulté à couvrir les besoins essentiels, comme les médicaments ou la physiothérapie.
 
-{% includeSvg 'wheel-narrative-4.svg', translations[lang]['wheel-narrative-4'], 'full' %}
+{% includeSvg 'wheel-narrative-4-fr.svg', translations[lang]['wheel-narrative-4'], 'full' %}
 
 ### Obstacles à l’accès aux institutions financières
 

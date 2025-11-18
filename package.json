@@ -62,7 +62,8 @@
     "rimraf": "^6.0.0",
     "start-server-and-test": "^2.1.2",
     "stylelint": "^14.0.0",
-    "stylelint-config-fluid": "^1.0.0"
+    "stylelint-config-fluid": "^1.0.0",
+    "svgo": "^4.0.0"
   },
   "lint-staged": {
     "*.css": [

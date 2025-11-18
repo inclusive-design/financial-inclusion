@@ -43,7 +43,7 @@ Cette activité peut se faire avec l’équipe responsable d’un produit ou d�
    - Statut d’aide sociale
    {.factors-list}
 
-3. Imprimez les « parties » correspondant à chacun des facteurs que vous avez choisis<span class="web"> (voir le [fichier](/fr/telechargez))</span>.
+3. Imprimez les « parties » correspondant à chacun des facteurs que vous avez choisis<span class="web"> (voir le [fichier](/fr/telechargez))</span>.
 4. Pour chaque facteur, notez quels groupes de client·e·s peuvent accéder à votre offre sans obstacle.
 
    - {% includeSvg "yes", "" %} Peuvent accéder à votre offre

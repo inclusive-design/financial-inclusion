@@ -56,7 +56,7 @@ Les avancées technologiques et les changements démographiques redéfinissent l
 
 ### Concevoir des systèmes financiers pour toutes et tous
 
-Le design inclusif ne vise pas à « corriger » les personnes, mais à transformer des systèmes qui n’ont pas été pensés pour tout le monde. Les services financiers influencent la vie quotidienne, et les rendre accessibles n’est pas facultatif : c’est essentiel.
+Le design inclusif ne vise pas à « corriger » les personnes, mais à transformer des systèmes qui n’ont pas été pensés pour tout le monde. Les services financiers influencent la vie quotidienne, et les rendre accessibles n’est pas facultatif : c’est essentiel.
 
 Il ne s’agit pas seulement d’une occasion d’affaires, mais d’une responsabilité. L’exclusion du système bancaire prive les personnes d’outils essentiels à leur stabilité et à leur participation sociale.
 

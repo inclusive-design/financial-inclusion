@@ -32,7 +32,7 @@ Elle reçoit des prestations dans le cadre du programme provincial de soutien au
 
 Vivre dans une collectivité nordique isolée signifie que tout coûte plus cher : les produits d’épicerie, les commandes en ligne (dont les frais de livraison sont élevés) et les déplacements pour des rendez-vous médicaux, de plus en plus fréquents à mesure qu’elle vieillit. Le coût de ces déplacements peut équivaloir à celui d’un billet d’avion vers une province du Sud. Avec l’âge, Althea s’inquiète de ne plus pouvoir suivre le rythme, d’autant plus que le montant des prestations d’invalidité demeure inchangé.
 
-{% includeSvg 'wheel-narrative-2.svg', translations[lang]['wheel-narrative-2'], 'full' %}
+{% includeSvg 'wheel-narrative-2-fr.svg', translations[lang]['wheel-narrative-2'], 'full' %}
 
 ### Obstacles à l’accès aux institutions financières
 
