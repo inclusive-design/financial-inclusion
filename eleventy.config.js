@@ -93,6 +93,44 @@ export default function eleventy(eleventyConfig) {
         terms: {
           templatePrefix: "/lib/infusion/src/framework/preferences/html",
           messagePrefix: "/lib/infusion/src/framework/preferences/messages"
+        },
+        "fluid.prefs.contrast": {
+          alias: "theme",
+          enactor: {
+            classes: {
+              "dark": "fl-theme-dark",
+              "light": "fl-theme-light"
+            }
+          },
+          panel: {
+            classnameMap: {
+              "theme": {
+                "dark": "fl-theme-dark",
+                "light": "fl-theme-light",
+              }
+            },
+            message: "/assets/messages/contrast.json"
+          }
+        }
+      },
+      primarySchema: {
+        "fluid.prefs.contrast": {
+          "type": "string",
+          "default": "default",
+          "enum": ["default", "dark", "light", "bw", "wb", "by", "yb", "lgdg", "gw", "gd", "bbr"],
+          "enumLabels": [
+            "contrast-default",
+            "contrast-dark",
+            "contrast-light",
+            "contrast-bw",
+            "contrast-wb",
+            "contrast-by",
+            "contrast-yb",
+            "contrast-lgdg",
+            "contrast-gw",
+            "contrast-gd",
+            "contrast-bbr"
+          ]
         }
       },
       prefsEditorLoader: {
@@ -183,6 +221,7 @@ export default function eleventy(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/assets/icons": "/" });
   eleventyConfig.addPassthroughCopy("src/assets/downloads");
+  eleventyConfig.addPassthroughCopy("src/assets/messages");
 
   eleventyConfig.addPlugin(IdAttributePlugin, {
     selector: 'h2,h3,h4,h5'
