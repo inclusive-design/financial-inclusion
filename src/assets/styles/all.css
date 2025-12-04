@@ -269,6 +269,9 @@
 
     /* Margin Padding */
     --fi-margin-padding: var(--fi-space-fluid-l-6xl);
+
+    /** Color Scheme **/
+    color-scheme: light dark;
 }
 
 /* Reset @see https://piccalil.li/blog/a-more-modern-css-reset/ */

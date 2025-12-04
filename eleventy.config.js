@@ -109,6 +109,20 @@ export default function eleventy(eleventyConfig) {
                 "light": "fl-theme-light",
               }
             },
+            markup: {
+              label: `
+                <span class="fl-hidden-accessible">%theme</span>
+                <svg class="fl-preview-A" aria-hidden="true" width="16" height="18" viewBox="0 0 8 9">
+                    <use href="#preview-a" />
+                </svg>
+                <svg class="fl-preview-light" aria-hidden="true" fill="none" viewBox="0 0 256 256" stroke="currentColor" width="24" height="24">
+                    <use href="#preview-light" />
+                </svg>
+                <svg class="fl-preview-dark" aria-hidden="true" fill="none" viewBox="0 0 256 256" width="24" height="24">
+                    <use href="#preview-dark" />
+                </svg>
+                <div class="fl-crossout" aria-hidden="true"></div>`
+            },
             message: "/assets/messages/contrast.json"
           }
         }

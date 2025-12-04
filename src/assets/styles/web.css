@@ -319,8 +319,6 @@ a.standalone {
     }
 }
 
-/* TODO: UIO buttons */
-
 .header a {
     display: inline-block;
 }
@@ -342,6 +340,119 @@ a.standalone {
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+/* UIO styling */
+
+.fl-preview-A {
+    margin-block-start: 0.5rem;
+}
+
+.fl-preview-dark,
+.fl-preview-light {
+    margin-block-start: 0.3rem;
+    margin-inline-start: -0.1rem;
+}
+
+[class*="fl-theme"] .fl-prefsEditor .fl-choice label.fl-theme-dark {
+    background-color: var(--fi-color-neutral-800) !important;
+    border-color: var(--fi-color-neutral-75) !important;
+    color: var(--fi-color-neutral-75) !important;
+}
+
+[class*="fl-theme"] .fl-prefsEditor .fl-choice label.fl-theme-light {
+    background-color: var(--fi-color-white) !important;
+    border-color: var(--fi-color-neutral-800) !important;
+    color: var(--fi-color-neutral-800) !important;
+}
+
+.flc-prefsEditor-theme-label:not(.fl-theme-dark) .fl-preview-dark,
+.flc-prefsEditor-theme-label:not(.fl-theme-light) .fl-preview-light {
+    display: none;
+}
+
+.flc-prefsEditor-theme-label:where(.fl-theme-light, .fl-theme-dark) .fl-preview-A {
+    display: none;
+}
+
+.fl-blocking-theme {
+    color-scheme: light dark;
+}
+
+.fl-theme-dark,
+.fl-blocking-theme.fl-theme-dark {
+    color-scheme: dark;
+}
+
+.fl-theme-light,
+.fl-blocking-theme.fl-theme-light {
+    color-scheme: light;
+}
+
+[class*="fl-theme"]:not(.fl-theme-dark, .fl-theme-light, .fl-theme-prefsEditor-default) {
+    color-scheme: normal;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor {
+    background-color: var(--fl-bgColor, light-dark(#bcb5ad, var(--fi-color-neutral-800)));
+
+    .fl-prefsEditor-panel {
+        background-color: var(--fl-bgColor, light-dark(#fff, var(--fi-color-neutral-700)));
+        border-color: var(--fl-fgColor, light-dark(#615e59, transparent));
+        box-shadow: 2px 2px var(--fl-fgColor, light-dark(#7a766d, var(--fi-color-neutral-300)));
+        color: var(--fl-fgColor, light-dark(#5d5652, var(--fi-color-neutral-75)));
+    }
+
+    select {
+        color: var(--fl-fgColor, light-dark(#000, currentColor));
+    }
+
+    select:focus {
+        border-color: light-dark(currentcolor, transparent);
+        color: var(--fl-fgColor, light-dark(#000, var(--fi-color-lime-400)));
+        outline-color: var(--fl-fgColor, light-dark(#000, var(--fi-color-lime-400)));
+    }
+
+    .fl-textfieldStepper .fl-textfieldStepper-textField,
+    .fl-textfieldStepper .fl-textfieldStepper-button {
+        border-color: var(--fl-fgColor, light-dark(#000, var(--fi-color-neutral-75)));
+    }
+
+    .fl-textfieldStepper .fl-textfieldStepper-textField::selection {
+        background-color: light-dark(highlight, var(--fi-color-lime-400));
+        color: var(--fl-fgColor, light-dark(currentColor, var(--fi-color-neutral-800)));
+    }
+
+    .fl-textfieldStepper:focus-within {
+        color: var(--fl-fgColor, light-dark(currentColor, var(--fi-color-lime-400)));
+    }
+
+    .fl-textfieldStepper-focus,
+    .fl-choice input:focus ~ label {
+        outline-color: var(--fl-fgColor, light-dark(#000, var(--fi-color-lime-400)));
+    }
+
+    .fl-textfieldStepper-focus {
+        .fl-textfieldStepper-textField,
+        .fl-textfieldStepper-button {
+            border-color: var(--fl-fgColor, light-dark(#000, var(--fi-color-lime-400)));
+        }
+    }
+
+    .fl-switchUI-control {
+        background-color: inherit;
+    }
+
+    .fl-switchUI:focus-within {
+        color: var(--fl-fgColor, light-dark(currentColor, var(--fi-color-lime-400)));
+    }
+
+    .fl-switchUI-control:focus {
+        box-shadow:
+            0 0 0 0.2em var(--fl-buttonBgColor, light-dark(#fff, var(--fi-color-neutral-700))),
+            0 0 0 0.35em var(--fl-buttonFgColor, light-dark(#000, var(--fi-color-lime-400)));
+        outline: none;
     }
 }
 
