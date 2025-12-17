@@ -25,58 +25,58 @@ body {
     --step-5: clamp(2.4883rem, 1.919rem + 2.5301vw, 4.1962rem);
 
     /* Component colors */
-    --fi-action-border-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
-    --fi-action-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-action-border: var(--fl-linkBgColor, var(--fi-color-primary-500));
-    --fi-action-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
-    --fi-action-content-hover: var(--fl-linkBgColor, var(--fi-color-neutral-800));
-    --fi-action-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-action-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-action-surface-hover: var(--fl-linkFgColor, var(--fi-color-primary-500));
-    --fi-action-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
+    --fi-action-border-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-400), var(--fi-color-grey-800)));
+    --fi-action-border-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-action-border: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-700)));
+    --fi-action-content-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-400), var(--fi-color-neutral-800)));
+    --fi-action-content-hover: var(--fl-linkBgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-action-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-action-surface-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-lime-400)));
+    --fi-action-surface-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-700)));
+    --fi-action-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-700)));
 
     /* Footer */
-    --fi-footer-surface: var(--fl-bgColor, var(--fi-color-neutral-800));
-    --fi-footer-content: var(--fl-fgColor, var(--fi-color-neutral-75));
+    --fi-footer-surface: var(--fl-bgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-footer-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-75), var(--fi-color-neutral-75)));
 
     /* Global navigation */
-    --fi-global-nav-content: var(--fl-fgColor, var(--fi-color-white));
-    --fi-global-nav-pref-border: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-global-nav-pref-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-global-nav-pref-surface: var(--fl-linkBgColor, var(--fi-color-white));
-    --fi-global-nav-skipto-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-global-nav-skipto-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
-    --fi-global-nav-surface: var(--fl-bgColor, var(--fi-color-neutral-850));
+    --fi-global-nav-content: var(--fl-fgColor, light-dark(var(--fi-color-white), var(--fi-color-white)));
+    --fi-global-nav-pref-border: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-global-nav-pref-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-global-nav-pref-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-white), var(--fi-color-neutral-100)));
+    --fi-global-nav-skipto-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-global-nav-skipto-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-primary-400)));
+    --fi-global-nav-surface: var(--fl-bgColor, light-dark(var(--fi-color-neutral-850), var(--fi-color-neutral-800)));
 
     /* Hero */
-    --fi-hero-content: var(--fl-fgColor, var(--fi-color-primary-400));
-    --fi-hero-content-accent: var(--fl-fgColor, var(--fi-color-white));
-    --fi-hero-surface: var(--fl-bgColor, var(--fi-color-neutral-800));
-    --fi-hero-home-content: var(--fl-fgColor, var(--fi-color-neutral-800));
-    --fi-hero-home-surface: var(--fl-bgColor, var(--fi-color-primary-500));
+    --fi-hero-content: var(--fl-fgColor, light-dark(var(--fi-color-primary-400), var(--fi-color-primary-400)));
+    --fi-hero-content-accent: var(--fl-fgColor, light-dark(var(--fi-color-white), var(--fi-color-white)));
+    --fi-hero-surface: var(--fl-bgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-hero-home-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-hero-home-surface: var(--fl-bgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-800)));
 
     /* Main content */
-    --fi-main-body: var(--fl-fgColor, var(--fi-color-neutral-800));
-    --fi-main-display: var(--fl-fgColor, var(--fi-color-neutral-800));
-    --fi-main-surface: var(--fl-bgColor, var(--fi-color-white));
+    --fi-main-body: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
+    --fi-main-display: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
+    --fi-main-surface: var(--fl-bgColor, light-dark(var(--fi-color-white), var(--fi-color-neutral-800)));
 
     /* Navigation */
-    --fi-nav-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
-    --fi-nav-border: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-surface-hover: var(--fl-linkFgColor, var(--fi-color-primary-500));
-    --fi-nav-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-850));
-    --fi-nav-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
-    --fi-nav-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-border-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-container-border: var(--fl-linkFgColor, var(--fi-color-primary-600));
-    --fi-nav-secondary-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-surface: var(--fl-linkBgColor, var(--fi-color-primary-600));
-    --fi-nav-secondary-border: var(--fl-linkFgColor, transparent);
-    --fi-nav-secondary-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-600));
-    --fi-nav-secondary-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-border-focus: var(--fl-linkFgColor, var(--fi-color-primary-600));
+    --fi-nav-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-nav-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-800)));
+    --fi-nav-border: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-nav-surface-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-800)));
+    --fi-nav-border-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-850), var(--fi-color-primary-400)));
+    --fi-nav-content-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-400), var(--fi-color-neutral-800)));
+    --fi-nav-surface-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-nav-border-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-500)));
+    --fi-nav-secondary-container-border: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-700)));
+    --fi-nav-secondary-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-nav-secondary-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-700)));
+    --fi-nav-secondary-border: var(--fl-linkFgColor, light-dark(transparent, var(--fi-color-primary-600)));
+    --fi-nav-secondary-border-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-nav-secondary-content-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-800)));
+    --fi-nav-secondary-surface-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-800)));
+    --fi-nav-secondary-border-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-800)));
 
     background-color: var(--fi-main-surface);
     color: var(--fi-main-body);
@@ -87,8 +87,8 @@ body {
 /* General */
 
 [class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
-    background-color: var(--fl-bgColor);
-    color: var(--fl-fgColor);
+    background-color: var(--fl-bgColor, var(--fi-main-surface));
+    color: var(--fl-fgColor, var(--fi-main-body));
 }
 
 [class*="fl-font"] {
@@ -197,26 +197,26 @@ footer {
 /* Links */
 
 a:not([class]) {
-    background-color: var(--fl-linkBgColor, var(--fi-color-lime-500));
-    color: var(--fl-linkFgColor, currentColor);
+    background-color: var(--fl-linkBgColor, var(--fi-action-surface));
+    color: var(--fl-linkFgColor, var(--fi-action-content));
 
     &:visited {
         color: currentcolor;
     }
 
     &:hover {
-        box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--fi-color-black)) inset;
+        box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--fi-action-border-hover)) inset;
     }
 
     &:focus,
     &:active {
-        background-color: var(--fl-linkFgColor, var(--fi-color-grey-800));
-        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--fi-color-lime-500)) inset;
-        color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+        background-color: var(--fl-linkFgColor, var(--fi-action-surface-focus));
+        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--fi-action-border-focus)) inset;
+        color: var(--fl-linkBgColor, var(--fi-action-content-focus));
         outline: solid 1px transparent;
 
         &:visited {
-            color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+            color: var(--fl-linkBgColor, var(--fi-action-content-focus));
         }
     }
 }
