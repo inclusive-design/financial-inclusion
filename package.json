@@ -15,9 +15,9 @@
     "debug": "cross-env DEBUG=Eleventy* eleventy",
     "dev": "cross-env NODE_ENV=development eleventy --serve",
     "lint": "run-s -l lint:*",
-    "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
-    "lint:scripts": "biome check .",
-    "lint:styles": "stylelint \"**/*.css\"",
+    "lint:markdownlint": "markdownlint-cli2 \"**/*.md\"",
+    "lint:eslint": "eslint",
+    "lint:stylelint": "stylelint \"**/*.css\"",
     "start": "npm-run-all -l clean dev",
     "test": "echo \"No test specified\" && exit 0",
     "prepare": "husky"
@@ -47,9 +47,10 @@
     "markdown-it-attrs": "^4.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.0.0",
     "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^20.0.0",
+    "@inclusive-design/eslint-config": "^0.2.0",
+    "@inclusive-design/stylelint-config": "^0.1.0",
     "cross-env": "^10.0.0",
     "eleventy-plugin-broken-links": "^2.0.0",
     "eleventy-plugin-console-plus": "^2.0.0",
@@ -61,18 +62,17 @@
     "npm-run-all2": "^8.0.0",
     "rimraf": "^6.0.0",
     "start-server-and-test": "^2.1.2",
-    "stylelint": "^14.0.0",
-    "stylelint-config-fluid": "^1.0.0",
     "svgo": "^4.0.0"
   },
   "lint-staged": {
     "*.css": [
       "stylelint --fix"
     ],
-    "*.{js,cjs,json,jsonc}": [
-      "biome check --write --no-errors-on-unmatched"
+    "*.{js,json}": [
+      "eslint --fix"
     ],
     "*.md": [
+      "eslint --fix",
       "markdownlint-cli2 --fix"
     ]
   }
