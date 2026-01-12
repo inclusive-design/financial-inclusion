@@ -30,14 +30,14 @@ jobs:
         with:
           app-id: ${{ vars.GHA_APP_ID }}
           private-key: ${{ secrets.GHA_PRIVATE_KEY }}
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           token: ${{ steps.app-token.outputs.token }}
       - name: Create Prince directory
         run: mkdir -p "${{ env.PRINCE_DIR }}"
       - name: Restore Prince .deb cache
         id: prince-cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ${{ env.PRINCE_DIR }}
           key: prince-${{ runner.os }}-${{ env.PRINCE_FILE }}
