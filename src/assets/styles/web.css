@@ -971,7 +971,7 @@ h5,
 }
 
 .two-column.barrier > *:last-child {
-    max-width: 2 / 3 * 100%;
+    max-width: calc(2 / 3 * 100%);
     width: 100%;
 }
 
