@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" fill="none" viewBox="0 0 58 58">
-    <circle cx="28.901" cy="29.099" r="28.901" class="w1" fill="#E8B91C" stroke="#4a4021" stroke-dasharray="0.42 0.42"
+    <circle cx="28.901" cy="29.099" r="28.901" fill="var(--fi-wheel-dark, #E8B91C)" stroke="var(--fi-wheel-slice-outline, #4a4021)" stroke-dasharray="0.42 0.42"
     stroke-width=".169" />
-    <circle cx="28.938" cy="29.136" r="21.909" class="w2" fill="#F6D872" stroke="#4a4021" stroke-dasharray="0.42 0.42"
+    <circle cx="28.938" cy="29.136" r="21.909" fill="var(--fi-wheel-medium, #F6D872)" stroke="var(--fi-wheel-slice-outline, #4a4021)" stroke-dasharray="0.42 0.42"
         stroke-width=".169" />
-    <circle cx="28.94" cy="29.136" r="13.694" class="w3" fill="#f9eec6" stroke="#4a4021" stroke-dasharray="0.34 0.34"
+    <circle cx="28.94" cy="29.136" r="13.694" fill="var(--fi-wheel-light, #f9eec6)" stroke="var(--fi-wheel-slice-outline, #4a4021)" stroke-dasharray="0.34 0.34"
         stroke-width=".168" />
-    <path class="w5" stroke="#997d1e" stroke-dasharray="0.34 0.34" stroke-width=".168"
+    <path stroke="var(--fi-wheel-border, #4a4021)" stroke-dasharray="0.34 0.34" stroke-width=".168"
         d="M57.801 29.194H.002M28.816 57.799V0M8.453 49.436 49.228 8.661M8.646 8.735l40.626 40.626" />
 </svg>

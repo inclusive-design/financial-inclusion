@@ -115,6 +115,7 @@
     --fi-color-grey-600: #666;
     --fi-color-grey-700: #474747;
     --fi-color-grey-75: #f4f4f4;
+    --fi-color-grey-750: #313131;
     --fi-color-grey-800: #222;
     --fi-color-grey-850: #161616;
     --fi-color-black: #000;
@@ -165,6 +166,7 @@
     --fi-color-neutral-600: var(--fi-color-grey-600);
     --fi-color-neutral-700: var(--fi-color-grey-700);
     --fi-color-neutral-75: var(--fi-color-grey-75);
+    --fi-color-neutral-750: var(--fi-color-grey-750);
     --fi-color-neutral-800: var(--fi-color-grey-800);
     --fi-color-neutral-850: var(--fi-color-grey-850);
     --fi-color-neutral-900: var(--fi-color-grey-900);

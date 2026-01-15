@@ -59,6 +59,7 @@ body {
     --fi-main-body: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
     --fi-main-display: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
     --fi-main-surface: var(--fl-bgColor, light-dark(var(--fi-color-white), var(--fi-color-neutral-800)));
+    --fi-main-content-emphasis: var(--fi-fgColor, light-dark(var(--fi-color-attention-600), var(--fi-color-attention-200)));
 
     /* Navigation */
     --fi-nav-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
@@ -77,6 +78,18 @@ body {
     --fi-nav-secondary-content-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-800)));
     --fi-nav-secondary-surface-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-800)));
     --fi-nav-secondary-border-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-800)));
+
+    /* Wheel diagram */
+    --fi-wheel-dashed-line: var(--fl-fgColor, var(--fi-color-neutral-850));
+    --fi-wheel-light: var(--fl-bgColor, light-dark(var(--fi-color-wheel-100), var(--fi-color-wheel-300)));
+    --fi-wheel-medium: var(--fl-bgColor, light-dark(var(--fi-color-wheel-300), var(--fi-color-wheel-500)));
+    --fi-wheel-dark: var(--fl-bgColor, light-dark(var(--fi-color-wheel-500), var(--fi-color-wheel-600)));
+    --fi-wheel-slice-outline: var(--fl-fgColor, light-dark(var(--fi-color-wheel-700), var(--fi-color-wheel-900)));
+    --fi-wheel-border: var(--fl-fgColor, var(--fi-color-wheel-900));
+    --fi-wheel-arrow: var(--fl-fgColor, light-dark(var(--fi-color-red-600), var(--fi-color-red-500)));
+    --fi-wheel-label-background: var(--fl-bgColor, light-dark(var(--fi-color-neutral-50), var(--fi-color-neutral-750)));
+    --fi-wheel-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-850), var(--fi-color-neutral-75)));
+    --fi-wheel-content-emphasis: var(--fi-main-content-emphasis);
 
     background-color: var(--fi-main-surface);
     color: var(--fi-main-body);
