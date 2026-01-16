@@ -59,7 +59,8 @@ body {
     --fi-main-body: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
     --fi-main-display: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
     --fi-main-surface: var(--fl-bgColor, light-dark(var(--fi-color-white), var(--fi-color-neutral-800)));
-    --fi-main-content-emphasis: var(--fi-fgColor, light-dark(var(--fi-color-attention-600), var(--fi-color-attention-200)));
+    --fi-main-content-emphasis: var(--fl-fgColor, light-dark(var(--fi-color-attention-600), var(--fi-color-attention-200)));
+    --fi-main-content-hierarchy: var(--fl-fgColor, light-dark(var(--fi-color-green-500), var(--fi-color-green-300)));
 
     /* Navigation */
     --fi-nav-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
@@ -90,6 +91,26 @@ body {
     --fi-wheel-label-background: var(--fl-bgColor, light-dark(var(--fi-color-neutral-50), var(--fi-color-neutral-750)));
     --fi-wheel-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-850), var(--fi-color-neutral-75)));
     --fi-wheel-content-emphasis: var(--fi-main-content-emphasis);
+
+    /* Pyramid diagram */
+    --fi-pyramid-surface-level-1: var(--fl-bgColor, var(--fi-color-pyramid-350)); 
+    --fi-pyramid-surface-level-2: var(--fl-bgColor, var(--fi-color-pyramid-300)); 
+    --fi-pyramid-surface-level-3: var(--fl-bgColor, var(--fi-color-pyramid-200)); 
+    --fi-pyramid-surface-level-4: var(--fl-bgColor, var(--fi-color-pyramid-100));  
+    --fi-pyramid-surface-emphasis: var(--fl-fgColor, var(--fi-color-pyramid-500));
+    --fi-pyramid-arrow: var(--fi-pyramid-surface-emphasis);
+    --fi-pyramid-border: var(--fl-bgColor, var(--fi-color-pyramid-600));
+    --fi-pyramid-dashed-line: var(--fl-fgColor, var(--fi-color-black));
+    --fi-pyramid-bullet-content: var(--fl-fgColor, var(--fi-color-black));
+    --fi-pyramid-bullet-surface: var(--fl-bgColor, var(--fi-color-yellow-500));
+
+    /* Quadrant diagram */
+    --fi-quadrant-high-surface: var(--fl-bgColor, light-dark(var(--fi-color-green-300), var(--fi-color-grey-850)));
+    --fi-quadrant-high-content: var(--fl-fgColor, light-dark(var(--fi-color-grey-850), var(--fi-color-green-200)));
+    --fi-quadrant-medium-surface: var(--fl-bgColor, light-dark(var(--fi-color-lime-400), var(--fi-color-grey-850)));
+    --fi-quadrant-medium-content: var(--fl-fgColor, light-dark(var(--fi-color-grey-850), var(--fi-color-lime-200)));
+    --fi-quadrant-low-surface: var(--fl-bgColor, light-dark(var(--fi-color-yellow-500), var(--fi-color-grey-850)));
+    --fi-quadrant-low-content: var(--fl-fgColor, light-dark(var(--fi-color-grey-850), var(--fi-color-yellow-200)));
 
     background-color: var(--fi-main-surface);
     color: var(--fi-main-body);

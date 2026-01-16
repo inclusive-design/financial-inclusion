@@ -57,7 +57,7 @@ You can do this with your team that works on a specific product or service–lik
 
 #### **Gap Mapping:** Example {.example .page-break-before-always}
 
-Offering: RRSP{.worksheet .diagram .color-red-600}
+Offering: RRSP{.worksheet .diagram .color-content-emphasis}
 
 {% includeSvg "gap-mapping-example", translations[lang]['example-gap-map'], "desktop-only" %}
 
@@ -206,9 +206,9 @@ A cross-functional team across the organization, like at a design charette or co
 
 #### **Edge User Deep Dive:** Worksheet{.worksheet-title .page-break-before-always}
 
-Can <span class="placeholder"></span> … {.worksheet .diagram .color-green-500}
+Can <span class="placeholder"></span> … {.worksheet .diagram .color-content-hierarchy}
 
-(edge user group){.placeholder-caption .worksheet .diagram .color-green-500}
+(edge user group){.placeholder-caption .worksheet .diagram .color-content-hierarchy}
 
 <div class="two-column deep-dive-list">
 

@@ -274,6 +274,8 @@
 
     /** Color Scheme **/
     color-scheme: light dark;
+
+    --fi-main-content-hierarchy: var(--fl-fgColor, light-dark(var(--fi-color-green-500), var(--fi-color-green-300)))
 }
 
 /* Reset @see https://piccalil.li/blog/a-more-modern-css-reset/ */
@@ -461,10 +463,6 @@ a:visited {
     margin-top: 2rem;
 }
 
-.two-column.flexible strong {
-    color: var(--fl-fgColor, var(--fi-color-attention-500));
-}
-
 .w1,
 .w2,
 .w3,
@@ -587,7 +585,6 @@ a:visited {
 }
 
 .barrier-title {
-    color: var(--fl-fgColor, var(--fi-color-green-500));
     font-weight: var(--fi-font-weight-normal);
 }
 
@@ -643,18 +640,21 @@ a:visited {
     text-align: center;
 }
 
-.color-green-500 {
-    color: var(--fl-fgColor, var(--fi-color-green-500));
+.color-content-hierarchy,
+.barrier-title,
+.can {
+    color: var(--fi-main-content-hierarchy, var(--fi-color-green-500));
 }
 
-.color-red-600 {
-    color: var(--fl-fgColor, var(--fi-color-red-600));
+.color-content-emphasis,
+.two-column.flexible strong {
+    color: var(--fi-main-content-emphasis, var(--fi-color-red-600));
 }
 
 .card {
     background: var(--fl-bgColor, var(--fill));
     border: 1px solid var(--fl-fgColor, transparent);
-    color: var(--fl-fgColor, var(--fi-color-neutral-800));
+    color: var(--fl-fgColor, var(--color));
     font-family: var(--fi-font-family-display);
     font-size: var(--step--1);
     font-weight: var(--fi-font-weight-semibold);
@@ -674,15 +674,18 @@ a:visited {
 
 .longterm-low .card,
 .quick-high .card {
-    --fill: var(--fi-color-primary-600);
+    --fill: var(--fi-quadrant-medium-surface, var(--fi-color-primary-600));
+    --color: var(--fi-quadrant-medium-content, var(--fi-color-neutral-800));
 }
 
 .quick-low .card {
-    --fill: var(--fi-color-yellow-500);
+    --fill: var(--fi-quadrant-low-surface, var(--fi-color-yellow-500));
+    --color: var(--fi-quadrant-low-content, var(--fi-color-neutral-800));
 }
 
 .longterm-high .card {
-    --fill: var(--fi-color-green-300);
+    --fill: var(--fi-quadrant-high-surface, var(--fi-color-green-300));
+    --color: var(--fi-quadrant-high-content, var(--fi-color-neutral-800));
 }
 
 .card + .card {
@@ -712,7 +715,6 @@ a:visited {
 }
 
 .can {
-    color: var(--fl-fgColor, var(--fi-color-green-500));
     margin-bottom: 2em;
 }
 
@@ -742,6 +744,7 @@ a:visited {
     background: var(--fl-bgColor, var(--fi-color-yellow-500));
     border: 1px solid var(--fl-fgColor, transparent);
     border-radius: 17px;
+    color: var(--fl-fgColor, var(--fi-color-black));
     content: counter(deep-dive-list);
     display: flex;
     font-family: var(--fi-font-family-display);
