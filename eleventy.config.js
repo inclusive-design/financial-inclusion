@@ -80,6 +80,58 @@ export default function eleventy(eleventyConfig) {
 					templatePrefix: '/lib/infusion/src/framework/preferences/html',
 					messagePrefix: '/lib/infusion/src/framework/preferences/messages',
 				},
+				'fluid.prefs.contrast': {
+					alias: 'theme',
+					enactor: {
+						classes: {
+							dark: 'fl-theme-dark',
+							light: 'fl-theme-light',
+						},
+					},
+					panel: {
+						classnameMap: {
+							theme: {
+								dark: 'fl-theme-dark',
+								light: 'fl-theme-light',
+							},
+						},
+						markup: {
+							label: `
+                <span class="fl-hidden-accessible">%theme</span>
+                <svg class="fl-preview-A" aria-hidden="true" width="16" height="18" viewBox="0 0 8 9">
+                    <use href="#preview-a" />
+                </svg>
+                <svg class="fl-preview-light" aria-hidden="true" fill="none" viewBox="0 0 256 256" stroke="currentColor" width="24" height="24">
+                    <use href="#preview-light" />
+                </svg>
+                <svg class="fl-preview-dark" aria-hidden="true" fill="none" viewBox="0 0 256 256" width="24" height="24">
+                    <use href="#preview-dark" />
+                </svg>
+                <div class="fl-crossout" aria-hidden="true"></div>`,
+						},
+						message: '/assets/messages/contrast.json',
+					},
+				},
+			},
+			primarySchema: {
+				'fluid.prefs.contrast': {
+					type: 'string',
+					default: 'default',
+					enum: ['default', 'dark', 'light', 'bw', 'wb', 'by', 'yb', 'lgdg', 'gw', 'gd', 'bbr'],
+					enumLabels: [
+						'contrast-default',
+						'contrast-dark',
+						'contrast-light',
+						'contrast-bw',
+						'contrast-wb',
+						'contrast-by',
+						'contrast-yb',
+						'contrast-lgdg',
+						'contrast-gw',
+						'contrast-gd',
+						'contrast-bbr',
+					],
+				},
 			},
 			prefsEditorLoader: {
 				lazyLoad: true,
@@ -169,6 +221,7 @@ export default function eleventy(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy({'src/assets/icons': '/'});
 	eleventyConfig.addPassthroughCopy('src/assets/downloads');
+	eleventyConfig.addPassthroughCopy('src/assets/messages');
 
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 		selector: 'h2,h3,h4,h5',

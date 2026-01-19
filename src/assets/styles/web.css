@@ -25,58 +25,119 @@ body {
     --step-5: clamp(2.4883rem, 1.919rem + 2.5301vw, 4.1962rem);
 
     /* Component colors */
-    --fi-action-border-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
-    --fi-action-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-action-border: var(--fl-linkBgColor, var(--fi-color-primary-500));
-    --fi-action-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
-    --fi-action-content-hover: var(--fl-linkBgColor, var(--fi-color-neutral-800));
-    --fi-action-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-action-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-action-surface-hover: var(--fl-linkFgColor, var(--fi-color-primary-500));
-    --fi-action-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
+    --fi-action-border-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-400), var(--fi-color-grey-800)));
+    --fi-action-border-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-action-border: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-700)));
+    --fi-action-content-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-400), var(--fi-color-neutral-800)));
+    --fi-action-content-hover: var(--fl-linkBgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-action-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-action-surface-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-lime-400)));
+    --fi-action-surface-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-700)));
+    --fi-action-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-700)));
 
     /* Footer */
-    --fi-footer-surface: var(--fl-bgColor, var(--fi-color-neutral-800));
-    --fi-footer-content: var(--fl-fgColor, var(--fi-color-neutral-75));
+    --fi-footer-surface: var(--fl-bgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-footer-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-75), var(--fi-color-neutral-75)));
 
     /* Global navigation */
-    --fi-global-nav-content: var(--fl-fgColor, var(--fi-color-white));
-    --fi-global-nav-pref-border: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-global-nav-pref-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-global-nav-pref-surface: var(--fl-linkBgColor, var(--fi-color-white));
-    --fi-global-nav-skipto-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-global-nav-skipto-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
-    --fi-global-nav-surface: var(--fl-bgColor, var(--fi-color-neutral-850));
+    --fi-global-nav-content: var(--fl-fgColor, light-dark(var(--fi-color-white), var(--fi-color-white)));
+    --fi-global-nav-pref-border: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-global-nav-pref-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-global-nav-pref-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-white), var(--fi-color-neutral-100)));
+    --fi-global-nav-skipto-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-global-nav-skipto-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-primary-400)));
+    --fi-global-nav-surface: var(--fl-bgColor, light-dark(var(--fi-color-neutral-850), var(--fi-color-neutral-800)));
 
     /* Hero */
-    --fi-hero-content: var(--fl-fgColor, var(--fi-color-primary-400));
-    --fi-hero-content-accent: var(--fl-fgColor, var(--fi-color-white));
-    --fi-hero-surface: var(--fl-bgColor, var(--fi-color-neutral-800));
-    --fi-hero-home-content: var(--fl-fgColor, var(--fi-color-neutral-800));
-    --fi-hero-home-surface: var(--fl-bgColor, var(--fi-color-primary-500));
+    --fi-hero-content: var(--fl-fgColor, light-dark(var(--fi-color-primary-400), var(--fi-color-primary-400)));
+    --fi-hero-content-accent: var(--fl-fgColor, light-dark(var(--fi-color-white), var(--fi-color-white)));
+    --fi-hero-surface: var(--fl-bgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-hero-home-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-hero-home-surface: var(--fl-bgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-800)));
 
     /* Main content */
-    --fi-main-body: var(--fl-fgColor, var(--fi-color-neutral-800));
-    --fi-main-display: var(--fl-fgColor, var(--fi-color-neutral-800));
-    --fi-main-surface: var(--fl-bgColor, var(--fi-color-white));
+    --fi-main-body: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
+    --fi-main-display: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
+    --fi-main-surface: var(--fl-bgColor, light-dark(var(--fi-color-white), var(--fi-color-neutral-800)));
+    --fi-main-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
+    --fi-main-content-emphasis: var(--fl-fgColor, light-dark(var(--fi-color-attention-600), var(--fi-color-attention-200)));
+    --fi-main-content-hierarchy: var(--fl-fgColor, light-dark(var(--fi-color-green-500), var(--fi-color-green-300)));
 
     /* Navigation */
-    --fi-nav-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-surface: var(--fl-linkBgColor, var(--fi-color-primary-500));
-    --fi-nav-border: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-surface-hover: var(--fl-linkFgColor, var(--fi-color-primary-500));
-    --fi-nav-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-850));
-    --fi-nav-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-400));
-    --fi-nav-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-border-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-container-border: var(--fl-linkFgColor, var(--fi-color-primary-600));
-    --fi-nav-secondary-content: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-surface: var(--fl-linkBgColor, var(--fi-color-primary-600));
-    --fi-nav-secondary-border: var(--fl-linkFgColor, transparent);
-    --fi-nav-secondary-border-hover: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-content-focus: var(--fl-linkBgColor, var(--fi-color-primary-600));
-    --fi-nav-secondary-surface-focus: var(--fl-linkFgColor, var(--fi-color-neutral-800));
-    --fi-nav-secondary-border-focus: var(--fl-linkFgColor, var(--fi-color-primary-600));
+    --fi-nav-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-nav-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-800)));
+    --fi-nav-border: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-nav-surface-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-500), var(--fi-color-neutral-800)));
+    --fi-nav-border-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-850), var(--fi-color-primary-400)));
+    --fi-nav-content-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-400), var(--fi-color-neutral-800)));
+    --fi-nav-surface-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-nav-border-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-500)));
+    --fi-nav-secondary-container-border: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-700)));
+    --fi-nav-secondary-content: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-400)));
+    --fi-nav-secondary-surface: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-700)));
+    --fi-nav-secondary-border: var(--fl-linkFgColor, light-dark(transparent, var(--fi-color-primary-600)));
+    --fi-nav-secondary-border-hover: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-800)));
+    --fi-nav-secondary-content-focus: var(--fl-linkBgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-800)));
+    --fi-nav-secondary-surface-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-primary-800)));
+    --fi-nav-secondary-border-focus: var(--fl-linkFgColor, light-dark(var(--fi-color-primary-600), var(--fi-color-neutral-800)));
+
+    /* Wheel diagram */
+    --fi-wheel-dashed-line: var(--fl-fgColor, var(--fi-color-neutral-850));
+    --fi-wheel-light: var(--fl-bgColor, light-dark(var(--fi-color-wheel-100), var(--fi-color-wheel-300)));
+    --fi-wheel-medium: var(--fl-bgColor, light-dark(var(--fi-color-wheel-300), var(--fi-color-wheel-500)));
+    --fi-wheel-dark: var(--fl-bgColor, light-dark(var(--fi-color-wheel-500), var(--fi-color-wheel-600)));
+    --fi-wheel-slice-outline: var(--fl-fgColor, light-dark(var(--fi-color-wheel-700), var(--fi-color-wheel-900)));
+    --fi-wheel-border: var(--fl-fgColor, var(--fi-color-wheel-900));
+    --fi-wheel-arrow: var(--fl-fgColor, light-dark(var(--fi-color-red-600), var(--fi-color-red-500)));
+    --fi-wheel-label-background: var(--fl-bgColor, light-dark(var(--fi-color-neutral-50), var(--fi-color-neutral-750)));
+    --fi-wheel-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-850), var(--fi-color-neutral-75)));
+    --fi-wheel-content-emphasis: var(--fi-main-content-emphasis);
+
+    /* Pyramid diagram */
+    --fi-pyramid-surface-level-1: var(--fl-bgColor, var(--fi-color-pyramid-350));
+    --fi-pyramid-surface-level-2: var(--fl-bgColor, var(--fi-color-pyramid-300));
+    --fi-pyramid-surface-level-3: var(--fl-bgColor, var(--fi-color-pyramid-200));
+    --fi-pyramid-surface-level-4: var(--fl-bgColor, var(--fi-color-pyramid-100));
+    --fi-pyramid-surface-emphasis: var(--fl-fgColor, var(--fi-color-pyramid-500));
+    --fi-pyramid-arrow: var(--fi-pyramid-surface-emphasis);
+    --fi-pyramid-border: var(--fl-fgColor, var(--fi-color-pyramid-600));
+    --fi-pyramid-dashed-line: var(--fl-fgColor, var(--fi-color-black));
+    --fi-pyramid-bullet-content: var(--fl-fgColor, var(--fi-color-black));
+    --fi-pyramid-bullet-surface: var(--fl-bgColor, var(--fi-color-yellow-500));
+
+    /* Quadrant diagram */
+    --fi-quadrant-high-surface: var(--fl-bgColor, light-dark(var(--fi-color-green-300), var(--fi-color-grey-850)));
+    --fi-quadrant-high-content: var(--fl-fgColor, light-dark(var(--fi-color-grey-850), var(--fi-color-green-200)));
+    --fi-quadrant-medium-surface: var(--fl-bgColor, light-dark(var(--fi-color-lime-400), var(--fi-color-grey-850)));
+    --fi-quadrant-medium-content: var(--fl-fgColor, light-dark(var(--fi-color-grey-850), var(--fi-color-lime-200)));
+    --fi-quadrant-low-surface: var(--fl-bgColor, light-dark(var(--fi-color-yellow-500), var(--fi-color-grey-850)));
+    --fi-quadrant-low-content: var(--fl-fgColor, light-dark(var(--fi-color-grey-850), var(--fi-color-yellow-200)));
+
+    /* Gap mapping */
+    --fi-gap-mapping-yes: var(--fl-fgColor, var(--fi-color-green-500));
+    --fi-gap-mapping-maybe: var(--fl-fgColor, var(--fi-color-yellow-650));
+    --fi-gap-mapping-no: var(--fl-fgColor, var(--fi-color-red-500));
+    --fi-gap-mapping-can-access-fill: var(--fl-fgColor, light-dark(var(--fi-color-green-400), var(--fi-color-green-200)));
+    --fi-gap-mapping-can-access-outline: var(--fl-fgColor, light-dark(var(--fi-color-green-500), var(--fi-color-green-400)));
+    --fi-gap-mapping-may-access-fill: var(--fl-fgColor, light-dark(var(--fi-color-yellow-500), var(--fi-color-yellow-200)));
+    --fi-gap-mapping-may-access-outline: var(--fl-bgColor, light-dark(var(--fi-color-yellow-700), var(--fi-color-yellow-600)));
+    --fi-gap-mapping-no-outline: var(--fl-fgColor, var(--fi-color-grey-850));
+    --fi-gap-mapping-no-area: var(--fl-bgColor, var(--fi-color-white));
+    --fi-gap-mapping-border: var(--fl-fgColor, light-dark(var(--fi-color-neutral-500), var(--fi-color-neutral-200)));
+    --fi-gap-mapping-neutral-dark: var(--fl-bgColor, light-dark(var(--fi-color-neutral-300), var(--fi-color-neutral-700)));
+    --fi-gap-mapping-neutral-medium: var(--fl-bgColor, light-dark(var(--fi-color-neutral-200), var(--fi-color-neutral-600)));
+    --fi-gap-mapping-neutral-light: var(--fl-bgColor, light-dark(var(--fi-color-neutral-75), var(--fi-color-neutral-400)));
+    --fi-gap-mapping-red-dark: var(--fl-bgColor, light-dark(var(--fi-color-attention-200), var(--fi-color-attention-300)));
+    --fi-gap-mapping-red-medium: var(--fl-bgColor, light-dark(var(--fi-color-attention-100), var(--fi-color-attention-200)));
+    --fi-gap-mapping-red-light: var(--fl-bgColor, light-dark(var(--fi-color-white), var(--fi-color-attention-100)));
+
+    /* Circles of control */
+    --fi-control-no-border: var(--fl-fgColor, var(--fi-color-red-500));
+    --fi-control-no-surface: var(--fl-bgColor, var(--fi-color-red-100));
+    --fi-control-maybe-border: var(--fl-fgColor, var(--fi-color-yellow-500));
+    --fi-control-maybe-surface: var(--fl-bgColor, var(--fi-color-yellow-100));
+    --fi-control-yes-border: var(--fl-fgColor, var(--fi-color-green-350));
+    --fi-control-yes-surface: var(--fl-fgColor, var(--fi-color-green-100));
 
     background-color: var(--fi-main-surface);
     color: var(--fi-main-body);
@@ -87,8 +148,8 @@ body {
 /* General */
 
 [class*="fl-theme"]:not(.fl-theme-prefsEditor-default) {
-    background-color: var(--fl-bgColor);
-    color: var(--fl-fgColor);
+    background-color: var(--fl-bgColor, var(--fi-main-surface));
+    color: var(--fl-fgColor, var(--fi-main-body));
 }
 
 [class*="fl-font"] {
@@ -197,26 +258,26 @@ footer {
 /* Links */
 
 a:not([class]) {
-    background-color: var(--fl-linkBgColor, var(--fi-color-lime-500));
-    color: var(--fl-linkFgColor, currentColor);
+    background-color: var(--fl-linkBgColor, var(--fi-action-surface));
+    color: var(--fl-linkFgColor, var(--fi-action-content));
 
     &:visited {
         color: currentcolor;
     }
 
     &:hover {
-        box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--fi-color-black)) inset;
+        box-shadow: 0 0 0 1px var(--fl-linkFgColor, var(--fi-action-border-hover)) inset;
     }
 
     &:focus,
     &:active {
-        background-color: var(--fl-linkFgColor, var(--fi-color-grey-800));
-        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--fi-color-lime-500)) inset;
-        color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+        background-color: var(--fl-linkFgColor, var(--fi-action-surface-focus));
+        box-shadow: 0 0 0 1.5px var(--fl-linkBgColor, var(--fi-action-border-focus)) inset;
+        color: var(--fl-linkBgColor, var(--fi-action-content-focus));
         outline: solid 1px transparent;
 
         &:visited {
-            color: var(--fl-linkBgColor, var(--fi-color-lime-500));
+            color: var(--fl-linkBgColor, var(--fi-action-content-focus));
         }
     }
 }
@@ -243,6 +304,14 @@ a {
         background-color: var(--fl-linkFgColor, var(--fi-color-grey-800));
         color: var(--fl-linkBgColor, var(--fi-color-lime-500));
     }
+}
+
+header .header a:not([class]) {
+   color: var(--fl-linkFgColor, var(--fi-global-nav-content));
+}
+
+footer a:not([class]) {
+    color: var(--fl-linkFgColor, var(--fi-footer-content));
 }
 
 header a:not([class]),
@@ -319,8 +388,6 @@ a.standalone {
     }
 }
 
-/* TODO: UIO buttons */
-
 .header a {
     display: inline-block;
 }
@@ -345,6 +412,119 @@ a.standalone {
     }
 }
 
+/* UIO styling */
+
+.fl-preview-A {
+    margin-block-start: 0.5rem;
+}
+
+.fl-preview-dark,
+.fl-preview-light {
+    margin-block-start: 0.3rem;
+    margin-inline-start: -0.1rem;
+}
+
+[class*="fl-theme"] .fl-prefsEditor .fl-choice label.fl-theme-dark {
+    background-color: var(--fi-color-neutral-800) !important;
+    border-color: var(--fi-color-neutral-75) !important;
+    color: var(--fi-color-neutral-75) !important;
+}
+
+[class*="fl-theme"] .fl-prefsEditor .fl-choice label.fl-theme-light {
+    background-color: var(--fi-color-white) !important;
+    border-color: var(--fi-color-neutral-800) !important;
+    color: var(--fi-color-neutral-800) !important;
+}
+
+.flc-prefsEditor-theme-label:not(.fl-theme-dark) .fl-preview-dark,
+.flc-prefsEditor-theme-label:not(.fl-theme-light) .fl-preview-light {
+    display: none;
+}
+
+.flc-prefsEditor-theme-label:where(.fl-theme-light, .fl-theme-dark) .fl-preview-A {
+    display: none;
+}
+
+.fl-blocking-theme {
+    color-scheme: light dark;
+}
+
+.fl-theme-dark,
+.fl-blocking-theme.fl-theme-dark {
+    color-scheme: dark;
+}
+
+.fl-theme-light,
+.fl-blocking-theme.fl-theme-light {
+    color-scheme: light;
+}
+
+[class*="fl-theme"]:not(.fl-theme-dark, .fl-theme-light, .fl-theme-prefsEditor-default) {
+    color-scheme: normal;
+}
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor {
+    background-color: var(--fl-bgColor, light-dark(#bcb5ad, var(--fi-color-neutral-800)));
+
+    .fl-prefsEditor-panel {
+        background-color: var(--fl-bgColor, light-dark(#fff, var(--fi-color-neutral-700)));
+        border-color: var(--fl-fgColor, light-dark(#615e59, transparent));
+        box-shadow: 2px 2px var(--fl-fgColor, light-dark(#7a766d, var(--fi-color-neutral-300)));
+        color: var(--fl-fgColor, light-dark(#5d5652, var(--fi-color-neutral-75)));
+    }
+
+    select {
+        color: var(--fl-fgColor, light-dark(#000, currentColor));
+    }
+
+    select:focus {
+        border-color: light-dark(currentcolor, transparent);
+        color: var(--fl-fgColor, light-dark(#000, var(--fi-color-lime-400)));
+        outline-color: var(--fl-fgColor, light-dark(#000, var(--fi-color-lime-400)));
+    }
+
+    .fl-textfieldStepper .fl-textfieldStepper-textField,
+    .fl-textfieldStepper .fl-textfieldStepper-button {
+        border-color: var(--fl-fgColor, light-dark(#000, var(--fi-color-neutral-75)));
+    }
+
+    .fl-textfieldStepper .fl-textfieldStepper-textField::selection {
+        background-color: light-dark(highlight, var(--fi-color-lime-400));
+        color: var(--fl-fgColor, light-dark(currentColor, var(--fi-color-neutral-800)));
+    }
+
+    .fl-textfieldStepper:focus-within {
+        color: var(--fl-fgColor, light-dark(currentColor, var(--fi-color-lime-400)));
+    }
+
+    .fl-textfieldStepper-focus,
+    .fl-choice input:focus ~ label {
+        outline-color: var(--fl-fgColor, light-dark(#000, var(--fi-color-lime-400)));
+    }
+
+    .fl-textfieldStepper-focus {
+        .fl-textfieldStepper-textField,
+        .fl-textfieldStepper-button {
+            border-color: var(--fl-fgColor, light-dark(#000, var(--fi-color-lime-400)));
+        }
+    }
+
+    .fl-switchUI-control {
+        background-color: inherit;
+    }
+
+    .fl-switchUI:focus-within {
+        color: var(--fl-fgColor, light-dark(currentColor, var(--fi-color-lime-400)));
+    }
+
+    .fl-switchUI-control:focus {
+        box-shadow:
+            0 0 0 0.2em var(--fl-buttonBgColor, light-dark(#fff, var(--fi-color-neutral-700))),
+            0 0 0 0.35em var(--fl-buttonFgColor, light-dark(#000, var(--fi-color-lime-400)));
+        outline: none;
+    }
+}
+
 /* Brand and Navigation Toggle */
 
 .brand-and-toggle a em::after,
@@ -361,6 +541,7 @@ h1 em::after {
     min-height: var(--fi-space-fluid-5xl-3xl);
 
     a {
+        background-color: transparent;
         box-shadow: none;
         font-family: var(--fi-font-family-display);
         font-size: var(--step-1);

@@ -57,7 +57,7 @@ Cette activité peut se faire avec l’équipe responsable d’un produit ou d�
 
 #### **Cartographie des écarts:** exemple {.example .page-break-before-always}
 
-Offre : REER{.worksheet .diagram .color-red-600}
+Offre : REER{.worksheet .diagram .color-content-emphasis}
 
 {% includeSvg "gap-mapping-example-fr", translations[lang]['example-gap-map'], "desktop-only" %}
 
@@ -206,9 +206,9 @@ Une équipe interfonctionnelle de l’organisation, réunie par exemple dans le 
 
 #### Feuille de travail : **analyse approfondie d’un·e utilisateur·trice en situation de vulnérabilité** {.worksheet-title .page-break-before-always}
 
-Les <span class="placeholder"></span> ont-iels la possibilité de… {.worksheet .diagram .color-green-500}
+Les <span class="placeholder"></span> ont-iels la possibilité de… {.worksheet .diagram .color-content-hierarchy}
 
-(utilisateur·trice·s en situation de vulnérabilité){.placeholder-caption .worksheet .diagram .color-green-500}
+(utilisateur·trice·s en situation de vulnérabilité){.placeholder-caption .worksheet .diagram .color-content-hierarchy}
 
 <div class="two-column deep-dive-list">
 

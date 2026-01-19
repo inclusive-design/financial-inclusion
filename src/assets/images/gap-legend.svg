@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="65" height="81" fill="none" viewBox="0 0 65 81">
-    <circle cx="32.616" cy="11.109" r="9.349" fill="var(--fl-fgColor, #2A842D)" stroke="var(--fl-fgColor, #2A842D)" stroke-width="1.7"/>
-    <path stroke="var(--fl-fgColor, #2A842D)" stroke-width="5.099" d="M.32 11.958h64.592"/>
-    <path stroke="var(--fl-fgColor, #997D1E)" stroke-width="5.099" d="M.32 45.954h64.592"/>
-    <path stroke="var(--fl-fgColor, #161616)" stroke-dasharray="8.5 8.5" stroke-width="3.4" d="M.32 79.101h64.592"/>
-    <circle cx="32.616" cy="45.105" r="8.499" fill="var(--fl-bgColor, #E8B91C)" stroke="var(--fl-fgColor, #997D1E)" stroke-width="3.4"/>
+    <circle cx="32.616" cy="11.109" r="9.349" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)" stroke="var(--fl-fgColor, #2A842D)" stroke-width="1.7"/>
+    <path stroke="var(--fi-gap-mapping-can-access-outline, #2a842d)" stroke-width="5.099" d="M.32 11.958h64.592"/>
+    <path stroke="var(--fi-gap-mapping-may-access-outline, #997d1e)" stroke-width="5.099" d="M.32 45.954h64.592"/>
+    <path stroke="var(--fi-gap-mapping-no-outline, #161616)" stroke-dasharray="8.5 8.5" stroke-width="3.4" d="M.32 79.101h64.592"/>
+    <circle cx="32.616" cy="45.105" r="8.499" fill="var(--fi-gap-mapping-may-access-fill, #e8b91c)" stroke="var(--fi-gap-mapping-may-access-outline, #997d1e)" stroke-width="3.4"/>
   </svg>

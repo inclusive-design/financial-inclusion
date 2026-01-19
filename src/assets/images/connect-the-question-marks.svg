@@ -1,24 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="201" height="201" fill="none" viewBox="0 0 201 201">
-    <g opacity=".5">
-      <circle cx="100.782" cy="100.692" r="100.02" fill="var(--fl-bgColor, #949494)" stroke="var(--fl-fgColor, transparent)" stroke-dasharray="2 2" />
-      <circle cx="100.911" cy="100.821" r="76.114" fill="var(--fl-bgColor, #CCC)" stroke="var(--fl-fgColor, transparent)" stroke-dasharray="2 2" />
-      <circle cx="100.911" cy="100.821" r="47.184" fill="var(--fl-bgColor, #E6E6E6)" stroke="var(--fl-fgColor, #000)" stroke-dasharray="2 2" />
-    </g>
-    <path stroke="var(--fl-fgColor, #949494)" stroke-dasharray="2 2" d="M99.988 200.535V.721M29.868 170.924 170.982 29.81M30.833 30.068 171.43 170.665"/>
-    <path fill="var(--fl-bgColor, #F6E3A4)" fill-opacity=".5" stroke="var(--fl-fgColor, #C09B1D" stroke-width="1.281" d="m83.898 142.639.074.02.078.003 34.147 1.197-45.003 24.303-32.709-37.753 43.413 12.23Zm58.031-56.381-.034-.1-14.307-42.327-.242-.715-.666.355-35.614 18.955 45.483-43.54 29.644 57.945v53.452l-43.635 11.819 19.202-20.763.169-.184V86.258ZM60.836 83.005l-.11.085-.064.123-21.438 41.036-5.328-49.512 49.406-9.286-22.466 17.554Z"/>
-    <circle cx="166.047" cy="76.061" r="3.843" fill="var(--fl-bgColor, #F6E3A4)" stroke="var(--fl-fgColor, #C09B1D)" stroke-width="1.281"/>
-    <circle cx="34.118" cy="77.338" r="3.843" fill="var(--fl-bgColor, #F6E3A4)" stroke="var(--fl-fgColor, #C09B1D)" stroke-width="1.281"/>
-    <circle cx="166.047" cy="129.854" r="3.843" fill="var(--fl-bgColor, #F6E3A4)" stroke="var(--fl-fgColor, #C09B1D)" stroke-width="1.281"/>
-    <circle cx="73.825" cy="168.284" r="3.843" fill="var(--fl-bgColor, #F6E3A4)" stroke="var(--fl-fgColor, #C09B1D)" stroke-width="1.281"/>
-    <circle cx="136.588" cy="18.421" r="3.843" fill="var(--fl-bgColor, #F6E3A4)" stroke="var(--fl-fgColor, #C09B1D)" stroke-width="1.281"/>
-    <circle cx="126.746" cy="39.792" r="4.483" fill="var(--fl-fgColor, #2A842D)"/>
-    <path fill="var(--fl-bgColor, #7BD383)" fill-opacity=".51" stroke="var(--fl-fgColor, #2A842D)" stroke-width="2.562" d="M140.195 84.634v34.381l-20.383 22.58-37.18-1.456-45.58-12.53 23.044-42.927 23.996-20.724 41.884-21.703 14.219 42.379Z"/>
-    <circle cx="85.758" cy="62.846" r="4.483" fill="var(--fl-fgColor, #2A842D)"/>
-    <circle cx="59.994" cy="83.288" r="4.483" fill="var(--fl-fgColor, #2A842D)"/>
-    <circle cx="140.689" cy="85.85" r="4.483" fill="var(--fl-fgColor, #2A842D)"/>
-    <path stroke="var(--fl-fgColor, #949494)" stroke-dasharray="2 2" d="M200.395 101.129H1.861"/>
-    <circle cx="140.835" cy="119.202" r="4.483" fill="var(--fl-fgColor, #2A842D)"/>
-    <circle cx="36.939" cy="128.116" r="4.483" fill="var(--fl-fgColor, #2A842D)"/>
-    <circle cx="81.915" cy="140.975" r="4.483" fill="var(--fl-fgColor, #2A842D)"/>
-    <circle cx="120.195" cy="143.487" r="4.483" fill="var(--fl-fgColor, #2A842D)"/>
+    <circle cx="100.782" cy="100.692" r="100.02" fill="var(--fi-gap-mapping-neutral-dark, #b3b3b3)" stroke="var(--fi-gap-mapping-border, #808080)" stroke-dasharray="2 2" />
+    <circle cx="100.911" cy="100.821" r="76.114" fill="var(--fi-gap-mapping-neutral-medium, #ccc)" stroke="var(--fi-gap-mapping-border, #808080)" stroke-dasharray="2 2" />
+    <circle cx="100.911" cy="100.821" r="47.184" fill="var(--fi-gap-mapping-neutral-light, #f4f4f4)" stroke="var(--fi-gap-mapping-border, #808080)" stroke-dasharray="2 2" />
+    <path stroke="var(--fi-gap-mapping-border, #808080)" stroke-dasharray="2 2" d="M99.988 200.535V.721M29.868 170.924 170.982 29.81M30.833 30.068 171.43 170.665"/>
+    <path fill="var(--fi-gap-mapping-may-access-fill, #f6e3a4)" fill-opacity=".5" stroke="var(--fi-gap-mapping-can-access-outline, #c09b1d" stroke-width="1.281" d="m83.898 142.639.074.02.078.003 34.147 1.197-45.003 24.303-32.709-37.753 43.413 12.23Zm58.031-56.381-.034-.1-14.307-42.327-.242-.715-.666.355-35.614 18.955 45.483-43.54 29.644 57.945v53.452l-43.635 11.819 19.202-20.763.169-.184V86.258ZM60.836 83.005l-.11.085-.064.123-21.438 41.036-5.328-49.512 49.406-9.286-22.466 17.554Z"/>
+    <circle cx="166.047" cy="76.061" r="3.843" fill="var(--fi-gap-mapping-may-access-fill, #f6e3a4)" stroke="var(--fi-gap-mapping-can-access-outline, #c09b1d)" stroke-width="1.281"/>
+    <circle cx="34.118" cy="77.338" r="3.843" fill="var(--fi-gap-mapping-may-access-fill, #f6e3a4)" stroke="var(--fi-gap-mapping-can-access-outline, #c09b1d)" stroke-width="1.281"/>
+    <circle cx="166.047" cy="129.854" r="3.843" fill="var(--fi-gap-mapping-may-access-fill, #f6e3a4)" stroke="var(--fi-gap-mapping-can-access-outline, #c09b1d)" stroke-width="1.281"/>
+    <circle cx="73.825" cy="168.284" r="3.843" fill="var(--fi-gap-mapping-may-access-fill, #f6e3a4)" stroke="var(--fi-gap-mapping-can-access-outline, #c09b1d)" stroke-width="1.281"/>
+    <circle cx="136.588" cy="18.421" r="3.843" fill="var(--fi-gap-mapping-may-access-fill, #f6e3a4)" stroke="var(--fi-gap-mapping-can-access-outline, #c09b1d)" stroke-width="1.281"/>
+    <circle cx="126.746" cy="39.792" r="4.483" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)"/>
+    <path fill="var(--fi-gap-mapping-can-access-fill, #7bd383)" fill-opacity=".51" stroke="var(--fi-gap-mapping-can-access-outline, #2a842d)" stroke-width="2.562" d="M140.195 84.634v34.381l-20.383 22.58-37.18-1.456-45.58-12.53 23.044-42.927 23.996-20.724 41.884-21.703 14.219 42.379Z"/>
+    <circle cx="85.758" cy="62.846" r="4.483" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)"/>
+    <circle cx="59.994" cy="83.288" r="4.483" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)"/>
+    <circle cx="140.689" cy="85.85" r="4.483" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)"/>
+    <path stroke="var(--fi-gap-mapping-border, #808080)" stroke-dasharray="2 2" d="M200.395 101.129H1.861"/>
+    <circle cx="140.835" cy="119.202" r="4.483" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)"/>
+    <circle cx="36.939" cy="128.116" r="4.483" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)"/>
+    <circle cx="81.915" cy="140.975" r="4.483" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)"/>
+    <circle cx="120.195" cy="143.487" r="4.483" fill="var(--fi-gap-mapping-can-access-outline, #2a842d)"/>
   </svg>
