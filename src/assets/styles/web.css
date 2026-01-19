@@ -100,7 +100,7 @@ body {
     --fi-pyramid-surface-level-4: var(--fl-bgColor, var(--fi-color-pyramid-100));
     --fi-pyramid-surface-emphasis: var(--fl-fgColor, var(--fi-color-pyramid-500));
     --fi-pyramid-arrow: var(--fi-pyramid-surface-emphasis);
-    --fi-pyramid-border: var(--fl-bgColor, var(--fi-color-pyramid-600));
+    --fi-pyramid-border: var(--fl-fgColor, var(--fi-color-pyramid-600));
     --fi-pyramid-dashed-line: var(--fl-fgColor, var(--fi-color-black));
     --fi-pyramid-bullet-content: var(--fl-fgColor, var(--fi-color-black));
     --fi-pyramid-bullet-surface: var(--fl-bgColor, var(--fi-color-yellow-500));
