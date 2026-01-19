@@ -306,6 +306,14 @@ a {
     }
 }
 
+header .header a:not([class]) {
+   color: var(--fl-linkFgColor, var(--fi-global-nav-content));
+}
+
+footer a:not([class]) {
+    color: var(--fl-linkFgColor, var(--fi-footer-content));
+}
+
 header a:not([class]),
 footer a:not([class]) {
     background-color: transparent;
