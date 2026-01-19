@@ -94,10 +94,10 @@ body {
     --fi-wheel-content-emphasis: var(--fi-main-content-emphasis);
 
     /* Pyramid diagram */
-    --fi-pyramid-surface-level-1: var(--fl-bgColor, var(--fi-color-pyramid-350)); 
-    --fi-pyramid-surface-level-2: var(--fl-bgColor, var(--fi-color-pyramid-300)); 
-    --fi-pyramid-surface-level-3: var(--fl-bgColor, var(--fi-color-pyramid-200)); 
-    --fi-pyramid-surface-level-4: var(--fl-bgColor, var(--fi-color-pyramid-100));  
+    --fi-pyramid-surface-level-1: var(--fl-bgColor, var(--fi-color-pyramid-350));
+    --fi-pyramid-surface-level-2: var(--fl-bgColor, var(--fi-color-pyramid-300));
+    --fi-pyramid-surface-level-3: var(--fl-bgColor, var(--fi-color-pyramid-200));
+    --fi-pyramid-surface-level-4: var(--fl-bgColor, var(--fi-color-pyramid-100));
     --fi-pyramid-surface-emphasis: var(--fl-fgColor, var(--fi-color-pyramid-500));
     --fi-pyramid-arrow: var(--fi-pyramid-surface-emphasis);
     --fi-pyramid-border: var(--fl-bgColor, var(--fi-color-pyramid-600));
@@ -120,7 +120,7 @@ body {
     --fi-gap-mapping-can-access-fill: var(--fl-fgColor, light-dark(var(--fi-color-green-400), var(--fi-color-green-200)));
     --fi-gap-mapping-can-access-outline: var(--fl-fgColor, light-dark(var(--fi-color-green-500), var(--fi-color-green-400)));
     --fi-gap-mapping-may-access-fill: var(--fl-fgColor, light-dark(var(--fi-color-yellow-500), var(--fi-color-yellow-200)));
-    --fi-gap-mapping-may-access-outline: var(--fl-bgColor, light-dark(var(--fi-color-yellow-700), var(--fi-color-yellow-600))); 
+    --fi-gap-mapping-may-access-outline: var(--fl-bgColor, light-dark(var(--fi-color-yellow-700), var(--fi-color-yellow-600)));
     --fi-gap-mapping-no-outline: var(--fl-fgColor, var(--fi-color-grey-850));
     --fi-gap-mapping-no-area: var(--fl-bgColor, var(--fi-color-white));
     --fi-gap-mapping-border: var(--fl-fgColor, light-dark(var(--fi-color-neutral-500), var(--fi-color-neutral-200)));
@@ -533,6 +533,7 @@ h1 em::after {
     min-height: var(--fi-space-fluid-5xl-3xl);
 
     a {
+        background-color: transparent;
         box-shadow: none;
         font-family: var(--fi-font-family-display);
         font-size: var(--step-1);
