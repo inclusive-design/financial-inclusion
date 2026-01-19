@@ -59,6 +59,7 @@ body {
     --fi-main-body: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
     --fi-main-display: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
     --fi-main-surface: var(--fl-bgColor, light-dark(var(--fi-color-white), var(--fi-color-neutral-800)));
+    --fi-main-content: var(--fl-fgColor, light-dark(var(--fi-color-neutral-800), var(--fi-color-neutral-75)));
     --fi-main-content-emphasis: var(--fl-fgColor, light-dark(var(--fi-color-attention-600), var(--fi-color-attention-200)));
     --fi-main-content-hierarchy: var(--fl-fgColor, light-dark(var(--fi-color-green-500), var(--fi-color-green-300)));
 
@@ -111,6 +112,24 @@ body {
     --fi-quadrant-medium-content: var(--fl-fgColor, light-dark(var(--fi-color-grey-850), var(--fi-color-lime-200)));
     --fi-quadrant-low-surface: var(--fl-bgColor, light-dark(var(--fi-color-yellow-500), var(--fi-color-grey-850)));
     --fi-quadrant-low-content: var(--fl-fgColor, light-dark(var(--fi-color-grey-850), var(--fi-color-yellow-200)));
+
+    /* Gap mapping */
+    --fi-gap-mapping-yes: var(--fl-fgColor, var(--fi-color-green-500));
+    --fi-gap-mapping-maybe: var(--fl-fgColor, var(--fi-color-yellow-650));
+    --fi-gap-mapping-no: var(--fl-fgColor, var(--fi-color-red-500));
+    --fi-gap-mapping-can-access-fill: var(--fl-fgColor, light-dark(var(--fi-color-green-400), var(--fi-color-green-200)));
+    --fi-gap-mapping-can-access-outline: var(--fl-fgColor, light-dark(var(--fi-color-green-500), var(--fi-color-green-400)));
+    --fi-gap-mapping-may-access-fill: var(--fl-fgColor, light-dark(var(--fi-color-yellow-500), var(--fi-color-yellow-200)));
+    --fi-gap-mapping-may-access-outline: var(--fl-bgColor, light-dark(var(--fi-color-yellow-700), var(--fi-color-yellow-600))); 
+    --fi-gap-mapping-no-outline: var(--fl-fgColor, var(--fi-color-grey-850));
+    --fi-gap-mapping-no-area: var(--fl-bgColor, var(--fi-color-white));
+    --fi-gap-mapping-border: var(--fl-fgColor, light-dark(var(--fi-color-neutral-500), var(--fi-color-neutral-200)));
+    --fi-gap-mapping-neutral-dark: var(--fl-bgColor, light-dark(var(--fi-color-neutral-300), var(--fi-color-neutral-700)));
+    --fi-gap-mapping-neutral-medium: var(--fl-bgColor, light-dark(var(--fi-color-neutral-200), var(--fi-color-neutral-600)));
+    --fi-gap-mapping-neutral-light: var(--fl-bgColor, light-dark(var(--fi-color-neutral-75), var(--fi-color-neutral-400)));
+    --fi-gap-mapping-red-dark: var(--fl-bgColor, light-dark(var(--fi-color-attention-200), var(--fi-color-attention-300)));
+    --fi-gap-mapping-red-medium: var(--fl-bgColor, light-dark(var(--fi-color-attention-100), var(--fi-color-attention-200)));
+    --fi-gap-mapping-red-light: var(--fl-bgColor, light-dark(var(--fi-color-white), var(--fi-color-attention-100)));
 
     background-color: var(--fi-main-surface);
     color: var(--fi-main-body);

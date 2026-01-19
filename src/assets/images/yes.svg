@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="none" viewBox="0 0 42 42">
-    <circle cx="21" cy="21" r="21" fill="var(--fl-fgColor, #2A842D)"/>
-    <path fill="var(--fl-bgColor, #F4F4F4)" d="M29.793 12.506a1.693 1.693 0 0 1 2.414 2.373L17.695 29.646l-8.21-8.354a1.693 1.693 0 0 1 2.414-2.373l5.795 5.898 12.099-12.311Z"/>
+    <circle cx="21" cy="21" r="21" fill="var(--fi-gap-mapping-yes, #2a842d)" />
+    <path fill="var(--fl-bgColor, #fff)" d="M29.793 12.506a1.693 1.693 0 0 1 2.414 2.373L17.695 29.646l-8.21-8.354a1.693 1.693 0 0 1 2.414-2.373l5.795 5.898 12.099-12.311Z"/>
 </svg>
