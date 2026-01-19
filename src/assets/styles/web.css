@@ -131,6 +131,14 @@ body {
     --fi-gap-mapping-red-medium: var(--fl-bgColor, light-dark(var(--fi-color-attention-100), var(--fi-color-attention-200)));
     --fi-gap-mapping-red-light: var(--fl-bgColor, light-dark(var(--fi-color-white), var(--fi-color-attention-100)));
 
+    /* Circles of control */
+    --fi-control-no-border: var(--fl-fgColor, var(--fi-color-red-500));
+    --fi-control-no-surface: var(--fl-bgColor, var(--fi-color-red-100));
+    --fi-control-maybe-border: var(--fl-fgColor, var(--fi-color-yellow-500));
+    --fi-control-maybe-surface: var(--fl-bgColor, var(--fi-color-yellow-100));
+    --fi-control-yes-border: var(--fl-fgColor, var(--fi-color-green-350));
+    --fi-control-yes-surface: var(--fl-fgColor, var(--fi-color-green-100));
+
     background-color: var(--fi-main-surface);
     color: var(--fi-main-body);
     font-size: var(--step-0);
