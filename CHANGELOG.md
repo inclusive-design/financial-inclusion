@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/inclusive-design/financial-inclusion/compare/v1.0.0...v1.1.0) (2026-01-21)
+
+
+### Features
+
+* add dark/light themes ([#194](https://github.com/inclusive-design/financial-inclusion/issues/194)) ([f5a2e4e](https://github.com/inclusive-design/financial-inclusion/commit/f5a2e4ed776791b36ad367ea34736c622909a96b))
+
+
+### Bug Fixes
+
+* resolve issue with print diagram ([#212](https://github.com/inclusive-design/financial-inclusion/issues/212)) ([c983f76](https://github.com/inclusive-design/financial-inclusion/commit/c983f76d899a90beb3ec2845485dbe1e16accc09))
+
 ## [1.0.0](https://github.com/inclusive-design/financial-inclusion/compare/1.0.0-beta...v1.0.0) (2025-11-18)
 
 
