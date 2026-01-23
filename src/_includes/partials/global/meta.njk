@@ -9,9 +9,9 @@
 <meta name="og:description" property="og:description" content="{{ excerpt if excerpt else site[lang].description }}">
 <meta property="og:title" content="{{ title | striptags }}">
 <meta property="og:url" content="{{ page.url }}">
-<meta property="og:image" content="{{ previewImage if previewImage else 'https://financial-inclusion.inclusivedesign.ca/assets/images/social-' + lang + '.png' }}">
+<meta property="og:image" content="{{ previewImage if previewImage else 'https://guidebook.financial-inclusion.ca/assets/images/social-' + lang + '.png' }}">
 <meta property="og:image:alt" content="{{ previewImageAlt if previewImageAlt else site[lang].title }}">
 <link rel="icon" href="/favicon-{{ lang }}.ico" sizes="32x32">
-<link rel="canonical" href="{{ 'http://localhost:8080' if deploy.local else 'https://financial-inclusion.inclusivedesign.ca' }}{{ page.url }}">
+<link rel="canonical" href="{{ 'http://localhost:8080' if deploy.local else 'https://guidebook.financial-inclusion.ca' }}{{ page.url }}">
 <link rel="icon" href="/icon-{{ lang }}.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon-{{ lang }}.png">

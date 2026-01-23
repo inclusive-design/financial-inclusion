@@ -22,11 +22,11 @@ const docraptorConfig = lang => ({
 		doc: {
 			test: userCredentials === 'YOUR_API_KEY_HERE' || false,
 			document_type: 'pdf',
-			document_url: `https://financial-inclusion.inclusivedesign.ca/${lang}/export/index.html`,
+			document_url: `https://guidebook.financial-inclusion.ca/${lang}/export/index.html`,
 			pipeline: 11,
 			prince_options: {
 				media: 'print',
-				baseurl: 'https://financial-inclusion.inclusivedesign.ca/',
+				baseurl: 'https://guidebook.financial-inclusion.ca/',
 				profile: 'PDF/UA-1',
 			},
 		},

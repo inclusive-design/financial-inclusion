@@ -7,4 +7,4 @@ eleventyNavigation:
   key: Téléchargements
   order: 99
 ---
-[Télécharger le guide](https://financial-inclusion.inclusivedesign.ca/assets/downloads/guide-pour-l-inclusion-financiere.pdf)
+[Télécharger le guide](https://guidebook.financial-inclusion.ca/assets/downloads/guide-pour-l-inclusion-financiere.pdf)
