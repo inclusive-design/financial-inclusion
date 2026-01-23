@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: main
-  repo: inclusive-design/financial-inclusion.inclusivedesign.ca
+  repo: inclusive-design/guidebook.financial-inclusion.ca
   base_url: https://auth.incd.ca
   commit_messages:
     create: 'chore(cms): create "{{path}}"'

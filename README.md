@@ -2,4 +2,4 @@
 
 ## Usage
 
-See the [wiki](https://github.com/inclusive-design/financial-inclusion/wiki).
+See the [wiki](https://github.com/inclusive-design/guidebook.financial-inclusion.ca/wiki).

@@ -1,5 +1,5 @@
 {
-  "name": "@inclusive-design/financial-inclusion",
+  "name": "@inclusive-design/guidebook-financial-inclusion",
   "description": "Website for the the Guidebook for Financial Inclusion.",
   "main": "eleventy.config.js",
   "type": "module",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/inclusive-design/financial-inclusion.git"
+    "url": "git+ssh://git@github.com/inclusive-design/guidebook.financial-inclusion.ca.git"
   },
   "keywords": [
     "inclusive-design"
@@ -32,9 +32,9 @@
   "author": "OCAD University <idrc@ocadu.ca>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/inclusive-design/financial-inclusion/issues"
+    "url": "https://github.com/inclusive-design/guidebook.financial-inclusion.ca/issues"
   },
-  "homepage": "https://github.com/inclusive-design/financial-inclusion#readme",
+  "homepage": "https://github.com/inclusive-design/guidebook.financial-inclusion.ca#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.0",
     "@11ty/eleventy-img": "^6.0.4",
