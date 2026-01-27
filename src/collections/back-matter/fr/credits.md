@@ -21,9 +21,13 @@ Michelle D'Souza, collaboratrice<br />
 Daniel Cho, collaborateur<br />
 Ned Zimmerman, collaborateur
 
-### Financé par
+### Financement{.page-break-before-always}
 
-[Emploi et Développement social Canada](https://www.canada.ca/fr/emploi-developpement-social.html)
+{% includeSvg "gc.svg", translations[lang]['gc'] %}
+
+Financé en partie par le gouvernement du Canada par le biais du Programme de partenariats pour le développement social.
+
+***
 
 **Nous tenons à exprimer notre sincère gratitude envers les institutions financières qui ont généreusement consacré de leur temps pour nous transmettre leurs commentaires et co-concevoir cette ressource avec nous.**
 

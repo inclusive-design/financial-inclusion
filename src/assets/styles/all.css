@@ -147,6 +147,7 @@
     --fi-color-yellow-700: #997d1e;
     --fi-color-yellow-800: #715e20;
     --fi-color-yellow-900: #4a4021;
+    --fi-current-color: currentcolor;
 
     /** Color Aliases **/
     --fi-color-attention-100: var(--fi-color-red-100);

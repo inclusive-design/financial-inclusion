@@ -18,12 +18,12 @@
             </div>
         </div>
         <div class="funders flow">
-            <h2 class="h4">{% __ 'funded-by' %}</h2>
             <p class="small">
+                {% __ 'funded-by-gc' %}
                 {% if lang == 'en' %}
-                <a rel="external" href="https://www.canada.ca/en/employment-social-development.html" hreflang="en">{% includeSvg "esdc.svg", translations[lang].esdc, null, false %}</a>
+                <a rel="external" href="https://www.canada.ca/en/employment-social-development.html" hreflang="en">{% includeSvg "gc.svg", translations[lang].gc, null, false %}</a>
                 {% elseif lang =='fr' %}
-                <a rel="external" href="https://www.canada.ca/fr/emploi-developpement-social.html" hreflang="fr">{% includeSvg "edsc.svg", translations[lang].esdc, null, false %}</a>
+                <a rel="external" href="https://www.canada.ca/fr/emploi-developpement-social.html" hreflang="fr">{% includeSvg "gc.svg", translations[lang].gc, null, false %}</a>
                 {% endif %}
             </p>
         </div>

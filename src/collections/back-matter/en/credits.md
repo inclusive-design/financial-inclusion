@@ -21,9 +21,11 @@ Michelle D'Souza, contributor<br />
 Daniel Cho, contributor<br />
 Ned Zimmerman, contributor
 
-### Funded by
+### Funding{.page-break-before-always}
 
-[Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html)
+{% includeSvg "gc.svg", translations[lang]['gc'] %}
+
+Funded in part by the Government of Canada's Social Development Partnerships Program.
 
 **Special thanks to the financial institutions who generously shared their time to give us feedback and co-design this resource with us.**
 
