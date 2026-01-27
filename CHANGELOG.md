@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/inclusive-design/guidebook.financial-inclusion.ca/compare/v1.1.0...v1.1.1) (2026-01-27)
+
+
+### Bug Fixes
+
+* update government of Canada funder logo ([#217](https://github.com/inclusive-design/guidebook.financial-inclusion.ca/issues/217)) ([7ee9e6d](https://github.com/inclusive-design/guidebook.financial-inclusion.ca/commit/7ee9e6df90a7650c2abec5bdd8e46c960db57c60))
+
 ## [1.1.0](https://github.com/inclusive-design/guidebook.financial-inclusion.ca/compare/v1.0.0...v1.1.0) (2026-01-21)
 
 
